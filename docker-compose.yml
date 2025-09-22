@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  experiment:
+    build: .
+    container_name: careerhy-experiment
+    environment:
+      # OpenAI API
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+
+      # AWS S3 접근
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}
+
+      # LangSmith 트레이싱
+      - LANGSMITH_TRACING=${LANGSMITH_TRACING:-true}
+      - LANGSMITH_ENDPOINT=${LANGSMITH_ENDPOINT:-https://api.smith.langchain.com}
+      - LANGSMITH_API_KEY=${LANGSMITH_API_KEY}
+      - LANGSMITH_PROJECT=${LANGSMITH_PROJECT:-Career-HY-Experiment}
+
+    volumes:
+      # 실험 결과 저장용 볼륨
+      - ./results:/app/results
+      # 설정 파일 마운트
+      - ./configs:/app/configs
+      # 데이터 디렉토리 마운트
+      - ./data:/app/data
+      # 임베딩 캐시 저장용 볼륨
+      - ./cache:/app/cache
+
+    networks:
+      - experiment-network
+
+  # ChromaDB 서비스 (실험용 벡터 DB)
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: careerhy-chromadb
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+    networks:
+      - experiment-network
+
+volumes:
+  chroma_data:
+
+networks:
+  experiment-network:
+    driver: bridge
