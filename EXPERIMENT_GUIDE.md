@@ -140,7 +140,7 @@ persist_directory: "/tmp/chroma_3large"
      - chunk_size: 1000
      - chunk_overlap: 200
 4. utils/factor.py에 새로운 전략 등록
-   - ```
+   ```
        _chunkers: Dict[str, Type[BaseChunker]] = {
         "no_chunk": NoChunker,
         "recursive": RecursiveChunker,
