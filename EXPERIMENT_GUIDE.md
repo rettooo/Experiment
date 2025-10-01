@@ -12,6 +12,7 @@
 - `text-embedding-ada-002` (베이스라인)
 - `text-embedding-3-small`
 - `text-embedding-3-large`
+- 등등
 
 **실험 설정:**
 ```yaml
@@ -124,64 +125,32 @@ collection_name: "job-postings-3large"
 persist_directory: "/tmp/chroma_3large"
 ```
 
-## 📈 실험 실행 순서
-
-### 1단계: 베이스라인 설정
-```bash
-# 베이스라인 실행 (현재 서비스 설정)
-./run_experiment.sh configs/baseline.yaml
-
-# 결과 확인
-cat results/baseline/results_*.json
-```
-
-### 2단계: 단일 변수 실험
-```bash
-# 임베딩 모델 실험
-./run_experiment.sh configs/embedding_3small.yaml
-./run_experiment.sh configs/embedding_3large.yaml
-
-# 청킹 전략 실험
-./run_experiment.sh configs/chunk_500_100.yaml
-./run_experiment.sh configs/chunk_1000_200.yaml
-./run_experiment.sh configs/chunk_1500_300.yaml
-
-# 검색 파라미터 실험
-./run_experiment.sh configs/topk_5.yaml
-./run_experiment.sh configs/topk_15.yaml
-./run_experiment.sh configs/topk_20.yaml
-```
-
-### 3단계: 조합 실험
-```bash
-# 최고 성능 조합 테스트
-./run_experiment.sh configs/best_combination.yaml
-```
-
-```markdown
-## 실험: {experiment_name}
-
-**날짜**: 2025-09-23
-**목적**: 청킹 크기가 성능에 미치는 영향 측정
-**변경사항**: chunk_size 1000 → 1500
-
-**결과**:
-- Recall@10: 0.0591 → 0.0734 (+24.1% ✅)
-- Precision@10: 0.0059 → 0.0071 (+20.3% ✅)
-- MRR: 0.0161 → 0.0203 (+26.1% ✅)
-
-**결론**: 청크 크기 증가가 전반적 성능 향상에 기여
-**다음 단계**: chunk_size=2000으로 추가 테스트 필요
-```
 
 ## 🎯 실험 시나리오 예시
 
-**상황** : baseline에서 chunk를 recursive chunk로 수정하겠다
+**상황** : baseline에서 chunk를 recursive chunk로 바꾼 후 결과를 확인하겠다.
 1. core/interfaces/cunker.py에서 BaseChunker의 스펙 확인
 2. implementations/chunkers 디렉토리에 recursive_chunker.py 파일을 만든 뒤 BaseChunker를 상속받는 구현체 코드 작성 (chunk 함수 오버라이딩 / __init__.py에 새로운 전략 등록)
 3. configs 디렉토리에 baseline.yaml과 같은 형식으로 새로운 설정파일 작성
+   - file name: recursive-test-1.yaml
+   - experiment_name: "recursive-test-1"
+   - description: "기존 베이스라인 실험 환경에서 recursive 청킹 적용 \n chunk_size: 1000, chunk_overlap: 200"
+   - chunker
+     - type: "recursive"
+     - chunk_size: 1000
+     - chunk_overlap: 200
 4. utils/factor.py에 새로운 전략 등록
+   - ```
+       _chunkers: Dict[str, Type[BaseChunker]] = {
+        "no_chunk": NoChunker,
+        "recursive": RecursiveChunker,
+    }
+    ```
+  - "recursive" - recursive-test-1.yaml 파일에 정의된 chunker의 type
+  - RecursiveChunker - BaseChunker를 상속받아 구현한 구현체 클래스 이름
 5. 실험 진행
    - docker compose build --no-cache
-   - ./run_experiment.sh configs/{설정파일.yml}
-
+   - ./run_experiment.sh configs/recursive-test-1.yaml
+6. result 디렉토리에서 결과 확인
+7. https://smith.langchain.com/ 에서 상세 결과 확인
+8. 노션에 실험 결과 정리

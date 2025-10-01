@@ -37,9 +37,17 @@ class ChromaRetriever(BaseRetriever):
         metadatas = []
 
         for i, doc in enumerate(documents):
-            # 고유 ID 생성 (rec_idx가 있으면 사용, 없으면 인덱스 사용)
-            doc_id = doc.get("metadata", {}).get("rec_idx", f"doc_{i}")
-            ids.append(str(doc_id))
+            # 고유 ID 생성
+            metadata = doc.get("metadata", {})
+            rec_idx = metadata.get("rec_idx", f"doc_{i}")
+
+            # 청킹된 문서의 경우 chunk_index를 포함하여 고유 ID 생성
+            if "chunk_index" in metadata:
+                doc_id = f"{rec_idx}_chunk_{metadata['chunk_index']}"
+            else:
+                doc_id = str(rec_idx)
+
+            ids.append(doc_id)
             texts.append(doc["text"])
             metadatas.append(doc.get("metadata", {}))
 

@@ -4,13 +4,18 @@
 
 import sys
 import argparse
+import asyncio
 from pathlib import Path
+from dotenv import load_dotenv
 
 from core.config import ExperimentConfig
 from core.pipeline import ExperimentPipeline
 
+# .env 파일 로드 (프로젝트 루트에서)
+load_dotenv()
 
-def main():
+
+async def main():
     parser = argparse.ArgumentParser(description='Career-HY RAG 실험 실행')
     parser.add_argument(
         'config_path',
@@ -37,18 +42,27 @@ def main():
 
         # 파이프라인 실행
         pipeline = ExperimentPipeline(config)
-        results = pipeline.run()
+        results = await pipeline.run()
 
         # 결과 요약 출력
         print("\n" + "="*50)
         print("실험 결과 요약")
         print("="*50)
 
-        for eval_result in results['evaluation_results']:
-            print(f"{eval_result['metric']}: {eval_result['score']:.4f}")
+        # 검색 평가 결과
+        if 'retrieval_evaluation' in results:
+            print("=== 검색 성능 지표 ===")
+            for metric in results['retrieval_evaluation']['metrics']:
+                print(f"{metric['metric']}: {metric['score']:.4f}")
+
+        # 생성 평가 결과 (LangSmith 정성평가)
+        if 'generation_evaluation' in results and 'langsmith_metrics' in results['generation_evaluation']:
+            print("\n=== LangSmith 정성평가 지표 ===")
+            for metric in results['generation_evaluation']['langsmith_metrics']:
+                print(f"{metric['metric']}: {metric['score']:.4f}")
 
         print(f"\n처리된 문서 수: {results['document_count']}")
-        print(f"평가된 쿼리 수: {results['query_count']}")
+        print(f"평가된 쿼리 수: {results['retrieval_evaluation']['query_count']}")
         print(f"총 소요시간: {results['experiment_info']['duration_seconds']:.2f}초")
 
     except Exception as e:
@@ -60,4 +74,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

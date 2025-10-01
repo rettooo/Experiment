@@ -8,8 +8,12 @@ numpy>=1.24.0
 # AI/ML 라이브러리
 openai>=1.0.0
 langchain>=0.1.0
+langchain-openai>=0.0.5
 chromadb>=0.4.0
 tiktoken>=0.5.0
+
+# LangSmith 추적 및 평가
+langsmith>=0.0.87
 
 # PDF 처리
 PyMuPDF>=1.23.0

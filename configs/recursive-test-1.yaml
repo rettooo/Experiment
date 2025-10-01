@@ -1,37 +1,36 @@
-# 🎯 Career-HY RAG 베이스라인 실험 설정
-# 실제 서비스와 완전히 동일한 로직으로 성능 측정
+# recursive-test.yaml
 
-experiment_name: "baseline"
-description: "실제 Career-HY 서비스와 동일한 설정 - LangChain structured_output, 인덱스 기반 추천"
+experiment_name: "recursive-test-1"
+description: "기존 베이스라인 실험 환경에서 recursive 청킹 적용 \n chunk_size: 1000, chunk_overlap: 200"
 output_dir: "results"
 
-# 임베딩 설정 (실제 서비스와 동일)
+# 임베딩 설정
 embedder:
   type: "openai"
   model_name: "text-embedding-ada-002"
   batch_size: 5
 
-# 청킹 설정 (실제 서비스: 청킹 사용 안함)
+# 청킹 설정 
 chunker:
-  type: "no_chunk"
-  chunk_size: null
-  chunk_overlap: null
+  type: "recursive"
+  chunk_size: 1000
+  chunk_overlap: 200
 
-# 검색 설정 (실제 서비스와 동일)
+# 검색 설정 
 retriever:
   type: "chroma"
   collection_name: "job-postings-baseline"
   persist_directory: "/tmp/chroma_baseline"
   top_k: 10
 
-# LLM 설정 (실제 서비스와 동일)
+# LLM 설정 
 llm:
   type: "openai"
   model_name: "gpt-4o-mini"
   temperature: 0.7
   max_tokens: 1000
 
-# 응답 생성기 설정 (실제 서비스와 동일)
+# 응답 생성기 설정 
 response_generator:
   type: "careerhy"
   model_name: "gpt-4o-mini"
@@ -46,20 +45,20 @@ data:
 
 # 이중 평가 설정
 evaluation:
-  # 검색 성능 평가 (전체 575개 쿼리)
+  # 검색 성능 평가 
   retrieval:
     target: "all"
     metrics: ["recall@k", "precision@k", "mrr", "map", "ndcg@k"]
     k_values: [1, 3, 5, 10]
 
-  # 생성 품질 평가 (15개 고유 프로필 샘플)
+  # 생성 품질 평가 
   generation:
     target: "sample"
     sample_size: 15
     sample_strategy: "profile_based"
     sample_seed: null
 
-# LangSmith 고품질 정성 평가 (선택사항)
+# LangSmith 고품질 정성 평가 
 langsmith:
   enabled: true  # LangSmith 활성화 - LLM-as-Judge 정성 평가
   project_name: "career-hy-rag-evaluation"

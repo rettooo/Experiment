@@ -76,18 +76,59 @@ class DataConfig:
 
 
 @dataclass
-class EvaluationConfig:
-    """평가 설정"""
-    metrics: list = None  # ["recall@k", "precision@k", "mrr", "map", "ndcg@k"]
-    k_values: list = None  # [1, 3, 5, 10]
-    use_langsmith: bool = True
-    langsmith_project: str = "Career-HY-Experiment"
+class RetrievalEvaluationConfig:
+    """검색 성능 평가 설정"""
+    target: str = "all"  # "all" or "sample"
+    metrics: list = None
+    k_values: list = None
 
     def __post_init__(self):
         if self.metrics is None:
             self.metrics = ["recall@k", "precision@k", "mrr", "map", "ndcg@k"]
         if self.k_values is None:
             self.k_values = [1, 3, 5, 10]
+
+
+@dataclass
+class GenerationEvaluationConfig:
+    """생성 품질 평가 설정"""
+    target: str = "sample"  # "all" or "sample"
+    sample_size: int = 15
+    sample_strategy: str = "profile_based"  # "profile_based" or "random"
+    sample_seed: Optional[int] = None
+    metrics: list = None
+
+    def __post_init__(self):
+        if self.metrics is None:
+            self.metrics = ["recommendation_accuracy", "profile_utilization", "response_completeness", "structure_quality"]
+
+
+@dataclass
+class LangSmithConfig:
+    """LangSmith 평가 설정"""
+    enabled: bool = True
+    project_name: str = "career-hy-rag-evaluation"
+    judge_model: str = "gpt-4o-mini"
+    metrics: list = None
+    max_concurrency: int = 3
+    evaluation_timeout: int = 300
+
+    def __post_init__(self):
+        if self.metrics is None:
+            self.metrics = ["recommendation_quality", "personalization_score", "response_helpfulness", "profile_alignment"]
+
+
+@dataclass
+class EvaluationConfig:
+    """이중 평가 설정"""
+    retrieval: RetrievalEvaluationConfig = None
+    generation: GenerationEvaluationConfig = None
+
+    def __post_init__(self):
+        if self.retrieval is None:
+            self.retrieval = RetrievalEvaluationConfig()
+        if self.generation is None:
+            self.generation = GenerationEvaluationConfig()
 
 
 @dataclass
@@ -99,8 +140,10 @@ class ExperimentConfig:
     chunker: ChunkerConfig = None
     retriever: RetrieverConfig = None
     llm: LLMConfig = None
+    response_generator: LLMConfig = None  # 응답 생성기 설정
     data: DataConfig = None
     evaluation: EvaluationConfig = None
+    langsmith: LangSmithConfig = None
     output_dir: str = "results"
 
     def __post_init__(self):
@@ -113,10 +156,14 @@ class ExperimentConfig:
             self.retriever = RetrieverConfig(type="chroma")
         if self.llm is None:
             self.llm = LLMConfig(type="openai", model_name="gpt-4o-mini")
+        if self.response_generator is None:
+            self.response_generator = LLMConfig(type="openai", model_name="gpt-4o-mini")
         if self.data is None:
             self.data = DataConfig()
         if self.evaluation is None:
             self.evaluation = EvaluationConfig()
+        if self.langsmith is None:
+            self.langsmith = LangSmithConfig()
 
     @classmethod
     def from_yaml(cls, yaml_path: str) -> "ExperimentConfig":
@@ -144,11 +191,27 @@ class ExperimentConfig:
         if 'llm' in data:
             config_data['llm'] = LLMConfig(**data['llm'])
 
+        if 'response_generator' in data:
+            config_data['response_generator'] = LLMConfig(**data['response_generator'])
+
         if 'data' in data:
             config_data['data'] = DataConfig(**data['data'])
 
         if 'evaluation' in data:
-            config_data['evaluation'] = EvaluationConfig(**data['evaluation'])
+            eval_data = data['evaluation']
+            # 중첩된 evaluation 구조 처리
+            eval_config = {}
+
+            if 'retrieval' in eval_data:
+                eval_config['retrieval'] = RetrievalEvaluationConfig(**eval_data['retrieval'])
+
+            if 'generation' in eval_data:
+                eval_config['generation'] = GenerationEvaluationConfig(**eval_data['generation'])
+
+            config_data['evaluation'] = EvaluationConfig(**eval_config)
+
+        if 'langsmith' in data:
+            config_data['langsmith'] = LangSmithConfig(**data['langsmith'])
 
         return cls(**config_data)
 

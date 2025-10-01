@@ -5,6 +5,7 @@
 from typing import Type, Dict, Any
 
 from core.interfaces import BaseEmbedder, BaseChunker, BaseRetriever, BaseLLM
+from core.interfaces.response_generator import BaseResponseGenerator
 from core.config import EmbedderConfig, ChunkerConfig, RetrieverConfig, LLMConfig
 
 # 임베딩 모델 구현체들
@@ -18,6 +19,9 @@ from implementations.retrievers import ChromaRetriever
 
 # LLM 모델 구현체들
 from implementations.llms import OpenAILLM
+
+# 응답 생성기 구현체들
+from implementations.response_generators.careerhy_generator import CareerHYResponseGenerator
 
 
 class ComponentFactory:
@@ -39,6 +43,10 @@ class ComponentFactory:
 
     _llms: Dict[str, Type[BaseLLM]] = {
         "openai": OpenAILLM,
+    }
+
+    _response_generators: Dict[str, Type[BaseResponseGenerator]] = {
+        "careerhy": CareerHYResponseGenerator,
     }
 
     @classmethod
@@ -117,6 +125,41 @@ class ComponentFactory:
         return llm_class(**kwargs)
 
     @classmethod
+    def create_response_generator(cls, config) -> BaseResponseGenerator:
+        """응답 생성기 인스턴스 생성"""
+        # Dict 형태와 Config 객체 둘 다 지원
+        if hasattr(config, 'type'):
+            # LLMConfig 객체인 경우
+            generator_type = config.type
+            model_name = config.model_name
+            temperature = config.temperature
+            max_tokens = config.max_tokens
+            params = config.params
+        else:
+            # Dict인 경우 (기존 호환성)
+            generator_type = config.get('type', 'careerhy')
+            model_name = config.get('model_name', 'gpt-4o-mini')
+            temperature = config.get('temperature', 0.7)
+            max_tokens = config.get('max_tokens', 1000)
+            params = config.get('params', {})
+
+        if generator_type not in cls._response_generators:
+            available = list(cls._response_generators.keys())
+            raise ValueError(f"지원하지 않는 응답 생성기 타입: {generator_type}. 지원 타입: {available}")
+
+        generator_class = cls._response_generators[generator_type]
+
+        # 설정을 인스턴스 생성 파라미터로 변환
+        kwargs = {
+            "model_name": model_name,
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+            **params
+        }
+
+        return generator_class(**kwargs)
+
+    @classmethod
     def register_embedder(cls, name: str, embedder_class: Type[BaseEmbedder]) -> None:
         """새로운 임베딩 모델 등록"""
         cls._embedders[name] = embedder_class
@@ -137,11 +180,17 @@ class ComponentFactory:
         cls._llms[name] = llm_class
 
     @classmethod
+    def register_response_generator(cls, name: str, generator_class: Type[BaseResponseGenerator]) -> None:
+        """새로운 응답 생성기 등록"""
+        cls._response_generators[name] = generator_class
+
+    @classmethod
     def get_available_components(cls) -> Dict[str, list]:
         """사용 가능한 모든 컴포넌트 목록 반환"""
         return {
             "embedders": list(cls._embedders.keys()),
             "chunkers": list(cls._chunkers.keys()),
             "retrievers": list(cls._retrievers.keys()),
-            "llms": list(cls._llms.keys())
+            "llms": list(cls._llms.keys()),
+            "response_generators": list(cls._response_generators.keys())
         }

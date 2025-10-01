@@ -4,8 +4,10 @@ Career-HY RAG 실험 파이프라인 메인 로직
 
 import json
 import time
+import asyncio
 from datetime import datetime
 from pathlib import Path
+from dataclasses import asdict
 from typing import List, Dict, Any, Optional
 
 from .config import ExperimentConfig
@@ -13,7 +15,9 @@ from .interfaces.evaluator import QueryResult
 from utils.factory import ComponentFactory
 from utils.data_loader import S3DataLoader
 from utils.embedding_cache import embedding_cache
+from utils.sampler import StratifiedSampler, generate_reproducible_seed, analyze_sample_distribution
 from implementations.evaluators import SearchMetricsEvaluator
+from implementations.evaluators.langsmith_evaluator import CareerHYLangSmithEvaluator
 
 
 class ExperimentPipeline:
@@ -31,7 +35,7 @@ class ExperimentPipeline:
         print(f"실험 ID: {self.experiment_id}")
         print(f"출력 디렉토리: {self.output_dir}")
 
-    def run(self) -> Dict[str, Any]:
+    async def run(self) -> Dict[str, Any]:
         """
         전체 실험 파이프라인 실행
 
@@ -62,13 +66,13 @@ class ExperimentPipeline:
             print("\n=== 5. Ground Truth 쿼리 로드 ===")
             test_queries = self._load_test_queries()
 
-            # 6. 검색 성능 평가
-            print("\n=== 6. 검색 성능 평가 ===")
-            query_results = self._evaluate_retrieval(test_queries, components)
+            # 6. 이중 평가 실행
+            print("\n=== 6. 이중 평가 시스템 ===")
+            dual_results = await self._run_dual_evaluation(test_queries, components)
 
             # 7. 결과 저장
             print("\n=== 7. 결과 저장 ===")
-            results = self._save_results(query_results, components, start_time)
+            results = await self._save_dual_results(dual_results, components, start_time)
 
             print(f"\n실험 완료! 총 소요시간: {time.time() - start_time:.2f}초")
             return results
@@ -98,9 +102,14 @@ class ExperimentPipeline:
             print(f"LLM 모델 초기화: {self.config.llm.type} - {self.config.llm.model_name}")
             components['llm'] = ComponentFactory.create_llm(self.config.llm)
 
+        # 응답 생성기 초기화 (선택적)
+        if hasattr(self.config, 'response_generator') and self.config.response_generator:
+            print(f"응답 생성기 초기화: {self.config.response_generator.type}")
+            components['response_generator'] = ComponentFactory.create_response_generator(self.config.response_generator)
+
         # 평가기 초기화
         components['evaluator'] = SearchMetricsEvaluator(
-            k_values=self.config.evaluation.k_values
+            k_values=self.config.evaluation.retrieval.k_values
         )
 
         return components
@@ -296,7 +305,39 @@ class ExperimentPipeline:
         final_text = '\n'.join(basic_info + ['\n'.join(courses)])
         return final_text
 
-    def _evaluate_retrieval(self, test_queries: List[Dict[str, Any]], components: Dict[str, Any]) -> List[QueryResult]:
+    async def _generate_response_for_query(
+        self,
+        query_data: Dict[str, Any],
+        query_text: str,
+        retrieved_docs: List[Dict[str, Any]],
+        response_generator
+    ) -> Optional[Dict[str, Any]]:
+        """개별 쿼리에 대한 응답 생성"""
+        try:
+            # 사용자 프로필 추출
+            user_profile = query_data.get('user_profile', {})
+
+            # 대화 이력 추출 (있다면)
+            chat_history = query_data.get('chat_history', [])
+
+            # 응답 생성
+            generated_response = await response_generator.generate(
+                query=query_text,
+                retrieved_docs=retrieved_docs,
+                user_profile=user_profile,
+                chat_history=chat_history
+            )
+
+            return {
+                "content": generated_response.content,
+                "recommended_jobs": [job.dict() for job in generated_response.recommended_jobs]
+            }
+
+        except Exception as e:
+            print(f"응답 생성 실패: {e}")
+            return None
+
+    async def _evaluate_retrieval(self, test_queries: List[Dict[str, Any]], components: Dict[str, Any]) -> List[QueryResult]:
         """검색 성능 평가 수행"""
         embedder = components['embedder']
         retriever = components['retriever']
@@ -389,11 +430,22 @@ class ExperimentPipeline:
                         else:
                             print(f"예상과 다른 item 구조: {type(item)}, 내용: {item}")
 
+                    # 응답 생성 (선택적)
+                    generated_response = None
+                    if 'response_generator' in components:
+                        generated_response = await self._generate_response_for_query(
+                            query_data, query_text, retrieved_docs, components['response_generator']
+                        )
+
                     query_result = QueryResult(
                         query=query_text,
                         retrieved_docs=retrieved_docs,
                         ground_truth_docs=ground_truth
                     )
+
+                    # 생성된 응답을 query_result에 추가 (기존 구조 유지)
+                    if generated_response:
+                        query_result.generated_response = generated_response
                 except Exception as e:
                     print(f"QueryResult 생성 실패: {e}")
                     print(f"search_results: {search_results}")
@@ -424,26 +476,313 @@ class ExperimentPipeline:
 
         return query_results
 
-    def _save_results(self, query_results: List[QueryResult], components: Dict[str, Any], start_time: float) -> Dict[str, Any]:
-        """실험 결과 저장"""
-        # 평가 결과 계산
-        evaluator = components['evaluator']
-        evaluation_results = evaluator.evaluate(query_results)
+    async def _run_dual_evaluation(self, test_queries: List[Dict[str, Any]], components: Dict[str, Any]) -> Dict[str, Any]:
+        """이중 평가 시스템: 전체 검색 평가 + 샘플 생성 평가"""
 
-        # 결과 딕셔너리 구성
+        dual_results = {}
+
+        # 1. 전체 쿼리 검색 성능 평가
+        print("🔍 1단계: 전체 쿼리 검색 성능 평가")
+        print(f"   대상: {len(test_queries)}개 쿼리")
+
+        retrieval_results = await self._evaluate_retrieval_only(test_queries, components)
+        dual_results['retrieval_evaluation'] = {
+            'query_results': retrieval_results,
+            'query_count': len(retrieval_results)
+        }
+
+        # 2. 샘플 쿼리 선택 (응답 생성기가 있는 경우만)
+        if 'response_generator' in components:
+            print("\n🎯 2단계: 샘플 쿼리 선택")
+
+            # 샘플링 설정 확인
+            evaluation_config = getattr(self.config, 'evaluation')
+            generation_config = evaluation_config.generation
+
+            # 기본값 설정
+            sample_size = generation_config.sample_size
+            sample_strategy = generation_config.sample_strategy
+            sample_seed = generation_config.sample_seed
+
+            # 시드 생성 (설정되지 않은 경우)
+            if sample_seed is None:
+                config_dict = {
+                    'embedder': self.config.embedder.__dict__,
+                    'chunker': self.config.chunker.__dict__,
+                    'retriever': self.config.retriever.__dict__
+                }
+                sample_seed = generate_reproducible_seed(config_dict)
+
+            print(f"   샘플 크기: {sample_size}")
+            print(f"   샘플링 전략: {sample_strategy}")
+            print(f"   시드: {sample_seed}")
+
+            # 샘플링 수행
+            sampler = StratifiedSampler(seed=sample_seed)
+            sampled_queries = sampler.sample_queries(
+                test_queries,
+                sample_size=sample_size,
+                strategy=sample_strategy
+            )
+
+            # 샘플링 분포 분석
+            distribution_analysis = analyze_sample_distribution(test_queries, sampled_queries)
+            print(f"   샘플링 비율: {distribution_analysis['sampling_ratio']:.2%}")
+
+            # 3. 샘플 쿼리 검색 + 응답 생성 평가
+            print("\n🤖 3단계: 샘플 쿼리 응답 생성 평가")
+            print(f"   대상: {len(sampled_queries)}개 쿼리")
+
+            generation_results = await self._evaluate_generation_for_samples(sampled_queries, components)
+
+            dual_results['generation_evaluation'] = {
+                'sampled_queries': sampled_queries,
+                'query_results': generation_results,
+                'sample_config': {
+                    'sample_size': len(sampled_queries),
+                    'sample_strategy': sample_strategy,
+                    'sample_seed': sample_seed
+                },
+                'distribution_analysis': distribution_analysis
+            }
+
+        else:
+            print("\n⚠️  응답 생성기가 설정되지 않아 생성 평가를 건너뜁니다.")
+            dual_results['generation_evaluation'] = None
+
+        return dual_results
+
+    async def _evaluate_retrieval_only(self, test_queries: List[Dict[str, Any]], components: Dict[str, Any]) -> List[QueryResult]:
+        """검색 성능만 평가 (응답 생성 없음)"""
+
+        embedder = components['embedder']
+        retriever = components['retriever']
+
+        query_results = []
+        skipped_queries = 0
+        TOKEN_LIMIT = 8000
+
+        for i, query_data in enumerate(test_queries):
+            try:
+                # 기존 _evaluate_retrieval과 동일한 전처리
+                if isinstance(query_data, str):
+                    try:
+                        import json
+                        query_data = json.loads(query_data)
+                    except json.JSONDecodeError as e:
+                        skipped_queries += 1
+                        continue
+
+                if not isinstance(query_data, dict) or 'query' not in query_data:
+                    skipped_queries += 1
+                    continue
+
+                query_text = query_data['query']
+                ground_truth = query_data.get('ground_truth_docs', [])
+
+                # 토큰 수 체크 및 트리밍
+                original_token_count = self.count_tokens(query_text)
+                if original_token_count > TOKEN_LIMIT:
+                    query_text = self.trim_courses_if_needed(query_text, TOKEN_LIMIT)
+                    new_token_count = self.count_tokens(query_text)
+
+                    if new_token_count > TOKEN_LIMIT:
+                        skipped_queries += 1
+                        continue
+
+                # 검색만 수행 (응답 생성 없음)
+                query_embedding = embedder.embed([query_text])[0]
+                search_results = retriever.search(query_embedding, top_k=self.config.retriever.top_k)
+
+                # QueryResult 생성
+                retrieved_docs = []
+                for item in search_results:
+                    if isinstance(item, tuple) and len(item) == 2:
+                        doc, score = item
+                        if isinstance(doc, dict):
+                            retrieved_docs.append({"text": doc.get("text", ""), "metadata": doc.get("metadata", {})})
+
+                query_result = QueryResult(
+                    query=query_text,
+                    retrieved_docs=retrieved_docs,
+                    ground_truth_docs=ground_truth
+                )
+
+                query_results.append(query_result)
+
+                if (i + 1) % 50 == 0:
+                    print(f"   검색 평가 진행률: {len(query_results)}/{len(test_queries)}")
+
+            except Exception as e:
+                print(f"   쿼리 {i} 검색 평가 실패: {e}")
+                skipped_queries += 1
+                continue
+
+        print(f"   검색 평가 완료: {len(query_results)}개 성공, {skipped_queries}개 스킵")
+        return query_results
+
+    async def _evaluate_generation_for_samples(
+        self,
+        sampled_queries: List[Dict[str, Any]],
+        components: Dict[str, Any]
+    ) -> List[Dict[str, Any]]:
+        """샘플 쿼리들에 대한 검색 + 응답 생성 평가"""
+
+        embedder = components['embedder']
+        retriever = components['retriever']
+        response_generator = components['response_generator']
+
+        generation_results = []
+        TOKEN_LIMIT = 8000
+
+        for i, query_data in enumerate(sampled_queries):
+            try:
+                query_text = query_data['query']
+                ground_truth = query_data.get('ground_truth_docs', [])
+
+                # 토큰 수 체크 및 트리밍
+                original_token_count = self.count_tokens(query_text)
+                if original_token_count > TOKEN_LIMIT:
+                    query_text = self.trim_courses_if_needed(query_text, TOKEN_LIMIT)
+
+                # 검색 수행
+                query_embedding = embedder.embed([query_text])[0]
+                search_results = retriever.search(query_embedding, top_k=self.config.retriever.top_k)
+
+                # 검색 결과 정리
+                retrieved_docs = []
+                for item in search_results:
+                    if isinstance(item, tuple) and len(item) == 2:
+                        doc, score = item
+                        if isinstance(doc, dict):
+                            retrieved_docs.append({"text": doc.get("text", ""), "metadata": doc.get("metadata", {})})
+
+                # 응답 생성
+                generated_response = await self._generate_response_for_query(
+                    query_data, query_text, retrieved_docs, response_generator
+                )
+
+                # 결과 저장
+                result = {
+                    'query': query_text,
+                    'user_profile': query_data.get('user_profile', {}),
+                    'ground_truth_docs': ground_truth,
+                    'retrieved_docs': retrieved_docs,
+                    'generated_response': generated_response
+                }
+
+                generation_results.append(result)
+
+                if (i + 1) % 10 == 0:
+                    print(f"   생성 평가 진행률: {i + 1}/{len(sampled_queries)}")
+
+            except Exception as e:
+                print(f"   샘플 쿼리 {i} 생성 평가 실패: {e}")
+                continue
+
+        print(f"   생성 평가 완료: {len(generation_results)}개 성공")
+        return generation_results
+
+    async def _run_langsmith_evaluation_if_enabled(
+        self,
+        generation_query_results: List[Dict[str, Any]],
+        langsmith_evaluation_results: List
+    ):
+        """LangSmith 평가 실행 (설정된 경우만)"""
+
+        # LangSmith 설정 확인
+        langsmith_config = getattr(self.config, 'langsmith', None)
+        print(f"🔍 LangSmith 설정 확인: {langsmith_config}")
+
+        if not langsmith_config or not langsmith_config.enabled:
+            print("\n⚠️  LangSmith 평가가 비활성화되어 있어 건너뜁니다.")
+            return
+
+        # 환경변수 확인
+        import os
+        api_key = os.getenv('LANGCHAIN_API_KEY')
+        print(f"🔍 LANGCHAIN_API_KEY 존재: {bool(api_key)}")
+        if not api_key:
+            print("\n⚠️  LANGCHAIN_API_KEY가 설정되지 않아 LangSmith 평가를 건너뜁니다.")
+            return
+
+        try:
+            print("\n=== LangSmith 고품질 평가 ===")
+
+            # LangSmith 평가기 초기화
+            judge_model = langsmith_config.judge_model
+            project_name = langsmith_config.project_name
+            print(f"🔍 Judge 모델: {judge_model}, 프로젝트: {project_name}")
+            print(f"🔍 평가할 쿼리 수: {len(generation_query_results)}")
+
+            langsmith_evaluator = CareerHYLangSmithEvaluator(
+                judge_model=judge_model,
+                project_name=project_name
+            )
+            print("✅ LangSmith 평가기 초기화 완료")
+
+            # 평가 실행
+            print("🚀 LangSmith 평가 시작...")
+            evaluation_results = await langsmith_evaluator.evaluate_batch(
+                generation_query_results,
+                experiment_name=self.config.experiment_name
+            )
+            print(f"✅ LangSmith 평가 완료: {len(evaluation_results)}개 결과")
+
+            langsmith_evaluation_results.extend(evaluation_results)
+
+        except Exception as e:
+            print(f"❌ LangSmith 평가 실패: {e}")
+            print("자동화된 평가 결과만 사용합니다.")
+
+    async def _save_dual_results(self, dual_results: Dict[str, Any], components: Dict[str, Any], start_time: float) -> Dict[str, Any]:
+        """이중 평가 결과 저장"""
+
+        # 1. 검색 성능 평가
+        retrieval_evaluation = dual_results['retrieval_evaluation']
+        retrieval_query_results = retrieval_evaluation['query_results']
+
+        evaluator = components['evaluator']
+        retrieval_evaluation_results = evaluator.evaluate(retrieval_query_results)
+
+        print("\n=== 검색 성능 평가 결과 ===")
+        for result in retrieval_evaluation_results:
+            print(f"{result.metric_name}: {result.score:.4f}")
+
+        # 2. 생성 품질 평가 (응답 생성기가 있는 경우)
+        langsmith_evaluation_results = []
+
+        if dual_results['generation_evaluation'] is not None:
+            generation_evaluation = dual_results['generation_evaluation']
+            generation_query_results = generation_evaluation['query_results']
+
+            if generation_query_results:
+                print("\n=== LangSmith 정성평가 실행 ===")
+                # LangSmith 평가만 실행
+                await self._run_langsmith_evaluation_if_enabled(
+                    generation_query_results,
+                    langsmith_evaluation_results
+                )
+
+        # 3. 결과 딕셔너리 구성
         results = {
             "experiment_info": {
                 "name": self.config.experiment_name,
                 "description": self.config.description,
                 "experiment_id": self.experiment_id,
                 "timestamp": datetime.now().isoformat(),
-                "duration_seconds": time.time() - start_time
+                "duration_seconds": time.time() - start_time,
+                "evaluation_type": "dual"  # 이중 평가 표시
             },
             "config": {
-                "embedder": self.config.embedder.__dict__,
-                "chunker": self.config.chunker.__dict__,
-                "retriever": self.config.retriever.__dict__,
-                "evaluation": self.config.evaluation.__dict__
+                "embedder": asdict(self.config.embedder),
+                "chunker": asdict(self.config.chunker),
+                "retriever": asdict(self.config.retriever),
+                "evaluation": {
+                    "retrieval": asdict(self.config.evaluation.retrieval),
+                    "generation": asdict(self.config.evaluation.generation)
+                },
+                "langsmith": asdict(self.config.langsmith) if self.config.langsmith else None
             },
             "component_info": {
                 name: comp.get_model_info() if hasattr(comp, 'get_model_info')
@@ -452,27 +791,57 @@ class ExperimentPipeline:
                       else {}
                 for name, comp in components.items() if hasattr(comp, '__dict__')
             },
-            "evaluation_results": [
-                {
-                    "metric": result.metric_name,
-                    "score": result.score,
-                    "details": result.details
-                }
-                for result in evaluation_results
-            ],
-            "query_count": len(query_results),
+            "retrieval_evaluation": {
+                "query_count": len(retrieval_query_results),
+                "metrics": [
+                    {
+                        "metric": result.metric_name,
+                        "score": result.score,
+                        "details": result.details
+                    }
+                    for result in retrieval_evaluation_results
+                ]
+            },
             "document_count": components['retriever'].get_document_count()
         }
 
-        # 결과 파일 저장
+        # 생성 평가 결과 추가
+        if dual_results['generation_evaluation'] is not None:
+            generation_evaluation = dual_results['generation_evaluation']
+
+            results["generation_evaluation"] = {
+                "sample_count": len(generation_evaluation['query_results']),
+                "sample_config": generation_evaluation['sample_config'],
+                "distribution_analysis": generation_evaluation['distribution_analysis'],
+                "langsmith_metrics": [
+                    {
+                        "metric": result.metric_name,
+                        "score": result.score,
+                        "reasoning": result.reasoning,
+                        "details": result.details
+                    }
+                    for result in langsmith_evaluation_results
+                ] if langsmith_evaluation_results else []
+            }
+
+            # 응답 생성기 설정 추가
+            if hasattr(self.config, 'response_generator'):
+                results["config"]["response_generator"] = asdict(self.config.response_generator)
+
+            # LangSmith 설정 추가 (이미 위에서 처리되었음)
+            # if hasattr(self.config, 'langsmith'):
+            #     results["config"]["langsmith"] = asdict(self.config.langsmith)
+
+        # 4. 결과 파일 저장
         results_file = self.output_dir / f"results_{self.experiment_id}.json"
         with open(results_file, 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
 
-        # 상세 쿼리 결과 저장 (옵션)
-        detailed_results_file = self.output_dir / f"detailed_results_{self.experiment_id}.jsonl"
-        with open(detailed_results_file, 'w', encoding='utf-8') as f:
-            for qr in query_results:
+        # 5. 상세 결과 저장
+        # 검색 결과
+        retrieval_detailed_file = self.output_dir / f"retrieval_detailed_{self.experiment_id}.jsonl"
+        with open(retrieval_detailed_file, 'w', encoding='utf-8') as f:
+            for qr in retrieval_query_results:
                 query_detail = {
                     "query": qr.query,
                     "ground_truth_count": len(qr.ground_truth_docs),
@@ -484,8 +853,35 @@ class ExperimentPipeline:
                 }
                 f.write(json.dumps(query_detail, ensure_ascii=False) + '\n')
 
+        # 생성 결과 (있다면)
+        if dual_results['generation_evaluation'] is not None:
+            generation_evaluation = dual_results['generation_evaluation']
+            generation_results = generation_evaluation['query_results']
+
+            if generation_results:
+                generation_detailed_file = self.output_dir / f"generation_detailed_{self.experiment_id}.jsonl"
+                with open(generation_detailed_file, 'w', encoding='utf-8') as f:
+                    for result in generation_results:
+                        f.write(json.dumps(result, ensure_ascii=False) + '\n')
+
+                # 생성된 응답만 별도 저장
+                responses_file = self.output_dir / f"generated_responses_{self.experiment_id}.json"
+                responses_only = []
+                for result in generation_results:
+                    if result.get('generated_response'):
+                        responses_only.append({
+                            "query": result['query'],
+                            "response": result['generated_response']
+                        })
+
+                with open(responses_file, 'w', encoding='utf-8') as f:
+                    json.dump(responses_only, f, ensure_ascii=False, indent=2)
+
+                print(f"  - 생성 상세 결과: {generation_detailed_file}")
+                print(f"  - 생성된 응답: {responses_file}")
+
         print(f"결과 저장 완료:")
         print(f"  - 요약 결과: {results_file}")
-        print(f"  - 상세 결과: {detailed_results_file}")
+        print(f"  - 검색 상세 결과: {retrieval_detailed_file}")
 
         return results
