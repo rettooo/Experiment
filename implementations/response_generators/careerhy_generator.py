@@ -14,7 +14,7 @@ from core.interfaces.response_generator import (
     BaseResponseGenerator,
     GeneratedResponse,
     RecommendedJob,
-    JobRecommendationResponse
+    JobRecommendationResponse,
 )
 from services.prompt_builder import CareerHYPromptBuilder
 
@@ -28,13 +28,11 @@ class CareerHYResponseGenerator(BaseResponseGenerator):
         self,
         model_name: str = "gpt-4o-mini",
         temperature: float = 0.7,
-        max_tokens: int = 1000
+        max_tokens: int = 1000,
     ):
         # LangChain ChatOpenAI 초기화 (실제 서비스와 동일)
         self.llm = ChatOpenAI(
-            model=model_name,
-            temperature=temperature,
-            max_tokens=max_tokens
+            model=model_name, temperature=temperature, max_tokens=max_tokens
         )
         self.model_name = model_name
         self.temperature = temperature
@@ -46,7 +44,8 @@ class CareerHYResponseGenerator(BaseResponseGenerator):
         query: str,
         retrieved_docs: List[Dict[str, Any]],
         user_profile: Dict[str, Any],
-        chat_history: Optional[List[Dict[str, Any]]] = None
+        chat_history: Optional[List[Dict[str, Any]]] = None,
+        config_tags: List[str] = None,  # 추가
     ) -> GeneratedResponse:
         """
         실제 서비스와 동일한 방식으로 응답 생성 (LangChain structured_output)
@@ -67,19 +66,30 @@ class CareerHYResponseGenerator(BaseResponseGenerator):
                 query=query,
                 retrieved_docs=retrieved_docs,
                 user_profile=user_profile,
-                chat_history=chat_history
+                chat_history=chat_history,
             )
 
             logger.debug(f"Generated prompt length: {len(prompt)} characters")
 
+            # 2. 동적 태그 생성
+            tags = (config_tags or []) + [
+                "response-generation",
+                f"retrieved-docs-{len(retrieved_docs)}",
+            ]
             # 2. LangChain with_structured_output 방식 (실제 서비스와 동일)
             structured_llm = self.llm.with_structured_output(JobRecommendationResponse)
-            result: JobRecommendationResponse = await structured_llm.ainvoke(prompt)
+            result: JobRecommendationResponse = await structured_llm.ainvoke(
+                prompt, config={"tags": tags}
+            )
 
             logger.info(f"🤖 LLM Structured Output 결과:")
-            logger.info(f"  - recommended_job_indices: {result.recommended_job_indices}")
+            logger.info(
+                f"  - recommended_job_indices: {result.recommended_job_indices}"
+            )
             logger.info(f"  - overall_advice 길이: {len(result.overall_advice)}")
-            logger.info(f"  - recommendation_reasons 개수: {len(result.recommendation_reasons)}")
+            logger.info(
+                f"  - recommendation_reasons 개수: {len(result.recommendation_reasons)}"
+            )
             logger.info(f"  - practical_tips 길이: {len(result.practical_tips)}")
 
             # 3. 실제 서비스와 동일한 방식으로 응답 변환
@@ -93,7 +103,7 @@ class CareerHYResponseGenerator(BaseResponseGenerator):
     def _convert_to_experiment_response(
         self,
         structured_result: JobRecommendationResponse,
-        retrieved_docs: List[Dict[str, Any]]
+        retrieved_docs: List[Dict[str, Any]],
     ) -> GeneratedResponse:
         """
         LangChain structured_output 결과를 실험용 응답 형식으로 변환
@@ -127,7 +137,7 @@ class CareerHYResponseGenerator(BaseResponseGenerator):
 
                 if 0 <= doc_index < len(retrieved_docs):
                     doc = retrieved_docs[doc_index]
-                    metadata = doc.get('metadata', {})
+                    metadata = doc.get("metadata", {})
 
                     # 추천 이유 가져오기 (인덱스에 맞춰)
                     reason = ""
@@ -135,34 +145,32 @@ class CareerHYResponseGenerator(BaseResponseGenerator):
                         reason = structured_result.recommendation_reasons[i]
 
                     recommended_job = RecommendedJob(
-                        rec_idx=metadata.get('rec_idx'),
-                        title=metadata.get('title', metadata.get('post_title', '제목 없음')),
-                        url=metadata.get('url', ''),
-                        deadline=metadata.get('deadline'),
-                        start_date=metadata.get('start_date'),
-                        crawling_time=metadata.get('crawling_time'),
-                        recommendation_reason=reason
+                        rec_idx=metadata.get("rec_idx"),
+                        title=metadata.get(
+                            "title", metadata.get("post_title", "제목 없음")
+                        ),
+                        url=metadata.get("url") or metadata.get("detail_url", ""),
+                        deadline=metadata.get("deadline"),
+                        start_date=metadata.get("start_date"),
+                        crawling_time=metadata.get("crawling_time"),
+                        recommendation_reason=reason,
                     )
                     recommended_jobs.append(recommended_job)
 
                     logger.info(f"✅ 추천 공고 {job_index}: {recommended_job.title}")
                 else:
-                    logger.warning(f"❌ 잘못된 추천 인덱스: {job_index} (범위: 1-{len(retrieved_docs)})")
+                    logger.warning(
+                        f"❌ 잘못된 추천 인덱스: {job_index} (범위: 1-{len(retrieved_docs)})"
+                    )
 
             except Exception as e:
                 logger.warning(f"Failed to process job recommendation {job_index}: {e}")
                 continue
 
-        return GeneratedResponse(
-            content=content,
-            recommended_jobs=recommended_jobs
-        )
-
+        return GeneratedResponse(content=content, recommended_jobs=recommended_jobs)
 
     def _create_fallback_response(
-        self,
-        query: str,
-        retrieved_docs: List[Dict[str, Any]]
+        self, query: str, retrieved_docs: List[Dict[str, Any]]
     ) -> GeneratedResponse:
         """오류 발생 시 기본 응답 생성"""
 
@@ -172,17 +180,16 @@ class CareerHYResponseGenerator(BaseResponseGenerator):
         # 검색된 문서 중 상위 3개를 기본 추천으로 제공
         recommended_jobs = []
         for i, doc in enumerate(retrieved_docs[:3]):
-            metadata = doc.get('metadata', {})
+            metadata = doc.get("metadata", {})
             recommended_job = RecommendedJob(
-                rec_idx=metadata.get('rec_idx', f'fallback_{i}'),
-                title=metadata.get('title', metadata.get('post_title', f'채용공고 {i+1}')),
-                url=metadata.get('url', ''),
-                deadline=metadata.get('deadline'),
-                recommendation_reason=f"검색 결과 상위 {i+1}번째로 관련성이 높은 공고입니다."
+                rec_idx=metadata.get("rec_idx", f"fallback_{i}"),
+                title=metadata.get(
+                    "title", metadata.get("post_title", f"채용공고 {i+1}")
+                ),
+                url=metadata.get("url", ""),
+                deadline=metadata.get("deadline"),
+                recommendation_reason=f"검색 결과 상위 {i+1}번째로 관련성이 높은 공고입니다.",
             )
             recommended_jobs.append(recommended_job)
 
-        return GeneratedResponse(
-            content=content,
-            recommended_jobs=recommended_jobs
-        )
+        return GeneratedResponse(content=content, recommended_jobs=recommended_jobs)
