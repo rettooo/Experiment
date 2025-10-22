@@ -1,7 +1,7 @@
 # recursive-test.yaml
 
 experiment_name: "recursive-test-1"
-description: "기존 베이스라인 실험 환경에서 recursive 청킹 적용 \n chunk_size: 1000, chunk_overlap: 200"
+description: "기존 베이스라인 실험 환경에서 recursive 청킹 적용 \n chunk_size: 700 , chunk_overlap: 100"
 output_dir: "results"
 
 # 임베딩 설정
@@ -13,14 +13,14 @@ embedder:
 # 청킹 설정 
 chunker:
   type: "recursive"
-  chunk_size: 1000
-  chunk_overlap: 200
+  chunk_size: 700
+  chunk_overlap: 100
 
 # 검색 설정 
 retriever:
   type: "chroma"
-  collection_name: "job-postings-baseline"
-  persist_directory: "/tmp/chroma_baseline"
+  collection_name: "job-postings-recursive-test-1"
+  persist_directory: "/tmp/chroma_recursive_test_1"
   top_k: 10
 
 # LLM 설정 
@@ -41,7 +41,8 @@ response_generator:
 data:
   pdf_prefix: "initial-dataset/pdf/"
   json_prefix: "initial-dataset/json/"
-  test_queries_path: "data/test_queries.jsonl"
+  test_queries_path: "data/test_queries_fixed.jsonl"
+  data_version: "v1"
 
 # 이중 평가 설정
 evaluation:
