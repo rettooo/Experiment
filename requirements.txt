@@ -9,8 +9,18 @@ numpy>=1.24.0
 openai>=1.0.0
 langchain>=0.1.0
 langchain-openai>=0.0.5
+langchain-text-splitters>=0.0.1
 chromadb>=0.4.0
 tiktoken>=0.5.0
+
+# Sentence Transformers (Snowflake Arctic Embed)
+sentence-transformers>=2.2.0
+torch>=2.0.0  # Apple Silicon MPS 지원
+transformers>=4.30.0
+
+# FAISS (고속 벡터 검색)
+faiss-cpu>=1.7.4  # CPU 버전
+# faiss-gpu>=1.7.4  # GPU 버전 (CUDA 필요 시 주석 해제)
 
 # LangSmith 추적 및 평가
 langsmith>=0.0.87

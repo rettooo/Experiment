@@ -10,18 +10,21 @@ from core.config import EmbedderConfig, ChunkerConfig, RetrieverConfig, LLMConfi
 
 # 임베딩 모델 구현체들
 from implementations.embedders import OpenAIEmbedder
+from implementations.embedders.snowflake_embedder import SnowflakeEmbedder
 
 # 청킹 전략 구현체들
-from implementations.chunkers import NoChunker, RecursiveChunker
+from implementations.chunkers import NoChunker, RecursiveChunker, FixedChunker
 
 # 검색 시스템 구현체들
-from implementations.retrievers import ChromaRetriever
+from implementations.retrievers import ChromaRetriever, FAISSRetriever
 
 # LLM 모델 구현체들
 from implementations.llms import OpenAILLM
 
 # 응답 생성기 구현체들
-from implementations.response_generators.careerhy_generator import CareerHYResponseGenerator
+from implementations.response_generators.careerhy_generator import (
+    CareerHYResponseGenerator,
+)
 
 
 class ComponentFactory:
@@ -30,15 +33,18 @@ class ComponentFactory:
     # 등록된 구현체들
     _embedders: Dict[str, Type[BaseEmbedder]] = {
         "openai": OpenAIEmbedder,
+        "snowflake": SnowflakeEmbedder,
     }
 
     _chunkers: Dict[str, Type[BaseChunker]] = {
         "no_chunk": NoChunker,
         "recursive": RecursiveChunker,
+        "fixed": FixedChunker,
     }
 
     _retrievers: Dict[str, Type[BaseRetriever]] = {
         "chroma": ChromaRetriever,
+        "faiss": FAISSRetriever,
     }
 
     _llms: Dict[str, Type[BaseLLM]] = {
@@ -54,7 +60,9 @@ class ComponentFactory:
         """임베딩 모델 인스턴스 생성"""
         if config.type not in cls._embedders:
             available = list(cls._embedders.keys())
-            raise ValueError(f"지원하지 않는 임베딩 타입: {config.type}. 지원 타입: {available}")
+            raise ValueError(
+                f"지원하지 않는 임베딩 타입: {config.type}. 지원 타입: {available}"
+            )
 
         embedder_class = cls._embedders[config.type]
 
@@ -62,7 +70,7 @@ class ComponentFactory:
         kwargs = {
             "model_name": config.model_name,
             "batch_size": config.batch_size,
-            **config.params
+            **config.params,
         }
 
         return embedder_class(**kwargs)
@@ -72,7 +80,9 @@ class ComponentFactory:
         """청킹 전략 인스턴스 생성"""
         if config.type not in cls._chunkers:
             available = list(cls._chunkers.keys())
-            raise ValueError(f"지원하지 않는 청킹 타입: {config.type}. 지원 타입: {available}")
+            raise ValueError(
+                f"지원하지 않는 청킹 타입: {config.type}. 지원 타입: {available}"
+            )
 
         chunker_class = cls._chunkers[config.type]
 
@@ -91,7 +101,9 @@ class ComponentFactory:
         """검색 시스템 인스턴스 생성"""
         if config.type not in cls._retrievers:
             available = list(cls._retrievers.keys())
-            raise ValueError(f"지원하지 않는 검색 타입: {config.type}. 지원 타입: {available}")
+            raise ValueError(
+                f"지원하지 않는 검색 타입: {config.type}. 지원 타입: {available}"
+            )
 
         retriever_class = cls._retrievers[config.type]
 
@@ -99,8 +111,13 @@ class ComponentFactory:
         kwargs = {
             "collection_name": config.collection_name,
             "persist_directory": config.persist_directory,
-            **config.params
+            **config.params,
         }
+
+        # FAISS 전용 파라미터 추가
+        if config.type == "faiss":
+            kwargs["index_type"] = config.index_type
+            kwargs["use_gpu"] = config.use_gpu
 
         return retriever_class(**kwargs)
 
@@ -109,7 +126,9 @@ class ComponentFactory:
         """LLM 모델 인스턴스 생성"""
         if config.type not in cls._llms:
             available = list(cls._llms.keys())
-            raise ValueError(f"지원하지 않는 LLM 타입: {config.type}. 지원 타입: {available}")
+            raise ValueError(
+                f"지원하지 않는 LLM 타입: {config.type}. 지원 타입: {available}"
+            )
 
         llm_class = cls._llms[config.type]
 
@@ -119,7 +138,7 @@ class ComponentFactory:
             "temperature": config.temperature,
             "max_tokens": config.max_tokens,
             "timeout": config.timeout,
-            **config.params
+            **config.params,
         }
 
         return llm_class(**kwargs)
@@ -128,7 +147,7 @@ class ComponentFactory:
     def create_response_generator(cls, config) -> BaseResponseGenerator:
         """응답 생성기 인스턴스 생성"""
         # Dict 형태와 Config 객체 둘 다 지원
-        if hasattr(config, 'type'):
+        if hasattr(config, "type"):
             # LLMConfig 객체인 경우
             generator_type = config.type
             model_name = config.model_name
@@ -137,15 +156,17 @@ class ComponentFactory:
             params = config.params
         else:
             # Dict인 경우 (기존 호환성)
-            generator_type = config.get('type', 'careerhy')
-            model_name = config.get('model_name', 'gpt-4o-mini')
-            temperature = config.get('temperature', 0.7)
-            max_tokens = config.get('max_tokens', 1000)
-            params = config.get('params', {})
+            generator_type = config.get("type", "careerhy")
+            model_name = config.get("model_name", "gpt-4o-mini")
+            temperature = config.get("temperature", 0.7)
+            max_tokens = config.get("max_tokens", 2000)
+            params = config.get("params", {})
 
         if generator_type not in cls._response_generators:
             available = list(cls._response_generators.keys())
-            raise ValueError(f"지원하지 않는 응답 생성기 타입: {generator_type}. 지원 타입: {available}")
+            raise ValueError(
+                f"지원하지 않는 응답 생성기 타입: {generator_type}. 지원 타입: {available}"
+            )
 
         generator_class = cls._response_generators[generator_type]
 
@@ -154,7 +175,7 @@ class ComponentFactory:
             "model_name": model_name,
             "temperature": temperature,
             "max_tokens": max_tokens,
-            **params
+            **params,
         }
 
         return generator_class(**kwargs)
@@ -170,7 +191,9 @@ class ComponentFactory:
         cls._chunkers[name] = chunker_class
 
     @classmethod
-    def register_retriever(cls, name: str, retriever_class: Type[BaseRetriever]) -> None:
+    def register_retriever(
+        cls, name: str, retriever_class: Type[BaseRetriever]
+    ) -> None:
         """새로운 검색 시스템 등록"""
         cls._retrievers[name] = retriever_class
 
@@ -180,7 +203,9 @@ class ComponentFactory:
         cls._llms[name] = llm_class
 
     @classmethod
-    def register_response_generator(cls, name: str, generator_class: Type[BaseResponseGenerator]) -> None:
+    def register_response_generator(
+        cls, name: str, generator_class: Type[BaseResponseGenerator]
+    ) -> None:
         """새로운 응답 생성기 등록"""
         cls._response_generators[name] = generator_class
 
@@ -192,5 +217,5 @@ class ComponentFactory:
             "chunkers": list(cls._chunkers.keys()),
             "retrievers": list(cls._retrievers.keys()),
             "llms": list(cls._llms.keys()),
-            "response_generators": list(cls._response_generators.keys())
+            "response_generators": list(cls._response_generators.keys()),
         }
