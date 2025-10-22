@@ -1,5 +1,5 @@
 from typing import List, Dict, Any, Optional
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from core.interfaces.chunker import BaseChunker
 
@@ -17,7 +17,9 @@ class RecursiveChunker(BaseChunker):
             is_separator_regex=False,
         )
 
-    def chunk(self, text: str, metadata: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
+    def chunk(
+        self, text: str, metadata: Optional[Dict[str, Any]] = None
+    ) -> List[Dict[str, Any]]:
         """
         RecursiveCharacterTextSplitter로 텍스트 청킹
         """
@@ -36,13 +38,10 @@ class RecursiveChunker(BaseChunker):
                 "chunk_count": len(chunks),
                 "chunking_strategy": "recursive",
                 "chunk_size": self.chunk_size,
-                "chunk_overlap": self.chunk_overlap
+                "chunk_overlap": self.chunk_overlap,
             }
 
-            result.append({
-                "text": chunk_text,
-                "metadata": chunk_metadata
-            })
+            result.append({"text": chunk_text, "metadata": chunk_metadata})
 
         return result
 
@@ -53,5 +52,5 @@ class RecursiveChunker(BaseChunker):
             "description": "LangChain RecursiveCharacterTextSplitter 사용",
             "chunk_size": self.chunk_size,
             "chunk_overlap": self.chunk_overlap,
-            "config": self.config
+            "config": self.config,
         }

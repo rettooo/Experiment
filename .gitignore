@@ -4,6 +4,8 @@
 .env.*.local
 
 # 임베딩 캐시
+huggingface_cache/
+tmp/
 cache/
 *.pkl
 *.npy
