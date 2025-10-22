@@ -4,5 +4,6 @@
 
 from .no_chunker import NoChunker
 from .recursive_chunker import RecursiveChunker
+from .fixed_chunker import FixedChunker
 
-__all__ = ["NoChunker", "RecursiveChunker"]
+__all__ = ["NoChunker", "RecursiveChunker", "FixedChunker"]

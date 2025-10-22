@@ -3,5 +3,6 @@
 """
 
 from .chroma_retriever import ChromaRetriever
+from .faiss_retriever import FAISSRetriever
 
-__all__ = ["ChromaRetriever"]
+__all__ = ["ChromaRetriever", "FAISSRetriever"]
