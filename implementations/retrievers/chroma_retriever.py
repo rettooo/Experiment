@@ -8,7 +8,12 @@ from core.interfaces.retriever import BaseRetriever
 class ChromaRetriever(BaseRetriever):
     """ChromaDB 기반 검색 시스템 구현체 (현재 서비스에서 사용 중)"""
 
-    def __init__(self, collection_name: str = "job-postings", persist_directory: str = None, **kwargs):
+    def __init__(
+        self,
+        collection_name: str = "job-postings",
+        persist_directory: str = None,
+        **kwargs,
+    ):
         super().__init__(**kwargs)
         self.collection_name = collection_name
         self.persist_directory = persist_directory or "/tmp/chroma_experiment"
@@ -23,7 +28,9 @@ class ChromaRetriever(BaseRetriever):
             # 컬렉션이 없으면 새로 생성
             self.collection = self.client.create_collection(name=self.collection_name)
 
-    def add_documents(self, documents: List[Dict[str, Any]], embeddings: List[List[float]]) -> None:
+    def add_documents(
+        self, documents: List[Dict[str, Any]], embeddings: List[List[float]]
+    ) -> None:
         """문서와 임베딩을 ChromaDB에 추가"""
         if len(documents) != len(embeddings):
             raise ValueError("문서 수와 임베딩 수가 일치하지 않습니다")
@@ -31,49 +38,64 @@ class ChromaRetriever(BaseRetriever):
         if not documents:
             return
 
-        # ChromaDB에 저장할 데이터 준비
-        ids = []
-        texts = []
-        metadatas = []
+        # ChromaDB에 배치 추가 (배치 크기 제한 해결)
+        batch_size = 5000  # ChromaDB 제한보다 작게 설정
+        total_docs = len(documents)
 
-        for i, doc in enumerate(documents):
-            # 고유 ID 생성
-            metadata = doc.get("metadata", {})
-            rec_idx = metadata.get("rec_idx", f"doc_{i}")
+        for i in range(0, total_docs, batch_size):
+            end_idx = min(i + batch_size, total_docs)
+            batch_docs = documents[i:end_idx]
+            batch_embeddings = embeddings[i:end_idx]
 
-            # 청킹된 문서의 경우 chunk_index를 포함하여 고유 ID 생성
-            if "chunk_index" in metadata:
-                doc_id = f"{rec_idx}_chunk_{metadata['chunk_index']}"
-            else:
-                doc_id = str(rec_idx)
+            # 배치별로 문서 ID, 텍스트, 메타데이터 준비
+            batch_ids = []
+            batch_texts = []
+            batch_metadatas = []
 
-            ids.append(doc_id)
-            texts.append(doc["text"])
-            metadatas.append(doc.get("metadata", {}))
+            for j, doc in enumerate(batch_docs):
+                # 고유 ID 생성
+                metadata = doc.get("metadata", {})
+                rec_idx = metadata.get("rec_idx", f"doc_{i+j}")
 
-        # ChromaDB에 배치 추가
-        self.collection.add(
-            ids=ids,
-            documents=texts,
-            embeddings=embeddings,
-            metadatas=metadatas
-        )
+                # 청킹된 문서의 경우 chunk_index를 포함하여 고유 ID 생성
+                if "chunk_index" in metadata:
+                    doc_id = f"{rec_idx}_chunk_{metadata['chunk_index']}"
+                else:
+                    doc_id = str(rec_idx)
 
-    def search(self, query_embedding: List[float], top_k: int = 10, **kwargs) -> List[Tuple[Dict[str, Any], float]]:
+                batch_ids.append(doc_id)
+                batch_texts.append(doc["text"])
+                batch_metadatas.append(doc.get("metadata", {}))
+
+            # 배치 추가
+            self.collection.add(
+                ids=batch_ids,
+                documents=batch_texts,
+                embeddings=batch_embeddings,
+                metadatas=batch_metadatas,
+            )
+
+            print(f"📦 ChromaDB 배치 추가: {i+1}-{end_idx}/{total_docs} 문서")
+
+    def search(
+        self, query_embedding: List[float], top_k: int = 10, **kwargs
+    ) -> List[Tuple[Dict[str, Any], float]]:
         """쿼리 임베딩으로 유사한 문서 검색"""
         results = self.collection.query(
             query_embeddings=[query_embedding],
             n_results=top_k,
-            include=['documents', 'metadatas', 'distances']
+            include=["documents", "metadatas", "distances"],
         )
 
         # 결과 포맷팅
         search_results = []
-        if results['documents'] and results['documents'][0]:
-            for i in range(len(results['documents'][0])):
+        if results["documents"] and results["documents"][0]:
+            for i in range(len(results["documents"][0])):
                 doc = {
-                    "text": results['documents'][0][i],
-                    "metadata": results['metadatas'][0][i] if results['metadatas'] else {}
+                    "text": results["documents"][0][i],
+                    "metadata": (
+                        results["metadatas"][0][i] if results["metadatas"] else {}
+                    ),
                 }
                 # ChromaDB는 거리를 반환하므로 유사도로 변환 (1 - normalized_distance)
                 distance = results['distances'][0][i]
@@ -102,5 +124,5 @@ class ChromaRetriever(BaseRetriever):
             "collection_name": self.collection_name,
             "persist_directory": self.persist_directory,
             "document_count": self.get_document_count(),
-            "config": self.config
+            "config": self.config,
         }
