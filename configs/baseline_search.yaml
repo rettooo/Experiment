@@ -1,0 +1,87 @@
+# 🎯 Career-HY RAG 베이스라인 실험 설정
+# 실제 서비스와 완전히 동일한 로직으로 성능 측정
+
+experiment_name: "baseline"
+description: "(평가지표 수정!!)실제 Career-HY 서비스와 동일한 설정 - LangChain structured_output, 인덱스 기반 추천"
+output_dir: "results"
+
+# 임베딩 설정 (실제 서비스와 동일)
+embedder:
+  type: "openai"
+  model_name: "text-embedding-ada-002"
+  batch_size: 5
+
+# 청킹 설정 (실제 서비스: 청킹 사용 안함)
+chunker:
+  type: "no_chunk"
+  chunk_size: null
+  chunk_overlap: null
+
+# 검색 설정 (실제 서비스와 동일)
+retriever:
+  type: "chroma"
+  collection_name: "job-postings-baseline"
+  persist_directory: "/tmp/chroma_baseline_v2"
+  top_k: 20 # 최소 20개로 설정 (recall@20 평가 시 )
+
+# LLM 설정 (실제 서비스와 동일)
+llm:
+  type: "openai"
+  model_name: "gpt-4o-mini"
+  temperature: 0.7
+  max_tokens: 1000
+
+# 응답 생성기 설정 (실제 서비스와 동일)
+response_generator:
+  type: "careerhy"
+  model_name: "gpt-4o-mini"
+  temperature: 0.7
+  max_tokens: 2000
+
+# 데이터 설정
+data:
+  pdf_prefix: "initial-dataset/pdf/"
+  json_prefix: "initial-dataset/json/"
+  test_queries_path: "data/evaluation_queries.jsonl"  # 새로운 평가 데이터
+  data_version: "v1"  # S3 데이터 버전 (데이터 변경 시 v2, v3으로 증가)
+
+# 검색 성능 평가 전용 설정
+evaluation:
+  mode: "retrieval_only"  # 검색 평가만 수행 (생성 평가 제외)
+  
+  # 평가 지표
+  metrics:
+    - "ndcg@10"       # 순위 품질 (상위 10개)
+    - "recall@20"     # 재현율 (상위 20개)
+    - "mrr@10"        # 첫 정답 순위 (상위 10개)
+    - "precision@3"   # 정확도 (상위 3개)
+    - "precision@5"   # 정확도 (상위 5개)
+  
+  # 결과 저장 설정
+  save_results: true  # 검색 결과 JSONL 저장 (분석용)
+  results_dir: "data/results"  # 결과 저장 디렉토리
+
+# LangSmith 고품질 정성 평가 (선택사항)
+langsmith:
+  enabled: false  # 검색 평가만 수행하므로 비활성화
+  project_name: "career-hy-baseline"
+  judge_model: "gpt-4o-mini"
+  
+  # LangSmith 추적용 태그
+  tags:
+    - "baseline"
+    - "no-chunk"
+    - "chroma"
+    - "ada-002"
+    - "gpt-4o-mini"
+
+  # 4가지 정성 평가 지표
+  metrics:
+    - "recommendation_quality"    # 추천 품질 전반
+    - "personalization_score"     # 개인화 수준
+    - "response_helpfulness"      # 도움이 되는 정도
+    - "profile_alignment"         # 프로필 일치도
+
+  # 비용 최적화 설정
+  max_concurrency: 3
+  evaluation_timeout: 300
