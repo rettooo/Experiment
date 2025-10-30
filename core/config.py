@@ -149,14 +149,20 @@ class LangSmithConfig:
 class EvaluationConfig:
     """이중 평가 설정"""
 
+    mode: str = "dual"  # "dual" or "retrieval_only"
     retrieval: RetrievalEvaluationConfig = None
     generation: GenerationEvaluationConfig = None
+    metrics: list = None  # 평가 지표 리스트
+    save_results: bool = True  # 결과 저장 여부
+    results_dir: str = "data/results"  # 결과 저장 디렉토리
 
     def __post_init__(self):
         if self.retrieval is None:
             self.retrieval = RetrievalEvaluationConfig()
         if self.generation is None:
             self.generation = GenerationEvaluationConfig()
+        if self.metrics is None:
+            self.metrics = []
 
 
 @dataclass
@@ -232,6 +238,16 @@ class ExperimentConfig:
             eval_data = data["evaluation"]
             # 중첩된 evaluation 구조 처리
             eval_config = {}
+
+            # 최상위 필드들 처리
+            if "mode" in eval_data:
+                eval_config["mode"] = eval_data["mode"]
+            if "metrics" in eval_data:
+                eval_config["metrics"] = eval_data["metrics"]
+            if "save_results" in eval_data:
+                eval_config["save_results"] = eval_data["save_results"]
+            if "results_dir" in eval_data:
+                eval_config["results_dir"] = eval_data["results_dir"]
 
             if "retrieval" in eval_data:
                 eval_config["retrieval"] = RetrievalEvaluationConfig(

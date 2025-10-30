@@ -21,8 +21,9 @@ from utils.sampler import (
     generate_reproducible_seed,
     analyze_sample_distribution,
 )
-from implementations.evaluators import SearchMetricsEvaluator
-from implementations.evaluators.langsmith_evaluator import CareerHYLangSmithEvaluator
+from implementations.evaluators import RetrieverEvaluator
+
+# from implementations.evaluators.langsmith_evaluator import CareerHYLangSmithEvaluator  # 사용 안 함
 
 
 class ExperimentPipeline:
@@ -71,15 +72,30 @@ class ExperimentPipeline:
             print("\n=== 5. Ground Truth 쿼리 로드 ===")
             test_queries = self._load_test_queries()
 
-            # 6. 이중 평가 실행
-            print("\n=== 6. 이중 평가 시스템 ===")
-            dual_results = await self._run_dual_evaluation(test_queries, components)
+            # 6. 평가 실행 (모드에 따라 분기)
+            eval_mode = self.config.evaluation.mode
+            print(f"🔍 평가 모드: {eval_mode}")
 
-            # 7. 결과 저장
-            print("\n=== 7. 결과 저장 ===")
-            results = await self._save_dual_results(
-                dual_results, components, start_time
-            )
+            if eval_mode == "retrieval_only":
+                # 검색 성능 평가만 수행
+                print("\n=== 6. 검색 성능 평가 (Retrieval Only) ===")
+                eval_results = await self._run_retrieval_only_evaluation(
+                    test_queries, components, start_time
+                )
+
+                # 7. 결과 저장
+                print("\n=== 7. 결과 저장 ===")
+                results = self._save_retrieval_results(eval_results, start_time)
+            else:
+                # 기존 이중 평가 시스템
+                print("\n=== 6. 이중 평가 시스템 (Dual Evaluation) ===")
+                dual_results = await self._run_dual_evaluation(test_queries, components)
+
+                # 7. 결과 저장
+                print("\n=== 7. 결과 저장 ===")
+                results = await self._save_dual_results(
+                    dual_results, components, start_time
+                )
 
             print(f"\n실험 완료! 총 소요시간: {time.time() - start_time:.2f}초")
             return results
@@ -127,10 +143,10 @@ class ExperimentPipeline:
                 )
             )
 
-        # 평가기 초기화
-        components["evaluator"] = SearchMetricsEvaluator(
-            k_values=self.config.evaluation.retrieval.k_values
-        )
+        # 평가기 초기화 (dual evaluation 모드용, 현재는 사용 안 함)
+        # components["evaluator"] = SearchMetricsEvaluator(
+        #     k_values=self.config.evaluation.retrieval.k_values
+        # )
 
         return components
 
@@ -262,7 +278,7 @@ class ExperimentPipeline:
         print(f"검색 시스템 구축 완료: {doc_count}개 문서")
 
     def _load_test_queries(self) -> List[Dict[str, Any]]:
-        """Ground Truth 테스트 쿼리 로드"""
+        """Ground Truth 테스트 쿼리 로드 (기존 방식 + evaluation_queries.jsonl 지원)"""
         test_queries_path = self.config.data.test_queries_path
 
         if not Path(test_queries_path).exists():
@@ -270,14 +286,32 @@ class ExperimentPipeline:
             print("샘플 테스트 쿼리를 생성합니다...")
             return self._create_sample_queries()
 
+        # 기존 방식: 직접 JSONL 파일 읽기
         queries = []
-        with open(test_queries_path, "r", encoding="utf-8") as f:
-            for line in f:
-                query_data = json.loads(line.strip())
-                queries.append(query_data)
+        try:
+            with open(test_queries_path, "r", encoding="utf-8") as f:
+                for line_num, line in enumerate(f, start=1):
+                    try:
+                        query_data = json.loads(line.strip())
+                        queries.append(query_data)
+                    except json.JSONDecodeError as e:
+                        print(f"⚠️  JSON 파싱 오류 (Line {line_num}): {e}")
+                        continue
 
-        print(f"테스트 쿼리 로드 완료: {len(queries)}개")
-        return queries
+            # 데이터 형식 확인
+            if queries and "ground_truth" in queries[0]:
+                print(f"📊 새로운 평가 데이터 형식 로드: {len(queries)}개 쿼리")
+                print(
+                    f"   - GT 포함 (평균 {sum(len(q.get('ground_truth', [])) for q in queries) / len(queries):.1f}개/쿼리)"
+                )
+            else:
+                print(f"📊 기존 테스트 쿼리 형식 로드: {len(queries)}개 쿼리")
+
+            return queries
+
+        except Exception as e:
+            print(f"❌ 쿼리 로드 실패: {e}")
+            return []
 
     def _create_sample_queries(self) -> List[Dict[str, Any]]:
         """샘플 테스트 쿼리 생성 (Ground Truth가 없을 때)"""
@@ -1038,3 +1072,216 @@ class ExperimentPipeline:
         print(f"  - 검색 상세 결과: {retrieval_detailed_file}")
 
         return results
+
+    async def _run_retrieval_only_evaluation(
+        self,
+        test_queries: List[Dict[str, Any]],
+        components: Dict[str, Any],
+        start_time: float,
+    ) -> Dict[str, Any]:
+        """
+        검색 성능만 평가 (생성 평가 제외)
+
+        Args:
+            test_queries: evaluation_queries.jsonl에서 로드된 쿼리 (GT 포함)
+            components: 파이프라인 컴포넌트들
+            start_time: 실험 시작 시간
+
+        Returns:
+            평가 결과 딕셔너리
+        """
+        print(f"📊 검색 성능 평가 시작: {len(test_queries)}개 쿼리")
+
+        retriever = components["retriever"]
+        embedder = components["embedder"]
+        evaluator = RetrieverEvaluator(ground_truth_size=5)
+
+        results = []
+        total_search_time = 0.0
+
+        for idx, query_data in enumerate(test_queries, start=1):
+            query_id = query_data["query_id"]
+            query_text = query_data["query_text"]
+            ground_truth = query_data["ground_truth"]
+
+            if idx % 10 == 0:
+                print(f"  처리 중: {idx}/{len(test_queries)}")
+
+            try:
+                # ⏱️ 검색 시간 측정 시작
+                search_start = time.time()
+
+                # 1. 토큰 초과 시 수강 이력 트리밍 (기존 로직 활용)
+                TOKEN_LIMIT = 8000
+                original_token_count = self.count_tokens(query_text)
+
+                if original_token_count > TOKEN_LIMIT:
+                    query_text = self.trim_courses_if_needed(query_text, TOKEN_LIMIT)
+                    new_token_count = self.count_tokens(query_text)
+
+                    if idx == 1:  # 첫 번째 쿼리에서만 로그 출력
+                        print(
+                            f"  ⚠️  토큰 초과 감지: 트리밍 {original_token_count} → {new_token_count} 토큰"
+                        )
+
+                # 2. 쿼리 임베딩 변환 (embed는 List[str]을 받으므로 리스트로 감싸기)
+                query_embedding = embedder.embed([query_text])[0]
+
+                # 3. 검색 실행 (config에서 top_k 가져오기)
+                top_k = self.config.retriever.top_k
+                search_results = retriever.search(query_embedding, top_k=top_k)
+
+                # ⏱️ 검색 시간 측정 종료
+                search_time = time.time() - search_start
+                total_search_time += search_time
+
+                # 3. rec_idx 추출 (search는 List[Tuple[doc, score]] 반환)
+                retrieved_rec_idxs = []
+                retrieved_docs = []
+                for doc_tuple in search_results:
+                    doc = doc_tuple[0]  # (doc, score) 튜플의 첫 번째 요소
+                    score = doc_tuple[1]  # 유사도 점수
+
+                    rec_idx = doc.get("metadata", {}).get("rec_idx")
+                    if rec_idx:
+                        retrieved_rec_idxs.append(str(rec_idx))
+                        retrieved_docs.append(
+                            {
+                                "metadata": doc.get("metadata", {}),
+                                "score": score,
+                                "text": doc.get("text", ""),
+                            }
+                        )
+
+                gt_rec_idxs = [str(gt["rec_idx"]) for gt in ground_truth]
+
+                # 지표 계산
+                metrics = evaluator.evaluate_query(
+                    retrieved_rec_idxs, gt_rec_idxs, search_time=search_time
+                )
+
+                # 결과 저장
+                result = {
+                    "query_id": query_id,
+                    "query_text": query_text,
+                    "retrieved_docs": [
+                        {
+                            "rank": i + 1,
+                            "rec_idx": retrieved_rec_idxs[i],
+                            "score": retrieved_docs[i]["score"],
+                            "job_title": retrieved_docs[i]["metadata"].get(
+                                "post_title", "제목 없음"
+                            ),
+                        }
+                        for i in range(len(retrieved_rec_idxs))
+                    ],
+                    "ground_truth": ground_truth,
+                    "metrics": metrics,
+                }
+                results.append(result)
+
+            except Exception as e:
+                print(f"  ❌ 쿼리 {query_id} 처리 실패: {e}")
+                continue
+
+        # 전체 집계
+        print(f"\n📈 평가 결과 집계 중...")
+        summary = evaluator.evaluate_all_queries(results)
+
+        # 검색 시간 통계 추가
+        if results:
+            search_times = [
+                r["metrics"]["search_time"]
+                for r in results
+                if "search_time" in r["metrics"]
+            ]
+            summary["total_search_time"] = round(total_search_time, 3)
+            summary["average_search_time_per_query"] = round(
+                total_search_time / len(results), 3
+            )
+            summary["search_time_stats"] = {
+                "min": round(min(search_times), 3) if search_times else 0,
+                "max": round(max(search_times), 3) if search_times else 0,
+            }
+
+        # 전체 실험 시간
+        total_experiment_time = time.time() - start_time
+        summary["total_experiment_time"] = round(total_experiment_time, 3)
+
+        # 결과 출력
+        from implementations.evaluators.retrieval_evaluator import (
+            print_evaluation_summary,
+        )
+
+        print_evaluation_summary(summary)
+
+        return {"results": results, "summary": summary}
+
+    def _save_retrieval_results(
+        self, eval_results: Dict[str, Any], start_time: float
+    ) -> Dict[str, Any]:
+        """
+        검색 평가 결과 저장
+
+        Args:
+            eval_results: _run_retrieval_only_evaluation의 결과
+            start_time: 실험 시작 시간
+
+        Returns:
+            저장된 결과 정보
+        """
+        results = eval_results["results"]
+        summary = eval_results["summary"]
+
+        # 결과 저장 디렉토리
+        save_results = self.config.evaluation.save_results
+
+        if save_results:
+            # 타임스탬프
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+            # 1. 상세 결과 JSONL 저장
+            results_dir = Path(self.config.evaluation.results_dir)
+            results_dir.mkdir(parents=True, exist_ok=True)
+
+            search_results_file = (
+                results_dir
+                / f"search_results_{self.config.experiment_name}_{timestamp}.jsonl"
+            )
+
+            with open(search_results_file, "w", encoding="utf-8") as f:
+                for result in results:
+                    f.write(json.dumps(result, ensure_ascii=False) + "\n")
+
+            print(f"  ✅ 검색 결과 저장: {search_results_file}")
+
+            # 2. 요약 결과 JSON 저장
+            summary_file = (
+                results_dir / f"summary_{self.config.experiment_name}_{timestamp}.json"
+            )
+
+            summary_data = {
+                "experiment_name": self.config.experiment_name,
+                "experiment_id": self.experiment_id,
+                "timestamp": timestamp,
+                "config": {
+                    "embedder": self.config.embedder.model_name,
+                    "retriever": self.config.retriever.type,
+                    "top_k": self.config.retriever.top_k,
+                },
+                **summary,
+            }
+
+            with open(summary_file, "w", encoding="utf-8") as f:
+                json.dump(summary_data, f, ensure_ascii=False, indent=2)
+
+            print(f"  ✅ 요약 결과 저장: {summary_file}")
+
+            return {
+                "summary": summary_data,
+                "search_results_file": str(search_results_file),
+                "summary_file": str(summary_file),
+            }
+        else:
+            print("  ⚠️  결과 저장 스킵 (save_results=false)")
+            return {"summary": summary}
