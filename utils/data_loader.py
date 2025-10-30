@@ -14,12 +14,12 @@ class S3DataLoader:
     """S3에서 채용공고 PDF와 JSON 메타데이터를 로드하는 클래스"""
 
     def __init__(self, bucket_name: str | None = None):
-        self.bucket_name = bucket_name or os.getenv('S3_BUCKET_NAME', 'career-hi')
+        self.bucket_name = bucket_name or os.getenv("S3_BUCKET_NAME", "career-hi")
         self.s3_client = boto3.client(
-            's3',
-            aws_access_key_id=os.getenv('AWS_ACCESS_KEY_ID'),
-            aws_secret_access_key=os.getenv('AWS_SECRET_ACCESS_KEY'),
-            region_name=os.getenv('AWS_DEFAULT_REGION', 'ap-northeast-2')
+            "s3",
+            aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+            aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+            region_name=os.getenv("AWS_DEFAULT_REGION", "ap-northeast-2"),
         )
 
     def list_s3_files(self, prefix: str) -> List[str]:
@@ -29,22 +29,19 @@ class S3DataLoader:
             continuation_token = None
 
             while True:
-                kwargs = {
-                    'Bucket': self.bucket_name,
-                    'Prefix': prefix
-                }
+                kwargs = {"Bucket": self.bucket_name, "Prefix": prefix}
 
                 if continuation_token:
-                    kwargs['ContinuationToken'] = continuation_token
+                    kwargs["ContinuationToken"] = continuation_token
 
                 response = self.s3_client.list_objects_v2(**kwargs)
 
-                if 'Contents' in response:
-                    files.extend([obj['Key'] for obj in response['Contents']])
+                if "Contents" in response:
+                    files.extend([obj["Key"] for obj in response["Contents"]])
 
                 # 더 많은 파일이 있는지 확인
-                if response.get('IsTruncated', False):
-                    continuation_token = response.get('NextContinuationToken')
+                if response.get("IsTruncated", False):
+                    continuation_token = response.get("NextContinuationToken")
                 else:
                     break
 
@@ -74,17 +71,19 @@ class S3DataLoader:
 
         for json_file in json_files:
             # 실제 JSON 파일만 처리 (디렉토리 제외)
-            if not json_file.endswith('.json'):
+            if not json_file.endswith(".json"):
                 continue
             try:
                 # S3에서 JSON 파일 내용 읽기
-                response = self.s3_client.get_object(Bucket=self.bucket_name, Key=json_file)
-                json_content = response['Body'].read().decode('utf-8')
+                response = self.s3_client.get_object(
+                    Bucket=self.bucket_name, Key=json_file
+                )
+                json_content = response["Body"].read().decode("utf-8")
                 json_data = json.loads(json_content)
 
                 # rec_idx를 키로 하는 매핑 생성
-                if 'rec_idx' in json_data:
-                    metadata_map[str(json_data['rec_idx'])] = json_data
+                if "rec_idx" in json_data:
+                    metadata_map[str(json_data["rec_idx"])] = json_data
 
             except Exception as e:
                 print(f"JSON 파일 로드 실패 ({json_file}): {e}")
@@ -101,7 +100,7 @@ class S3DataLoader:
                 for page_num, page in enumerate(doc, start=1):
                     text_list.append(f"\n--- Page {page_num} ---\n")
                     text_list.append(page.get_text())
-            return ''.join(text_list)
+            return "".join(text_list)
         except Exception as e:
             print(f"PDF 텍스트 추출 실패 ({pdf_path}): {e}")
             return ""
@@ -112,23 +111,19 @@ class S3DataLoader:
 
         # 현재 서비스의 정제 로직과 동일
         patterns_to_remove = [
-            r'최저임금.*?원',
-            r'조회수.*?\d+',
-            r'신고.*?바로가기',
+            r"최저임금.*?원",
+            r"조회수.*?\d+",
+            r"신고.*?바로가기",
             # 추가적인 정제 패턴들을 여기에 추가
         ]
 
         cleaned_text = text
         for pattern in patterns_to_remove:
-            cleaned_text = re.sub(pattern, '', cleaned_text, flags=re.DOTALL)
+            cleaned_text = re.sub(pattern, "", cleaned_text, flags=re.DOTALL)
 
         return cleaned_text.strip()
 
-    def load_documents(
-        self,
-        pdf_prefix: str,
-        json_prefix: str
-    ) -> List[Dict[str, Any]]:
+    def load_documents(self, pdf_prefix: str, json_prefix: str) -> List[Dict[str, Any]]:
         """
         S3에서 PDF와 JSON 데이터를 로드하여 문서 리스트 생성
 
@@ -149,16 +144,16 @@ class S3DataLoader:
 
         for pdf_file in pdf_files:
             # 실제 PDF 파일만 처리 (디렉토리 제외)
-            if not pdf_file.endswith('.pdf'):
+            if not pdf_file.endswith(".pdf"):
                 continue
 
             # PDF 파일명에서 rec_idx 추출 (실제 서비스와 동일한 방식)
             pdf_filename = Path(pdf_file).name
-            pdf_stem = pdf_filename.replace('.pdf', '')
+            pdf_stem = pdf_filename.replace(".pdf", "")
 
             # 파일명에서 rec_idx 추출 (마지막 '_' 이후 부분)
-            if '_' in pdf_stem:
-                rec_idx = pdf_stem.split('_')[-1]
+            if "_" in pdf_stem:
+                rec_idx = pdf_stem.split("_")[-1]
             else:
                 rec_idx = pdf_stem
 
@@ -170,7 +165,7 @@ class S3DataLoader:
                     "rec_idx": rec_idx,
                     "title": f"문서_{rec_idx}",
                     "company": "알 수 없음",
-                    "source": "s3_pdf_only"
+                    "source": "s3_pdf_only",
                 }
                 metadata_map[rec_idx] = basic_metadata
 
@@ -194,13 +189,10 @@ class S3DataLoader:
                     **metadata_map[rec_idx],
                     "source": "s3",
                     "pdf_file": pdf_file,
-                    "rec_idx": rec_idx
+                    "rec_idx": rec_idx,
                 }
 
-                documents.append({
-                    "text": cleaned_text,
-                    "metadata": metadata
-                })
+                documents.append({"text": cleaned_text, "metadata": metadata})
 
                 processed_count += 1
 
