@@ -10,7 +10,8 @@ Career-HY RAG 시스템의 다양한 파라미터를 체계적으로 실험하�
 4. [사용 방법](#4-사용-방법)
 5. [아키텍처](#5-아키텍처)
 6. [실제 서비스 통합 가이드](#6-실제-서비스-통합-가이드)
-7. [참고 자료](#7-참고-자료)
+7. [실험 결과 및 분석](#55-실험-결과-및-분석)
+8. [참고 자료](#7-참고-자료)
 
 ---
 
@@ -455,6 +456,119 @@ StructuredDocumentLoader (섹션별 청킹)
   - Personalization Score: 개인화 수준
   - Response Helpfulness: 도움 정도
   - Profile Alignment: 프로필 일치도
+
+---
+
+## 5.5 실험 결과 및 분석
+
+### 5.5.1 문제점 및 개선 방안
+
+#### 기존 문제점
+1. **GT 신뢰성 부족**: 기존 GT는 정답 데이터가 5개로 제한되어 신뢰성이 낮음
+2. **노이즈 문제**: 단순 텍스트 청킹으로 무의미한 텍스트 포함 → 노이즈가 많음
+
+#### 개선 방안
+1. **태그 기반 클러스터링**: 텍스트에서 tag 정보를 이용해서 정답 군집 생성
+2. **StructuredDocumentLoader 구현**: JobPostParser를 활용해 섹션별 청킹
+   - 섹션 타입별로 청크 분리: `preferred`, `qualifications`, `job_duties`
+   - 각 chunk에 섹션 타입 메타데이터 포함
+
+### 5.5.2 실험 설정
+
+#### 1) Baseline: Recursive Chunking
+- **설정 파일**: `configs/baseline_search.yaml`
+- **Chunker**: `recursive` (chunk_size: 700, chunk_overlap: 100)
+- **StructuredDocumentLoader**: 사용 안함
+- **목적**: 기본 검색 성능 벤치마크 측정
+- **데이터 버전**: v3
+- **처리된 문서 수**: 4,121개
+
+#### 2) StructuredDocumentLoader (섹션별 청킹)
+- **설정 파일**: `configs/new_eval_baseline.yaml`
+- **Chunker**: `no_chunk` (StructuredDocumentLoader가 수행)
+- **StructuredDocumentLoader**: 사용 (`use_structured_loader: true`)
+- **Target Section**: `preferred`, `qualifications`, `job_duties`
+- **목적**: 섹션별 청킹 효과 측정
+- **데이터 버전**: v4
+- **처리된 문서 수**: 2,503개
+
+#### 3) StructuredDocumentLoader + Recursive Chunking
+- **설정 파일**: `configs/new_eval_baseline_recursive.yaml`
+- **Chunker**: `recursive` (chunk_size: 500, chunk_overlap: 75)
+- **StructuredDocumentLoader**: 사용 (`use_structured_loader: true`)
+- **Target Section**: `preferred`, `qualifications`, `job_duties`
+- **목적**: 섹션별 청킹 + Recursive chunking 하이브리드 효과 측정
+- **데이터 버전**: v4
+- **처리된 문서 수**: 3,124개
+
+### 5.5.3 검색 성능 비교
+
+| Metric | Baseline | 섹션 청킹 | 섹션+Recursive | 최우수 |
+|--------|----------|-----------|----------------|--------|
+| **ndcg@10** | 0.2205 | **0.2591** | 0.2547 | ✅ 섹션 청킹 |
+| **mrr@10** | 0.4227 | **0.4606** | 0.4468 | ✅ 섹션 청킹 |
+| **precision@3** | **0.2479** | 0.2308 | 0.2350 | ✅ Baseline |
+| **precision@5** | 0.2128 | **0.2205** | 0.2077 | ✅ 섹션 청킹 |
+| **precision@10** | 0.1628 | **0.1679** | 0.1667 | ✅ 섹션 청킹 |
+| **precision@20** | 0.1314 | **0.1353** | 0.1321 | ✅ 섹션 청킹 |
+| **recall@10** | 0.1061 | 0.1086 | **0.1090** | ✅ 섹션+Recursive |
+| **recall@20** | 0.1547 | **0.1609** | 0.1591 | ✅ 섹션 청킹 |
+| **r_recall** | 0.1204 | **0.1345** | 0.1297 | ✅ 섹션 청킹 |
+| **hit@10_count** | 1.628 | **1.680** | 1.667 | ✅ 섹션 청킹 |
+| **hit@20_count** | 2.628 | **2.705** | 2.641 | ✅ 섹션 청킹 |
+
+**결론**: 섹션별 청킹이 대부분의 검색 성능 지표에서 최우수 성능을 보임
+
+### 5.5.4 생성 품질 비교 (LangSmith 평가)
+
+| Metric | Baseline | 섹션 청킹 | 섹션+Recursive | 최우수 |
+|--------|----------|-----------|----------------|--------|
+| **recommendation_quality** | 4.2 | 4.2 | **4.3** | ✅ 섹션+Recursive |
+| **personalization_score** | **4.5** | **4.5** | 4.4 | ✅ Baseline/섹션 청킹 |
+| **response_helpfulness** | **4.4** | 4.2 | 4.3 | ✅ Baseline |
+| **profile_alignment** | 4.0 | 4.0 | **4.1** | ✅ 섹션+Recursive |
+
+**결론**: 생성 품질은 세 방법 모두 유사하나, 섹션+Recursive가 약간 우수 (차이는 매우 작음)
+
+### 5.5.5 GT 데이터셋 통계
+
+#### 데이터셋 구조
+- **파일**: `data/gt_eval_fullquery_cluster_ids.jsonl`
+- **총 쿼리 수**: 79개
+- **평균 GT 문서 수**: 19.8개
+- **최대 GT 문서 수**: 57개
+- **최소 GT 문서 수**: 1개
+
+#### GT 특징
+- **클러스터 기반**: 같은 클러스터의 모든 문서를 GT로 사용
+- **가변 크기**: 쿼리별 GT 문서수가 다름
+- **중복 허용**: 같은 문서가 여러 쿼리의 GT에 포함될 수 있음
+
+#### 쿼리 텍스트 구조
+```markdown
+질문: [사용자 질문]
+전공: [전공 정보]
+관심 직무: [관심 직무]
+자격증: [자격증 목록]
+동아리/대외활동: [활동 내역]
+수강 이력:
+[강의명] | [핵심 역량] | [강의 개요] | [학습 목표]
+```
+
+### 5.5.6 동적 top_k 설정
+
+#### 문제점
+- GT 문서 수가 top_k보다 큰 경우, R-recall 계산 불가
+- 예: GT 32개, top_k=20 → 최대 recall 20/32 = 0.625
+
+#### 해결 방법
+```python
+gt_count = len(ground_truth)
+evaluation_top_k = min(max(base_top_k, gt_count), 60)
+# 최소 top_k와 GT 개수 중 큰 값 사용, 최대 60개로 제한
+```
+
+이를 통해 가변 크기 GT에 대해 정확한 R-recall 계산이 가능합니다.
 
 ---
 
