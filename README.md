@@ -30,6 +30,9 @@ Career-HY RAG 시스템의 다양한 파라미터를 체계적으로 실험하�
 - 📝 **YAML 설정**: 코드 수정 없이 실험 파라미터 조정
 - 🎯 **섹션별 청킹**: 채용공고의 구조화된 정보(우대사항, 자격요건, 주요업무) 활용
 - 📈 **GT 자동 생성**: 클러스터링 기반 Ground Truth 데이터셋 생성
+- 🔄 **통합 파이프라인**: GT 생성 관련 기능을 하나의 파이프라인으로 통합
+- ⚡ **동적 평가**: 정답 개수에 따른 자동 top_k 조정
+- 📅 **메타데이터 확장**: deadline, start_date, crawling_time 지원
 
 ---
 
@@ -48,9 +51,16 @@ Career-HY RAG 시스템의 다양한 파라미터를 체계적으로 실험하�
 #### 평가 지표
 - **Recall@k**: 전체 관련 문서 중 상위 k개 검색 결과에 포함된 관련 문서의 비율
 - **Precision@k**: 상위 k개 검색 결과 중 실제로 관련 있는 문서의 비율
-- **MRR**: 각 쿼리의 첫 번째 관련 문서 순위의 역수 평균
+- **MRR@k**: 각 쿼리의 첫 번째 관련 문서 순위의 역수 평균 (상위 k개 내)
 - **MAP**: 모든 관련 문서 순위를 고려한 종합적 성능
 - **nDCG@k**: 순위가 높을수록 더 중요하다고 가정한 성능 측정
+- **R-recall**: Recall@(정답개수) - 정답 문서 개수만큼의 recall 계산
+- **Hit@k_count**: 상위 k개 검색 결과 중 정답 문서의 개수
+
+#### 평가 시스템 개선 사항
+- **동적 top_k 지원**: R-recall 계산을 위해 정답 개수에 따라 top_k 자동 조정
+  - `evaluation_top_k = min(max(base_top_k, gt_count), 60)`
+  - 정답이 많은 쿼리에서도 정확한 평가 가능
 
 #### LangSmith 정성평가
 - **Recommendation Quality**: 추천 품질 전반
@@ -88,6 +98,35 @@ loader = StructuredDocumentLoader(
 chunks = loader.load_from_documents(documents)
 ```
 
+#### 2.2.1 메타데이터 확장
+
+채용공고의 시간 정보를 포함한 확장된 메타데이터를 지원합니다.
+
+##### 지원 메타데이터 필드
+- **deadline**: 채용공고 마감일
+- **start_date**: 채용공고 시작일
+- **crawling_time**: 데이터 크롤링 시각
+- **기본 필드**: rec_idx, title, company, url, tags 등
+
+##### 메타데이터 보존
+- **StructuredDocumentLoader**: 모든 청크에 원본 메타데이터 전체 보존
+- **Fallback 청크**: 경량/일반 fallback 모두 메타데이터 보존
+- **벡터 DB 저장**: ChromaDB에 메타데이터 전체 저장
+- **응답 생성**: Response Generator에서 메타데이터 활용
+
+##### 사용 예시
+```python
+# 청크 메타데이터 확인
+chunk = chunks[0]
+print(chunk.metadata.get("deadline"))      # 마감일
+print(chunk.metadata.get("start_date"))   # 시작일
+print(chunk.metadata.get("crawling_time")) # 크롤링 시각
+```
+
+##### 프롬프트 활용
+- 프롬프트에 마감일 정보 자동 포함
+- 응답 생성 시 시간 정보 활용 가능
+
 ### 2.3 GT 생성 파이프라인
 
 클러스터링 기반 Ground Truth 데이터셋 자동 생성 시스템입니다.
@@ -109,8 +148,24 @@ chunks = loader.load_from_documents(documents)
 
 #### 실행 방법
 ```bash
+# 전체 파이프라인 실행 (기본)
 python gt_generation_pipeline.py
+
+# CSV → JSONL 변환
+python gt_generation_pipeline.py --convert-csv data/gt.csv data/output.jsonl
+
+# 평가용 데이터 생성
+python gt_generation_pipeline.py --create-eval data/gt_analysis.csv data/eval.jsonl
+
+# 규칙 검증만 실행
+python gt_generation_pipeline.py --validate-rules
 ```
+
+#### 통합된 기능
+- **유사도 규칙 검증**: 규칙 파일의 유효성 검사 및 커버리지 분석
+- **CSV → JSONL 변환**: GT CSV를 평가 파이프라인 형식으로 변환
+- **평가용 데이터 생성**: GT Analysis CSV를 평가용 JSONL로 변환
+- **대표 문서 선택**: SentenceTransformer 기반 쿼리-문서 유사도 계산
 
 ### 2.4 클러스터링 파이프라인
 
@@ -279,6 +334,36 @@ python run_experiment.py configs/baseline_search.yaml
 - `results/`: 실험 결과 JSON 파일
 - LangSmith 웹 인터페이스: https://smith.langchain.com
 
+### 4.1.1 설정 파일 설명
+
+프로젝트에는 다양한 실험 시나리오를 위한 설정 파일이 포함되어 있습니다.
+
+#### baseline_search.yaml
+- **용도**: 기본 검색 성능 평가 실험
+- **특징**:
+  - Recursive Chunking 방식 사용 (chunk_size: 700, chunk_overlap: 100)
+  - StructuredDocumentLoader 미사용 (전체 텍스트 파싱)
+  - 데이터 버전: v3
+- **사용 시나리오**: 기본 검색 성능 벤치마크 측정
+
+#### new_eval_baseline.yaml
+- **용도**: StructuredDocumentLoader 기반 섹션별 청킹 실험
+- **특징**:
+  - StructuredDocumentLoader 사용 (섹션별 청킹)
+  - 청킹 방식: no_chunk (섹션 단위로만 분할)
+  - 타겟 섹션: preferred, qualifications, job_duties
+  - 데이터 버전: v4
+- **사용 시나리오**: 섹션별 구조화된 청킹의 효과 측정
+
+#### new_eval_baseline_recursive.yaml
+- **용도**: StructuredDocumentLoader + Recursive Chunking 하이브리드 실험
+- **특징**:
+  - StructuredDocumentLoader 사용 (섹션별 청킹)
+  - Recursive Chunking 추가 적용 (chunk_size: 500, chunk_overlap: 75)
+  - 타겟 섹션: preferred, qualifications, job_duties
+  - 데이터 버전: v4
+- **사용 시나리오**: 하이브리드 청킹 전략 성능 평가
+
 ### 4.2 GT 데이터셋 생성
 
 #### 1. 클러스터링 실행
@@ -358,11 +443,18 @@ StructuredDocumentLoader (섹션별 청킹)
 
 #### Retrieval 평가
 - 전체 쿼리에 대한 검색 성능 측정
-- Recall@k, Precision@k, MRR, MAP, nDCG@k 계산
+- **지원 지표**: Recall@k, Precision@k, MRR@k, MAP, nDCG@k, R-recall, Hit@k_count
+- **동적 top_k**: 정답 개수에 따라 검색 범위 자동 조정 (최대 60개)
+- **평가 순서**: 사용자 요청 순서대로 지표 계산 및 출력
 
 #### Generation 평가 (LangSmith)
 - 샘플 쿼리에 대한 응답 생성 및 정성평가
 - Profile-based Sampling (15개 고유 프로필)
+- **4가지 정성 평가 지표**:
+  - Recommendation Quality: 추천 품질 전반
+  - Personalization Score: 개인화 수준
+  - Response Helpfulness: 도움 정도
+  - Profile Alignment: 프로필 일치도
 
 ---
 
