@@ -292,7 +292,7 @@ class ExperimentPipeline:
         self, documents: List[Dict[str, Any]], components: Dict[str, Any]
     ) -> tuple:
         """
-        StructuredDocumentLoader + 텍스트 기반 JobPostParser를 사용한
+        StructuredDocumentLoader + JobPostParser를 사용한
         섹션별 청킹 및 임베딩 처리 (캐싱 지원)
         """
         embedder = components["embedder"]
@@ -321,7 +321,7 @@ class ExperimentPipeline:
             include_context=True,
         )
 
-        print("문서 구조화 청킹 중 (StructuredDocumentLoader + TextJobPostParser)...")
+        print("문서 구조화 청킹 중 (StructuredDocumentLoader + JobPostParser)...")
         chunks: List[Chunk] = loader.load_from_documents(documents)
 
         # Text 파서 결과 통계 출력 및 중간 결과 저장

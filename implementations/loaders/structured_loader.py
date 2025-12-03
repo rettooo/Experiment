@@ -4,7 +4,6 @@ StructuredDocumentLoader: JobPostParser 기반 구조화 문서 로더
 섹션별 청크 생성 및 ChromaDB 메타데이터 관리
 """
 
-import pickle
 import json
 import tempfile
 from pathlib import Path
@@ -162,131 +161,6 @@ class StructuredDocumentLoader:
 
         return company, title
 
-    def load_from_cache(
-        self, cache_file: str, limit: Optional[int] = None, save_progress: bool = True
-    ) -> List[Chunk]:
-        """
-        캐시된 S3 데이터에서 문서 로드 및 파싱
-
-        Args:
-            cache_file: documents.pkl 경로
-            limit: 처리할 문서 수 제한 (None이면 전체)
-            save_progress: 진행상황 중간 저장 여부
-
-        Returns:
-            청크 리스트
-        """
-        print(f"\n{'='*80}")
-        print(f"📂 캐시 파일 로드: {cache_file}")
-        print(f"{'='*80}")
-
-        # 캐시 로드
-        with open(cache_file, "rb") as f:
-            cached_data = pickle.load(f)
-
-        total_docs = len(cached_data)
-        process_count = limit if limit else total_docs
-
-        print(f"✅ 총 문서: {total_docs}개")
-        print(f"🎯 처리 대상: {process_count}개")
-        print(f"\n{'='*80}")
-        print(f"📋 문서 파싱 시작")
-        print(f"{'='*80}\n")
-
-        # 문서 파싱
-        self.chunks = []
-        failed_docs = []
-
-        # 캐시 데이터가 리스트인 경우
-        if isinstance(cached_data, list):
-            docs_to_process = cached_data[:process_count]
-        else:
-            # 딕셔너리인 경우 (하위 호환성)
-            docs_to_process = list(cached_data.items())[:process_count]
-
-        for idx, doc_item in enumerate(tqdm(docs_to_process, desc="문서 파싱")):
-            try:
-                # 리스트 형태: {'text': ..., 'metadata': {...}}
-                if isinstance(doc_item, dict) and "metadata" in doc_item:
-                    doc_metadata = doc_item["metadata"]
-                    raw_text = doc_item.get("text", "")
-                    rec_id = doc_metadata.get("rec_idx", f"unknown_{idx}")
-
-                    # raw_text에서 회사명과 직무명 추출
-                    company, title = self.extract_company_and_title(raw_text)
-
-                    # 메타데이터 추출
-                    metadata = {
-                        "rec_idx": str(rec_id),
-                        "company": company,
-                        "title": title,
-                        "url": doc_metadata.get(
-                            "detail_url",
-                            f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={rec_id}",
-                        ),
-                    }
-                # 딕셔너리 형태 (하위 호환성): (rec_id, {data})
-                else:
-                    rec_id, doc_data = doc_item
-                    raw_text = doc_data.get("text", "")
-
-                    # raw_text에서 회사명과 직무명 추출
-                    company, title = self.extract_company_and_title(raw_text)
-
-                    metadata = {
-                        "rec_idx": str(rec_id),
-                        "company": company,
-                        "title": title,
-                        "url": doc_data.get(
-                            "detail_url",
-                            f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={rec_id}",
-                        ),
-                    }
-
-                # 텍스트 검증
-                if not raw_text or len(raw_text) < 50:
-                    failed_docs.append((rec_id, "텍스트 없음"))
-                    continue
-
-                # 임시 파일로 저장하여 파싱
-                with tempfile.NamedTemporaryFile(
-                    mode="w", suffix=".txt", delete=False, encoding="utf-8"
-                ) as tmp_file:
-                    tmp_file.write(raw_text)
-                    tmp_path = tmp_file.name
-
-                # JobPostParser로 파싱
-                parsed_chunks = self.parser.process_document(
-                    doc_path=tmp_path, original_metadata=metadata
-                )
-
-                # 임시 파일 삭제
-                Path(tmp_path).unlink()
-
-                # 섹션 필터링 및 Chunk 객체 생성 (raw_text 전달)
-                doc_chunks = self._create_chunks_from_parsed(
-                    parsed_chunks, base_metadata=metadata, raw_text=raw_text
-                )
-
-                self.chunks.extend(doc_chunks)
-
-            except Exception as e:
-                failed_docs.append((rec_id, str(e)))
-                continue
-
-        # 결과 출력
-        print(f"\n{'='*80}")
-        print(f"✅ 파싱 완료")
-        print(f"{'='*80}")
-        print(f"📊 총 청크 수: {len(self.chunks)}개")
-        print(f"❌ 실패 문서: {len(failed_docs)}개")
-
-        if failed_docs and len(failed_docs) <= 10:
-            print(f"\n실패 문서 목록:")
-            for rec_id, reason in failed_docs:
-                print(f"  - {rec_id}: {reason}")
-        return self.chunks
-
     def load_from_documents(
         self, documents: List[Dict[str, Any]], limit: Optional[int] = None
     ) -> List[Chunk]:
@@ -442,54 +316,6 @@ class StructuredDocumentLoader:
                 print(f"  ... 외 {len(failed_docs) - 20}개 실패")
 
         return self.chunks
-
-    def load_and_chunk(
-        self, pdf_path: str, metadata: Optional[Dict[str, Any]] = None
-    ) -> List[Chunk]:
-        """
-        단일 PDF 파일 파싱 및 청크 생성
-
-        Args:
-            pdf_path: PDF 파일 경로
-            metadata: 기본 메타데이터
-                - rec_idx (필수)
-                - company, title, url (선택)
-
-        Returns:
-            청크 리스트
-        """
-        if metadata is None:
-            metadata = {}
-
-        # rec_idx 필수 체크 (rec_id도 호환성 위해 허용)
-        rec_idx = metadata.get("rec_idx") or metadata.get("rec_id")
-        if not rec_idx:
-            raise ValueError("metadata에 'rec_idx' 또는 'rec_id' 필수")
-
-        # 기본값 설정
-        base_metadata = {
-            "rec_idx": str(rec_idx),
-            "company": metadata.get("company", "미상"),
-            "title": metadata.get("title", "미상"),
-            "url": metadata.get(
-                "url",
-                f"https://www.career.go.kr/cnet/front/extr/extrJobView.do?rec_idx={rec_idx}",
-            ),
-        }
-
-        # JobPostParser로 파싱
-        parsed_chunks = self.parser.process_document(
-            doc_path=pdf_path, original_metadata=base_metadata
-        )
-
-        # Chunk 객체 생성
-        doc_chunks = self._create_chunks_from_parsed(
-            parsed_chunks, base_metadata=base_metadata
-        )
-
-        self.chunks.extend(doc_chunks)
-
-        return doc_chunks
 
     def _create_fallback_chunk(
         self, raw_text: str, base_metadata: Dict[str, Any], tags: List[str]
