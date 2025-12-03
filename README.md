@@ -2,11 +2,25 @@
 
 Career-HY RAG 시스템의 다양한 파라미터를 체계적으로 실험하여 검색 성능을 최적화하기 위한 파이프라인입니다.
 
-## 🎯 프로젝트 개요
+## 📋 목차
+
+1. [프로젝트 개요](#1-프로젝트-개요)
+2. [주요 기능](#2-주요-기능)
+3. [설치 및 설정](#3-설치-및-설정)
+4. [사용 방법](#4-사용-방법)
+5. [아키텍처](#5-아키텍처)
+6. [실제 서비스 통합 가이드](#6-실제-서비스-통합-가이드)
+7. [참고 자료](#7-참고-자료)
+
+---
+
+## 1. 프로젝트 개요
 
 ### 목적
 - **검색 성능 최적화**: 다양한 임베딩 모델, 청킹 전략, 검색 알고리즘 비교
 - **체계적 실험**: YAML 기반 설정으로 재현 가능한 실험 환경 제공
+- **GT 데이터셋 생성**: 클러스터링 기반 Ground Truth 데이터셋 자동 생성
+- **실제 서비스 적용**: StructuredDocumentLoader 및 메타데이터 확장 기능 제공
 
 ### 주요 특징
 - 🐳 **Docker 기반**: 일관된 실험 환경 보장
@@ -14,32 +28,180 @@ Career-HY RAG 시스템의 다양한 파라미터를 체계적으로 실험하�
 - 📊 **다양한 평가 지표**: Recall@k, Precision@k, MRR, MAP, nDCG@k
 - 🔧 **모듈형 아키텍처**: 쉬운 확장성과 유지보수
 - 📝 **YAML 설정**: 코드 수정 없이 실험 파라미터 조정
+- 🎯 **섹션별 청킹**: 채용공고의 구조화된 정보(우대사항, 자격요건, 주요업무) 활용
+- 📈 **GT 자동 생성**: 클러스터링 기반 Ground Truth 데이터셋 생성
 
-## 📁 디렉토리 구조
+---
+
+## 2. 주요 기능
+
+### 2.1 RAG 실험 파이프라인
+
+체계적이고 재현 가능한 RAG 실험을 위한 종합 파이프라인입니다.
+
+#### 핵심 기능
+- **다양한 임베딩 모델 지원**: OpenAI, Snowflake 등
+- **다양한 청킹 전략**: Recursive, Fixed, No Chunk
+- **벡터 검색 시스템**: ChromaDB, FAISS
+- **종합 평가 시스템**: 검색 성능 + LangSmith 정성평가
+
+#### 평가 지표
+- **Recall@k**: 전체 관련 문서 중 상위 k개 검색 결과에 포함된 관련 문서의 비율
+- **Precision@k**: 상위 k개 검색 결과 중 실제로 관련 있는 문서의 비율
+- **MRR**: 각 쿼리의 첫 번째 관련 문서 순위의 역수 평균
+- **MAP**: 모든 관련 문서 순위를 고려한 종합적 성능
+- **nDCG@k**: 순위가 높을수록 더 중요하다고 가정한 성능 측정
+
+#### LangSmith 정성평가
+- **Recommendation Quality**: 추천 품질 전반
+- **Personalization Score**: 개인화 수준
+- **Response Helpfulness**: 도움 정도
+- **Profile Alignment**: 프로필 일치도
+
+### 2.2 StructuredDocumentLoader
+
+채용공고의 구조화된 정보를 활용한 섹션별 청킹 시스템입니다.
+
+#### 주요 특징
+- **섹션별 청킹**: 우대사항(preferred), 자격요건(qualifications), 주요업무(job_duties) 별도 처리
+- **JobPostParser**: `unstructured` 라이브러리 기반 PDF 파싱
+- **메타데이터 보존**: 원본 JSON 메타데이터 전체 보존 (deadline, start_date, crawling_time 포함)
+- **Context 주입**: 각 청크에 `[회사: ...] [직무: ...]` 자동 추가
+
+#### 통계
+- 총 청크: 2,039개 (1,473개 문서)
+- 섹션별 분포:
+  - `preferred`: 1,036개 (50.8%)
+  - `qualifications`: 398개 (19.5%)
+  - `job_duties`: 279개 (13.7%)
+  - `full_text` (fallback): 326개 (16.0%)
+
+#### 사용 예시
+```python
+from implementations.loaders.structured_loader import StructuredDocumentLoader
+
+loader = StructuredDocumentLoader(
+    strategy="fast",  # 또는 "hi_res"
+    target_sections=["preferred", "qualifications", "job_duties"],
+    include_context=True
+)
+chunks = loader.load_from_documents(documents)
+```
+
+### 2.3 GT 생성 파이프라인
+
+클러스터링 기반 Ground Truth 데이터셋 자동 생성 시스템입니다.
+
+#### 파이프라인 단계
+1. **Phase 1**: 중분류 기반 초기 클러스터 생성
+2. **Phase 2**: 유사 중분류 병합 (규칙 기반)
+3. **Phase 3**: 대표 문서 선택 (쿼리-문서 유사도 기반)
+4. **Phase 4**: 통계 및 결과 저장
+
+#### 입력 데이터
+- `clustering_results_tag_based/*_classification.json`: 대분류별 분류 결과
+- `similarity_rules_template.json`: 유사 중분류 병합 규칙
+
+#### 출력 데이터
+- `gt_generation_results/gt_clusters.json`: 클러스터 정보 및 대표 문서
+- `gt_generation_results/gt_clusters_summary.csv`: 클러스터 요약 정보
+- `gt_generation_results/gt_generation_statistics.txt`: 통계 정보
+
+#### 실행 방법
+```bash
+python gt_generation_pipeline.py
+```
+
+### 2.4 클러스터링 파이프라인
+
+태그 + 제목 기반으로 채용공고를 직무별로 클러스터링하는 시스템입니다.
+
+#### 주요 기능
+- **태그 기반 분류**: 대분류/중분류 자동 할당
+- **다중 카테고리 지원**: 하나의 문서가 여러 대분류에 속할 수 있음
+- **UMAP + HDBSCAN**: 차원 축소 및 클러스터링
+
+#### 실행 방법
+```bash
+python job_clustering_pipeline.py
+```
+
+#### 출력 결과
+- `clustering_results_tag_based/`: 대분류별 분류 결과
+- `clustering_results/`: 클러스터링 결과 및 시각화
+
+---
+
+## 3. 설치 및 설정
+
+### 3.1 필수 요구사항
+- Python 3.8 이상
+- Docker 및 Docker Compose
+- AWS 자격 증명 (S3 접근용)
+- OpenAI API Key (임베딩 및 LLM용)
+
+### 3.2 설치
+
+#### 1. 저장소 클론
+```bash
+git clone <repository-url>
+cd Experiment
+```
+
+#### 2. 환경 변수 설정
+`.env` 파일 생성:
+```bash
+# OpenAI API
+OPENAI_API_KEY=your_api_key
+
+# AWS S3
+AWS_ACCESS_KEY_ID=your_access_key
+AWS_SECRET_ACCESS_KEY=your_secret_key
+AWS_DEFAULT_REGION=ap-northeast-2
+
+# LangSmith (선택)
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_API_KEY=your_langsmith_key
+```
+
+#### 3. Docker 빌드 및 실행
+```bash
+docker-compose build
+docker-compose up -d
+```
+
+#### 4. 의존성 설치 (로컬 실행 시)
+```bash
+pip install -r requirements.txt
+# 클러스터링/GT 생성용 추가 의존성
+pip install -r requirements_clustering.txt
+```
+
+### 3.3 디렉토리 구조
 
 ```
 Experiment/
 ├── configs/                 # 실험 설정 파일들
-│   ├── baseline.yaml       # 베이스라인 설정 (현재 서비스)
-│   └── chunking_test.yaml  # 청킹 전략 실험 설정
+│   ├── baseline_search.yaml
+│   ├── new_eval_baseline.yaml
+│   └── new_eval_baseline_recursive.yaml
 ├── core/                   # 핵심 파이프라인
 │   ├── interfaces/        # 추상 인터페이스 (ABC)
 │   ├── pipeline.py        # 메인 실험 파이프라인
 │   └── config.py         # 설정 관리
 ├── implementations/       # 구현체들
-│   ├── embedders/        # 임베딩 모델 (OpenAI 등)
-│   ├── chunkers/         # 청킹 전략 (RecursiveCharacterTextSplitter 등)
-│   ├── retrievers/       # 검색 시스템 (ChromaDB 등)
-│   └── evaluators/       # 평가 지표 계산
+│   ├── embedders/        # 임베딩 모델
+│   ├── chunkers/         # 청킹 전략
+│   ├── retrievers/       # 검색 시스템
+│   ├── evaluators/       # 평가 지표 계산
+│   ├── loaders/          # StructuredDocumentLoader
+│   └── parsers/          # JobPostParser
 ├── utils/                # 유틸리티
 │   ├── data_loader.py    # S3 데이터 로드
 │   ├── embedding_cache.py # 임베딩 캐싱 시스템
-│   ├── gt_converter.py   # Ground Truth CSV→JSONL 변환기
 │   └── factory.py        # 컴포넌트 팩토리
 ├── data/                 # Ground Truth 데이터
-│   ├── test_queries.jsonl      # 테스트 쿼리 (575개)
-│   ├── test_queries_small.jsonl # 작은 테스트 셋 (3개)
-│   └── ground_truth.jsonl      # Ground Truth 데이터
+│   └── gt_eval_fullquery_cluster_ids.jsonl
 ├── cache/                # 임베딩 캐시 저장소
 ├── results/              # 실험 결과
 ├── run_experiment.sh     # 메인 실험 실행 스크립트
@@ -48,27 +210,14 @@ Experiment/
 └── requirements.txt     # Python 의존성
 ```
 
-## 실험 방법
+---
 
-### 1. yaml 파일 설정
+## 4. 사용 방법
 
-confgis 디렉토리에 실험하고자 하는 옵션을 지정하여 yaml 파일 작성 (baseline.yaml 및 아래 실허 설정 참고)
+### 4.1 실험 실행
 
-### 2. 실험 실행
-
-```bash
-# 베이스라인 실험 (현재 서비스와 동일한 설정)
-./run_experiment.sh configs/baseline.yaml
-```
-
-### 3. 결과 확인
-
-results 디렉토리에서 json 결과 파일 확인
-
-
-## 📊 실험 설정
-
-### YAML 설정 파일 구조
+#### 1. YAML 설정 파일 작성
+`configs/` 디렉토리에 실험 설정 파일 작성:
 
 ```yaml
 # 실험 기본 정보
@@ -107,209 +256,236 @@ data:
   s3_bucket: "career-hi"
   pdf_prefix: "initial-dataset/pdf/"
   json_prefix: "initial-dataset/json/"
-  test_queries_path: "data/test_queries.jsonl"
+  test_queries_path: "data/gt_eval_fullquery_cluster_ids.jsonl"
+  use_structured_loader: false  # StructuredDocumentLoader 사용 여부
 
 # 평가 설정
 evaluation:
+  mode: "retrieval_only"  # 또는 "dual"
   metrics: ["recall@k", "precision@k", "mrr", "map", "ndcg@k"]
   k_values: [1, 3, 5, 10]
 ```
 
-### 평가 지표
-
-#### Recall@k (재현율)
-- **정의**: 전체 관련 문서 중 상위 k개 검색 결과에 포함된 관련 문서의 비율
-- **계산**: `Recall@k = (상위 k개 중 관련 문서 수) / (전체 관련 문서 수)`
-- **의미**: 놓친 관련 문서가 얼마나 적은지 측정 (높을수록 좋음)
-- **예시**: 관련 문서 10개 중 상위 5개에서 3개 발견 → Recall@5 = 0.3
-
-#### Precision@k (정밀도)
-- **정의**: 상위 k개 검색 결과 중 실제로 관련 있는 문서의 비율
-- **계산**: `Precision@k = (상위 k개 중 관련 문서 수) / k`
-- **의미**: 검색 결과의 정확성 측정 (높을수록 좋음)
-- **예시**: 상위 5개 중 3개가 관련 있음 → Precision@5 = 0.6
-
-#### MRR (Mean Reciprocal Rank)
-- **정의**: 각 쿼리의 첫 번째 관련 문서 순위의 역수 평균
-- **계산**: `MRR = (1/|Q|) × Σ(1/rank_i)` (rank_i = 첫 번째 관련 문서 순위)
-- **의미**: 관련 문서가 얼마나 상위에 위치하는지 측정 (높을수록 좋음)
-- **예시**: 첫 관련 문서가 3번째 → RR = 1/3 = 0.333
-
-#### MAP (Mean Average Precision)
-- **정의**: 각 쿼리의 Average Precision의 평균값
-- **계산**: `MAP = (1/|Q|) × Σ(AP_i)` (AP = 관련 문서별 Precision 평균)
-- **의미**: 모든 관련 문서 순위를 고려한 종합적 성능 (높을수록 좋음)
-- **특징**: Precision과 Recall을 모두 반영한 균형 잡힌 지표
-
-#### nDCG@k (Normalized Discounted Cumulative Gain)
-- **정의**: 상위 k개 결과의 순위별 가중 점수를 이상적 순위와 비교한 정규화 점수
-- **계산**: `nDCG@k = DCG@k / IDCG@k`
-- **의미**: 순위가 높을수록 더 중요하다고 가정한 성능 측정 (높을수록 좋음)
-- **특징**: 상위 순위에 있는 관련 문서에 더 높은 가중치 부여
-
-
-## 🎭 LangSmith 정성평가 (LLM-as-Judge)
-
-실험 파이프라인은 검색 성능 지표 외에도 생성된 응답의 품질을 평가하기 위한 LangSmith 기반 정성평가를 지원합니다.
-
-### 정성평가 개요
-
-#### 평가 방식: 이중 평가 시스템
-1. **검색 평가**: 전체 575개 쿼리에 대한 검색 성능 측정
-2. **생성 평가**: 15개 샘플 쿼리에 대한 응답 생성 및 정성평가
-
-#### 샘플링 전략: Profile-based Sampling
-- **목적**: 비용 효율적이면서도 대표성 있는 평가
-- **방법**: MD5 해시 기반 고유 사용자 프로필 식별
-- **결과**: 575개 쿼리 중 15개 고유 프로필 선택
-
-### 4가지 정성평가 지표
-
-#### 1. Recommendation Quality (추천 품질)
-- **평가 대상**: 생성된 채용공고 추천의 전반적 품질
-- **평가 기준**:
-  - 관련성: 사용자 질문과 추천 공고의 연관성
-  - 개인화: 사용자 프로필과 추천의 맞춤성
-  - 구체성: 추천 이유의 상세함과 유용성
-- **점수 범위**: 1-5점 (높을수록 좋음)
-
-#### 2. Personalization Score (개인화 점수)
-- **평가 대상**: 응답이 사용자에게 얼마나 개인화되어 있는가
-- **평가 기준**: 프로필 요소(전공, 관심직무, 자격증 등)가 추천에 반영된 정도
-- **점수 범위**: 1-5점 (높을수록 좋음)
-
-#### 3. Response Helpfulness (응답 도움 정도)
-- **평가 대상**: 취업 준비생에게 얼마나 실용적인 도움이 되는가
-- **평가 기준**: 실용적이고 구체적인 조언 제공 여부
-- **점수 범위**: 1-5점 (높을수록 좋음)
-
-#### 4. Profile Alignment (프로필 일치도)
-- **평가 대상**: 추천된 공고들이 사용자 배경과 얼마나 잘 맞는가
-- **평가 기준**: 전공, 관심직무, 경험과 추천 공고의 적합성
-- **점수 범위**: 1-5점 (높을수록 좋음)
-
-### 평가 설정
-
-#### YAML 설정에서 LangSmith 활성화
-```yaml
-# LangSmith 고품질 정성 평가
-langsmith:
-  enabled: true
-  project_name: "career-hy-rag-evaluation"
-  judge_model: "gpt-4o-mini"
-  metrics:
-    - "recommendation_quality"
-    - "personalization_score"
-    - "response_helpfulness"
-    - "profile_alignment"
-  max_concurrency: 3
-  evaluation_timeout: 300
-
-# 생성 품질 평가 (샘플링 설정)
-evaluation:
-  generation:
-    target: "sample"
-    sample_size: 15
-    sample_strategy: "profile_based"
-    sample_seed: null
-```
-
-### LangSmith 웹 인터페이스
-
-평가 실행 중 LangSmith 웹사이트(https://smith.langchain.com)에서 실시간 추적 가능:
-- 프로젝트: `career-hy-rag-evaluation`
-- 개별 평가 실행 과정 및 결과 확인
-- 평가 프롬프트와 응답 상세 분석
-- 
-
-## 임베딩 캐싱 시스템
-
-### 캐시 동작 원리
-1. **캐시 키 생성**: `{embedding_model}_{chunking_strategy}`
-2. **첫 실행**: OpenAI API 호출 → 임베딩 생성 → 캐시 저장
-3. **재실행**: 캐시 확인 → 기존 임베딩 로드 (API 호출 없음)
-
-### 캐시 파일 구조
-```
-cache/embeddings/{cache_key}/
-├── embeddings.npy          # NumPy 배열 (1536차원 벡터들)
-├── processed_documents.pkl # 처리된 문서 텍스트
-└── metadata.json          # 캐시 메타데이터
-```
-
-### 캐시 관리
-
+#### 2. 실험 실행
 ```bash
-# 캐시 목록 확인
-ls cache/embeddings/
+# Docker 환경
+./run_experiment.sh configs/baseline_search.yaml
 
-# 특정 캐시 삭제 (새로운 임베딩 생성하려면)
-rm -rf cache/embeddings/text_embedding_ada_002_no_chunk
-
-# 전체 캐시 삭제
-rm -rf cache/embeddings/*
+# 로컬 환경
+python run_experiment.py configs/baseline_search.yaml
 ```
 
-## 실험 결과 파일
+#### 3. 결과 확인
+- `results/`: 실험 결과 JSON 파일
+- LangSmith 웹 인터페이스: https://smith.langchain.com
 
-### results_*.json - 종합 결과 요약
-  - 전체 실험의 핵심 지표들을 요약한 메인 결과 파일
-  - 검색 성능 지표 (recall@k, precision@k, MRR, MAP,
-   NDCG@k)
-  - LangSmith 정성평가 평균 점수 (4개 지표)
-  - 실험 설정 정보 및 소요 시간
+### 4.2 GT 데이터셋 생성
 
-### generated_responses_*.json - 생성된 응답 모음
-  - 샘플링된 15개 쿼리에 대한 실제 LLM 응답들
-  - 각 응답의 추천 채용공고 목록 (1-10번 인덱스)
-  - 개인화된 추천 이유 및 설명
-  - 사용자 맞춤형 조언
-
-### retrieval_detailed_*.jsonl - 검색 상세 결과
-  - 575개 전체 쿼리의 검색 성능 상세 데이터 (JSONL
-  형식)
-  - 각 쿼리별 검색된 문서 목록, relevance 점수
-  - 개별 쿼리의 recall, precision, MRR 등 세부 지표
-  - 검색 실패 케이스 분석용 데이터
-
-### generation_detailed_*.jsonl - 생성 상세 결과
-  - 15개 샘플 쿼리의 생성 평가 상세 데이터 (JSONL
-  형식)
-  - LangSmith 정성평가 개별 점수 및 평가 이유
-  - 각 지표별 상세 평가 결과
-  (recommendation_quality, personalization_score 등)
-  - 품질 개선을 위한 분석용 데이터
-
-## 📊 데이터 소스
-
-### S3 데이터
-- **버킷**: `career-hi`
-- **PDF 경로**: `initial-dataset/pdf/` (1,473개 파일)
-- **JSON 경로**: `initial-dataset/json/` (1,473개 파일)
-
-### Ground Truth
-- **쿼리**: 575개 (GT 버전 3 기준)
-
-## 🔄 Ground Truth 데이터 관리
-
-### 새로운 GT CSV → JSONL 변환
-
-새로운 Ground Truth CSV 파일을 받았을 때 실험에 사용할 JSONL 형태로 변환하는 유틸리티:
-
+#### 1. 클러스터링 실행
 ```bash
-# 대화형 변환
-python utils/gt_converter.py new_ground_truth.csv data/test_queries_new.jsonl
+python job_clustering_pipeline.py
 ```
 
+#### 2. GT 생성 파이프라인 실행
+```bash
+python gt_generation_pipeline.py
+```
 
-## 📚 참고 자료
+#### 3. 결과 확인
+- `gt_generation_results/gt_clusters.json`: 클러스터 정보
+- `gt_generation_results/gt_clusters_summary.csv`: 요약 정보
+- `gt_generation_results/gt_generation_statistics.txt`: 통계
 
+### 4.3 클러스터링 실행
+
+#### 기본 실행
+```bash
+python job_clustering_pipeline.py
+```
+
+#### 예상 소요 시간
+- 데이터 로드: ~5초
+- 임베딩 생성: ~2-3분 (첫 실행 시 모델 다운로드: +30초)
+- UMAP 차원 축소: ~30초
+- HDBSCAN 클러스터링: ~10초
+- **총 예상 시간: 약 3-4분**
+
+#### 출력 결과
+- `clustering_results_tag_based/`: 대분류별 분류 결과
+- `clustering_results/`: 클러스터링 결과 및 시각화
+
+---
+
+## 5. 아키텍처
+
+### 5.1 모듈 구조
+
+#### Core 모듈
+- `core/pipeline.py`: 메인 실험 파이프라인
+- `core/config.py`: 설정 관리
+- `core/interfaces/`: 추상 인터페이스 정의
+
+#### 구현 모듈
+- `implementations/embedders/`: 임베딩 모델 구현
+- `implementations/chunkers/`: 청킹 전략 구현
+- `implementations/retrievers/`: 검색 시스템 구현
+- `implementations/evaluators/`: 평가 지표 계산
+- `implementations/loaders/`: StructuredDocumentLoader
+- `implementations/parsers/`: JobPostParser
+
+#### 유틸리티 모듈
+- `utils/data_loader.py`: S3 데이터 로드
+- `utils/embedding_cache.py`: 임베딩 캐싱
+- `utils/factory.py`: 컴포넌트 팩토리
+
+### 5.2 데이터 흐름
+
+```
+S3 데이터 로드
+    ↓
+StructuredDocumentLoader (섹션별 청킹)
+    ↓
+임베딩 생성 (캐싱)
+    ↓
+벡터 DB 저장 (ChromaDB/FAISS)
+    ↓
+검색 및 평가
+    ↓
+결과 저장
+```
+
+### 5.3 평가 시스템
+
+#### Retrieval 평가
+- 전체 쿼리에 대한 검색 성능 측정
+- Recall@k, Precision@k, MRR, MAP, nDCG@k 계산
+
+#### Generation 평가 (LangSmith)
+- 샘플 쿼리에 대한 응답 생성 및 정성평가
+- Profile-based Sampling (15개 고유 프로필)
+
+---
+
+## 6. 실제 서비스 통합 가이드
+
+### 6.1 통합 개요
+
+이 섹션은 ForkExperiment에서 개발한 기능을 실제 Career-HY 서비스에 적용하는 방법을 설명합니다.
+
+### 6.2 단계별 통합 방법
+
+#### 1단계: 의존성 추가
+```bash
+pip install unstructured[pdf]>=0.10.0
+```
+
+#### 2단계: 파일 추가
+- `implementations/loaders/structured_loader.py` → 서비스의 `loaders/structured_loader.py`
+- `implementations/parsers/job_post_parser.py` → 서비스의 `parsers/job_post_parser.py`
+
+#### 3단계: 데이터 로더 수정
+- S3 JSON 메타데이터에서 `deadline`, `start_date`, `crawling_time` 포함
+- 원본 메타데이터 전체 보존
+
+#### 4단계: 청킹 로직 변경
+```python
+from loaders.structured_loader import StructuredDocumentLoader
+
+loader = StructuredDocumentLoader(
+    strategy="fast",
+    target_sections=["preferred", "qualifications", "job_duties"],
+    include_context=True
+)
+chunks = loader.load_from_documents(documents)
+```
+
+#### 5단계: 벡터 DB 저장 수정
+- 메타데이터 전체 저장 (primitive 타입만)
+- ChromaDB/FAISS 호환성 확인
+
+#### 6단계: Response Generator 수정
+- `RecommendedJob` 모델에 `deadline`, `start_date`, `crawling_time` 필드 추가
+- 검색 결과에서 메타데이터 추출
+
+#### 7단계: 프롬프트 수정
+- 프롬프트에 시간 정보 포함
+
+### 6.3 마이그레이션 체크리스트
+
+#### 준비 단계
+- [ ] 현재 서비스 코드베이스 구조 파악
+- [ ] S3 JSON 메타데이터 구조 확인
+- [ ] 기존 벡터 DB 백업
+- [ ] 테스트 환경 준비
+
+#### 코드 통합
+- [ ] StructuredDocumentLoader 파일 추가
+- [ ] JobPostParser 파일 추가
+- [ ] 데이터 로더 수정
+- [ ] 청킹 로직 변경
+- [ ] 벡터 DB 저장 로직 확인
+- [ ] Response Generator 수정
+- [ ] 프롬프트 빌더 수정
+
+#### 테스트
+- [ ] 단위 테스트 작성
+- [ ] 통합 테스트 작성
+- [ ] 성능 테스트
+- [ ] A/B 테스트 준비
+
+#### 배포
+- [ ] 스테이징 환경 배포
+- [ ] 모니터링 설정
+- [ ] 프로덕션 배포
+- [ ] 롤백 계획 수립
+
+### 6.4 주의사항
+
+#### 성능 고려사항
+- **파싱 속도**: `fast` 전략이 `hi_res`보다 빠름 (약 10배)
+- **정확도**: `hi_res`가 더 정확하지만 느림
+- **권장**: 프로덕션에서는 `fast` 사용
+
+#### 호환성
+- 기존 벡터 DB는 새로운 구조와 호환되지 않을 수 있음
+- 마이그레이션 또는 새 컬렉션 생성 필요
+
+#### 에러 처리
+- PDF 파싱 실패 시 fallback 처리 필요
+- 메타데이터 누락 시 `None` 처리
+
+자세한 내용은 `SERVICE_INTEGRATION_GUIDE.md` 참고 (향후 통합 문서로 이동 예정)
+
+---
+
+## 7. 참고 자료
+
+### 7.1 문서
+- `EXPERIMENT_SUMMARY_20251203.md`: 실험 요약 및 변경사항
+- `GT_GENERATION_STRATEGY.md`: GT 생성 전략 상세
+- `CLUSTERING_README.md`: 클러스터링 가이드
+- `STRUCTURED_CHUNKS_REPORT.md`: 구조화 청크 리포트
+
+### 7.2 외부 자료
 - [Docker 공식 문서](https://docs.docker.com/)
 - [OpenAI Embeddings API](https://platform.openai.com/docs/guides/embeddings)
 - [ChromaDB 문서](https://docs.trychroma.com/)
 - [LangChain Text Splitters](https://python.langchain.com/docs/modules/data_connection/document_transformers/)
 - [RAG 평가 지표 가이드](https://docs.ragas.io/en/stable/concepts/metrics/)
 
+### 7.3 데이터 소스
+- **S3 버킷**: `career-hi`
+- **PDF 경로**: `initial-dataset/pdf/` (1,473개 파일)
+- **JSON 경로**: `initial-dataset/json/` (1,473개 파일)
+- **Ground Truth**: `data/gt_eval_fullquery_cluster_ids.jsonl` (79개 쿼리)
+
+---
+
 ## 📝 라이센스
 
 이 프로젝트는 Career-HY 팀의 내부 실험용으로 개발되었습니다.
+
+---
+
+**작성일**: 2025-12-03  
+**버전**: 2.0 (통합 문서)
