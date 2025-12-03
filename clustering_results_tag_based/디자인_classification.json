@@ -1,0 +1,6329 @@
+{
+  "major_category": "#디자인",
+  "statistics": {
+    "total_docs": 66,
+    "unique_docs": 66,
+    "num_mid_categories": 44,
+    "overlap_info": {
+      "with_기획_전략": 20,
+      "with_마케팅_홍보_조사": 19,
+      "with_미디어_문화_스포츠": 10,
+      "with_인사_노무_hrd": 30,
+      "with_건설_건축": 1,
+      "with_it개발_데이터": 10,
+      "with_연구_r&d": 11,
+      "with_상품기획_md": 5,
+      "with_영업_판매_무역": 5,
+      "with_생산": 6,
+      "with_서비스": 3,
+      "with_공공_복지": 1,
+      "with_총무_법무_사무": 4,
+      "with_의료": 1,
+      "with_구매_자재_물류": 1,
+      "with_교육": 1
+    }
+  },
+  "mid_categories": {
+    "시각디자인": {
+      "size": 16,
+      "total_assignments": 16,
+      "documents": [
+        {
+          "rec_id": "50013358",
+          "title": "BX 디자이너 모집 (자율출퇴근, 월 1/3이상 재택)",
+          "cleaned_title": "BX 디자이너 (자율출퇴근, 월 1 3이상 재택)",
+          "company": "(주)율사이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50013358",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#문구디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#시각디자인",
+            "#북디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "모바일디자인",
+            "배너디자인",
+            "광고디자인",
+            "시각디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50070473",
+          "title": "최고 근무환경(강남역), 그래픽 편집 디자인 신입/경력 채용",
+          "cleaned_title": "최고 근무환경(강남역), 그래픽 편집 디자인",
+          "company": "(주)비즈니스아츠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50070473",
+          "tags": [
+            "#디자인",
+            "#편집디자인",
+            "#시각디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "편집디자인",
+            "산업디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50092576",
+          "title": "스포츠 그래픽 디자이너(신입/경력) 모집",
+          "cleaned_title": "스포츠 그래픽 디자이너( )",
+          "company": "주식회사 플렉",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50092576",
+          "tags": [
+            "#상품기획·MD",
+            "#디자인",
+            "#브랜드디자인",
+            "#온라인MD",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#상품기획·md"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "브랜드디자인",
+            "그래픽디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#상품기획·md": [
+              "온라인MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50111225",
+          "title": "2025 치즈버튼 UX UI 디자이너를 모집합니다",
+          "cleaned_title": "치즈버튼 UX UI 디자이너를 합니다",
+          "company": "퀘스(Ques)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50111225",
+          "tags": [
+            "#디자인",
+            "#앱디자인",
+            "#UI/UX디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "UI/UX디자인",
+            "웹디자인",
+            "앱디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50202615",
+          "title": "시각 디자이너(기획,편집) 모집",
+          "cleaned_title": "시각 디자이너(기획,편집)",
+          "company": "(주)사이디라이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202615",
+          "tags": [
+            "#디자인",
+            "#인디자인",
+            "#제안서",
+            "#인포그래픽",
+            "#Figma",
+            "#캐릭터디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#로고디자인",
+            "#디지털디자인",
+            "#일러스트",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "캐릭터디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50294160",
+          "title": "[디자이너] 빠르게 성장하는 스타트업에서 같이 일해요",
+          "cleaned_title": "빠르게 성장하는 스타트업에서 같이 일해요",
+          "company": "(주)넥사코드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50294160",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#콘텐츠디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "모바일디자인",
+            "웹디자인",
+            "콘텐츠디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "그래픽디자인",
+            "앱디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50381215",
+          "title": "[핀카] BX 디자이너",
+          "cleaned_title": "BX 디자이너",
+          "company": "(주)원인어헌드레드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50381215",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#영상디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#콘텐츠디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "콘텐츠디자인",
+            "영상디자인",
+            "시각디자인",
+            "편집디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50385518",
+          "title": "제품디자인 시각디자인 사원 모집 (유아용품, 반려동물용품)",
+          "cleaned_title": "제품디자인 시각디자인 (유아용품, 반려동물용품)",
+          "company": "아이엘",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50385518",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#제품디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#CI디자인",
+            "#북디자인",
+            "#정보디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "시각디자인",
+            "북디자인",
+            "완구디자인",
+            "정보디자인",
+            "CI디자인",
+            "그래픽디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50416138",
+          "title": "VMD 및 공간연출 스타일리스트 /디자이너 신입 채용",
+          "cleaned_title": "VMD 공간연출 스타일리스트 디자이너",
+          "company": "(주)세븐도어즈",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50416138",
+          "tags": [
+            "#디자인",
+            "#라이노",
+            "#CAD",
+            "#브랜드디자인",
+            "#VMD",
+            "#PhotoShop",
+            "#V-Ray",
+            "#공간디자인",
+            "#3DMax",
+            "#시각디자인",
+            "#일러스트",
+            "#전시디자인",
+            "#스케치업",
+            "#아트워크"
+          ],
+          "other_major_categories": [
+            "#상품기획·md",
+            "#서비스",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "VMD",
+            "공간디자인",
+            "시각디자인",
+            "브랜드디자인",
+            "전시디자인"
+          ],
+          "mid_categories_in_others": {
+            "#상품기획·md": [
+              "VMD"
+            ],
+            "#서비스": [
+              "스타일리스트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50418029",
+          "title": "2025 치즈버튼 BX BI 디자이너를 모집합니다",
+          "cleaned_title": "치즈버튼 BX BI 디자이너를 합니다",
+          "company": "퀘스(Ques)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50418029",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#시각디자인",
+            "#CI디자인",
+            "#BI디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "CI디자인",
+            "BI디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50426113",
+          "title": "[퍼블리시스 그룹] 디자인 (전자브랜드 VI팀) 인턴 채용",
+          "cleaned_title": "디자인 (전자브랜드 VI팀)",
+          "company": "레오버넷(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50426113",
+          "tags": [
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#일러스트",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "AD(아트디렉터)",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "로고디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "AD(아트디렉터)"
+            ],
+            "#미디어·문화·스포츠": [
+              "AD(아트디렉터)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50469704",
+          "title": "2025년 2차 직원(계약직) 채용 공고(홍보디자인)",
+          "cleaned_title": "2차 (계약직) (홍보디자인)",
+          "company": "한국식품산업클러스터진흥원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50469704",
+          "tags": [
+            "#총무·법무·사무",
+            "#디자인",
+            "#사무행정",
+            "#시각디자인",
+            "#디지털디자인",
+            "#일러스트레이터",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "일러스트레이터",
+            "웹디자인",
+            "디지털디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "홍보"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472427",
+          "title": "[신입 경력 ] 그래픽 디자이너 모집",
+          "cleaned_title": "그래픽 디자이너",
+          "company": "(주)프로젝트402",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472427",
+          "tags": [
+            "#디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#모션그래픽",
+            "#프리미어",
+            "#영상디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#3D디자인",
+            "#일러스트레이터",
+            "#애프터이펙트"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "일러스트레이터",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "영상디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50481867",
+          "title": "[산업디자인] KIDP 청년디자이너 인턴십",
+          "cleaned_title": "KIDP 청년디자이너 십",
+          "company": "502디자인랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50481867",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "산업디자인",
+            "완구디자인",
+            "시각디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50483975",
+          "title": "[종합광고대행사]정직원 전환형 신입 아트디렉터/AD 채용",
+          "cleaned_title": "정 전환형 아트디렉터 AD",
+          "company": "(주)라이크어버진",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483975",
+          "tags": [
+            "#광고마케팅",
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#AE(광고기획자)",
+            "#광고디자인",
+            "#CW(카피라이터)",
+            "#마케팅기획",
+            "#시각디자인",
+            "#미디어·문화·스포츠",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)",
+            "광고디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "CW(카피라이터)",
+              "마케팅전략",
+              "마케팅기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "AD(아트디렉터)",
+              "PD/AD/FD",
+              "CW(카피라이터)",
+              "AE(광고기획자)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50497524",
+          "title": "[잔망루피] 이모티콘/SNS 콘텐츠 디자이너 모집 (신입)",
+          "cleaned_title": "이모티콘 SNS 콘텐츠 디자이너 ()",
+          "company": "(주)아이코닉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497524",
+          "tags": [
+            "#디자인",
+            "#애니메이터",
+            "#캐릭터디자인",
+            "#브랜드디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#정보디자인",
+            "#3D디자인",
+            "#산업디자인",
+            "#2D디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "애니메이터",
+            "시각디자인",
+            "정보디자인",
+            "디지털디자인",
+            "캐릭터디자인",
+            "그래픽디자인",
+            "산업디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "그래픽디자인": {
+      "size": 15,
+      "total_assignments": 15,
+      "documents": [
+        {
+          "rec_id": "50013358",
+          "title": "BX 디자이너 모집 (자율출퇴근, 월 1/3이상 재택)",
+          "cleaned_title": "BX 디자이너 (자율출퇴근, 월 1 3이상 재택)",
+          "company": "(주)율사이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50013358",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#문구디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#시각디자인",
+            "#북디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "모바일디자인",
+            "배너디자인",
+            "광고디자인",
+            "시각디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50066964",
+          "title": "최고의근무환경(강남역), 산업/제품 3D디자이너 신입/경력 채용",
+          "cleaned_title": "최고의근무환경(강남역), 산업 제품 3D디자이너",
+          "company": "(주)비즈니스아츠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50066964",
+          "tags": [
+            "#디자인",
+            "#그래픽디자인",
+            "#3D디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "산업디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50092576",
+          "title": "스포츠 그래픽 디자이너(신입/경력) 모집",
+          "cleaned_title": "스포츠 그래픽 디자이너( )",
+          "company": "주식회사 플렉",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50092576",
+          "tags": [
+            "#상품기획·MD",
+            "#디자인",
+            "#브랜드디자인",
+            "#온라인MD",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#상품기획·md"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "브랜드디자인",
+            "그래픽디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#상품기획·md": [
+              "온라인MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50202615",
+          "title": "시각 디자이너(기획,편집) 모집",
+          "cleaned_title": "시각 디자이너(기획,편집)",
+          "company": "(주)사이디라이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202615",
+          "tags": [
+            "#디자인",
+            "#인디자인",
+            "#제안서",
+            "#인포그래픽",
+            "#Figma",
+            "#캐릭터디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#로고디자인",
+            "#디지털디자인",
+            "#일러스트",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "캐릭터디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50290841",
+          "title": "[강남]웹 개발 디자이너 모집(최고 복지)",
+          "cleaned_title": "웹 개발 디자이너 (최고 복지)",
+          "company": "(주)블랙핀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50290841",
+          "tags": [
+            "#디자인",
+            "#IT개발·데이터",
+            "#광고기획",
+            "#광고디자인",
+            "#웹",
+            "#기획·전략",
+            "#콘텐츠디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#웹기획",
+            "#일러스트레이터",
+            "#배너디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "웹디자인",
+            "광고디자인",
+            "일러스트레이터",
+            "콘텐츠디자인",
+            "디지털디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "웹기획",
+              "광고기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50294160",
+          "title": "[디자이너] 빠르게 성장하는 스타트업에서 같이 일해요",
+          "cleaned_title": "빠르게 성장하는 스타트업에서 같이 일해요",
+          "company": "(주)넥사코드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50294160",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#콘텐츠디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "모바일디자인",
+            "웹디자인",
+            "콘텐츠디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "그래픽디자인",
+            "앱디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50373966",
+          "title": "[초록마을] 오프라인 그래픽 디자이너 채용 (신입-3년이하)",
+          "cleaned_title": "오프라인 그래픽 디자이너 ( 3년이하)",
+          "company": "(주)초록마을",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50373966",
+          "tags": [
+            "#그래픽디자인",
+            "#디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50381215",
+          "title": "[핀카] BX 디자이너",
+          "cleaned_title": "BX 디자이너",
+          "company": "(주)원인어헌드레드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50381215",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#영상디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#콘텐츠디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "콘텐츠디자인",
+            "영상디자인",
+            "시각디자인",
+            "편집디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50385518",
+          "title": "제품디자인 시각디자인 사원 모집 (유아용품, 반려동물용품)",
+          "cleaned_title": "제품디자인 시각디자인 (유아용품, 반려동물용품)",
+          "company": "아이엘",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50385518",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#제품디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#CI디자인",
+            "#북디자인",
+            "#정보디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "시각디자인",
+            "북디자인",
+            "완구디자인",
+            "정보디자인",
+            "CI디자인",
+            "그래픽디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50426113",
+          "title": "[퍼블리시스 그룹] 디자인 (전자브랜드 VI팀) 인턴 채용",
+          "cleaned_title": "디자인 (전자브랜드 VI팀)",
+          "company": "레오버넷(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50426113",
+          "tags": [
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#일러스트",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "AD(아트디렉터)",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "로고디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "AD(아트디렉터)"
+            ],
+            "#미디어·문화·스포츠": [
+              "AD(아트디렉터)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50441324",
+          "title": "Graphic Designer/디지털 마케팅/사무/영어",
+          "cleaned_title": "Graphic Designer 디지털 마케팅 사무 영어",
+          "company": "(주)코루파마",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50441324",
+          "tags": [
+            "#Blender",
+            "#디자인",
+            "#Cinema4D",
+            "#브랜드마케팅",
+            "#PhotoShop",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#3DMax",
+            "#마케팅·홍보·조사",
+            "#글로벌마케팅",
+            "#마케팅",
+            "#디지털마케팅"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "디지털디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "글로벌마케팅",
+              "브랜드마케팅"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50456502",
+          "title": "[UX] 채용연계형 인턴십(그래픽 디자이너)",
+          "cleaned_title": "연계형 십(그래픽 디자이너)",
+          "company": "(주)케이뱅크",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50456502",
+          "tags": [
+            "#디자인",
+            "#모션그래픽",
+            "#그래픽디자인",
+            "#3D디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472427",
+          "title": "[신입 경력 ] 그래픽 디자이너 모집",
+          "cleaned_title": "그래픽 디자이너",
+          "company": "(주)프로젝트402",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472427",
+          "tags": [
+            "#디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#모션그래픽",
+            "#프리미어",
+            "#영상디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#3D디자인",
+            "#일러스트레이터",
+            "#애프터이펙트"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "일러스트레이터",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "영상디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50483412",
+          "title": "[VL&CO] 루이까스텔 디자이너 신입/경력 수시채용",
+          "cleaned_title": "루이까스텔 디자이너",
+          "company": "(주)브이엘엔코",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483412",
+          "tags": [
+            "#디자인",
+            "#의상디자인",
+            "#남성의류",
+            "#여성의류",
+            "#패턴디자인",
+            "#스포츠의류",
+            "#그래픽디자인",
+            "#주얼리디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "의상디자인",
+            "주얼리디자인",
+            "패턴디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50497524",
+          "title": "[잔망루피] 이모티콘/SNS 콘텐츠 디자이너 모집 (신입)",
+          "cleaned_title": "이모티콘 SNS 콘텐츠 디자이너 ()",
+          "company": "(주)아이코닉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497524",
+          "tags": [
+            "#디자인",
+            "#애니메이터",
+            "#캐릭터디자인",
+            "#브랜드디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#정보디자인",
+            "#3D디자인",
+            "#산업디자인",
+            "#2D디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "애니메이터",
+            "시각디자인",
+            "정보디자인",
+            "디지털디자인",
+            "캐릭터디자인",
+            "그래픽디자인",
+            "산업디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "UI/UX디자인": {
+      "size": 10,
+      "total_assignments": 10,
+      "documents": [
+        {
+          "rec_id": "50088339",
+          "title": "[커머스프로덕션] 프로덕트 디자이너 (UI/UX Designer)",
+          "cleaned_title": "프로덕트 디자이너 (UI UX Designer)",
+          "company": "(주)미리디",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50088339",
+          "tags": [
+            "#디자인",
+            "#Zeplin",
+            "#Figma",
+            "#기획·전략",
+            "#PL(프로젝트리더)",
+            "#UI/UX디자인",
+            "#XD",
+            "#GUI",
+            "#웹기획",
+            "#서비스기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "UI/UX디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "PL(프로젝트리더)",
+              "서비스기획",
+              "웹기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50111225",
+          "title": "2025 치즈버튼 UX UI 디자이너를 모집합니다",
+          "cleaned_title": "치즈버튼 UX UI 디자이너를 합니다",
+          "company": "퀘스(Ques)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50111225",
+          "tags": [
+            "#디자인",
+            "#앱디자인",
+            "#UI/UX디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "UI/UX디자인",
+            "웹디자인",
+            "앱디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50195440",
+          "title": "[판교]웹 UI 프론트 개발자 모집",
+          "cleaned_title": "웹 UI 프론트 개발자",
+          "company": "브이플러스랩(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50195440",
+          "tags": [
+            "#프론트엔드",
+            "#IT개발·데이터",
+            "#Ajax",
+            "#웹개발",
+            "#Javascript",
+            "#React",
+            "#PHP"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "UI/UX디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "프론트엔드",
+              "웹개발"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50202615",
+          "title": "시각 디자이너(기획,편집) 모집",
+          "cleaned_title": "시각 디자이너(기획,편집)",
+          "company": "(주)사이디라이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202615",
+          "tags": [
+            "#디자인",
+            "#인디자인",
+            "#제안서",
+            "#인포그래픽",
+            "#Figma",
+            "#캐릭터디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#로고디자인",
+            "#디지털디자인",
+            "#일러스트",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "캐릭터디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50294160",
+          "title": "[디자이너] 빠르게 성장하는 스타트업에서 같이 일해요",
+          "cleaned_title": "빠르게 성장하는 스타트업에서 같이 일해요",
+          "company": "(주)넥사코드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50294160",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#콘텐츠디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "모바일디자인",
+            "웹디자인",
+            "콘텐츠디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "그래픽디자인",
+            "앱디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50402714",
+          "title": "헬스케어 UX UI 디자이너 인턴 모집",
+          "cleaned_title": "헬스케어 UX UI 디자이너",
+          "company": "(주)지씨케어",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50402714",
+          "tags": [
+            "#UI/UX디자인",
+            "#디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "UI/UX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50428305",
+          "title": "(주)오케이몰 총괄기획팀 신입/경력 수시채용",
+          "cleaned_title": "총괄기획팀",
+          "company": "(주)오케이몰",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50428305",
+          "tags": [
+            "#브랜드기획",
+            "#전략기획",
+            "#디자인",
+            "#PM(프로젝트매니저)",
+            "#사업기획",
+            "#기획·전략",
+            "#UI/UX디자인",
+            "#마케팅기획",
+            "#앱기획",
+            "#기획",
+            "#웹기획",
+            "#서비스기획",
+            "#UI/UX"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "UI/UX디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "서비스기획",
+              "앱기획",
+              "브랜드기획",
+              "웹기획",
+              "사업기획",
+              "전략기획",
+              "PM(프로젝트매니저)",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439533",
+          "title": "나두아이오 프로덕트 디자이너",
+          "cleaned_title": "나두아이오 프로덕트 디자이너",
+          "company": "나두모두",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439533",
+          "tags": [
+            "#HTML",
+            "#디자인",
+            "#Figma",
+            "#UI/UX디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "UI/UX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50456469",
+          "title": "[UX] 채용연계형 인턴십(프로덕트 디자이너)",
+          "cleaned_title": "연계형 십(프로덕트 디자이너)",
+          "company": "(주)케이뱅크",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50456469",
+          "tags": [
+            "#디자인",
+            "#IT개발·데이터",
+            "#Figma",
+            "#기획·전략",
+            "#UI/UX디자인",
+            "#UI/UX",
+            "#AI(인공지능)"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "UI/UX디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50485094",
+          "title": "[WILO] Building Service Sales 광주 영업 신입 및 경력 모집",
+          "cleaned_title": "Building Service Sales 광주 영업",
+          "company": "윌로펌프(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50485094",
+          "tags": [
+            "#영업직",
+            "#영업기획",
+            "#해외영업",
+            "#영업마케팅",
+            "#영업지원",
+            "#영업판촉",
+            "#시스템영업",
+            "#판매직",
+            "#영업관리",
+            "#영업전략",
+            "#장비영업",
+            "#해"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "UI/UX디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "판매직",
+              "장비영업",
+              "영업관리",
+              "영업마케팅",
+              "영업지원",
+              "영업판촉",
+              "해외영업",
+              "시스템영업",
+              "영업직",
+              "영업전략",
+              "영업기획"
+            ]
+          }
+        }
+      ]
+    },
+    "기타": {
+      "size": 9,
+      "total_assignments": 9,
+      "documents": [
+        {
+          "rec_id": "50040811",
+          "title": "[퍼블리시스 그룹] 광고기획(전자 브랜드 VI팀) 인턴 채용",
+          "cleaned_title": "광고기획(전자 브랜드 VI팀)",
+          "company": "레오버넷(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50040811",
+          "tags": [
+            "#광고마케팅",
+            "#디자인",
+            "#AE(광고기획자)",
+            "#광고기획",
+            "#PhotoShop",
+            "#기획·전략",
+            "#일러스트",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "광고마케팅",
+              "홍보",
+              "AE(광고기획자)"
+            ],
+            "#미디어·문화·스포츠": [
+              "AE(광고기획자)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50129322",
+          "title": "콘텐츠사업부 기획자 채용",
+          "cleaned_title": "콘텐츠사업부 기획자",
+          "company": "(주)안그라픽스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50129322",
+          "tags": [
+            "#디자인",
+            "#스토리보드",
+            "#제안서",
+            "#기획·전략",
+            "#기획",
+            "#매거진편집기획",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50299131",
+          "title": "FrontEnd 개발자 [퍼블리셔+디자이너] 세종근무",
+          "cleaned_title": "FrontEnd 개발자 세종근무",
+          "company": "오아시스스토리(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50299131",
+          "tags": [
+            "#IT개발·데이터",
+            "#라즈베리파이",
+            "#풀스택",
+            "#임베디드",
+            "#TTS",
+            "#백엔드/서버개발",
+            "#Java",
+            "#웹개발",
+            "#머신러닝",
+            "#영",
+            "#Python",
+            "#이미지프로세싱",
+            "#React",
+            "#음성인식"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "퍼블리셔",
+              "백엔드/서버개발",
+              "웹개발"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50345394",
+          "title": "[AI인공지능/정보보안] Linux C/C++ 개발자",
+          "cleaned_title": "Linux C C++ 개발자",
+          "company": "(주)컴트루테크놀로지",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50345394",
+          "tags": [
+            "#HTML",
+            "#C언어",
+            "#IT개발·데이터",
+            "#jQuery",
+            "#springfra",
+            "#PostgreSQL",
+            "#Linux",
+            "#Ajax",
+            "#iOS",
+            "#C++",
+            "#C#",
+            "#Android",
+            "#JSP",
+            "#PHP"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "정보보안"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50437200",
+          "title": "포항세명기독병원 홍보팀 채용공고",
+          "cleaned_title": "포항세명기독병원 홍보팀",
+          "company": "(의)한성재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50437200",
+          "tags": [
+            "#언론홍보",
+            "#디자인",
+            "#PhotoShop",
+            "#기업홍보"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#의료",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "기업홍보"
+            ],
+            "#의료": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50443338",
+          "title": "[신입/인턴] 콘텐츠에디터, 콘텐츠마케터 채용",
+          "cleaned_title": "콘텐츠에디터, 콘텐츠마케터",
+          "company": "(주)어반컴플렉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50443338",
+          "tags": [
+            "#언론홍보",
+            "#광고마케팅",
+            "#디자인",
+            "#브랜드마케팅",
+            "#AE(광고기획자)",
+            "#BM(브랜드매니저)",
+            "#마케팅기획",
+            "#이벤트프로모션",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "콘텐츠에디터",
+              "홍보",
+              "BM(브랜드매니저)",
+              "브랜드마케팅",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "온라인마케팅",
+              "마케팅전략",
+              "마케팅기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "에디터",
+              "AE(광고기획자)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50461501",
+          "title": "[디자인] 제품의 가치를 탁월히 전달할 디자이너",
+          "cleaned_title": "제품의 가치를 탁월히 전달할 디자이너",
+          "company": "(주)선인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50461501",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50506814",
+          "title": "유아동 1위 플랫폼 마케팅/ 콘텐츠 디자인/ AMD/ 경영사무 인턴",
+          "cleaned_title": "유아동 1위 플랫폼 마케팅 콘텐츠 디자인 AMD 경영사무",
+          "company": "(주)빌리지베이비",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506814",
+          "tags": [
+            "#전략기획",
+            "#경영기획",
+            "#사업제휴",
+            "#시장조사",
+            "#바이럴마케팅",
+            "#기획·전략",
+            "#마케팅기획",
+            "#이벤트프로모션",
+            "#서비스기획",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#상품기획·md",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획",
+              "서비스기획",
+              "전략기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "마케팅전략",
+              "마케팅기획",
+              "바이럴마케팅"
+            ],
+            "#상품기획·md": [
+              "AMD"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50507179",
+          "title": "(주)아트숨비 브랜드/시각 디자이너(인턴) 채용",
+          "cleaned_title": "브랜드 시각 디자이너()",
+          "company": "(주)아트숨비",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50507179",
+          "tags": [
+            "#예술경영",
+            "#큐레이터",
+            "#축제기획",
+            "#문화예술기획",
+            "#행사기획",
+            "#도시재생",
+            "#기획·전략",
+            "#문화기획",
+            "#순수미술",
+            "#기획",
+            "#미디어·문화·스포츠",
+            "#문화재",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "문화기획",
+              "행사기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "행사기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "큐레이터"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "웹디자인": {
+      "size": 9,
+      "total_assignments": 9,
+      "documents": [
+        {
+          "rec_id": "50087358",
+          "title": "디자인연구개발팀 디자이너 정규직 채용 (신입)",
+          "cleaned_title": "디자인연구개발팀 디자이너 ()",
+          "company": "(주)성지라미텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50087358",
+          "tags": [
+            "#디자인",
+            "#컬러리스트",
+            "#PhotoShop",
+            "#서구",
+            "#가구디자인",
+            "#일러스트레이터",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#미디어·문화·스포츠",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "가구디자인",
+            "웹디자인",
+            "컬러리스트",
+            "일러스트레이터"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#미디어·문화·스포츠": [
+              "컬러리스트"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50111225",
+          "title": "2025 치즈버튼 UX UI 디자이너를 모집합니다",
+          "cleaned_title": "치즈버튼 UX UI 디자이너를 합니다",
+          "company": "퀘스(Ques)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50111225",
+          "tags": [
+            "#디자인",
+            "#앱디자인",
+            "#UI/UX디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "UI/UX디자인",
+            "웹디자인",
+            "앱디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50202615",
+          "title": "시각 디자이너(기획,편집) 모집",
+          "cleaned_title": "시각 디자이너(기획,편집)",
+          "company": "(주)사이디라이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202615",
+          "tags": [
+            "#디자인",
+            "#인디자인",
+            "#제안서",
+            "#인포그래픽",
+            "#Figma",
+            "#캐릭터디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#로고디자인",
+            "#디지털디자인",
+            "#일러스트",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "캐릭터디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50290841",
+          "title": "[강남]웹 개발 디자이너 모집(최고 복지)",
+          "cleaned_title": "웹 개발 디자이너 (최고 복지)",
+          "company": "(주)블랙핀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50290841",
+          "tags": [
+            "#디자인",
+            "#IT개발·데이터",
+            "#광고기획",
+            "#광고디자인",
+            "#웹",
+            "#기획·전략",
+            "#콘텐츠디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#웹기획",
+            "#일러스트레이터",
+            "#배너디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "웹디자인",
+            "광고디자인",
+            "일러스트레이터",
+            "콘텐츠디자인",
+            "디지털디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "웹기획",
+              "광고기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50294160",
+          "title": "[디자이너] 빠르게 성장하는 스타트업에서 같이 일해요",
+          "cleaned_title": "빠르게 성장하는 스타트업에서 같이 일해요",
+          "company": "(주)넥사코드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50294160",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#콘텐츠디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "모바일디자인",
+            "웹디자인",
+            "콘텐츠디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "그래픽디자인",
+            "앱디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50418029",
+          "title": "2025 치즈버튼 BX BI 디자이너를 모집합니다",
+          "cleaned_title": "치즈버튼 BX BI 디자이너를 합니다",
+          "company": "퀘스(Ques)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50418029",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#시각디자인",
+            "#CI디자인",
+            "#BI디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "CI디자인",
+            "BI디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50439533",
+          "title": "나두아이오 프로덕트 디자이너",
+          "cleaned_title": "나두아이오 프로덕트 디자이너",
+          "company": "나두모두",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439533",
+          "tags": [
+            "#HTML",
+            "#디자인",
+            "#Figma",
+            "#UI/UX디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "UI/UX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50469704",
+          "title": "2025년 2차 직원(계약직) 채용 공고(홍보디자인)",
+          "cleaned_title": "2차 (계약직) (홍보디자인)",
+          "company": "한국식품산업클러스터진흥원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50469704",
+          "tags": [
+            "#총무·법무·사무",
+            "#디자인",
+            "#사무행정",
+            "#시각디자인",
+            "#디지털디자인",
+            "#일러스트레이터",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "일러스트레이터",
+            "웹디자인",
+            "디지털디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "홍보"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50497524",
+          "title": "[잔망루피] 이모티콘/SNS 콘텐츠 디자이너 모집 (신입)",
+          "cleaned_title": "이모티콘 SNS 콘텐츠 디자이너 ()",
+          "company": "(주)아이코닉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497524",
+          "tags": [
+            "#디자인",
+            "#애니메이터",
+            "#캐릭터디자인",
+            "#브랜드디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#정보디자인",
+            "#3D디자인",
+            "#산업디자인",
+            "#2D디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "애니메이터",
+            "시각디자인",
+            "정보디자인",
+            "디지털디자인",
+            "캐릭터디자인",
+            "그래픽디자인",
+            "산업디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "광고디자인": {
+      "size": 8,
+      "total_assignments": 8,
+      "documents": [
+        {
+          "rec_id": "50013358",
+          "title": "BX 디자이너 모집 (자율출퇴근, 월 1/3이상 재택)",
+          "cleaned_title": "BX 디자이너 (자율출퇴근, 월 1 3이상 재택)",
+          "company": "(주)율사이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50013358",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#문구디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#시각디자인",
+            "#북디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "모바일디자인",
+            "배너디자인",
+            "광고디자인",
+            "시각디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50051345",
+          "title": "Mediabrands (UM Korea) 미디어플래너 인턴모집",
+          "cleaned_title": "Mediabrands (UM Korea) 미디어플래너",
+          "company": "미디어브랜즈코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50051345",
+          "tags": [
+            "#키워드광고",
+            "#광고마케팅",
+            "#디자인",
+            "#검색광고",
+            "#광고디자인",
+            "#광고캠페인",
+            "#옥외광고",
+            "#미디어플래너",
+            "#배너광고",
+            "#광고주관리",
+            "#마케팅·홍보·조사",
+            "#기획·전"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "광고디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "미디어플래너",
+              "마케팅",
+              "광고마케팅",
+              "홍보"
+            ]
+          }
+        },
+        {
+          "rec_id": "50290841",
+          "title": "[강남]웹 개발 디자이너 모집(최고 복지)",
+          "cleaned_title": "웹 개발 디자이너 (최고 복지)",
+          "company": "(주)블랙핀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50290841",
+          "tags": [
+            "#디자인",
+            "#IT개발·데이터",
+            "#광고기획",
+            "#광고디자인",
+            "#웹",
+            "#기획·전략",
+            "#콘텐츠디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#웹기획",
+            "#일러스트레이터",
+            "#배너디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "웹디자인",
+            "광고디자인",
+            "일러스트레이터",
+            "콘텐츠디자인",
+            "디지털디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "웹기획",
+              "광고기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50347782",
+          "title": "마케팅 디자이너 (인턴)",
+          "cleaned_title": "마케팅 디자이너 ()",
+          "company": "트리플콤마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50347782",
+          "tags": [
+            "#디자인",
+            "#Figma",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#PhotoShop",
+            "#일러스트",
+            "#배너디자인"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "앱디자인",
+            "광고디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50381215",
+          "title": "[핀카] BX 디자이너",
+          "cleaned_title": "BX 디자이너",
+          "company": "(주)원인어헌드레드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50381215",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#영상디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#콘텐츠디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "콘텐츠디자인",
+            "영상디자인",
+            "시각디자인",
+            "편집디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50426113",
+          "title": "[퍼블리시스 그룹] 디자인 (전자브랜드 VI팀) 인턴 채용",
+          "cleaned_title": "디자인 (전자브랜드 VI팀)",
+          "company": "레오버넷(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50426113",
+          "tags": [
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#일러스트",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "AD(아트디렉터)",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "로고디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "AD(아트디렉터)"
+            ],
+            "#미디어·문화·스포츠": [
+              "AD(아트디렉터)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472427",
+          "title": "[신입 경력 ] 그래픽 디자이너 모집",
+          "cleaned_title": "그래픽 디자이너",
+          "company": "(주)프로젝트402",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472427",
+          "tags": [
+            "#디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#모션그래픽",
+            "#프리미어",
+            "#영상디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#3D디자인",
+            "#일러스트레이터",
+            "#애프터이펙트"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "일러스트레이터",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "영상디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50483975",
+          "title": "[종합광고대행사]정직원 전환형 신입 아트디렉터/AD 채용",
+          "cleaned_title": "정 전환형 아트디렉터 AD",
+          "company": "(주)라이크어버진",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483975",
+          "tags": [
+            "#광고마케팅",
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#AE(광고기획자)",
+            "#광고디자인",
+            "#CW(카피라이터)",
+            "#마케팅기획",
+            "#시각디자인",
+            "#미디어·문화·스포츠",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)",
+            "광고디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "CW(카피라이터)",
+              "마케팅전략",
+              "마케팅기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "AD(아트디렉터)",
+              "PD/AD/FD",
+              "CW(카피라이터)",
+              "AE(광고기획자)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "브랜드디자인": {
+      "size": 8,
+      "total_assignments": 8,
+      "documents": [
+        {
+          "rec_id": "50013358",
+          "title": "BX 디자이너 모집 (자율출퇴근, 월 1/3이상 재택)",
+          "cleaned_title": "BX 디자이너 (자율출퇴근, 월 1 3이상 재택)",
+          "company": "(주)율사이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50013358",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#문구디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#시각디자인",
+            "#북디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "모바일디자인",
+            "배너디자인",
+            "광고디자인",
+            "시각디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50092576",
+          "title": "스포츠 그래픽 디자이너(신입/경력) 모집",
+          "cleaned_title": "스포츠 그래픽 디자이너( )",
+          "company": "주식회사 플렉",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50092576",
+          "tags": [
+            "#상품기획·MD",
+            "#디자인",
+            "#브랜드디자인",
+            "#온라인MD",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#상품기획·md"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "브랜드디자인",
+            "그래픽디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#상품기획·md": [
+              "온라인MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50294160",
+          "title": "[디자이너] 빠르게 성장하는 스타트업에서 같이 일해요",
+          "cleaned_title": "빠르게 성장하는 스타트업에서 같이 일해요",
+          "company": "(주)넥사코드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50294160",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#콘텐츠디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "모바일디자인",
+            "웹디자인",
+            "콘텐츠디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "그래픽디자인",
+            "앱디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50347782",
+          "title": "마케팅 디자이너 (인턴)",
+          "cleaned_title": "마케팅 디자이너 ()",
+          "company": "트리플콤마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50347782",
+          "tags": [
+            "#디자인",
+            "#Figma",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#PhotoShop",
+            "#일러스트",
+            "#배너디자인"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "앱디자인",
+            "광고디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50381215",
+          "title": "[핀카] BX 디자이너",
+          "cleaned_title": "BX 디자이너",
+          "company": "(주)원인어헌드레드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50381215",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#영상디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#콘텐츠디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "콘텐츠디자인",
+            "영상디자인",
+            "시각디자인",
+            "편집디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50416138",
+          "title": "VMD 및 공간연출 스타일리스트 /디자이너 신입 채용",
+          "cleaned_title": "VMD 공간연출 스타일리스트 디자이너",
+          "company": "(주)세븐도어즈",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50416138",
+          "tags": [
+            "#디자인",
+            "#라이노",
+            "#CAD",
+            "#브랜드디자인",
+            "#VMD",
+            "#PhotoShop",
+            "#V-Ray",
+            "#공간디자인",
+            "#3DMax",
+            "#시각디자인",
+            "#일러스트",
+            "#전시디자인",
+            "#스케치업",
+            "#아트워크"
+          ],
+          "other_major_categories": [
+            "#상품기획·md",
+            "#서비스",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "VMD",
+            "공간디자인",
+            "시각디자인",
+            "브랜드디자인",
+            "전시디자인"
+          ],
+          "mid_categories_in_others": {
+            "#상품기획·md": [
+              "VMD"
+            ],
+            "#서비스": [
+              "스타일리스트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50418029",
+          "title": "2025 치즈버튼 BX BI 디자이너를 모집합니다",
+          "cleaned_title": "치즈버튼 BX BI 디자이너를 합니다",
+          "company": "퀘스(Ques)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50418029",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#시각디자인",
+            "#CI디자인",
+            "#BI디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "CI디자인",
+            "BI디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50497524",
+          "title": "[잔망루피] 이모티콘/SNS 콘텐츠 디자이너 모집 (신입)",
+          "cleaned_title": "이모티콘 SNS 콘텐츠 디자이너 ()",
+          "company": "(주)아이코닉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497524",
+          "tags": [
+            "#디자인",
+            "#애니메이터",
+            "#캐릭터디자인",
+            "#브랜드디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#정보디자인",
+            "#3D디자인",
+            "#산업디자인",
+            "#2D디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "애니메이터",
+            "시각디자인",
+            "정보디자인",
+            "디지털디자인",
+            "캐릭터디자인",
+            "그래픽디자인",
+            "산업디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "디지털디자인": {
+      "size": 7,
+      "total_assignments": 7,
+      "documents": [
+        {
+          "rec_id": "50013358",
+          "title": "BX 디자이너 모집 (자율출퇴근, 월 1/3이상 재택)",
+          "cleaned_title": "BX 디자이너 (자율출퇴근, 월 1 3이상 재택)",
+          "company": "(주)율사이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50013358",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#문구디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#시각디자인",
+            "#북디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "모바일디자인",
+            "배너디자인",
+            "광고디자인",
+            "시각디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50202615",
+          "title": "시각 디자이너(기획,편집) 모집",
+          "cleaned_title": "시각 디자이너(기획,편집)",
+          "company": "(주)사이디라이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202615",
+          "tags": [
+            "#디자인",
+            "#인디자인",
+            "#제안서",
+            "#인포그래픽",
+            "#Figma",
+            "#캐릭터디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#로고디자인",
+            "#디지털디자인",
+            "#일러스트",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "캐릭터디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50290841",
+          "title": "[강남]웹 개발 디자이너 모집(최고 복지)",
+          "cleaned_title": "웹 개발 디자이너 (최고 복지)",
+          "company": "(주)블랙핀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50290841",
+          "tags": [
+            "#디자인",
+            "#IT개발·데이터",
+            "#광고기획",
+            "#광고디자인",
+            "#웹",
+            "#기획·전략",
+            "#콘텐츠디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#웹기획",
+            "#일러스트레이터",
+            "#배너디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "웹디자인",
+            "광고디자인",
+            "일러스트레이터",
+            "콘텐츠디자인",
+            "디지털디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "웹기획",
+              "광고기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50381215",
+          "title": "[핀카] BX 디자이너",
+          "cleaned_title": "BX 디자이너",
+          "company": "(주)원인어헌드레드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50381215",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#영상디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#콘텐츠디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "콘텐츠디자인",
+            "영상디자인",
+            "시각디자인",
+            "편집디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50441324",
+          "title": "Graphic Designer/디지털 마케팅/사무/영어",
+          "cleaned_title": "Graphic Designer 디지털 마케팅 사무 영어",
+          "company": "(주)코루파마",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50441324",
+          "tags": [
+            "#Blender",
+            "#디자인",
+            "#Cinema4D",
+            "#브랜드마케팅",
+            "#PhotoShop",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#3DMax",
+            "#마케팅·홍보·조사",
+            "#글로벌마케팅",
+            "#마케팅",
+            "#디지털마케팅"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "디지털디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "글로벌마케팅",
+              "브랜드마케팅"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50469704",
+          "title": "2025년 2차 직원(계약직) 채용 공고(홍보디자인)",
+          "cleaned_title": "2차 (계약직) (홍보디자인)",
+          "company": "한국식품산업클러스터진흥원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50469704",
+          "tags": [
+            "#총무·법무·사무",
+            "#디자인",
+            "#사무행정",
+            "#시각디자인",
+            "#디지털디자인",
+            "#일러스트레이터",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "일러스트레이터",
+            "웹디자인",
+            "디지털디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "홍보"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50497524",
+          "title": "[잔망루피] 이모티콘/SNS 콘텐츠 디자이너 모집 (신입)",
+          "cleaned_title": "이모티콘 SNS 콘텐츠 디자이너 ()",
+          "company": "(주)아이코닉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497524",
+          "tags": [
+            "#디자인",
+            "#애니메이터",
+            "#캐릭터디자인",
+            "#브랜드디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#정보디자인",
+            "#3D디자인",
+            "#산업디자인",
+            "#2D디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "애니메이터",
+            "시각디자인",
+            "정보디자인",
+            "디지털디자인",
+            "캐릭터디자인",
+            "그래픽디자인",
+            "산업디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "산업디자인": {
+      "size": 7,
+      "total_assignments": 7,
+      "documents": [
+        {
+          "rec_id": "50066964",
+          "title": "최고의근무환경(강남역), 산업/제품 3D디자이너 신입/경력 채용",
+          "cleaned_title": "최고의근무환경(강남역), 산업 제품 3D디자이너",
+          "company": "(주)비즈니스아츠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50066964",
+          "tags": [
+            "#디자인",
+            "#그래픽디자인",
+            "#3D디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "산업디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50070473",
+          "title": "최고 근무환경(강남역), 그래픽 편집 디자인 신입/경력 채용",
+          "cleaned_title": "최고 근무환경(강남역), 그래픽 편집 디자인",
+          "company": "(주)비즈니스아츠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50070473",
+          "tags": [
+            "#디자인",
+            "#편집디자인",
+            "#시각디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "편집디자인",
+            "산업디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50337252",
+          "title": "사무직 인턴 모집(신제품개발, 홍보, 일반사무 분야)",
+          "cleaned_title": "사무직 (신제품개발, 홍보, 일반사무 분야)",
+          "company": "삼덕통상(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50337252",
+          "tags": [
+            "#디자인",
+            "#홍보",
+            "#연구·R&D",
+            "#홍보물",
+            "#신발개발",
+            "#산업디자인",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#공공·복지",
+            "#마케팅·홍보·조사",
+            "#연구·r&d",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "산업디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50459628",
+          "title": "옥스포드 제품 디자이너 모집 채용공고",
+          "cleaned_title": "옥스포드 제품 디자이너",
+          "company": "(주)옥스포드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50459628",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "완구디자인",
+            "산업디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50481867",
+          "title": "[산업디자인] KIDP 청년디자이너 인턴십",
+          "cleaned_title": "KIDP 청년디자이너 십",
+          "company": "502디자인랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50481867",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "산업디자인",
+            "완구디자인",
+            "시각디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50497524",
+          "title": "[잔망루피] 이모티콘/SNS 콘텐츠 디자이너 모집 (신입)",
+          "cleaned_title": "이모티콘 SNS 콘텐츠 디자이너 ()",
+          "company": "(주)아이코닉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497524",
+          "tags": [
+            "#디자인",
+            "#애니메이터",
+            "#캐릭터디자인",
+            "#브랜드디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#정보디자인",
+            "#3D디자인",
+            "#산업디자인",
+            "#2D디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "애니메이터",
+            "시각디자인",
+            "정보디자인",
+            "디지털디자인",
+            "캐릭터디자인",
+            "그래픽디자인",
+            "산업디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50510490",
+          "title": "중헌제약 각 부문 신입/경력 채용",
+          "cleaned_title": "중헌제약 각 부문",
+          "company": "(주)중헌제약",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50510490",
+          "tags": [
+            "#산업디자인",
+            "#디자인",
+            "#영업·판매·무"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "산업디자인"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "앱디자인": {
+      "size": 5,
+      "total_assignments": 5,
+      "documents": [
+        {
+          "rec_id": "50013358",
+          "title": "BX 디자이너 모집 (자율출퇴근, 월 1/3이상 재택)",
+          "cleaned_title": "BX 디자이너 (자율출퇴근, 월 1 3이상 재택)",
+          "company": "(주)율사이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50013358",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#문구디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#시각디자인",
+            "#북디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "모바일디자인",
+            "배너디자인",
+            "광고디자인",
+            "시각디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50111225",
+          "title": "2025 치즈버튼 UX UI 디자이너를 모집합니다",
+          "cleaned_title": "치즈버튼 UX UI 디자이너를 합니다",
+          "company": "퀘스(Ques)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50111225",
+          "tags": [
+            "#디자인",
+            "#앱디자인",
+            "#UI/UX디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "UI/UX디자인",
+            "웹디자인",
+            "앱디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50294160",
+          "title": "[디자이너] 빠르게 성장하는 스타트업에서 같이 일해요",
+          "cleaned_title": "빠르게 성장하는 스타트업에서 같이 일해요",
+          "company": "(주)넥사코드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50294160",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#콘텐츠디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "모바일디자인",
+            "웹디자인",
+            "콘텐츠디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "그래픽디자인",
+            "앱디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50347782",
+          "title": "마케팅 디자이너 (인턴)",
+          "cleaned_title": "마케팅 디자이너 ()",
+          "company": "트리플콤마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50347782",
+          "tags": [
+            "#디자인",
+            "#Figma",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#PhotoShop",
+            "#일러스트",
+            "#배너디자인"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "앱디자인",
+            "광고디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50418029",
+          "title": "2025 치즈버튼 BX BI 디자이너를 모집합니다",
+          "cleaned_title": "치즈버튼 BX BI 디자이너를 합니다",
+          "company": "퀘스(Ques)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50418029",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#시각디자인",
+            "#CI디자인",
+            "#BI디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "CI디자인",
+            "BI디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "의상디자인": {
+      "size": 5,
+      "total_assignments": 5,
+      "documents": [
+        {
+          "rec_id": "50019791",
+          "title": "한솔섬유(주) 본사 디자인부 신입(인턴)/경력/계약직",
+          "cleaned_title": "한솔섬유 디자인부 () 계약직",
+          "company": "한솔섬유㈜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50019791",
+          "tags": [
+            "#남성의류",
+            "#디자인",
+            "#의상디자인",
+            "#여성의류",
+            "#섬유디자인",
+            "#아동복"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "의상디자인",
+            "섬유디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50296008",
+          "title": "해외의류수출벤더 유베이스인터내셔날 R&D Style Designer 채용",
+          "cleaned_title": "해외의류수출벤더 유베이스인터내셔날 R&D Style Designer",
+          "company": "(주)유베이스인터내셔날",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50296008",
+          "tags": [
+            "#디자인",
+            "#의상디자인",
+            "#여성의류",
+            "#PhotoShop",
+            "#일러스트"
+          ],
+          "other_major_categories": [
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "의상디자인"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50305051",
+          "title": "SATIN 디자인실 디자이너 채용 (1년차-3년차)",
+          "cleaned_title": "SATIN 디자인실 디자이너 (1년차 3년차)",
+          "company": "(주)영흥",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50305051",
+          "tags": [
+            "#디자인",
+            "#의상디자인",
+            "#생산",
+            "#패션잡화",
+            "#섬유/의류"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "의상디자인"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50468006",
+          "title": "여성복 디자이너브랜드 정직원 신입 모집",
+          "cleaned_title": "여성복 디자이너브랜드 정",
+          "company": "까이에",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50468006",
+          "tags": [
+            "#물류관리",
+            "#디자인",
+            "#의상디자인",
+            "#생산",
+            "#여성의류",
+            "#섬유/의류",
+            "#거래처관리",
+            "#패브릭디자인",
+            "#검품/검수",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#마케팅·홍보·조사",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "의상디자인",
+            "패브릭디자인"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "물류관리"
+            ],
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#생산": [
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50483412",
+          "title": "[VL&CO] 루이까스텔 디자이너 신입/경력 수시채용",
+          "cleaned_title": "루이까스텔 디자이너",
+          "company": "(주)브이엘엔코",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483412",
+          "tags": [
+            "#디자인",
+            "#의상디자인",
+            "#남성의류",
+            "#여성의류",
+            "#패턴디자인",
+            "#스포츠의류",
+            "#그래픽디자인",
+            "#주얼리디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "의상디자인",
+            "주얼리디자인",
+            "패턴디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "편집디자인": {
+      "size": 5,
+      "total_assignments": 5,
+      "documents": [
+        {
+          "rec_id": "50070473",
+          "title": "최고 근무환경(강남역), 그래픽 편집 디자인 신입/경력 채용",
+          "cleaned_title": "최고 근무환경(강남역), 그래픽 편집 디자인",
+          "company": "(주)비즈니스아츠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50070473",
+          "tags": [
+            "#디자인",
+            "#편집디자인",
+            "#시각디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "편집디자인",
+            "산업디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50090702",
+          "title": "[출판편집자] 함께 할 출판 본문편집자 신입 및 경력",
+          "cleaned_title": "함께 할 출판 본문편집자",
+          "company": "소명출판",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50090702",
+          "tags": [
+            "#디자인",
+            "#표지디자인",
+            "#편집디자인",
+            "#북디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "편집디자인",
+            "표지디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50381215",
+          "title": "[핀카] BX 디자이너",
+          "cleaned_title": "BX 디자이너",
+          "company": "(주)원인어헌드레드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50381215",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#영상디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#콘텐츠디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "콘텐츠디자인",
+            "영상디자인",
+            "시각디자인",
+            "편집디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50426113",
+          "title": "[퍼블리시스 그룹] 디자인 (전자브랜드 VI팀) 인턴 채용",
+          "cleaned_title": "디자인 (전자브랜드 VI팀)",
+          "company": "레오버넷(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50426113",
+          "tags": [
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#일러스트",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "AD(아트디렉터)",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "로고디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "AD(아트디렉터)"
+            ],
+            "#미디어·문화·스포츠": [
+              "AD(아트디렉터)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472427",
+          "title": "[신입 경력 ] 그래픽 디자이너 모집",
+          "cleaned_title": "그래픽 디자이너",
+          "company": "(주)프로젝트402",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472427",
+          "tags": [
+            "#디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#모션그래픽",
+            "#프리미어",
+            "#영상디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#3D디자인",
+            "#일러스트레이터",
+            "#애프터이펙트"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "일러스트레이터",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "영상디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "배너디자인": {
+      "size": 4,
+      "total_assignments": 4,
+      "documents": [
+        {
+          "rec_id": "50013358",
+          "title": "BX 디자이너 모집 (자율출퇴근, 월 1/3이상 재택)",
+          "cleaned_title": "BX 디자이너 (자율출퇴근, 월 1 3이상 재택)",
+          "company": "(주)율사이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50013358",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#문구디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#시각디자인",
+            "#북디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "모바일디자인",
+            "배너디자인",
+            "광고디자인",
+            "시각디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50092576",
+          "title": "스포츠 그래픽 디자이너(신입/경력) 모집",
+          "cleaned_title": "스포츠 그래픽 디자이너( )",
+          "company": "주식회사 플렉",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50092576",
+          "tags": [
+            "#상품기획·MD",
+            "#디자인",
+            "#브랜드디자인",
+            "#온라인MD",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#상품기획·md"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "브랜드디자인",
+            "그래픽디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#상품기획·md": [
+              "온라인MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50290841",
+          "title": "[강남]웹 개발 디자이너 모집(최고 복지)",
+          "cleaned_title": "웹 개발 디자이너 (최고 복지)",
+          "company": "(주)블랙핀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50290841",
+          "tags": [
+            "#디자인",
+            "#IT개발·데이터",
+            "#광고기획",
+            "#광고디자인",
+            "#웹",
+            "#기획·전략",
+            "#콘텐츠디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#웹기획",
+            "#일러스트레이터",
+            "#배너디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "웹디자인",
+            "광고디자인",
+            "일러스트레이터",
+            "콘텐츠디자인",
+            "디지털디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "웹기획",
+              "광고기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50347782",
+          "title": "마케팅 디자이너 (인턴)",
+          "cleaned_title": "마케팅 디자이너 ()",
+          "company": "트리플콤마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50347782",
+          "tags": [
+            "#디자인",
+            "#Figma",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#PhotoShop",
+            "#일러스트",
+            "#배너디자인"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "앱디자인",
+            "광고디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ]
+          }
+        }
+      ]
+    },
+    "일러스트레이터": {
+      "size": 4,
+      "total_assignments": 4,
+      "documents": [
+        {
+          "rec_id": "50087358",
+          "title": "디자인연구개발팀 디자이너 정규직 채용 (신입)",
+          "cleaned_title": "디자인연구개발팀 디자이너 ()",
+          "company": "(주)성지라미텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50087358",
+          "tags": [
+            "#디자인",
+            "#컬러리스트",
+            "#PhotoShop",
+            "#서구",
+            "#가구디자인",
+            "#일러스트레이터",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#미디어·문화·스포츠",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "가구디자인",
+            "웹디자인",
+            "컬러리스트",
+            "일러스트레이터"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#미디어·문화·스포츠": [
+              "컬러리스트"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50290841",
+          "title": "[강남]웹 개발 디자이너 모집(최고 복지)",
+          "cleaned_title": "웹 개발 디자이너 (최고 복지)",
+          "company": "(주)블랙핀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50290841",
+          "tags": [
+            "#디자인",
+            "#IT개발·데이터",
+            "#광고기획",
+            "#광고디자인",
+            "#웹",
+            "#기획·전략",
+            "#콘텐츠디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#웹기획",
+            "#일러스트레이터",
+            "#배너디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "웹디자인",
+            "광고디자인",
+            "일러스트레이터",
+            "콘텐츠디자인",
+            "디지털디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "웹기획",
+              "광고기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50469704",
+          "title": "2025년 2차 직원(계약직) 채용 공고(홍보디자인)",
+          "cleaned_title": "2차 (계약직) (홍보디자인)",
+          "company": "한국식품산업클러스터진흥원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50469704",
+          "tags": [
+            "#총무·법무·사무",
+            "#디자인",
+            "#사무행정",
+            "#시각디자인",
+            "#디지털디자인",
+            "#일러스트레이터",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "일러스트레이터",
+            "웹디자인",
+            "디지털디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "홍보"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472427",
+          "title": "[신입 경력 ] 그래픽 디자이너 모집",
+          "cleaned_title": "그래픽 디자이너",
+          "company": "(주)프로젝트402",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472427",
+          "tags": [
+            "#디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#모션그래픽",
+            "#프리미어",
+            "#영상디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#3D디자인",
+            "#일러스트레이터",
+            "#애프터이펙트"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "일러스트레이터",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "영상디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "콘텐츠디자인": {
+      "size": 4,
+      "total_assignments": 4,
+      "documents": [
+        {
+          "rec_id": "50290841",
+          "title": "[강남]웹 개발 디자이너 모집(최고 복지)",
+          "cleaned_title": "웹 개발 디자이너 (최고 복지)",
+          "company": "(주)블랙핀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50290841",
+          "tags": [
+            "#디자인",
+            "#IT개발·데이터",
+            "#광고기획",
+            "#광고디자인",
+            "#웹",
+            "#기획·전략",
+            "#콘텐츠디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#웹기획",
+            "#일러스트레이터",
+            "#배너디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "배너디자인",
+            "웹디자인",
+            "광고디자인",
+            "일러스트레이터",
+            "콘텐츠디자인",
+            "디지털디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "웹기획",
+              "광고기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50294160",
+          "title": "[디자이너] 빠르게 성장하는 스타트업에서 같이 일해요",
+          "cleaned_title": "빠르게 성장하는 스타트업에서 같이 일해요",
+          "company": "(주)넥사코드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50294160",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#콘텐츠디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "모바일디자인",
+            "웹디자인",
+            "콘텐츠디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "그래픽디자인",
+            "앱디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50381215",
+          "title": "[핀카] BX 디자이너",
+          "cleaned_title": "BX 디자이너",
+          "company": "(주)원인어헌드레드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50381215",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#영상디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#콘텐츠디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "콘텐츠디자인",
+            "영상디자인",
+            "시각디자인",
+            "편집디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50496628",
+          "title": "(주) 썸씽스페셜 방송 기획개발 인턴 PD 채용",
+          "cleaned_title": "썸씽스페셜 방송 기획개발 PD",
+          "company": "(주)썸씽스페셜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50496628",
+          "tags": [
+            "#콘텐츠마케팅",
+            "#디자인",
+            "#시장조사",
+            "#PD/AD/FD",
+            "#기획·전략",
+            "#TV",
+            "#콘텐츠디자인",
+            "#기획",
+            "#미디어·문화·스포츠",
+            "#콘텐츠기획",
+            "#자료",
+            "#마케팅·홍보·조사",
+            "#트렌드분석"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "콘텐츠디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠마케팅",
+              "콘텐츠기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "PD/AD/FD"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "북디자인": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50013358",
+          "title": "BX 디자이너 모집 (자율출퇴근, 월 1/3이상 재택)",
+          "cleaned_title": "BX 디자이너 (자율출퇴근, 월 1 3이상 재택)",
+          "company": "(주)율사이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50013358",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#문구디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#시각디자인",
+            "#북디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "모바일디자인",
+            "배너디자인",
+            "광고디자인",
+            "시각디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50090702",
+          "title": "[출판편집자] 함께 할 출판 본문편집자 신입 및 경력",
+          "cleaned_title": "함께 할 출판 본문편집자",
+          "company": "소명출판",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50090702",
+          "tags": [
+            "#디자인",
+            "#표지디자인",
+            "#편집디자인",
+            "#북디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "편집디자인",
+            "표지디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50385518",
+          "title": "제품디자인 시각디자인 사원 모집 (유아용품, 반려동물용품)",
+          "cleaned_title": "제품디자인 시각디자인 (유아용품, 반려동물용품)",
+          "company": "아이엘",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50385518",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#제품디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#CI디자인",
+            "#북디자인",
+            "#정보디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "시각디자인",
+            "북디자인",
+            "완구디자인",
+            "정보디자인",
+            "CI디자인",
+            "그래픽디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "로고디자인": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50013358",
+          "title": "BX 디자이너 모집 (자율출퇴근, 월 1/3이상 재택)",
+          "cleaned_title": "BX 디자이너 (자율출퇴근, 월 1 3이상 재택)",
+          "company": "(주)율사이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50013358",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#문구디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#시각디자인",
+            "#북디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "모바일디자인",
+            "배너디자인",
+            "광고디자인",
+            "시각디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50202615",
+          "title": "시각 디자이너(기획,편집) 모집",
+          "cleaned_title": "시각 디자이너(기획,편집)",
+          "company": "(주)사이디라이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202615",
+          "tags": [
+            "#디자인",
+            "#인디자인",
+            "#제안서",
+            "#인포그래픽",
+            "#Figma",
+            "#캐릭터디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#로고디자인",
+            "#디지털디자인",
+            "#일러스트",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "캐릭터디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50426113",
+          "title": "[퍼블리시스 그룹] 디자인 (전자브랜드 VI팀) 인턴 채용",
+          "cleaned_title": "디자인 (전자브랜드 VI팀)",
+          "company": "레오버넷(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50426113",
+          "tags": [
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#일러스트",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "AD(아트디렉터)",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "로고디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "AD(아트디렉터)"
+            ],
+            "#미디어·문화·스포츠": [
+              "AD(아트디렉터)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "문구디자인": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50013358",
+          "title": "BX 디자이너 모집 (자율출퇴근, 월 1/3이상 재택)",
+          "cleaned_title": "BX 디자이너 (자율출퇴근, 월 1 3이상 재택)",
+          "company": "(주)율사이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50013358",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#문구디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#시각디자인",
+            "#북디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "모바일디자인",
+            "배너디자인",
+            "광고디자인",
+            "시각디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50385518",
+          "title": "제품디자인 시각디자인 사원 모집 (유아용품, 반려동물용품)",
+          "cleaned_title": "제품디자인 시각디자인 (유아용품, 반려동물용품)",
+          "company": "아이엘",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50385518",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#제품디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#CI디자인",
+            "#북디자인",
+            "#정보디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "시각디자인",
+            "북디자인",
+            "완구디자인",
+            "정보디자인",
+            "CI디자인",
+            "그래픽디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50481867",
+          "title": "[산업디자인] KIDP 청년디자이너 인턴십",
+          "cleaned_title": "KIDP 청년디자이너 십",
+          "company": "502디자인랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50481867",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "산업디자인",
+            "완구디자인",
+            "시각디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "섬유디자인": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50019791",
+          "title": "한솔섬유(주) 본사 디자인부 신입(인턴)/경력/계약직",
+          "cleaned_title": "한솔섬유 디자인부 () 계약직",
+          "company": "한솔섬유㈜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50019791",
+          "tags": [
+            "#남성의류",
+            "#디자인",
+            "#의상디자인",
+            "#여성의류",
+            "#섬유디자인",
+            "#아동복"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "의상디자인",
+            "섬유디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50125989",
+          "title": "[의류벤더 서이] 원단 디자이너 신입/경력 3년 이하",
+          "cleaned_title": "원단 디자이너 3년 이하",
+          "company": "(주)서이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50125989",
+          "tags": [
+            "#디자인",
+            "#섬유디자인",
+            "#여성의류"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "섬유디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50126093",
+          "title": "[의류벤더 리무역] 원단 디자이너 신입/경력 3년 이하",
+          "cleaned_title": "원단 디자이너 3년 이하",
+          "company": "리무역 (주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50126093",
+          "tags": [
+            "#디자인",
+            "#섬유디자인",
+            "#여성의류"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "섬유디자인"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "패키지디자인": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50306086",
+          "title": "(주)오타종패키징퍼시픽 제품개발팀 정규직 채용 - 신입",
+          "cleaned_title": "제품개발팀",
+          "company": "(주)오타종패키징퍼시픽",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50306086",
+          "tags": [
+            "#디자인",
+            "#서비스",
+            "#R&D",
+            "#컬러리스트",
+            "#생산",
+            "#패키지디자인",
+            "#연구·R&D",
+            "#기획·전략",
+            "#고객응대",
+            "#제품설계",
+            "#기획",
+            "#현장",
+            "#R&D기획",
+            "#실적관리",
+            "#KPI관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#미디어·문화·스포츠",
+            "#생산",
+            "#서비스",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "컬러리스트",
+            "패키지디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "컬러리스트"
+            ],
+            "#생산": [
+              "제품설계",
+              "생산"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "R&D",
+              "R&D기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50484939",
+          "title": "정샘물뷰티[화장품] 화장품 패키지 디자이너 채용",
+          "cleaned_title": "정샘물뷰티 화장품 패키지 디자이너",
+          "company": "(주)정샘물뷰티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50484939",
+          "tags": [
+            "#디자인",
+            "#패키지디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "패키지디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50498247",
+          "title": "코스맥스네오(주) 연구개발팀 사원 모집",
+          "cleaned_title": "연구개발팀",
+          "company": "코스맥스네오(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50498247",
+          "tags": [
+            "#디자인",
+            "#생산",
+            "#R&D",
+            "#기계설계",
+            "#연구·R&D",
+            "#금형설계",
+            "#패키지디자인",
+            "#기술연구"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "패키지디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#생산": [
+              "금형설계",
+              "기계설계",
+              "생산"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ]
+          }
+        }
+      ]
+    },
+    "영상디자인": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50381215",
+          "title": "[핀카] BX 디자이너",
+          "cleaned_title": "BX 디자이너",
+          "company": "(주)원인어헌드레드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50381215",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#영상디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#콘텐츠디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "콘텐츠디자인",
+            "영상디자인",
+            "시각디자인",
+            "편집디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50410829",
+          "title": "[스타쉽엔터테인먼트] 영상 제작팀 채용",
+          "cleaned_title": "영상 제작팀",
+          "company": "(주)스타쉽엔터테인먼트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50410829",
+          "tags": [
+            "#디자인",
+            "#영상디자이너",
+            "#영상디자인",
+            "#영상제작",
+            "#미디어·문화·스포츠",
+            "#영상편집"
+          ],
+          "other_major_categories": [
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "영상디자인"
+          ],
+          "mid_categories_in_others": {
+            "#미디어·문화·스포츠": [
+              "영상디자이너"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472427",
+          "title": "[신입 경력 ] 그래픽 디자이너 모집",
+          "cleaned_title": "그래픽 디자이너",
+          "company": "(주)프로젝트402",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472427",
+          "tags": [
+            "#디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#모션그래픽",
+            "#프리미어",
+            "#영상디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#3D디자인",
+            "#일러스트레이터",
+            "#애프터이펙트"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "일러스트레이터",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "영상디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "완구디자인": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50385518",
+          "title": "제품디자인 시각디자인 사원 모집 (유아용품, 반려동물용품)",
+          "cleaned_title": "제품디자인 시각디자인 (유아용품, 반려동물용품)",
+          "company": "아이엘",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50385518",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#제품디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#CI디자인",
+            "#북디자인",
+            "#정보디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "시각디자인",
+            "북디자인",
+            "완구디자인",
+            "정보디자인",
+            "CI디자인",
+            "그래픽디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50459628",
+          "title": "옥스포드 제품 디자이너 모집 채용공고",
+          "cleaned_title": "옥스포드 제품 디자이너",
+          "company": "(주)옥스포드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50459628",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "완구디자인",
+            "산업디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50481867",
+          "title": "[산업디자인] KIDP 청년디자이너 인턴십",
+          "cleaned_title": "KIDP 청년디자이너 십",
+          "company": "502디자인랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50481867",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "산업디자인",
+            "완구디자인",
+            "시각디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "공예디자인": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50385518",
+          "title": "제품디자인 시각디자인 사원 모집 (유아용품, 반려동물용품)",
+          "cleaned_title": "제품디자인 시각디자인 (유아용품, 반려동물용품)",
+          "company": "아이엘",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50385518",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#제품디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#CI디자인",
+            "#북디자인",
+            "#정보디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "시각디자인",
+            "북디자인",
+            "완구디자인",
+            "정보디자인",
+            "CI디자인",
+            "그래픽디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50481867",
+          "title": "[산업디자인] KIDP 청년디자이너 인턴십",
+          "cleaned_title": "KIDP 청년디자이너 십",
+          "company": "502디자인랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50481867",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#산업디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "산업디자인",
+            "완구디자인",
+            "시각디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50490307",
+          "title": "2025 공예청년인턴십 지원사업을 통한 청년인턴 채용",
+          "cleaned_title": "공예청년십 지원사업을 통한 청년",
+          "company": "주식회사 토로토로스튜디오",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50490307",
+          "tags": [
+            "#디자인",
+            "#서비스",
+            "#공예디자인",
+            "#교육",
+            "#파트강사",
+            "#매장관리"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#서비스",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "공예디자인"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "파트강사"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "AD(아트디렉터)": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50426113",
+          "title": "[퍼블리시스 그룹] 디자인 (전자브랜드 VI팀) 인턴 채용",
+          "cleaned_title": "디자인 (전자브랜드 VI팀)",
+          "company": "레오버넷(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50426113",
+          "tags": [
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#일러스트",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "AD(아트디렉터)",
+            "시각디자인",
+            "편집디자인",
+            "그래픽디자인",
+            "로고디자인"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "AD(아트디렉터)"
+            ],
+            "#미디어·문화·스포츠": [
+              "AD(아트디렉터)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50483975",
+          "title": "[종합광고대행사]정직원 전환형 신입 아트디렉터/AD 채용",
+          "cleaned_title": "정 전환형 아트디렉터 AD",
+          "company": "(주)라이크어버진",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483975",
+          "tags": [
+            "#광고마케팅",
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#AE(광고기획자)",
+            "#광고디자인",
+            "#CW(카피라이터)",
+            "#마케팅기획",
+            "#시각디자인",
+            "#미디어·문화·스포츠",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)",
+            "광고디자인",
+            "시각디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "CW(카피라이터)",
+              "마케팅전략",
+              "마케팅기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "AD(아트디렉터)",
+              "PD/AD/FD",
+              "CW(카피라이터)",
+              "AE(광고기획자)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50485225",
+          "title": "[볼드]CREATOR / AE / CW - 대행사업무가능자",
+          "cleaned_title": "CREATOR AE CW 대행사업무가능자",
+          "company": "(주)볼드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50485225",
+          "tags": [
+            "#CW(카피라이터",
+            "#마케팅·홍보·조사",
+            "#AE(광고기획자)",
+            "#AD(아트디렉터)",
+            "#광고기획",
+            "#PD/AD/FD",
+            "#기획·전략",
+            "#영상제작",
+            "#미디어·문화·스포츠",
+            "#영상편집",
+            "#CW(카피라이터)"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "CW(카피라이터)"
+            ],
+            "#미디어·문화·스포츠": [
+              "AD(아트디렉터)",
+              "PD/AD/FD",
+              "CW(카피라이터)",
+              "AE(광고기획자)"
+            ]
+          }
+        }
+      ]
+    },
+    "모바일디자인": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50013358",
+          "title": "BX 디자이너 모집 (자율출퇴근, 월 1/3이상 재택)",
+          "cleaned_title": "BX 디자이너 (자율출퇴근, 월 1 3이상 재택)",
+          "company": "(주)율사이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50013358",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#문구디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#시각디자인",
+            "#북디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "모바일디자인",
+            "배너디자인",
+            "광고디자인",
+            "시각디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50294160",
+          "title": "[디자이너] 빠르게 성장하는 스타트업에서 같이 일해요",
+          "cleaned_title": "빠르게 성장하는 스타트업에서 같이 일해요",
+          "company": "(주)넥사코드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50294160",
+          "tags": [
+            "#디자인",
+            "#모바일디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#콘텐츠디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "모바일디자인",
+            "웹디자인",
+            "콘텐츠디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "그래픽디자인",
+            "앱디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "공간디자인": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50050737",
+          "title": "YKA의 한국지사 건축/인테리어/조경 Design Assistant 모집",
+          "cleaned_title": "YKA의 한국지사 건축 인테리어 조경 Design Assistant",
+          "company": "와이닷 디자인 그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50050737",
+          "tags": [
+            "#드림위버",
+            "#디자인",
+            "#라이노",
+            "#건설·건축",
+            "#인디자인",
+            "#CAD",
+            "#플래시",
+            "#건축설계",
+            "#프리미어",
+            "#공간디자인",
+            "#모델링",
+            "#렌더링",
+            "#스케치업",
+            "#건축디자인",
+            "#Ma"
+          ],
+          "other_major_categories": [
+            "#건설·건축"
+          ],
+          "mid_categories_in_this_major": [
+            "공간디자인",
+            "건축디자인"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50416138",
+          "title": "VMD 및 공간연출 스타일리스트 /디자이너 신입 채용",
+          "cleaned_title": "VMD 공간연출 스타일리스트 디자이너",
+          "company": "(주)세븐도어즈",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50416138",
+          "tags": [
+            "#디자인",
+            "#라이노",
+            "#CAD",
+            "#브랜드디자인",
+            "#VMD",
+            "#PhotoShop",
+            "#V-Ray",
+            "#공간디자인",
+            "#3DMax",
+            "#시각디자인",
+            "#일러스트",
+            "#전시디자인",
+            "#스케치업",
+            "#아트워크"
+          ],
+          "other_major_categories": [
+            "#상품기획·md",
+            "#서비스",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "VMD",
+            "공간디자인",
+            "시각디자인",
+            "브랜드디자인",
+            "전시디자인"
+          ],
+          "mid_categories_in_others": {
+            "#상품기획·md": [
+              "VMD"
+            ],
+            "#서비스": [
+              "스타일리스트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "컬러리스트": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50087358",
+          "title": "디자인연구개발팀 디자이너 정규직 채용 (신입)",
+          "cleaned_title": "디자인연구개발팀 디자이너 ()",
+          "company": "(주)성지라미텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50087358",
+          "tags": [
+            "#디자인",
+            "#컬러리스트",
+            "#PhotoShop",
+            "#서구",
+            "#가구디자인",
+            "#일러스트레이터",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#미디어·문화·스포츠",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "가구디자인",
+            "웹디자인",
+            "컬러리스트",
+            "일러스트레이터"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#미디어·문화·스포츠": [
+              "컬러리스트"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50306086",
+          "title": "(주)오타종패키징퍼시픽 제품개발팀 정규직 채용 - 신입",
+          "cleaned_title": "제품개발팀",
+          "company": "(주)오타종패키징퍼시픽",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50306086",
+          "tags": [
+            "#디자인",
+            "#서비스",
+            "#R&D",
+            "#컬러리스트",
+            "#생산",
+            "#패키지디자인",
+            "#연구·R&D",
+            "#기획·전략",
+            "#고객응대",
+            "#제품설계",
+            "#기획",
+            "#현장",
+            "#R&D기획",
+            "#실적관리",
+            "#KPI관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#미디어·문화·스포츠",
+            "#생산",
+            "#서비스",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "컬러리스트",
+            "패키지디자인"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "컬러리스트"
+            ],
+            "#생산": [
+              "제품설계",
+              "생산"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "R&D",
+              "R&D기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "캐릭터디자인": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50202615",
+          "title": "시각 디자이너(기획,편집) 모집",
+          "cleaned_title": "시각 디자이너(기획,편집)",
+          "company": "(주)사이디라이트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202615",
+          "tags": [
+            "#디자인",
+            "#인디자인",
+            "#제안서",
+            "#인포그래픽",
+            "#Figma",
+            "#캐릭터디자인",
+            "#UI/UX디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#로고디자인",
+            "#디지털디자인",
+            "#일러스트",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "UI/UX디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "로고디자인",
+            "캐릭터디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50497524",
+          "title": "[잔망루피] 이모티콘/SNS 콘텐츠 디자이너 모집 (신입)",
+          "cleaned_title": "이모티콘 SNS 콘텐츠 디자이너 ()",
+          "company": "(주)아이코닉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497524",
+          "tags": [
+            "#디자인",
+            "#애니메이터",
+            "#캐릭터디자인",
+            "#브랜드디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#정보디자인",
+            "#3D디자인",
+            "#산업디자인",
+            "#2D디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "애니메이터",
+            "시각디자인",
+            "정보디자인",
+            "디지털디자인",
+            "캐릭터디자인",
+            "그래픽디자인",
+            "산업디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "패턴디자인": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50274142",
+          "title": "[보끄레머천다이징] 3D디자이너 채용공고",
+          "cleaned_title": "3D디자이너",
+          "company": "(주)보끄레머천다이징",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50274142",
+          "tags": [
+            "#디자인",
+            "#패턴디자인",
+            "#3D디자인",
+            "#CLO",
+            "#애프터이펙트"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "패턴디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50483412",
+          "title": "[VL&CO] 루이까스텔 디자이너 신입/경력 수시채용",
+          "cleaned_title": "루이까스텔 디자이너",
+          "company": "(주)브이엘엔코",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483412",
+          "tags": [
+            "#디자인",
+            "#의상디자인",
+            "#남성의류",
+            "#여성의류",
+            "#패턴디자인",
+            "#스포츠의류",
+            "#그래픽디자인",
+            "#주얼리디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "의상디자인",
+            "주얼리디자인",
+            "패턴디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "BX디자인": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50381215",
+          "title": "[핀카] BX 디자이너",
+          "cleaned_title": "BX 디자이너",
+          "company": "(주)원인어헌드레드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50381215",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#편집디자인",
+            "#광고디자인",
+            "#브랜드디자인",
+            "#영상디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#콘텐츠디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "광고디자인",
+            "콘텐츠디자인",
+            "영상디자인",
+            "시각디자인",
+            "편집디자인",
+            "디지털디자인",
+            "그래픽디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50418029",
+          "title": "2025 치즈버튼 BX BI 디자이너를 모집합니다",
+          "cleaned_title": "치즈버튼 BX BI 디자이너를 합니다",
+          "company": "퀘스(Ques)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50418029",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#시각디자인",
+            "#CI디자인",
+            "#BI디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "CI디자인",
+            "BI디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "정보디자인": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50385518",
+          "title": "제품디자인 시각디자인 사원 모집 (유아용품, 반려동물용품)",
+          "cleaned_title": "제품디자인 시각디자인 (유아용품, 반려동물용품)",
+          "company": "아이엘",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50385518",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#제품디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#CI디자인",
+            "#북디자인",
+            "#정보디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "시각디자인",
+            "북디자인",
+            "완구디자인",
+            "정보디자인",
+            "CI디자인",
+            "그래픽디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50497524",
+          "title": "[잔망루피] 이모티콘/SNS 콘텐츠 디자이너 모집 (신입)",
+          "cleaned_title": "이모티콘 SNS 콘텐츠 디자이너 ()",
+          "company": "(주)아이코닉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497524",
+          "tags": [
+            "#디자인",
+            "#애니메이터",
+            "#캐릭터디자인",
+            "#브랜드디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#정보디자인",
+            "#3D디자인",
+            "#산업디자인",
+            "#2D디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "애니메이터",
+            "시각디자인",
+            "정보디자인",
+            "디지털디자인",
+            "캐릭터디자인",
+            "그래픽디자인",
+            "산업디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "CI디자인": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50385518",
+          "title": "제품디자인 시각디자인 사원 모집 (유아용품, 반려동물용품)",
+          "cleaned_title": "제품디자인 시각디자인 (유아용품, 반려동물용품)",
+          "company": "아이엘",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50385518",
+          "tags": [
+            "#디자인",
+            "#완구디자인",
+            "#문구디자인",
+            "#제품디자인",
+            "#공예디자인",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#CI디자인",
+            "#북디자인",
+            "#정보디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "시각디자인",
+            "북디자인",
+            "완구디자인",
+            "정보디자인",
+            "CI디자인",
+            "그래픽디자인",
+            "공예디자인",
+            "문구디자인"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50418029",
+          "title": "2025 치즈버튼 BX BI 디자이너를 모집합니다",
+          "cleaned_title": "치즈버튼 BX BI 디자이너를 합니다",
+          "company": "퀘스(Ques)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50418029",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#시각디자인",
+            "#CI디자인",
+            "#BI디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "CI디자인",
+            "BI디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "VMD": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50416138",
+          "title": "VMD 및 공간연출 스타일리스트 /디자이너 신입 채용",
+          "cleaned_title": "VMD 공간연출 스타일리스트 디자이너",
+          "company": "(주)세븐도어즈",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50416138",
+          "tags": [
+            "#디자인",
+            "#라이노",
+            "#CAD",
+            "#브랜드디자인",
+            "#VMD",
+            "#PhotoShop",
+            "#V-Ray",
+            "#공간디자인",
+            "#3DMax",
+            "#시각디자인",
+            "#일러스트",
+            "#전시디자인",
+            "#스케치업",
+            "#아트워크"
+          ],
+          "other_major_categories": [
+            "#상품기획·md",
+            "#서비스",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "VMD",
+            "공간디자인",
+            "시각디자인",
+            "브랜드디자인",
+            "전시디자인"
+          ],
+          "mid_categories_in_others": {
+            "#상품기획·md": [
+              "VMD"
+            ],
+            "#서비스": [
+              "스타일리스트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50511734",
+          "title": "(주)신영와코루 2025년 부문별 정기채용",
+          "cleaned_title": "부문별 정기",
+          "company": "(주)신영와코루",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50511734&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#VMD",
+            "#영업마케팅",
+            "#AMD",
+            "#바잉MD",
+            "#기획MD",
+            "#온라인MD",
+            "#홈쇼핑",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#영업MD",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#상품기획·md",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "VMD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#상품기획·md": [
+              "패션MD",
+              "기획MD",
+              "바잉MD",
+              "AMD",
+              "유통MD",
+              "온라인MD",
+              "영업MD",
+              "VMD"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업MD",
+              "영업마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "컨셉디자인": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50436221",
+          "title": "[HK연우]_2025 상반기 콜마그룹 대졸신입 공채(디자인)",
+          "cleaned_title": "콜마그룹 (디자인)",
+          "company": "(주)연우",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436221",
+          "tags": [
+            "#상품기획·MD",
+            "#디자인",
+            "#시장조사",
+            "#컨셉디자인",
+            "#기획·전략",
+            "#렌더링",
+            "#3D디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#상품기획·md"
+          ],
+          "mid_categories_in_this_major": [
+            "컨셉디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#상품기획·md": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50438146",
+          "title": "[HK연우]_2025 상반기 콜마그룹 대졸신입 공채",
+          "cleaned_title": "콜마그룹",
+          "company": "(주)연우",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50438146",
+          "tags": [
+            "#디자인",
+            "#컨셉디자인",
+            "#영업·판매·무역",
+            "#렌더링",
+            "#영업관리",
+            "#3D디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "컨셉디자인"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ]
+          }
+        }
+      ]
+    },
+    "주얼리디자인": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50461589",
+          "title": "[세정]디디에두보 디자인팀 주얼리 디자이너 신입/경력 채용",
+          "cleaned_title": "디디에두보 디자인팀 주얼리 디자이너",
+          "company": "(주)세정 서울지사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50461589",
+          "tags": [
+            "#주얼리/액세서리",
+            "#디자인",
+            "#생산",
+            "#주얼리디자인"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "주얼리디자인"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50483412",
+          "title": "[VL&CO] 루이까스텔 디자이너 신입/경력 수시채용",
+          "cleaned_title": "루이까스텔 디자이너",
+          "company": "(주)브이엘엔코",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483412",
+          "tags": [
+            "#디자인",
+            "#의상디자인",
+            "#남성의류",
+            "#여성의류",
+            "#패턴디자인",
+            "#스포츠의류",
+            "#그래픽디자인",
+            "#주얼리디자인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "의상디자인",
+            "주얼리디자인",
+            "패턴디자인",
+            "그래픽디자인"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "잡화디자인": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50021822",
+          "title": "[젠틀몬스터] 패션프로덕트 컬렉션 및 패션 콜라보 컨셉 기획팀",
+          "cleaned_title": "패션프로덕트 컬렉션 패션 콜라보 컨셉 기획팀",
+          "company": "(주)아이아이컴바인드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50021822",
+          "tags": [
+            "#패션디자인",
+            "#잡화디자인",
+            "#디자인",
+            "#라이노",
+            "#아이웨어디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "잡화디자인"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        }
+      ]
+    },
+    "건축디자인": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50050737",
+          "title": "YKA의 한국지사 건축/인테리어/조경 Design Assistant 모집",
+          "cleaned_title": "YKA의 한국지사 건축 인테리어 조경 Design Assistant",
+          "company": "와이닷 디자인 그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50050737",
+          "tags": [
+            "#드림위버",
+            "#디자인",
+            "#라이노",
+            "#건설·건축",
+            "#인디자인",
+            "#CAD",
+            "#플래시",
+            "#건축설계",
+            "#프리미어",
+            "#공간디자인",
+            "#모델링",
+            "#렌더링",
+            "#스케치업",
+            "#건축디자인",
+            "#Ma"
+          ],
+          "other_major_categories": [
+            "#건설·건축"
+          ],
+          "mid_categories_in_this_major": [
+            "공간디자인",
+            "건축디자인"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "가구디자인": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50087358",
+          "title": "디자인연구개발팀 디자이너 정규직 채용 (신입)",
+          "cleaned_title": "디자인연구개발팀 디자이너 ()",
+          "company": "(주)성지라미텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50087358",
+          "tags": [
+            "#디자인",
+            "#컬러리스트",
+            "#PhotoShop",
+            "#서구",
+            "#가구디자인",
+            "#일러스트레이터",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#미디어·문화·스포츠",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "가구디자인",
+            "웹디자인",
+            "컬러리스트",
+            "일러스트레이터"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#미디어·문화·스포츠": [
+              "컬러리스트"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "표지디자인": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50090702",
+          "title": "[출판편집자] 함께 할 출판 본문편집자 신입 및 경력",
+          "cleaned_title": "함께 할 출판 본문편집자",
+          "company": "소명출판",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50090702",
+          "tags": [
+            "#디자인",
+            "#표지디자인",
+            "#편집디자인",
+            "#북디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "북디자인",
+            "편집디자인",
+            "표지디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "자동차디자인": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50400958",
+          "title": "자동차부품(Door Module) 설계팀 경력직 채용",
+          "cleaned_title": "자동차부품(Door Module) 설계팀 직",
+          "company": "대동하이렉스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50400958",
+          "tags": [
+            "#조선설계",
+            "#디자인",
+            "#R&D",
+            "#생산",
+            "#자동차디자인",
+            "#연구·R&D",
+            "#CATIA",
+            "#AutoCAD"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "자동차디자인"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "구조해석/설계",
+              "조선설계",
+              "생산"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "전시디자인": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50416138",
+          "title": "VMD 및 공간연출 스타일리스트 /디자이너 신입 채용",
+          "cleaned_title": "VMD 공간연출 스타일리스트 디자이너",
+          "company": "(주)세븐도어즈",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50416138",
+          "tags": [
+            "#디자인",
+            "#라이노",
+            "#CAD",
+            "#브랜드디자인",
+            "#VMD",
+            "#PhotoShop",
+            "#V-Ray",
+            "#공간디자인",
+            "#3DMax",
+            "#시각디자인",
+            "#일러스트",
+            "#전시디자인",
+            "#스케치업",
+            "#아트워크"
+          ],
+          "other_major_categories": [
+            "#상품기획·md",
+            "#서비스",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "VMD",
+            "공간디자인",
+            "시각디자인",
+            "브랜드디자인",
+            "전시디자인"
+          ],
+          "mid_categories_in_others": {
+            "#상품기획·md": [
+              "VMD"
+            ],
+            "#서비스": [
+              "스타일리스트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "BI디자인": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50418029",
+          "title": "2025 치즈버튼 BX BI 디자이너를 모집합니다",
+          "cleaned_title": "치즈버튼 BX BI 디자이너를 합니다",
+          "company": "퀘스(Ques)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50418029",
+          "tags": [
+            "#디자인",
+            "#BX디자인",
+            "#브랜드디자인",
+            "#앱디자인",
+            "#시각디자인",
+            "#CI디자인",
+            "#BI디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "시각디자인",
+            "CI디자인",
+            "BI디자인",
+            "앱디자인",
+            "브랜드디자인",
+            "BX디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "패브릭디자인": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50468006",
+          "title": "여성복 디자이너브랜드 정직원 신입 모집",
+          "cleaned_title": "여성복 디자이너브랜드 정",
+          "company": "까이에",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50468006",
+          "tags": [
+            "#물류관리",
+            "#디자인",
+            "#의상디자인",
+            "#생산",
+            "#여성의류",
+            "#섬유/의류",
+            "#거래처관리",
+            "#패브릭디자인",
+            "#검품/검수",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#마케팅·홍보·조사",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "의상디자인",
+            "패브릭디자인"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "물류관리"
+            ],
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#생산": [
+              "생산"
+            ]
+          }
+        }
+      ]
+    },
+    "애니메이터": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50497524",
+          "title": "[잔망루피] 이모티콘/SNS 콘텐츠 디자이너 모집 (신입)",
+          "cleaned_title": "이모티콘 SNS 콘텐츠 디자이너 ()",
+          "company": "(주)아이코닉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497524",
+          "tags": [
+            "#디자인",
+            "#애니메이터",
+            "#캐릭터디자인",
+            "#브랜드디자인",
+            "#디지털디자인",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#정보디자인",
+            "#3D디자인",
+            "#산업디자인",
+            "#2D디자인",
+            "#웹디자인"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "웹디자인",
+            "애니메이터",
+            "시각디자인",
+            "정보디자인",
+            "디지털디자인",
+            "캐릭터디자인",
+            "그래픽디자인",
+            "산업디자인",
+            "브랜드디자인"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    }
+  }
+}

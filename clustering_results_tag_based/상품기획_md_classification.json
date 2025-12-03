@@ -1,0 +1,4077 @@
+{
+  "major_category": "#상품기획·md",
+  "statistics": {
+    "total_docs": 58,
+    "unique_docs": 58,
+    "num_mid_categories": 13,
+    "overlap_info": {
+      "with_기획_전략": 53,
+      "with_마케팅_홍보_조사": 25,
+      "with_영업_판매_무역": 26,
+      "with_의료": 1,
+      "with_인사_노무_hrd": 28,
+      "with_디자인": 5,
+      "with_it개발_데이터": 5,
+      "with_연구_r&d": 6,
+      "with_건설_건축": 2,
+      "with_구매_자재_물류": 3,
+      "with_생산": 8,
+      "with_총무_법무_사무": 7,
+      "with_미디어_문화_스포츠": 1,
+      "with_서비스": 1,
+      "with_금융_보험": 1,
+      "with_고객상담_tm": 2,
+      "with_공공_복지": 1
+    }
+  },
+  "mid_categories": {
+    "기타": {
+      "size": 25,
+      "total_assignments": 25,
+      "documents": [
+        {
+          "rec_id": "50056878",
+          "title": "[(주)트리] 2025년 상반기 신입사원 채용 (홈쇼핑MD)",
+          "cleaned_title": "[] (홈쇼핑MD)",
+          "company": "(주)트리",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50056878",
+          "tags": [
+            "#상품기획·MD",
+            "#홈쇼핑"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50063382",
+          "title": "[헤어뷰티 브랜드] 루미오 브랜드 마케터 모집",
+          "cleaned_title": "루미오 브랜드 마케터",
+          "company": "아레테온 유한회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50063382",
+          "tags": [
+            "#상품기획·MD",
+            "#SNS",
+            "#시장조사",
+            "#마케팅기획",
+            "#이벤트프로모션",
+            "#서초",
+            "#세일즈프로모션",
+            "#기업홍보",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#마케팅",
+            "#디지털마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "마케팅전략",
+              "기업홍보",
+              "마케팅기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50331701",
+          "title": "[서울사무소]메이크업 (베이스파트/포인트파트) 연구 개발",
+          "cleaned_title": "메이크업 (베이스파트 포인트파트) 연구 개발",
+          "company": "(주)나우코스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50331701",
+          "tags": [
+            "#상품기획·MD",
+            "#화장품"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50335623",
+          "title": "[서울사무소]클렌징 및 헤어&바디 제형 연구개발 팀원 모집",
+          "cleaned_title": "클렌징 헤어&바디 제형 연구개발",
+          "company": "(주)나우코스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50335623",
+          "tags": [
+            "#상품기획·MD",
+            "#화장품"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50368386",
+          "title": "의류 내수영업 경력 및 신입 모집",
+          "cleaned_title": "의류 내수영업",
+          "company": "모락스트레이딩(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50368386",
+          "tags": [
+            "#의류영업",
+            "#무역관리",
+            "#상품기획·MD",
+            "#의류무역",
+            "#무역영어",
+            "#생산",
+            "#거래처관리",
+            "#섬유/의류",
+            "#해외시장개척",
+            "#수출관리",
+            "#영업·판매·무역",
+            "#바이어발굴/관리",
+            "#여성의"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#생산",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#생산": [
+              "생산"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "해외시장개척",
+              "의류무역"
+            ]
+          }
+        },
+        {
+          "rec_id": "50371926",
+          "title": "[쇼핑엔티] 홈쇼핑 편성 담당 신입/경력 채용",
+          "cleaned_title": "홈쇼핑 편성 담당",
+          "company": "(주)티알엔",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50371926",
+          "tags": [
+            "#데이터분석",
+            "#상품기획·MD",
+            "#편성",
+            "#시장조사",
+            "#영업·판매·무역",
+            "#기획·전략",
+            "#홈쇼핑",
+            "#사업관리",
+            "#기획",
+            "#미디어·문화·스포츠",
+            "#예산관리",
+            "#실적관리",
+            "#방송송출"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#미디어·문화·스포츠",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50378645",
+          "title": "Research Intern, CRE",
+          "cleaned_title": "Research Intern, CRE",
+          "company": "입소스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50378645",
+          "tags": [
+            "#상품기획·MD",
+            "#총무·법무·사무",
+            "#설문조사",
+            "#시장조사",
+            "#자료조사",
+            "#기획·전략",
+            "#사회조사",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50393972",
+          "title": "PR / 홍보 마케팅 인턴 사원 모집",
+          "cleaned_title": "PR 홍보 마케팅",
+          "company": "이오스커뮤니케이션스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50393972",
+          "tags": [
+            "#상품기획·MD",
+            "#언론홍보",
+            "#SNS",
+            "#홍보",
+            "#기업홍보",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "기업홍보"
+            ]
+          }
+        },
+        {
+          "rec_id": "50407410",
+          "title": "에스디바이오센서(주) 상품기획 담당자 채용",
+          "cleaned_title": "상품기획",
+          "company": "에스디바이오센서(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50407410",
+          "tags": [
+            "#상품기획·MD",
+            "#상품분석",
+            "#시장조사",
+            "#상품기획",
+            "#기획·전략",
+            "#아이템선정"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50424610",
+          "title": "의류벤더 영업 신입사원 및 경력사원 채용(국내/해외)",
+          "cleaned_title": "의류벤더 영업 (국내 해외)",
+          "company": "모락스트레이딩(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50424610",
+          "tags": [
+            "#의류영업",
+            "#무역관리",
+            "#상품기획·MD",
+            "#의류무역",
+            "#무역영어",
+            "#생산",
+            "#거래처관리",
+            "#섬유/의류",
+            "#해외시장개척",
+            "#수출관리",
+            "#영업·판매·무역",
+            "#바이어발굴/관리",
+            "#여성의"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#생산",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#생산": [
+              "생산"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "해외시장개척",
+              "의류무역"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50428699",
+          "title": "[(주)정코스] 피부과학연구소 화장품 연구기획 신입사원 채용",
+          "cleaned_title": "[] 피부과학연구소 화장품 연구기획",
+          "company": "(주)정코스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50428699",
+          "tags": [
+            "#상품기획·MD",
+            "#화장품",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#연구·r&d": [
+              "R&D기획",
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436221",
+          "title": "[HK연우]_2025 상반기 콜마그룹 대졸신입 공채(디자인)",
+          "cleaned_title": "콜마그룹 (디자인)",
+          "company": "(주)연우",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436221",
+          "tags": [
+            "#상품기획·MD",
+            "#디자인",
+            "#시장조사",
+            "#컨셉디자인",
+            "#기획·전략",
+            "#렌더링",
+            "#3D디자인",
+            "#2D디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#디자인": [
+              "컨셉디자인"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436255",
+          "title": "[한국콜마] 2025 상반기 콜마그룹 대졸신입 공채(영업)",
+          "cleaned_title": "콜마그룹 (영업)",
+          "company": "한국콜마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436255",
+          "tags": [
+            "#상품기획·MD",
+            "#영업",
+            "#상품기획",
+            "#영업·판매·무역",
+            "#기획·전략",
+            "#매출관리",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436272",
+          "title": "[한국콜마] 2025 상반기 콜마그룹 대졸신입 공채(글로벌영업)",
+          "cleaned_title": "콜마그룹 (글로벌영업)",
+          "company": "한국콜마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436272",
+          "tags": [
+            "#상품기획·MD",
+            "#매출관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436291",
+          "title": "[한국콜마] 2025 상반기 콜마그룹 대졸신입 공채(마케팅)",
+          "cleaned_title": "콜마그룹 (마케팅)",
+          "company": "한국콜마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436291",
+          "tags": [
+            "#브랜드기획",
+            "#신사업기획",
+            "#상품기획·MD",
+            "#전략기획",
+            "#기획·전략",
+            "#신사업발굴",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#마케팅",
+            "#트렌드분석"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "사업기획",
+              "전략기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "마케팅전략"
+            ]
+          }
+        },
+        {
+          "rec_id": "50443923",
+          "title": "[의류 프로모션/ 신입] 여성복 기획, 생산관리 MD",
+          "cleaned_title": "여성복 기획, 생산관리 MD",
+          "company": "(주)퍼스트플로어",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50443923",
+          "tags": [
+            "#상품기획·MD",
+            "#생산",
+            "#섬유/의류",
+            "#쇼핑몰"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#생산": [
+              "생산",
+              "생산관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50456410",
+          "title": "[BizㆍMarketing] 채용연계형 인턴십(금융 상품 기획)",
+          "cleaned_title": "연계형 십(금융 상품 기획)",
+          "company": "(주)케이뱅크",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50456410",
+          "tags": [
+            "#상품기획·MD",
+            "#상품관리",
+            "#상품기획",
+            "#기획·전략",
+            "#기획",
+            "#일반은행",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#금융·보험",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#금융·보험": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50456889",
+          "title": "2025년 상반기 일성아이에스 수시채용(영업지원)",
+          "cleaned_title": "일성아이에스 (영업지원)",
+          "company": "일성아이에스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50456889",
+          "tags": [
+            "#상품기획·MD",
+            "#매출관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업지원",
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50469625",
+          "title": "[매일유업 계열] 엠즈푸드시스템 고객관리 및 구매 담당",
+          "cleaned_title": "엠즈푸드시스템 고객관리 구매 담당",
+          "company": "엠즈푸드시스템(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50469625",
+          "tags": [
+            "#상품기획·MD",
+            "#거래처관리",
+            "#구매관리",
+            "#고객관리",
+            "#매출관리",
+            "#결품관리",
+            "#재고관리",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#구매·자재·물류",
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "고객관리"
+            ],
+            "#구매·자재·물류": [
+              "구매",
+              "재고관리",
+              "구매관리"
+            ],
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50470362",
+          "title": "2025년 2차 직원(계약직) 채용 공고(기업지원 정보구축- 기능성)",
+          "cleaned_title": "2차 (계약직) (기업지원 정보구축 기능성)",
+          "company": "한국식품산업클러스터진흥원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50470362",
+          "tags": [
+            "#상품기획·MD",
+            "#시장조사",
+            "#해외시장개척",
+            "#자료조사",
+            "#영업·판매·무역",
+            "#기획·전략",
+            "#연구·R&D",
+            "#수출입",
+            "#신소재",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#연구·r&d",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#영업·판매·무역": [
+              "해외시장개척",
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "기획MD": {
+      "size": 19,
+      "total_assignments": 19,
+      "documents": [
+        {
+          "rec_id": "50291913",
+          "title": "(주)면사랑 마케팅실 상품기획팀 (신입/경력) 사원 채용",
+          "cleaned_title": "면사랑 마케팅실 상품기획팀 ( )",
+          "company": "㈜면사랑",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50291913",
+          "tags": [
+            "#상품기획·MD",
+            "#식품",
+            "#SNS",
+            "#상품분석",
+            "#영업기획",
+            "#상품관리",
+            "#기획MD",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50303579",
+          "title": "[풀리오] 상품개발 (해외소싱) 정규직 채용 (신입/중국어우대)",
+          "cleaned_title": "상품개발 (해외소싱) ( 중국어우대)",
+          "company": "(주)풀리오",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50303579",
+          "tags": [
+            "#상품기획·MD",
+            "#상품기획",
+            "#기획MD",
+            "#기획·전략",
+            "#마케팅기획",
+            "#마케팅·홍보·조사",
+            "#마케팅"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "상품기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50340802",
+          "title": "[비나우] 상품 기획/MD 직군 신입/경력 수시 채용",
+          "cleaned_title": "상품 기획 MD 직군",
+          "company": "(주)비나우",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50340802",
+          "tags": [
+            "#상품기획·MD",
+            "#상품분석",
+            "#상품관리",
+            "#상품기획",
+            "#기획MD",
+            "#기획·전략",
+            "#프로모션기획",
+            "#화장품"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50360622",
+          "title": "[우림FMG] 스톤헨지 브랜드 주얼리 기획MD / 브랜드매니저 채용",
+          "cleaned_title": "스톤헨지 브랜드 주얼리 기획MD 브랜드매니저",
+          "company": "(주)우림에프엠지",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50360622",
+          "tags": [
+            "#상품기획·MD",
+            "#브랜드기획",
+            "#주얼리/액세서리",
+            "#시장조사",
+            "#기획MD",
+            "#아이템선정",
+            "#브랜드관리",
+            "#판매전략",
+            "#브랜드MD",
+            "#트렌드분석"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD",
+            "브랜드MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50382644",
+          "title": "[식품제조기업] 상품기획팀 신입/경력 채용",
+          "cleaned_title": "상품기획팀",
+          "company": "(주)조이푸드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50382644",
+          "tags": [
+            "#상품기획·MD",
+            "#식품",
+            "#생산",
+            "#상품관리",
+            "#시장조사",
+            "#상품기획",
+            "#기획MD",
+            "#기획·전략",
+            "#아이템선정",
+            "#리테일MD",
+            "#식품MD",
+            "#성남",
+            "#판매전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "식품MD",
+            "기획MD",
+            "리테일MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#생산": [
+              "제조",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50386116",
+          "title": "[천안아산점] 모다아울렛 영업관리(정규직) 신입사원 채용",
+          "cleaned_title": "모다아울렛 영업관리()",
+          "company": "(주)모다이노칩삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50386116",
+          "tags": [
+            "#상품기획·MD",
+            "#영업기획",
+            "#영업·판매·무역",
+            "#기획MD",
+            "#매장관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "영업기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50386238",
+          "title": "[행담도점]모다아울렛 영업관리(정규직)신입사원 모집",
+          "cleaned_title": "모다아울렛 영업관리()",
+          "company": "(주)모다이노칩삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50386238",
+          "tags": [
+            "#상품기획·MD",
+            "#영업·판매·무역",
+            "#기획MD",
+            "#매장관리",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50386244",
+          "title": "[순천점]모다아울렛 영업담당(정규직)신입 및 경력사원 모집",
+          "cleaned_title": "모다아울렛 영업담당()",
+          "company": "(주)모다이노칩삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50386244",
+          "tags": [
+            "#상품기획·MD",
+            "#영업·판매·무역",
+            "#기획MD",
+            "#매장관리",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50386262",
+          "title": "[양산점]모다아울렛 영업관리(정규직)신입사원 모집",
+          "cleaned_title": "모다아울렛 영업관리()",
+          "company": "(주)모다이노칩삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50386262",
+          "tags": [
+            "#상품기획·MD",
+            "#영업·판매·무역",
+            "#기획MD",
+            "#매장관리",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50390466",
+          "title": "[경주포항점]모다아울렛 영업관리(정규직)신입사원 모집",
+          "cleaned_title": "모다아울렛 영업관리()",
+          "company": "(주)모다이노칩삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50390466",
+          "tags": [
+            "#상품기획·MD",
+            "#영업·판매·무역",
+            "#기획MD",
+            "#매장관리",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50405487",
+          "title": "[LOOLA KOOLA] 브랜드 MD / 기초코딩, 영어",
+          "cleaned_title": "브랜드 MD 기초코딩, 영어",
+          "company": "코드네임룰라팔루자",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50405487",
+          "tags": [
+            "#상품기획·MD",
+            "#브랜드기획",
+            "#남성의류",
+            "#여성의류",
+            "#패션브랜드",
+            "#상품관리",
+            "#기업홍보",
+            "#온라인MD",
+            "#기획MD",
+            "#마케",
+            "#브랜드관리",
+            "#브랜드MD",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "기획MD",
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "기업홍보"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439053",
+          "title": "패션 아이웨어 브랜드디렉터 어시스턴트",
+          "cleaned_title": "패션 아이웨어 브랜드디렉터 어시스턴트",
+          "company": "(주)제이나인스테이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439053",
+          "tags": [
+            "#상품기획·MD",
+            "#총무·법무·사무",
+            "#콘텐츠관리",
+            "#SNS",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#마케팅기획",
+            "#온라",
+            "#사이트관리",
+            "#브랜드MD",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "기획MD",
+            "AMD",
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보",
+              "마케팅전략"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439073",
+          "title": "패션 아이웨어 브랜드 온라인 MD / 마케터 채용",
+          "cleaned_title": "패션 아이웨어 브랜드 온라인 MD 마케터",
+          "company": "(주)제이나인스테이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439073",
+          "tags": [
+            "#상품기획·MD",
+            "#총무·법무·사무",
+            "#콘텐츠관리",
+            "#SNS",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#마케팅기획",
+            "#온라",
+            "#사이트관리",
+            "#브랜드MD",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "기획MD",
+            "AMD",
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보",
+              "마케팅전략"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50460035",
+          "title": "[김천구미점]모다아울렛 영업관리(정규직)신입사원 모집",
+          "cleaned_title": "모다아울렛 영업관리()",
+          "company": "(주)모다이노칩삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50460035",
+          "tags": [
+            "#상품기획·MD",
+            "#영업·판매·무역",
+            "#기획MD",
+            "#매장관리",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50468873",
+          "title": "지엠아이 수입사업부 (오일릴리, 몰로) MD 채용공고",
+          "cleaned_title": "지엠아이 수입사업부 (오일릴리, 몰로) MD",
+          "company": "(주)지엠아이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50468873",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#브랜드기획",
+            "#아동복",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#오프라인MD",
+            "#리테일MD",
+            "#MD",
+            "#여성",
+            "#브랜드관리",
+            "#영업MD",
+            "#브랜드MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "패션MD",
+            "리테일MD",
+            "AMD",
+            "브랜드MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50483251",
+          "title": "[VL&CO] 루이까스텔 기획MD 신입/경력 수시채용",
+          "cleaned_title": "루이까스텔 기획MD",
+          "company": "(주)브이엘엔코",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483251",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#기획MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD",
+            "패션MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50484433",
+          "title": "[셀메드] 화장품 신규 브랜드 온라인 영업 MD",
+          "cleaned_title": "화장품 신규 브랜드 온라인 영업 MD",
+          "company": "(주)제이비케이랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50484433",
+          "tags": [
+            "#상품기획·MD",
+            "#건강기능식품",
+            "#SNS",
+            "#브랜드확장",
+            "#상품기획",
+            "#기획MD",
+            "#온라인MD",
+            "#기획·전략",
+            "#화장품",
+            "#기획",
+            "#영업MD",
+            "#브랜드MD",
+            "#브랜딩",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "유통MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50511734",
+          "title": "(주)신영와코루 2025년 부문별 정기채용",
+          "cleaned_title": "부문별 정기",
+          "company": "(주)신영와코루",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50511734&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#VMD",
+            "#영업마케팅",
+            "#AMD",
+            "#바잉MD",
+            "#기획MD",
+            "#온라인MD",
+            "#홈쇼핑",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#영업MD",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "패션MD",
+            "기획MD",
+            "바잉MD",
+            "AMD",
+            "유통MD",
+            "온라인MD",
+            "영업MD",
+            "VMD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#디자인": [
+              "VMD"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업MD",
+              "영업마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50512714",
+          "title": "[비나우] 일본 마케팅/MD 직군 신입/경력 수시 채용",
+          "cleaned_title": "일본 마케팅 MD 직군",
+          "company": "(주)비나우",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50512714",
+          "tags": [
+            "#상품기획·MD",
+            "#상품분석",
+            "#상품관리",
+            "#상품기획",
+            "#기획MD",
+            "#기획·전략",
+            "#프로모션기획",
+            "#마케팅기획",
+            "#화장품",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보",
+              "마케팅전략"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "온라인MD": {
+      "size": 11,
+      "total_assignments": 11,
+      "documents": [
+        {
+          "rec_id": "50092576",
+          "title": "스포츠 그래픽 디자이너(신입/경력) 모집",
+          "cleaned_title": "스포츠 그래픽 디자이너( )",
+          "company": "주식회사 플렉",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50092576",
+          "tags": [
+            "#상품기획·MD",
+            "#디자인",
+            "#브랜드디자인",
+            "#온라인MD",
+            "#그래픽디자인",
+            "#시각디자인",
+            "#배너디자인"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인"
+          ],
+          "mid_categories_in_this_major": [
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#디자인": [
+              "배너디자인",
+              "브랜드디자인",
+              "그래픽디자인",
+              "시각디자인"
+            ]
+          }
+        },
+        {
+          "rec_id": "50273898",
+          "title": "[엔프라니] 해외사업부 미주 마케팅 인턴쉽 채용",
+          "cleaned_title": "해외사업부 미주 마케팅 쉽",
+          "company": "엔프라니(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50273898",
+          "tags": [
+            "#상품기획·MD",
+            "#온라인영업",
+            "#해외영업",
+            "#영업·판매·무역",
+            "#온라인MD",
+            "#온라인판매",
+            "#마케팅·홍보·조사",
+            "#글로벌마케팅",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "온라인마케팅",
+              "홍보",
+              "글로벌마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "해외영업",
+              "온라인판매"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50327291",
+          "title": "생산관리/생산부/제조생산/구매/QA/공무/온라인MD 신입/경력",
+          "cleaned_title": "생산관리 생산부 제조생산 구매 QA 공무 온라인MD",
+          "company": "(주) 비알팜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50327291",
+          "tags": [
+            "#브랜드기획",
+            "#마케팅·홍",
+            "#사업개발",
+            "#시장조사",
+            "#상품기획",
+            "#사업기획",
+            "#기획·전략",
+            "#마케팅기획",
+            "#기획",
+            "#사업관리",
+            "#서비스기획",
+            "#웹기획",
+            "#실적관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "공무",
+              "QA"
+            ],
+            "#구매·자재·물류": [
+              "구매"
+            ],
+            "#기획·전략": [
+              "기획",
+              "서비스기획",
+              "브랜드기획",
+              "인사기획",
+              "웹기획",
+              "사업기획",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획"
+            ],
+            "#생산": [
+              "생산",
+              "생산관리",
+              "제조",
+              "QA"
+            ],
+            "#인사·노무·hrd": [
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50405487",
+          "title": "[LOOLA KOOLA] 브랜드 MD / 기초코딩, 영어",
+          "cleaned_title": "브랜드 MD 기초코딩, 영어",
+          "company": "코드네임룰라팔루자",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50405487",
+          "tags": [
+            "#상품기획·MD",
+            "#브랜드기획",
+            "#남성의류",
+            "#여성의류",
+            "#패션브랜드",
+            "#상품관리",
+            "#기업홍보",
+            "#온라인MD",
+            "#기획MD",
+            "#마케",
+            "#브랜드관리",
+            "#브랜드MD",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "기획MD",
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "기업홍보"
+            ]
+          }
+        },
+        {
+          "rec_id": "50417497",
+          "title": "[뷰티화장품] 아마존 운영MD 채용",
+          "cleaned_title": "아마존 운영MD",
+          "company": "(주)티르티르",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50417497",
+          "tags": [
+            "#상품기획·MD",
+            "#온라인MD",
+            "#화장품",
+            "#이커머스"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439053",
+          "title": "패션 아이웨어 브랜드디렉터 어시스턴트",
+          "cleaned_title": "패션 아이웨어 브랜드디렉터 어시스턴트",
+          "company": "(주)제이나인스테이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439053",
+          "tags": [
+            "#상품기획·MD",
+            "#총무·법무·사무",
+            "#콘텐츠관리",
+            "#SNS",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#마케팅기획",
+            "#온라",
+            "#사이트관리",
+            "#브랜드MD",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "기획MD",
+            "AMD",
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보",
+              "마케팅전략"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439073",
+          "title": "패션 아이웨어 브랜드 온라인 MD / 마케터 채용",
+          "cleaned_title": "패션 아이웨어 브랜드 온라인 MD 마케터",
+          "company": "(주)제이나인스테이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439073",
+          "tags": [
+            "#상품기획·MD",
+            "#총무·법무·사무",
+            "#콘텐츠관리",
+            "#SNS",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#마케팅기획",
+            "#온라",
+            "#사이트관리",
+            "#브랜드MD",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "기획MD",
+            "AMD",
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보",
+              "마케팅전략"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50468873",
+          "title": "지엠아이 수입사업부 (오일릴리, 몰로) MD 채용공고",
+          "cleaned_title": "지엠아이 수입사업부 (오일릴리, 몰로) MD",
+          "company": "(주)지엠아이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50468873",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#브랜드기획",
+            "#아동복",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#오프라인MD",
+            "#리테일MD",
+            "#MD",
+            "#여성",
+            "#브랜드관리",
+            "#영업MD",
+            "#브랜드MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "패션MD",
+            "리테일MD",
+            "AMD",
+            "브랜드MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50484433",
+          "title": "[셀메드] 화장품 신규 브랜드 온라인 영업 MD",
+          "cleaned_title": "화장품 신규 브랜드 온라인 영업 MD",
+          "company": "(주)제이비케이랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50484433",
+          "tags": [
+            "#상품기획·MD",
+            "#건강기능식품",
+            "#SNS",
+            "#브랜드확장",
+            "#상품기획",
+            "#기획MD",
+            "#온라인MD",
+            "#기획·전략",
+            "#화장품",
+            "#기획",
+            "#영업MD",
+            "#브랜드MD",
+            "#브랜딩",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "유통MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50500685",
+          "title": "㈜홍천엠앤티 올리브영팀에서 함께할 직원을 모집합니다.",
+          "cleaned_title": "홍천엠앤티 올리브영팀에서 함께할 을 합니다.",
+          "company": "(주)홍천엠앤티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50500685",
+          "tags": [
+            "#상품기획·MD",
+            "#영업기획",
+            "#영업",
+            "#영업·판매·무역",
+            "#영업MD",
+            "#공공·복지",
+            "#온라인MD",
+            "#오프라인MD",
+            "#브랜드MD",
+            "#영업전략",
+            "#사무직",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "브랜드MD",
+            "유통MD",
+            "온라인MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업기획",
+              "영업MD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50511734",
+          "title": "(주)신영와코루 2025년 부문별 정기채용",
+          "cleaned_title": "부문별 정기",
+          "company": "(주)신영와코루",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50511734&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#VMD",
+            "#영업마케팅",
+            "#AMD",
+            "#바잉MD",
+            "#기획MD",
+            "#온라인MD",
+            "#홈쇼핑",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#영업MD",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "패션MD",
+            "기획MD",
+            "바잉MD",
+            "AMD",
+            "유통MD",
+            "온라인MD",
+            "영업MD",
+            "VMD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#디자인": [
+              "VMD"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업MD",
+              "영업마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "영업MD": {
+      "size": 10,
+      "total_assignments": 10,
+      "documents": [
+        {
+          "rec_id": "49449606",
+          "title": "전국 각 지역 경력/신입 MR 모집",
+          "cleaned_title": "전국 각 지역 MR",
+          "company": "삼천당제약(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49449606",
+          "tags": [
+            "#영업직",
+            "#영업기획",
+            "#거래처관리",
+            "#거",
+            "#영업",
+            "#영업마케팅",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#영업관리",
+            "#무역MR",
+            "#영업MD",
+            "#거래처납품",
+            "#제약영업",
+            "#의료기기영업"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "영업마케팅",
+              "제약영업",
+              "영업직",
+              "무역MR",
+              "영업전략",
+              "영업기획",
+              "영업MD",
+              "의료기기영업"
+            ],
+            "#의료": [
+              "MR"
+            ]
+          }
+        },
+        {
+          "rec_id": "50157606",
+          "title": "[코스닥] 반도체 검사 설비 국내 및 해외 영업사원(영어권) 모집",
+          "cleaned_title": "반도체 검사 설비 국내 해외 영업(영어권)",
+          "company": "기가비스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50157606",
+          "tags": [
+            "#영업직",
+            "#영업마케팅",
+            "#영업전략",
+            "#영업MD",
+            "#장비영업"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "장비영업",
+              "영업마케팅",
+              "영업직",
+              "영업전략",
+              "영업MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50270536",
+          "title": "[KT&G 계열사] (주)코스모코스 화장품 해외 영업직 모집",
+          "cleaned_title": "화장품 해외 영업직",
+          "company": "(주)코스모코스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50270536",
+          "tags": [
+            "#영업직",
+            "#영업기",
+            "#화장품판매",
+            "#영업판촉",
+            "#영업MD",
+            "#화장품영업",
+            "#영업전략"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "영업직",
+              "영업판촉",
+              "화장품판매",
+              "영업전략",
+              "영업MD",
+              "화장품영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50392728",
+          "title": "섬유(woven) 수출업체 국내 및 해외영업 신입,경력 모집",
+          "cleaned_title": "섬유(woven) 수출업체 국내 해외영업 ,",
+          "company": "이조화섬(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50392728",
+          "tags": [
+            "#영업",
+            "#영업마케팅",
+            "#귀금속",
+            "#국제무역사",
+            "#영업관리",
+            "#영업MD",
+            "#잡화판매"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "해외영업",
+              "영업관리",
+              "국제무역사",
+              "영업마케팅",
+              "잡화판매",
+              "영업MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50429777",
+          "title": "[건강기능식품] 온라인 AMD 채용 (경력무관)",
+          "cleaned_title": "온라인 AMD (무관)",
+          "company": "헬스밸런스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50429777",
+          "tags": [
+            "#건강식품판매",
+            "#상품기획·MD",
+            "#건강기능식품",
+            "#온라인영업",
+            "#오픈마켓",
+            "#영업·판매·무역",
+            "#식품MD",
+            "#영업관리",
+            "#온라인판매",
+            "#채널관",
+            "#영업MD",
+            "#쇼핑몰"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AMD",
+            "식품MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "건강식품판매",
+              "영업관리",
+              "식품/음료판매",
+              "식품/음료영업",
+              "온라인판매",
+              "영업MD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50468873",
+          "title": "지엠아이 수입사업부 (오일릴리, 몰로) MD 채용공고",
+          "cleaned_title": "지엠아이 수입사업부 (오일릴리, 몰로) MD",
+          "company": "(주)지엠아이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50468873",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#브랜드기획",
+            "#아동복",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#오프라인MD",
+            "#리테일MD",
+            "#MD",
+            "#여성",
+            "#브랜드관리",
+            "#영업MD",
+            "#브랜드MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "패션MD",
+            "리테일MD",
+            "AMD",
+            "브랜드MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50484433",
+          "title": "[셀메드] 화장품 신규 브랜드 온라인 영업 MD",
+          "cleaned_title": "화장품 신규 브랜드 온라인 영업 MD",
+          "company": "(주)제이비케이랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50484433",
+          "tags": [
+            "#상품기획·MD",
+            "#건강기능식품",
+            "#SNS",
+            "#브랜드확장",
+            "#상품기획",
+            "#기획MD",
+            "#온라인MD",
+            "#기획·전략",
+            "#화장품",
+            "#기획",
+            "#영업MD",
+            "#브랜드MD",
+            "#브랜딩",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "유통MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50493496",
+          "title": "[일본artience그룹계열사] 영업본부 CHEM영업팀 모집(신입)",
+          "cleaned_title": "영업본부 CHEM영업팀 ()",
+          "company": "삼영잉크페인트제조(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50493496",
+          "tags": [
+            "#실적관리",
+            "#영업기획",
+            "#거래처관리",
+            "#B2C",
+            "#영업",
+            "#영업마케팅",
+            "#거래처영업",
+            "#영업·판매·무역",
+            "#영업판촉",
+            "#고객관리",
+            "#B2B",
+            "#영업MD",
+            "#영업전략",
+            "#거래처납품"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "고객관리"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업마케팅",
+              "영업판촉",
+              "영업전략",
+              "영업기획",
+              "영업MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50500685",
+          "title": "㈜홍천엠앤티 올리브영팀에서 함께할 직원을 모집합니다.",
+          "cleaned_title": "홍천엠앤티 올리브영팀에서 함께할 을 합니다.",
+          "company": "(주)홍천엠앤티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50500685",
+          "tags": [
+            "#상품기획·MD",
+            "#영업기획",
+            "#영업",
+            "#영업·판매·무역",
+            "#영업MD",
+            "#공공·복지",
+            "#온라인MD",
+            "#오프라인MD",
+            "#브랜드MD",
+            "#영업전략",
+            "#사무직",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "브랜드MD",
+            "유통MD",
+            "온라인MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업기획",
+              "영업MD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50511734",
+          "title": "(주)신영와코루 2025년 부문별 정기채용",
+          "cleaned_title": "부문별 정기",
+          "company": "(주)신영와코루",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50511734&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#VMD",
+            "#영업마케팅",
+            "#AMD",
+            "#바잉MD",
+            "#기획MD",
+            "#온라인MD",
+            "#홈쇼핑",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#영업MD",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "패션MD",
+            "기획MD",
+            "바잉MD",
+            "AMD",
+            "유통MD",
+            "온라인MD",
+            "영업MD",
+            "VMD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#디자인": [
+              "VMD"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업MD",
+              "영업마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "브랜드MD": {
+      "size": 7,
+      "total_assignments": 7,
+      "documents": [
+        {
+          "rec_id": "50360622",
+          "title": "[우림FMG] 스톤헨지 브랜드 주얼리 기획MD / 브랜드매니저 채용",
+          "cleaned_title": "스톤헨지 브랜드 주얼리 기획MD 브랜드매니저",
+          "company": "(주)우림에프엠지",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50360622",
+          "tags": [
+            "#상품기획·MD",
+            "#브랜드기획",
+            "#주얼리/액세서리",
+            "#시장조사",
+            "#기획MD",
+            "#아이템선정",
+            "#브랜드관리",
+            "#판매전략",
+            "#브랜드MD",
+            "#트렌드분석"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD",
+            "브랜드MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50405487",
+          "title": "[LOOLA KOOLA] 브랜드 MD / 기초코딩, 영어",
+          "cleaned_title": "브랜드 MD 기초코딩, 영어",
+          "company": "코드네임룰라팔루자",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50405487",
+          "tags": [
+            "#상품기획·MD",
+            "#브랜드기획",
+            "#남성의류",
+            "#여성의류",
+            "#패션브랜드",
+            "#상품관리",
+            "#기업홍보",
+            "#온라인MD",
+            "#기획MD",
+            "#마케",
+            "#브랜드관리",
+            "#브랜드MD",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "기획MD",
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "기업홍보"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439053",
+          "title": "패션 아이웨어 브랜드디렉터 어시스턴트",
+          "cleaned_title": "패션 아이웨어 브랜드디렉터 어시스턴트",
+          "company": "(주)제이나인스테이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439053",
+          "tags": [
+            "#상품기획·MD",
+            "#총무·법무·사무",
+            "#콘텐츠관리",
+            "#SNS",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#마케팅기획",
+            "#온라",
+            "#사이트관리",
+            "#브랜드MD",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "기획MD",
+            "AMD",
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보",
+              "마케팅전략"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439073",
+          "title": "패션 아이웨어 브랜드 온라인 MD / 마케터 채용",
+          "cleaned_title": "패션 아이웨어 브랜드 온라인 MD 마케터",
+          "company": "(주)제이나인스테이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439073",
+          "tags": [
+            "#상품기획·MD",
+            "#총무·법무·사무",
+            "#콘텐츠관리",
+            "#SNS",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#마케팅기획",
+            "#온라",
+            "#사이트관리",
+            "#브랜드MD",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "기획MD",
+            "AMD",
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보",
+              "마케팅전략"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50468873",
+          "title": "지엠아이 수입사업부 (오일릴리, 몰로) MD 채용공고",
+          "cleaned_title": "지엠아이 수입사업부 (오일릴리, 몰로) MD",
+          "company": "(주)지엠아이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50468873",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#브랜드기획",
+            "#아동복",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#오프라인MD",
+            "#리테일MD",
+            "#MD",
+            "#여성",
+            "#브랜드관리",
+            "#영업MD",
+            "#브랜드MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "패션MD",
+            "리테일MD",
+            "AMD",
+            "브랜드MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50484433",
+          "title": "[셀메드] 화장품 신규 브랜드 온라인 영업 MD",
+          "cleaned_title": "화장품 신규 브랜드 온라인 영업 MD",
+          "company": "(주)제이비케이랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50484433",
+          "tags": [
+            "#상품기획·MD",
+            "#건강기능식품",
+            "#SNS",
+            "#브랜드확장",
+            "#상품기획",
+            "#기획MD",
+            "#온라인MD",
+            "#기획·전략",
+            "#화장품",
+            "#기획",
+            "#영업MD",
+            "#브랜드MD",
+            "#브랜딩",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "유통MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50500685",
+          "title": "㈜홍천엠앤티 올리브영팀에서 함께할 직원을 모집합니다.",
+          "cleaned_title": "홍천엠앤티 올리브영팀에서 함께할 을 합니다.",
+          "company": "(주)홍천엠앤티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50500685",
+          "tags": [
+            "#상품기획·MD",
+            "#영업기획",
+            "#영업",
+            "#영업·판매·무역",
+            "#영업MD",
+            "#공공·복지",
+            "#온라인MD",
+            "#오프라인MD",
+            "#브랜드MD",
+            "#영업전략",
+            "#사무직",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "브랜드MD",
+            "유통MD",
+            "온라인MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업기획",
+              "영업MD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        }
+      ]
+    },
+    "AMD": {
+      "size": 7,
+      "total_assignments": 7,
+      "documents": [
+        {
+          "rec_id": "50412177",
+          "title": "[스타트업 멤버] (주)쥐쥐디 온라인 AMD 모집채용",
+          "cleaned_title": "온라인 AMD",
+          "company": "(주)쥐쥐디",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50412177",
+          "tags": [],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AMD"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50429777",
+          "title": "[건강기능식품] 온라인 AMD 채용 (경력무관)",
+          "cleaned_title": "온라인 AMD (무관)",
+          "company": "헬스밸런스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50429777",
+          "tags": [
+            "#건강식품판매",
+            "#상품기획·MD",
+            "#건강기능식품",
+            "#온라인영업",
+            "#오픈마켓",
+            "#영업·판매·무역",
+            "#식품MD",
+            "#영업관리",
+            "#온라인판매",
+            "#채널관",
+            "#영업MD",
+            "#쇼핑몰"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AMD",
+            "식품MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "건강식품판매",
+              "영업관리",
+              "식품/음료판매",
+              "식품/음료영업",
+              "온라인판매",
+              "영업MD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439053",
+          "title": "패션 아이웨어 브랜드디렉터 어시스턴트",
+          "cleaned_title": "패션 아이웨어 브랜드디렉터 어시스턴트",
+          "company": "(주)제이나인스테이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439053",
+          "tags": [
+            "#상품기획·MD",
+            "#총무·법무·사무",
+            "#콘텐츠관리",
+            "#SNS",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#마케팅기획",
+            "#온라",
+            "#사이트관리",
+            "#브랜드MD",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "기획MD",
+            "AMD",
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보",
+              "마케팅전략"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439073",
+          "title": "패션 아이웨어 브랜드 온라인 MD / 마케터 채용",
+          "cleaned_title": "패션 아이웨어 브랜드 온라인 MD 마케터",
+          "company": "(주)제이나인스테이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439073",
+          "tags": [
+            "#상품기획·MD",
+            "#총무·법무·사무",
+            "#콘텐츠관리",
+            "#SNS",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#마케팅기획",
+            "#온라",
+            "#사이트관리",
+            "#브랜드MD",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "기획MD",
+            "AMD",
+            "온라인MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보",
+              "마케팅전략"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50468873",
+          "title": "지엠아이 수입사업부 (오일릴리, 몰로) MD 채용공고",
+          "cleaned_title": "지엠아이 수입사업부 (오일릴리, 몰로) MD",
+          "company": "(주)지엠아이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50468873",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#브랜드기획",
+            "#아동복",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#오프라인MD",
+            "#리테일MD",
+            "#MD",
+            "#여성",
+            "#브랜드관리",
+            "#영업MD",
+            "#브랜드MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "패션MD",
+            "리테일MD",
+            "AMD",
+            "브랜드MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50506814",
+          "title": "유아동 1위 플랫폼 마케팅/ 콘텐츠 디자인/ AMD/ 경영사무 인턴",
+          "cleaned_title": "유아동 1위 플랫폼 마케팅 콘텐츠 디자인 AMD 경영사무",
+          "company": "(주)빌리지베이비",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506814",
+          "tags": [
+            "#전략기획",
+            "#경영기획",
+            "#사업제휴",
+            "#시장조사",
+            "#바이럴마케팅",
+            "#기획·전략",
+            "#마케팅기획",
+            "#이벤트프로모션",
+            "#서비스기획",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "AMD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획",
+              "서비스기획",
+              "전략기획",
+              "마케팅기획"
+            ],
+            "#디자인": [
+              "기타"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "마케팅전략",
+              "마케팅기획",
+              "바이럴마케팅"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50511734",
+          "title": "(주)신영와코루 2025년 부문별 정기채용",
+          "cleaned_title": "부문별 정기",
+          "company": "(주)신영와코루",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50511734&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#VMD",
+            "#영업마케팅",
+            "#AMD",
+            "#바잉MD",
+            "#기획MD",
+            "#온라인MD",
+            "#홈쇼핑",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#영업MD",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "패션MD",
+            "기획MD",
+            "바잉MD",
+            "AMD",
+            "유통MD",
+            "온라인MD",
+            "영업MD",
+            "VMD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#디자인": [
+              "VMD"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업MD",
+              "영업마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "패션MD": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50468873",
+          "title": "지엠아이 수입사업부 (오일릴리, 몰로) MD 채용공고",
+          "cleaned_title": "지엠아이 수입사업부 (오일릴리, 몰로) MD",
+          "company": "(주)지엠아이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50468873",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#브랜드기획",
+            "#아동복",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#오프라인MD",
+            "#리테일MD",
+            "#MD",
+            "#여성",
+            "#브랜드관리",
+            "#영업MD",
+            "#브랜드MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "패션MD",
+            "리테일MD",
+            "AMD",
+            "브랜드MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50483251",
+          "title": "[VL&CO] 루이까스텔 기획MD 신입/경력 수시채용",
+          "cleaned_title": "루이까스텔 기획MD",
+          "company": "(주)브이엘엔코",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483251",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#기획MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기획MD",
+            "패션MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50511734",
+          "title": "(주)신영와코루 2025년 부문별 정기채용",
+          "cleaned_title": "부문별 정기",
+          "company": "(주)신영와코루",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50511734&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#VMD",
+            "#영업마케팅",
+            "#AMD",
+            "#바잉MD",
+            "#기획MD",
+            "#온라인MD",
+            "#홈쇼핑",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#영업MD",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "패션MD",
+            "기획MD",
+            "바잉MD",
+            "AMD",
+            "유통MD",
+            "온라인MD",
+            "영업MD",
+            "VMD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#디자인": [
+              "VMD"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업MD",
+              "영업마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "유통MD": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50484433",
+          "title": "[셀메드] 화장품 신규 브랜드 온라인 영업 MD",
+          "cleaned_title": "화장품 신규 브랜드 온라인 영업 MD",
+          "company": "(주)제이비케이랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50484433",
+          "tags": [
+            "#상품기획·MD",
+            "#건강기능식품",
+            "#SNS",
+            "#브랜드확장",
+            "#상품기획",
+            "#기획MD",
+            "#온라인MD",
+            "#기획·전략",
+            "#화장품",
+            "#기획",
+            "#영업MD",
+            "#브랜드MD",
+            "#브랜딩",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "브랜드MD",
+            "유통MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50500685",
+          "title": "㈜홍천엠앤티 올리브영팀에서 함께할 직원을 모집합니다.",
+          "cleaned_title": "홍천엠앤티 올리브영팀에서 함께할 을 합니다.",
+          "company": "(주)홍천엠앤티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50500685",
+          "tags": [
+            "#상품기획·MD",
+            "#영업기획",
+            "#영업",
+            "#영업·판매·무역",
+            "#영업MD",
+            "#공공·복지",
+            "#온라인MD",
+            "#오프라인MD",
+            "#브랜드MD",
+            "#영업전략",
+            "#사무직",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "브랜드MD",
+            "유통MD",
+            "온라인MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업기획",
+              "영업MD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50511734",
+          "title": "(주)신영와코루 2025년 부문별 정기채용",
+          "cleaned_title": "부문별 정기",
+          "company": "(주)신영와코루",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50511734&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#VMD",
+            "#영업마케팅",
+            "#AMD",
+            "#바잉MD",
+            "#기획MD",
+            "#온라인MD",
+            "#홈쇼핑",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#영업MD",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "패션MD",
+            "기획MD",
+            "바잉MD",
+            "AMD",
+            "유통MD",
+            "온라인MD",
+            "영업MD",
+            "VMD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#디자인": [
+              "VMD"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업MD",
+              "영업마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "식품MD": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50382644",
+          "title": "[식품제조기업] 상품기획팀 신입/경력 채용",
+          "cleaned_title": "상품기획팀",
+          "company": "(주)조이푸드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50382644",
+          "tags": [
+            "#상품기획·MD",
+            "#식품",
+            "#생산",
+            "#상품관리",
+            "#시장조사",
+            "#상품기획",
+            "#기획MD",
+            "#기획·전략",
+            "#아이템선정",
+            "#리테일MD",
+            "#식품MD",
+            "#성남",
+            "#판매전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "식품MD",
+            "기획MD",
+            "리테일MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#생산": [
+              "제조",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50429777",
+          "title": "[건강기능식품] 온라인 AMD 채용 (경력무관)",
+          "cleaned_title": "온라인 AMD (무관)",
+          "company": "헬스밸런스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50429777",
+          "tags": [
+            "#건강식품판매",
+            "#상품기획·MD",
+            "#건강기능식품",
+            "#온라인영업",
+            "#오픈마켓",
+            "#영업·판매·무역",
+            "#식품MD",
+            "#영업관리",
+            "#온라인판매",
+            "#채널관",
+            "#영업MD",
+            "#쇼핑몰"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AMD",
+            "식품MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "상품기획",
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "건강식품판매",
+              "영업관리",
+              "식품/음료판매",
+              "식품/음료영업",
+              "온라인판매",
+              "영업MD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "리테일MD": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50382644",
+          "title": "[식품제조기업] 상품기획팀 신입/경력 채용",
+          "cleaned_title": "상품기획팀",
+          "company": "(주)조이푸드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50382644",
+          "tags": [
+            "#상품기획·MD",
+            "#식품",
+            "#생산",
+            "#상품관리",
+            "#시장조사",
+            "#상품기획",
+            "#기획MD",
+            "#기획·전략",
+            "#아이템선정",
+            "#리테일MD",
+            "#식품MD",
+            "#성남",
+            "#판매전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "식품MD",
+            "기획MD",
+            "리테일MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#생산": [
+              "제조",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50468873",
+          "title": "지엠아이 수입사업부 (오일릴리, 몰로) MD 채용공고",
+          "cleaned_title": "지엠아이 수입사업부 (오일릴리, 몰로) MD",
+          "company": "(주)지엠아이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50468873",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#브랜드기획",
+            "#아동복",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#오프라인MD",
+            "#리테일MD",
+            "#MD",
+            "#여성",
+            "#브랜드관리",
+            "#영업MD",
+            "#브랜드MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "패션MD",
+            "리테일MD",
+            "AMD",
+            "브랜드MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "VMD": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50416138",
+          "title": "VMD 및 공간연출 스타일리스트 /디자이너 신입 채용",
+          "cleaned_title": "VMD 공간연출 스타일리스트 디자이너",
+          "company": "(주)세븐도어즈",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50416138",
+          "tags": [
+            "#디자인",
+            "#라이노",
+            "#CAD",
+            "#브랜드디자인",
+            "#VMD",
+            "#PhotoShop",
+            "#V-Ray",
+            "#공간디자인",
+            "#3DMax",
+            "#시각디자인",
+            "#일러스트",
+            "#전시디자인",
+            "#스케치업",
+            "#아트워크"
+          ],
+          "other_major_categories": [
+            "#디자인",
+            "#서비스",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "VMD"
+          ],
+          "mid_categories_in_others": {
+            "#디자인": [
+              "VMD",
+              "공간디자인",
+              "시각디자인",
+              "브랜드디자인",
+              "전시디자인"
+            ],
+            "#서비스": [
+              "스타일리스트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50511734",
+          "title": "(주)신영와코루 2025년 부문별 정기채용",
+          "cleaned_title": "부문별 정기",
+          "company": "(주)신영와코루",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50511734&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#VMD",
+            "#영업마케팅",
+            "#AMD",
+            "#바잉MD",
+            "#기획MD",
+            "#온라인MD",
+            "#홈쇼핑",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#영업MD",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "패션MD",
+            "기획MD",
+            "바잉MD",
+            "AMD",
+            "유통MD",
+            "온라인MD",
+            "영업MD",
+            "VMD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#디자인": [
+              "VMD"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업MD",
+              "영업마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "오프라인MD": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50468873",
+          "title": "지엠아이 수입사업부 (오일릴리, 몰로) MD 채용공고",
+          "cleaned_title": "지엠아이 수입사업부 (오일릴리, 몰로) MD",
+          "company": "(주)지엠아이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50468873",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#브랜드기획",
+            "#아동복",
+            "#AMD",
+            "#기획MD",
+            "#온라인MD",
+            "#오프라인MD",
+            "#리테일MD",
+            "#MD",
+            "#여성",
+            "#브랜드관리",
+            "#영업MD",
+            "#브랜드MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "패션MD",
+            "리테일MD",
+            "AMD",
+            "브랜드MD",
+            "온라인MD",
+            "기획MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업MD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50500685",
+          "title": "㈜홍천엠앤티 올리브영팀에서 함께할 직원을 모집합니다.",
+          "cleaned_title": "홍천엠앤티 올리브영팀에서 함께할 을 합니다.",
+          "company": "(주)홍천엠앤티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50500685",
+          "tags": [
+            "#상품기획·MD",
+            "#영업기획",
+            "#영업",
+            "#영업·판매·무역",
+            "#영업MD",
+            "#공공·복지",
+            "#온라인MD",
+            "#오프라인MD",
+            "#브랜드MD",
+            "#영업전략",
+            "#사무직",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "오프라인MD",
+            "브랜드MD",
+            "유통MD",
+            "온라인MD",
+            "영업MD"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업기획",
+              "영업MD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        }
+      ]
+    },
+    "바잉MD": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50511734",
+          "title": "(주)신영와코루 2025년 부문별 정기채용",
+          "cleaned_title": "부문별 정기",
+          "company": "(주)신영와코루",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50511734&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#상품기획·MD",
+            "#패션MD",
+            "#VMD",
+            "#영업마케팅",
+            "#AMD",
+            "#바잉MD",
+            "#기획MD",
+            "#온라인MD",
+            "#홈쇼핑",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#영업MD",
+            "#유통MD"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "패션MD",
+            "기획MD",
+            "바잉MD",
+            "AMD",
+            "유통MD",
+            "온라인MD",
+            "영업MD",
+            "VMD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#디자인": [
+              "VMD"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업MD",
+              "영업마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

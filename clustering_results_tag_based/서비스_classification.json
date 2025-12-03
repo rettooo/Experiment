@@ -1,0 +1,1122 @@
+{
+  "major_category": "#서비스",
+  "statistics": {
+    "total_docs": 23,
+    "unique_docs": 23,
+    "num_mid_categories": 13,
+    "overlap_info": {
+      "with_건설_건축": 4,
+      "with_연구_r&d": 6,
+      "with_it개발_데이터": 5,
+      "with_의료": 3,
+      "with_고객상담_tm": 2,
+      "with_기획_전략": 3,
+      "with_디자인": 3,
+      "with_미디어_문화_스포츠": 2,
+      "with_생산": 8,
+      "with_인사_노무_hrd": 11,
+      "with_금융_보험": 1,
+      "with_영업_판매_무역": 3,
+      "with_총무_법무_사무": 6,
+      "with_구매_자재_물류": 3,
+      "with_상품기획_md": 1,
+      "with_운전_운송_배송": 1,
+      "with_공공_복지": 2,
+      "with_회계_세무_재무": 1,
+      "with_교육": 3
+    }
+  },
+  "mid_categories": {
+    "기타": {
+      "size": 15,
+      "total_assignments": 15,
+      "documents": [
+        {
+          "rec_id": "50268145",
+          "title": "독일계 SW,HW 유지보수 필드서비스 엔지니어 / 신입",
+          "cleaned_title": "독일계 SW,HW 유지보수 필드서비스 엔지니어",
+          "company": "아틀라스네이벌엔지니어링(유)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50268145",
+          "tags": [
+            "#서비스",
+            "#엔지니어"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "유지보수",
+              "BI 엔지니어"
+            ]
+          }
+        },
+        {
+          "rec_id": "50299921",
+          "title": "[외국계] Customer Helpdesk 고객지원팀 (전화수신)",
+          "cleaned_title": "Customer Helpdesk 고객지원팀 (전화수신)",
+          "company": "써모피셔사이언티픽 코리아 (주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50299921",
+          "tags": [
+            "#고객상담·TM",
+            "#서비스",
+            "#상담원",
+            "#고객응대",
+            "#콜센터/고객센터"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "상담원",
+              "콜센터/고객센터"
+            ]
+          }
+        },
+        {
+          "rec_id": "50306086",
+          "title": "(주)오타종패키징퍼시픽 제품개발팀 정규직 채용 - 신입",
+          "cleaned_title": "제품개발팀",
+          "company": "(주)오타종패키징퍼시픽",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50306086",
+          "tags": [
+            "#디자인",
+            "#서비스",
+            "#R&D",
+            "#컬러리스트",
+            "#생산",
+            "#패키지디자인",
+            "#연구·R&D",
+            "#기획·전략",
+            "#고객응대",
+            "#제품설계",
+            "#기획",
+            "#현장",
+            "#R&D기획",
+            "#실적관리",
+            "#KPI관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#디자인",
+            "#미디어·문화·스포츠",
+            "#생산",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#디자인": [
+              "컬러리스트",
+              "패키지디자인"
+            ],
+            "#미디어·문화·스포츠": [
+              "컬러리스트"
+            ],
+            "#생산": [
+              "제품설계",
+              "생산"
+            ],
+            "#연구·r&d": [
+              "R&D",
+              "R&D기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50358280",
+          "title": "(주)대하 연구소 [연구개발팀(충남당진)] 채용",
+          "cleaned_title": "연구소",
+          "company": "(주)대하",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50358280",
+          "tags": [
+            "#품질관리",
+            "#서비스",
+            "#R&D",
+            "#생산",
+            "#품질분석",
+            "#연구·R&D",
+            "#고객응대",
+            "#기술엔지니어",
+            "#신소재",
+            "#기술연구"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#구매·자재·물류",
+            "#생산",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#구매·자재·물류": [
+              "품질관리"
+            ],
+            "#생산": [
+              "기술엔지니어",
+              "품질관리",
+              "생산"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50361366",
+          "title": "국가유산체험센터 운영·콘텐츠 인턴 모집",
+          "cleaned_title": "국가유산체험센터 운영·콘텐츠",
+          "company": "와이비에스에듀사회적협동조합",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50361366",
+          "tags": [
+            "#서비스",
+            "#미디어·문화·스포츠",
+            "#매장관리",
+            "#문화재"
+          ],
+          "other_major_categories": [
+            "#미디어·문화·스포츠"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#미디어·문화·스포츠": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50424918",
+          "title": "관리팀 제품파트 신입사원 모집",
+          "cleaned_title": "관리팀 제품파트",
+          "company": "(주)크로바케미칼",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50424918&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#물류자동화",
+            "#입고/입하",
+            "#출고/출하",
+            "#운전·운송·배송",
+            "#서비스",
+            "#생산",
+            "#배차관리",
+            "#설비점검",
+            "#설비OP",
+            "#창고관리",
+            "#수불관리",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#생산",
+            "#운전·운송·배송"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "창고관리"
+            ],
+            "#생산": [
+              "설비OP",
+              "생산"
+            ],
+            "#운전·운송·배송": [
+              "운전",
+              "배차관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50428711",
+          "title": "(주)하이파킹 주차장 개발자 채용(Mobility Hub Platform)",
+          "cleaned_title": "주차장 개발자 (Mobility Hub Platform)",
+          "company": "주식회사 하이파킹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50428711",
+          "tags": [
+            "#프론트엔드",
+            "#모빌리티",
+            "#서비스",
+            "#IT개발·데이터",
+            "#데이터시각화",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#주차",
+            "#DevOps",
+            "#솔루션",
+            "#네트워크",
+            "#크로스플랫폼",
+            "#클라우드"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "프론트엔드",
+              "BI 엔지니어",
+              "백엔드/서버개발",
+              "웹개발"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436939",
+          "title": "[스웨덴계 산업용장비] 소프트웨어 엔지니어 (광명)",
+          "cleaned_title": "소프트웨어 엔지니어 (광명)",
+          "company": "아트라스콥코코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436939",
+          "tags": [
+            "#서비스",
+            "#생산",
+            "#설비점검",
+            "#시설관리",
+            "#기술엔지니어",
+            "#기계수리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "BI 엔지니어"
+            ],
+            "#생산": [
+              "기술엔지니어",
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439730",
+          "title": "2025년 4월 무림그룹 직무별 채용(안전보건관리)",
+          "cleaned_title": "4월 직무별 (안전보건관리)",
+          "company": "무림그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439730",
+          "tags": [
+            "#총무·법무·사무",
+            "#서비스",
+            "#생산",
+            "#건설·건축",
+            "#안전관리자",
+            "#시설관리",
+            "#안전보건관리자",
+            "#PSM"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전보건관리자",
+              "안전관리자",
+              "보건관리자"
+            ],
+            "#생산": [
+              "PSM",
+              "안전보건관리자",
+              "생산"
+            ],
+            "#의료": [
+              "보건관리자"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439778",
+          "title": "2025년 4월 무림그룹 직무별 채용(설비관리)",
+          "cleaned_title": "4월 직무별 (설비관리)",
+          "company": "무림그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439778",
+          "tags": [
+            "#총무·법무·사무",
+            "#서비스",
+            "#건설·건축",
+            "#안전관리자",
+            "#하자보수",
+            "#시설관리",
+            "#안전보건관리자",
+            "#설비보수"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전보건관리자",
+              "안전관리자",
+              "보건관리자"
+            ],
+            "#생산": [
+              "안전보건관리자"
+            ],
+            "#의료": [
+              "보건관리자"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50442848",
+          "title": "[강남]블랙핀 정산 담당자 모집(최고 복지)",
+          "cleaned_title": "블랙핀 정산 (최고 복지)",
+          "company": "(주)블랙핀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50442848",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#총무·법무·사무",
+            "#서비스",
+            "#회계·세무·재무",
+            "#가맹점관리",
+            "#회계",
+            "#영업·판매·무역",
+            "#요금정산",
+            "#영업관리",
+            "#관리회계",
+            "#사무직",
+            "#정산관리"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#영업·판매·무역",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ],
+            "#회계·세무·재무": [
+              "회계",
+              "재무",
+              "전산회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50442998",
+          "title": "[연수구]블랙핀 사무/운영 담당자 모집(최고 복지)",
+          "cleaned_title": "블랙핀 사무 운영 (최고 복지)",
+          "company": "(주)블랙핀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50442998",
+          "tags": [
+            "#서비스",
+            "#가맹점관리",
+            "#고객응대",
+            "#고객관리",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "고객관리"
+            ],
+            "#영업·판매·무역": [
+              "영업관리",
+              "영업"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50490307",
+          "title": "2025 공예청년인턴십 지원사업을 통한 청년인턴 채용",
+          "cleaned_title": "공예청년십 지원사업을 통한 청년",
+          "company": "주식회사 토로토로스튜디오",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50490307",
+          "tags": [
+            "#디자인",
+            "#서비스",
+            "#공예디자인",
+            "#교육",
+            "#파트강사",
+            "#매장관리"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#디자인",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "파트강사"
+            ],
+            "#디자인": [
+              "공예디자인"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50499372",
+          "title": "농산물 품질관리 컨설턴트 모집",
+          "cleaned_title": "농산물 품질관리 컨설턴트",
+          "company": "이시도르지속가능연구소(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50499372",
+          "tags": [
+            "#서비스",
+            "#농업",
+            "#R&D",
+            "#연구·R&D",
+            "#교육",
+            "#농수산컨설팅",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#생산",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영"
+            ],
+            "#구매·자재·물류": [
+              "품질관리"
+            ],
+            "#기획·전략": [
+              "컨설턴트"
+            ],
+            "#생산": [
+              "품질관리"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ]
+          }
+        },
+        {
+          "rec_id": "50505359",
+          "title": "2025년 제3차 채용 공고(신입직-채용형인턴)",
+          "cleaned_title": "제3차 (직 형)",
+          "company": "시청자미디어재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50505359",
+          "tags": [
+            "#정책연구",
+            "#총무·법무·사무",
+            "#서비스",
+            "#건설·건축",
+            "#평생교",
+            "#연구·R&D",
+            "#공공·복지",
+            "#문화기획",
+            "#기획·전략",
+            "#교육",
+            "#시설관리",
+            "#평생교육사"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#공공·복지",
+            "#교육",
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "기타"
+            ],
+            "#공공·복지": [
+              "평생교육사"
+            ],
+            "#교육": [
+              "평생교육사"
+            ],
+            "#기획·전략": [
+              "기획",
+              "문화기획"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "양조사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50092989",
+          "title": "환경 · 해양사업본부(부산) / 해양조사 분야",
+          "cleaned_title": "환경 · 해양사업본부(부산) 해양조사 분야",
+          "company": "㈜세광종합기술단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50092989",
+          "tags": [
+            "#수질환경기사",
+            "#토양환경기사",
+            "#환경영향평가",
+            "#건설·건축",
+            "#환경분석",
+            "#환경플랜트",
+            "#연구·R&D",
+            "#부",
+            "#토양환경",
+            "#토목기술자",
+            "#측량/계측",
+            "#해양조사",
+            "#대기환경기사"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "양조사"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "토양환경기사",
+              "수질환경기사",
+              "토목기술자",
+              "대기환경기사"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ]
+          }
+        }
+      ]
+    },
+    "영양사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50291098",
+          "title": "(주)신라정밀 사내식당 영양사 모집(직영운영)",
+          "cleaned_title": "사내식당 영양사 (직영운영)",
+          "company": "(주)신라정밀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50291098",
+          "tags": [
+            "#영양사",
+            "#서비스"
+          ],
+          "other_major_categories": [
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "영양사"
+          ],
+          "mid_categories_in_others": {
+            "#의료": [
+              "영양사"
+            ]
+          }
+        }
+      ]
+    },
+    "호텔리어": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50327148",
+          "title": "[JustCo] 외국계 공유 오피스 고객 서비스 운영팀 인턴 모집",
+          "cleaned_title": "외국계 공유 오피스 고객 서비스 운영팀",
+          "company": "저스트코코리아온쇼어(유)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50327148",
+          "tags": [
+            "#호텔",
+            "#호텔영업",
+            "#총무·법무·사무",
+            "#서비스",
+            "#금융·보험",
+            "#영업·판매·무역",
+            "#고객응대",
+            "#부동산영업",
+            "#고객안내",
+            "#객실관리",
+            "#호텔리어",
+            "#GRO(컨시어지)",
+            "#비서"
+          ],
+          "other_major_categories": [
+            "#금융·보험",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "호텔리어",
+            "GRO(컨시어지)"
+          ],
+          "mid_categories_in_others": {
+            "#금융·보험": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "부동산영업",
+              "호텔영업"
+            ],
+            "#총무·법무·사무": [
+              "비서",
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "GRO(컨시어지)": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50327148",
+          "title": "[JustCo] 외국계 공유 오피스 고객 서비스 운영팀 인턴 모집",
+          "cleaned_title": "외국계 공유 오피스 고객 서비스 운영팀",
+          "company": "저스트코코리아온쇼어(유)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50327148",
+          "tags": [
+            "#호텔",
+            "#호텔영업",
+            "#총무·법무·사무",
+            "#서비스",
+            "#금융·보험",
+            "#영업·판매·무역",
+            "#고객응대",
+            "#부동산영업",
+            "#고객안내",
+            "#객실관리",
+            "#호텔리어",
+            "#GRO(컨시어지)",
+            "#비서"
+          ],
+          "other_major_categories": [
+            "#금융·보험",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "호텔리어",
+            "GRO(컨시어지)"
+          ],
+          "mid_categories_in_others": {
+            "#금융·보험": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "부동산영업",
+              "호텔영업"
+            ],
+            "#총무·법무·사무": [
+              "비서",
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "정비기사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50372807",
+          "title": "하이에어코리아(주) A/S팀 A/S업무(선박 공조기 등) 직원채용",
+          "cleaned_title": "A S팀 A S업무(선박 공조기 등)",
+          "company": "하이에어코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372807",
+          "tags": [
+            "#서비스",
+            "#가전제품설치",
+            "#인터넷설치",
+            "#설비점검",
+            "#자동차정비",
+            "#자동차튜닝",
+            "#자동차도장",
+            "#A/S기사",
+            "#기계수리",
+            "#정비기사"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "정비기사",
+            "A/S기사",
+            "가전제품설치"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "A/S기사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50372807",
+          "title": "하이에어코리아(주) A/S팀 A/S업무(선박 공조기 등) 직원채용",
+          "cleaned_title": "A S팀 A S업무(선박 공조기 등)",
+          "company": "하이에어코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372807",
+          "tags": [
+            "#서비스",
+            "#가전제품설치",
+            "#인터넷설치",
+            "#설비점검",
+            "#자동차정비",
+            "#자동차튜닝",
+            "#자동차도장",
+            "#A/S기사",
+            "#기계수리",
+            "#정비기사"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "정비기사",
+            "A/S기사",
+            "가전제품설치"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "가전제품설치": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50372807",
+          "title": "하이에어코리아(주) A/S팀 A/S업무(선박 공조기 등) 직원채용",
+          "cleaned_title": "A S팀 A S업무(선박 공조기 등)",
+          "company": "하이에어코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372807",
+          "tags": [
+            "#서비스",
+            "#가전제품설치",
+            "#인터넷설치",
+            "#설비점검",
+            "#자동차정비",
+            "#자동차튜닝",
+            "#자동차도장",
+            "#A/S기사",
+            "#기계수리",
+            "#정비기사"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "정비기사",
+            "A/S기사",
+            "가전제품설치"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "주차요원": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50386021",
+          "title": "2025년 서울랜드 각 부문 신입 및 경력 채용",
+          "cleaned_title": "서울랜드 각 부문",
+          "company": "(주)서울랜드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50386021",
+          "tags": [
+            "#생산",
+            "#설비점검",
+            "#주차요원",
+            "#시설관리",
+            "#기계수리",
+            "#행사도우미"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "주차요원",
+            "행사도우미"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "행사도우미": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50386021",
+          "title": "2025년 서울랜드 각 부문 신입 및 경력 채용",
+          "cleaned_title": "서울랜드 각 부문",
+          "company": "(주)서울랜드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50386021",
+          "tags": [
+            "#생산",
+            "#설비점검",
+            "#주차요원",
+            "#시설관리",
+            "#기계수리",
+            "#행사도우미"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "주차요원",
+            "행사도우미"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "스타일리스트": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50416138",
+          "title": "VMD 및 공간연출 스타일리스트 /디자이너 신입 채용",
+          "cleaned_title": "VMD 공간연출 스타일리스트 디자이너",
+          "company": "(주)세븐도어즈",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50416138",
+          "tags": [
+            "#디자인",
+            "#라이노",
+            "#CAD",
+            "#브랜드디자인",
+            "#VMD",
+            "#PhotoShop",
+            "#V-Ray",
+            "#공간디자인",
+            "#3DMax",
+            "#시각디자인",
+            "#일러스트",
+            "#전시디자인",
+            "#스케치업",
+            "#아트워크"
+          ],
+          "other_major_categories": [
+            "#디자인",
+            "#상품기획·md",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "스타일리스트"
+          ],
+          "mid_categories_in_others": {
+            "#디자인": [
+              "VMD",
+              "공간디자인",
+              "시각디자인",
+              "브랜드디자인",
+              "전시디자인"
+            ],
+            "#상품기획·md": [
+              "VMD"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "바리스타": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50481789",
+          "title": "바리스타 정규직, 알바 직원 채용",
+          "cleaned_title": "바리스타 , 알바",
+          "company": "애트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50481789",
+          "tags": [
+            "#서비스",
+            "#바리스타"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "바리스타"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "지상직": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50510531",
+          "title": "중국남방항공 여객운송부(지상직) 모집",
+          "cleaned_title": "중국남방항공 여객운송부(지상직)",
+          "company": "중국남방항공(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50510531",
+          "tags": [
+            "#서비스",
+            "#지상직",
+            "#항공사"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "지상직"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    }
+  }
+}

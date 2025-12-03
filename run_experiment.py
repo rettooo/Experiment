@@ -22,10 +22,27 @@ async def main():
 
     args = parser.parse_args()
 
-    # 설정 파일 확인
+    # 설정 파일 경로 처리 (상대 경로 지원)
     config_path = Path(args.config_path)
+
+    # 상대 경로인 경우 여러 위치에서 찾기
+    if not config_path.is_absolute():
+        # 1. 현재 작업 디렉토리에서 찾기
+        if not config_path.exists():
+            # 2. configs/ 디렉토리에서 찾기
+            configs_dir = Path(__file__).parent / "configs"
+            potential_path = configs_dir / config_path.name
+            if potential_path.exists():
+                config_path = potential_path
+            # 3. 스크립트 위치 기준으로 찾기
+            elif (Path(__file__).parent / config_path).exists():
+                config_path = Path(__file__).parent / config_path
+
     if not config_path.exists():
-        print(f"설정 파일을 찾을 수 없습니다: {config_path}")
+        print(f"❌ 설정 파일을 찾을 수 없습니다: {args.config_path}")
+        print(f"   시도한 경로: {config_path.absolute()}")
+        print(f"   현재 작업 디렉토리: {Path.cwd()}")
+        print(f"   스크립트 위치: {Path(__file__).parent}")
         sys.exit(1)
 
     try:
@@ -42,50 +59,24 @@ async def main():
         print("실험 결과 요약")
         print("=" * 50)
 
-        # retrieval_only 모드 결과
-        if "summary" in results and "average_metrics" in results["summary"]:
-            summary = results["summary"]
-            print("=== 검색 성능 지표 (평균) ===")
-            avg_metrics = summary["average_metrics"]
-            print(f"NDCG@10:      {avg_metrics['ndcg@10']:.4f}")
-            print(f"Recall@20:    {avg_metrics['recall@20']:.4f}")
-            print(f"MRR@10:       {avg_metrics['mrr@10']:.4f}")
-            print(f"Precision@3:  {avg_metrics['precision@3']:.4f}")
-            print(f"Precision@5:  {avg_metrics['precision@5']:.4f}")
-
-            if "total_search_time" in summary:
-                print(f"\n총 검색 시간:   {summary['total_search_time']:.3f}초")
-                print(
-                    f"평균 검색 시간: {summary['average_search_time_per_query']:.3f}초/쿼리"
-                )
-
-            print(f"\n평가된 쿼리 수: {summary['total_queries']}개")
-
-            if "search_results_file" in results:
-                print(f"\n✅ 결과 저장:")
-                print(f"   상세: {results['search_results_file']}")
-                print(f"   요약: {results['summary_file']}")
-
-        # dual 모드 결과 (기존)
-        elif "retrieval_evaluation" in results:
+        # 검색 평가 결과
+        if "retrieval_evaluation" in results:
             print("=== 검색 성능 지표 ===")
             for metric in results["retrieval_evaluation"]["metrics"]:
                 print(f"{metric['metric']}: {metric['score']:.4f}")
 
-            # 생성 평가 결과 (LangSmith 정성평가)
-            if (
-                "generation_evaluation" in results
-                and "langsmith_metrics" in results["generation_evaluation"]
-            ):
-                print("\n=== LangSmith 정성평가 지표 ===")
-                for metric in results["generation_evaluation"]["langsmith_metrics"]:
-                    print(f"{metric['metric']}: {metric['score']:.4f}")
+        # 생성 평가 결과 (LangSmith 정성평가)
+        if (
+            "generation_evaluation" in results
+            and "langsmith_metrics" in results["generation_evaluation"]
+        ):
+            print("\n=== LangSmith 정성평가 지표 ===")
+            for metric in results["generation_evaluation"]["langsmith_metrics"]:
+                print(f"{metric['metric']}: {metric['score']:.4f}")
 
-            print(f"\n처리된 문서 수: {results['document_count']}")
-            print(f"평가된 쿼리 수: {results['retrieval_evaluation']['query_count']}")
-            print(
-                f"총 소요시간: {results['experiment_info']['duration_seconds']:.2f}초"
-            )
+        print(f"\n처리된 문서 수: {results['document_count']}")
+        print(f"평가된 쿼리 수: {results['retrieval_evaluation']['query_count']}")
+        print(f"총 소요시간: {results['experiment_info']['duration_seconds']:.2f}초")
 
     except Exception as e:
         print(f"실험 실행 중 오류 발생: {e}")

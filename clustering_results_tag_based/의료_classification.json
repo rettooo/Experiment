@@ -1,0 +1,2441 @@
+{
+  "major_category": "#의료",
+  "statistics": {
+    "total_docs": 75,
+    "unique_docs": 75,
+    "num_mid_categories": 15,
+    "overlap_info": {
+      "with_기획_전략": 12,
+      "with_마케팅_홍보_조사": 5,
+      "with_상품기획_md": 1,
+      "with_영업_판매_무역": 18,
+      "with_연구_r&d": 25,
+      "with_구매_자재_물류": 10,
+      "with_공공_복지": 5,
+      "with_교육": 2,
+      "with_인사_노무_hrd": 37,
+      "with_총무_법무_사무": 12,
+      "with_it개발_데이터": 7,
+      "with_건설_건축": 22,
+      "with_생산": 23,
+      "with_고객상담_tm": 2,
+      "with_운전_운송_배송": 1,
+      "with_서비스": 3,
+      "with_회계_세무_재무": 2,
+      "with_미디어_문화_스포츠": 1,
+      "with_디자인": 1
+    }
+  },
+  "mid_categories": {
+    "기타": {
+      "size": 29,
+      "total_assignments": 29,
+      "documents": [
+        {
+          "rec_id": "50016478",
+          "title": "의료기기회사 병원 영업 지원 업무",
+          "cleaned_title": "의료기기회사 병원 영업 지원 업무",
+          "company": "엘앤에스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50016478",
+          "tags": [
+            "#거래처관리",
+            "#재고관리",
+            "#구매·자재·물류",
+            "#거래처납품"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "재고관리"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50020529",
+          "title": "제약 개발/RA 담당자 채용",
+          "cleaned_title": "제약 개발 RA",
+          "company": "일양바이오팜(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50020529",
+          "tags": [
+            "#RA",
+            "#연구·R&D",
+            "#의료",
+            "#제제연구"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50055702",
+          "title": "[NKH그룹사] 2025년 신입사원 채용 - RA/QA",
+          "cleaned_title": "RA QA",
+          "company": "엔케이에이치주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50055702",
+          "tags": [
+            "#품질관리",
+            "#RA",
+            "#총무·법무·사무",
+            "#생산",
+            "#의료",
+            "#인/허가",
+            "#구매·자재·물류",
+            "#QA"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#생산",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "QA"
+            ],
+            "#구매·자재·물류": [
+              "구매",
+              "품질관리"
+            ],
+            "#생산": [
+              "QA",
+              "품질관리",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50088293",
+          "title": "2025 충북대학교병원 스마트글로벌헬스센터 계약직 연구원 채용",
+          "cleaned_title": "스마트글로벌헬스센터 계약직 연구원",
+          "company": "충북대학교병원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50088293",
+          "tags": [],
+          "other_major_categories": [
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "연구원"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50098271",
+          "title": "연구과제참여 - 머신/딥러닝 기반 의료영상분석 채용 공고",
+          "cleaned_title": "연구과제참여 머신 딥러닝 기반 의료영상분석",
+          "company": "서울대학교병원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50098271",
+          "tags": [
+            "#IT개발·데이터",
+            "#머신러닝",
+            "#Python",
+            "#AI(인공지능)"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50275455",
+          "title": "[계약직/기간제] 서울대학교병원 교수 국책 과제 연구원 채용",
+          "cleaned_title": "교수 국책 과제 연구원",
+          "company": "서울대학교병원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50275455",
+          "tags": [],
+          "other_major_categories": [
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "연구원"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50299767",
+          "title": "[에버트라이] 소프트웨어 의료기기 CRA 정규직 채용",
+          "cleaned_title": "소프트웨어 의료기기 CRA",
+          "company": "(주)에버트라이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50299767",
+          "tags": [],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50319865",
+          "title": "Product Manager (육아휴직 대체)",
+          "cleaned_title": "Product Manager (육아휴직 대체)",
+          "company": "지멘스헬시니어스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50319865",
+          "tags": [
+            "#의료",
+            "#상품기획",
+            "#기획·전략",
+            "#PM"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50335513",
+          "title": "[제일메디칼] 의료기기 국내영업 (신입/경력)",
+          "cleaned_title": "의료기기 국내영업 ( )",
+          "company": "(주)제일메디칼코퍼레이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50335513",
+          "tags": [
+            "#영업직",
+            "#영업",
+            "#기술영업",
+            "#영업·판매·무역",
+            "#거래처영업",
+            "#영업전략",
+            "#의료기기영업"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "기술영업",
+              "영업직",
+              "영업전략",
+              "의료기기영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50339299",
+          "title": "[의료SW] 해외사업관리팀 신입/경력 모집",
+          "cleaned_title": "해외사업관리팀",
+          "company": "(주)인피니트헬스케어",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50339299",
+          "tags": [
+            "#회계·세무·재무",
+            "#회계",
+            "#영업·판매·무역",
+            "#재무",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#영업·판매·무역",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50378999",
+          "title": "굿모닝병원 국제진료센터 직원(영어 통역)채용 공고",
+          "cleaned_title": "굿모닝병원 국제진료센터 (영어 통역)",
+          "company": "(의)백송의료재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50378999",
+          "tags": [
+            "#영어",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#미디어·문화·스포츠": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50380253",
+          "title": "[한국애보트진단] RA Specialist (계약직)",
+          "cleaned_title": "RA Specialist (계약직)",
+          "company": "(주)한국애보트진단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50380253",
+          "tags": [
+            "#RA",
+            "#의료"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50385161",
+          "title": "2025년 동아대학교의료원 정규직(시설관리) 공개채용 공고",
+          "cleaned_title": "(시설관리) 공개",
+          "company": "동아대학교의료원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50385161",
+          "tags": [
+            "#공조설비",
+            "#서구",
+            "#건설·건축"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50396922",
+          "title": "[오송연구소] 의료기기 연구개발",
+          "cleaned_title": "의료기기 연구개발",
+          "company": "(주)태웅메디칼",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50396922",
+          "tags": [
+            "#줄기세포",
+            "#미생물",
+            "#R&D",
+            "#세포실험",
+            "#임상개발",
+            "#세포배양",
+            "#의료기기연구",
+            "#유전자",
+            "#시료분석",
+            "#신소재",
+            "#기술연구",
+            "#의",
+            "#실험보조"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ]
+          }
+        },
+        {
+          "rec_id": "50417481",
+          "title": "대구 서구 의료시설(관급) 현장 통신 감리원 모집",
+          "cleaned_title": "대구 서구 의료시설(관급) 현장 통신 감리원",
+          "company": "(주) 동우이앤씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50417481",
+          "tags": [],
+          "other_major_categories": [
+            "#건설·건축"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "감리원"
+            ]
+          }
+        },
+        {
+          "rec_id": "50417932",
+          "title": "한국백신 제약 품질보증(VA) / 품질관리직 채용(QA/QC)",
+          "cleaned_title": "한국백신 제약 품질보증(VA) 품질관리직 (QA QC)",
+          "company": "(주)한국백신",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50417932",
+          "tags": [
+            "#품질관리",
+            "#미생물",
+            "#품질분석",
+            "#제약QA",
+            "#의료",
+            "#연구·R&D",
+            "#이화학시험",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#생산",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "QA",
+              "QC"
+            ],
+            "#구매·자재·물류": [
+              "품질관리",
+              "구매"
+            ],
+            "#생산": [
+              "품질관리",
+              "QA",
+              "QC"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50423872",
+          "title": "한국비엔씨 세종공장 제약회사 품질보증팀(QA) 채용",
+          "cleaned_title": "한국비엔씨 세종공장 제약회사 품질보증팀(QA)",
+          "company": "(주)한국비엔씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50423872",
+          "tags": [
+            "#제약QA",
+            "#의료"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "QA"
+            ],
+            "#생산": [
+              "QA"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50437200",
+          "title": "포항세명기독병원 홍보팀 채용공고",
+          "cleaned_title": "포항세명기독병원 홍보팀",
+          "company": "(의)한성재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50437200",
+          "tags": [
+            "#언론홍보",
+            "#디자인",
+            "#PhotoShop",
+            "#기업홍보"
+          ],
+          "other_major_categories": [
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#디자인": [
+              "기타"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "기업홍보"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50437681",
+          "title": "광주 병원/의원 영업사원 모집 (연봉 3,750 이상)",
+          "cleaned_title": "광주 병원 의원 영업 (연봉 3,0 이상)",
+          "company": "세영프라임",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50437681",
+          "tags": [
+            "#영업직",
+            "#영업·판매·무역",
+            "#서구",
+            "#화장품영업",
+            "#제약영업"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "제약영업",
+              "영업직",
+              "화장품영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50437866",
+          "title": "의료기기 RA 인재 채용 - 신입 모집",
+          "cleaned_title": "의료기기 RA",
+          "company": "에이아이메딕(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50437866",
+          "tags": [
+            "#생산",
+            "#제약/바이오",
+            "#연구·R&D"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "보건관리자": {
+      "size": 12,
+      "total_assignments": 12,
+      "documents": [
+        {
+          "rec_id": "50414201",
+          "title": "[현대자동차그룹] 트라닉스(주) 일반직 사원 모집",
+          "cleaned_title": "일반직",
+          "company": "트라닉스 주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50414201",
+          "tags": [
+            "#생산",
+            "#조립",
+            "#안전보건관리자"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전보건관리자",
+              "보건관리자"
+            ],
+            "#생산": [
+              "안전보건관리자",
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50426000",
+          "title": "학교법인 을지학원 직원 채용(안전관리분야)",
+          "cleaned_title": "학교법인 을지학원 (안전관리분야)",
+          "company": "(학)을지학원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50426000",
+          "tags": [
+            "#안전관리자",
+            "#의료",
+            "#보건관리자",
+            "#인사·노무·HRD",
+            "#중대재해처벌법"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#교육",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전관리자",
+              "보건관리자"
+            ],
+            "#교육": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "HRD",
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439730",
+          "title": "2025년 4월 무림그룹 직무별 채용(안전보건관리)",
+          "cleaned_title": "4월 직무별 (안전보건관리)",
+          "company": "무림그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439730",
+          "tags": [
+            "#총무·법무·사무",
+            "#서비스",
+            "#생산",
+            "#건설·건축",
+            "#안전관리자",
+            "#시설관리",
+            "#안전보건관리자",
+            "#PSM"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#서비스",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전보건관리자",
+              "안전관리자",
+              "보건관리자"
+            ],
+            "#생산": [
+              "PSM",
+              "안전보건관리자",
+              "생산"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439778",
+          "title": "2025년 4월 무림그룹 직무별 채용(설비관리)",
+          "cleaned_title": "4월 직무별 (설비관리)",
+          "company": "무림그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439778",
+          "tags": [
+            "#총무·법무·사무",
+            "#서비스",
+            "#건설·건축",
+            "#안전관리자",
+            "#하자보수",
+            "#시설관리",
+            "#안전보건관리자",
+            "#설비보수"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#서비스",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전보건관리자",
+              "안전관리자",
+              "보건관리자"
+            ],
+            "#생산": [
+              "안전보건관리자"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50442612",
+          "title": "비파괴검사원 정규직 채용 공고(신입)",
+          "cleaned_title": "비파괴검 ()",
+          "company": "(주)아이텍기술",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50442612",
+          "tags": [
+            "#QC",
+            "#안전관리자",
+            "#위험성평가",
+            "#안전보건관리자"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "비파괴검사원",
+              "QC",
+              "보건관리자",
+              "안전관리자",
+              "안전보건관리자"
+            ],
+            "#생산": [
+              "안전보건관리자",
+              "QC"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50462198",
+          "title": "전북 익산사업장 SHE(안전, 환경) 담당자 모집",
+          "cleaned_title": "전북 익산사업장 SHE(안전, 환경)",
+          "company": "(주)코리아컴포지트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50462198",
+          "tags": [
+            "#생산",
+            "#건설·건축",
+            "#안전관리자",
+            "#안전보건관리자",
+            "#대기환경기사"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전보건관리자",
+              "안전관리자",
+              "대기환경기사",
+              "보건관리자"
+            ],
+            "#생산": [
+              "안전보건관리자",
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50462805",
+          "title": "생산기술팀 모집공고",
+          "cleaned_title": "생산기술팀",
+          "company": "(주)퓨트로닉",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50462805",
+          "tags": [
+            "#생산자동화",
+            "#생산",
+            "#공정관리",
+            "#안전보건관리자",
+            "#제조",
+            "#생산기술",
+            "#생산관리"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전보건관리자",
+              "보건관리자"
+            ],
+            "#생산": [
+              "생산",
+              "생산기술",
+              "생산관리",
+              "안전보건관리자",
+              "공정관리",
+              "제조"
+            ]
+          }
+        },
+        {
+          "rec_id": "50479184",
+          "title": "보건관리 계약직 사원 공개 모집",
+          "cleaned_title": "보건관리 계약직 공개",
+          "company": "(주)서연이화",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50479184",
+          "tags": [
+            "#사무보조",
+            "#총무·법무·사무",
+            "#생산",
+            "#건설·건축",
+            "#안전관리자",
+            "#서류관리",
+            "#보건관리자",
+            "#사무행정",
+            "#안전보건관리자",
+            "#총무",
+            "#대기환경기사",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#공공·복지",
+            "#생산",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "보건관리자",
+              "안전보건관리자",
+              "안전관리자",
+              "대기환경기사"
+            ],
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#생산": [
+              "안전보건관리자",
+              "생산"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50484257",
+          "title": "[지마켓] 동탄물류센터 안전관리자(계약직)",
+          "cleaned_title": "동탄물류센터 안전관리자(계약직)",
+          "company": "(주)지마켓",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50484257",
+          "tags": [
+            "#건설·건축",
+            "#생산",
+            "#안전관리자",
+            "#안전보건관리자"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전관리자",
+              "안전보건관리자",
+              "보건관리자"
+            ],
+            "#구매·자재·물류": [
+              "기타"
+            ],
+            "#생산": [
+              "안전보건관리자",
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50498876",
+          "title": "[2025년 상반기] 신입사원채용(생산관리)",
+          "cleaned_title": "(생산관리)",
+          "company": "(주)세양기업",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50498876",
+          "tags": [
+            "#건설·건축",
+            "#생산",
+            "#공정관리",
+            "#안전보건관리자",
+            "#생산관리",
+            "#산업플랜트"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전보건관리자",
+              "보건관리자"
+            ],
+            "#생산": [
+              "생산",
+              "생산관리",
+              "안전보건관리자",
+              "공정관리"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50500403",
+          "title": "위아마그나파워트레인 25년 대졸 신입 안전/총무 부문 채용",
+          "cleaned_title": "안전 총무 부문",
+          "company": "위아마그나파워트레인(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50500403",
+          "tags": [
+            "#총무·법무·사무",
+            "#수질환경기사",
+            "#토양환경기사",
+            "#생산",
+            "#건설·건축",
+            "#안전관리자",
+            "#보건관리자",
+            "#안전보건관리자",
+            "#PSM",
+            "#인/허가",
+            "#대기환경기사"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "보건관리자",
+              "토양환경기사",
+              "안전관리자",
+              "안전보건관리자",
+              "수질환경기사",
+              "대기환경기사"
+            ],
+            "#생산": [
+              "PSM",
+              "안전보건관리자",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50507445",
+          "title": "2025년 제2차 위촉직 채용 공고(건설현장 안전관리)",
+          "cleaned_title": "제2차 위촉직 (건설현장 안전관리)",
+          "company": "(재)오송첨단의료산업진흥재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50507445",
+          "tags": [
+            "#건설·건축",
+            "#안전관리자",
+            "#현장관리자",
+            "#안전보건관리자",
+            "#현장기사",
+            "#건설관리"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "보건관리자"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "현장기사",
+              "보건관리자",
+              "안전관리자",
+              "현장관리자",
+              "안전보건관리자"
+            ],
+            "#생산": [
+              "안전보건관리자"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "MR": {
+      "size": 11,
+      "total_assignments": 11,
+      "documents": [
+        {
+          "rec_id": "49449606",
+          "title": "전국 각 지역 경력/신입 MR 모집",
+          "cleaned_title": "전국 각 지역 MR",
+          "company": "삼천당제약(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49449606",
+          "tags": [
+            "#영업직",
+            "#영업기획",
+            "#거래처관리",
+            "#거",
+            "#영업",
+            "#영업마케팅",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#영업관리",
+            "#무역MR",
+            "#영업MD",
+            "#거래처납품",
+            "#제약영업",
+            "#의료기기영업"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#상품기획·md",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "MR"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#상품기획·md": [
+              "영업MD"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "영업마케팅",
+              "제약영업",
+              "영업직",
+              "무역MR",
+              "영업전략",
+              "영업기획",
+              "영업MD",
+              "의료기기영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50256896",
+          "title": "한국백신판매 호남센터(광주,전북,전남) 제약 영업사원(MR)",
+          "cleaned_title": "한국백신판매 호남센터(광주,전북,전남) 제약 영업(MR)",
+          "company": "(주)한국백신",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50256896",
+          "tags": [
+            "#영업직",
+            "#영업기획",
+            "#영업",
+            "#영업마케팅",
+            "#영업·판매·무역",
+            "#서구",
+            "#영업관리",
+            "#제약영업"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "MR"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "영업마케팅",
+              "제약영업",
+              "영업직",
+              "영업기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50262366",
+          "title": "신흥글로벌(주) 구매개발팀 정규직 채용",
+          "cleaned_title": "구매개발팀",
+          "company": "신흥글로벌(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50262366",
+          "tags": [
+            "#무역영어",
+            "#통관",
+            "#LC(신용장)",
+            "#B2B",
+            "#국제무역사",
+            "#수출입",
+            "#무역거래",
+            "#매출관리",
+            "#구매·자재·물류",
+            "#무역MR",
+            "#바이어발굴/관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#구매·자재·물류",
+            "#연구·r&d",
+            "#영업·판매·무역",
+            "#운전·운송·배송",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "MR"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#구매·자재·물류": [
+              "구매"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "국제무역사",
+              "무역MR"
+            ],
+            "#운전·운송·배송": [
+              "통관"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50288678",
+          "title": "[해외영업팀] 영어권/유럽/중남미/중동/러시아/중국/베트남/일본",
+          "cleaned_title": "영어권 유럽 중남미 중동 러시아 중국 베트남 일본",
+          "company": "(주)제이디바이오",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50288678",
+          "tags": [
+            "#해외영업",
+            "#브랜드마케팅",
+            "#해외시장개척",
+            "#영업·판매·무역",
+            "#해외영업관리",
+            "#무역MR",
+            "#마케팅·홍보·조사",
+            "#글로벌마케팅"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "MR"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "브랜드마케팅",
+              "홍보",
+              "글로벌마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "해외영업",
+              "영업관리",
+              "무역MR",
+              "해외시장개척"
+            ]
+          }
+        },
+        {
+          "rec_id": "50301105",
+          "title": "[해외영업] 철강/무역 담당 모집",
+          "cleaned_title": "철강 무역 담당",
+          "company": "㈜디비에스브릿지스틸",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50301105",
+          "tags": [
+            "#서",
+            "#해상무역",
+            "#무역MR",
+            "#무역중개인"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "MR"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "해외영업",
+              "영업",
+              "무역중개인",
+              "해상무역",
+              "무역MR"
+            ]
+          }
+        },
+        {
+          "rec_id": "50305339",
+          "title": "자기공명분광(MRS) 인턴 및 연구원 모집(대학생/학사/석사/박사)",
+          "cleaned_title": "자기공명분광(MRS) 연구원 (대학생 학사 석사 박사)",
+          "company": "서울대학교병원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50305339",
+          "tags": [
+            "#학술연구",
+            "#IT개발·데이터",
+            "#의료영상",
+            "#의료기기연구",
+            "#의료",
+            "#이미지프로세싱",
+            "#############################",
+            "#데이터분석가",
+            "#기술연구",
+            "#AI(인공지능)",
+            "#딥러닝",
+            "#영상처리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "MR"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "데이터분석가"
+            ],
+            "#연구·r&d": [
+              "연구원"
+            ],
+            "#영업·판매·무역": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50332597",
+          "title": "해운무역 사무직",
+          "cleaned_title": "해운무역 사무직",
+          "company": "대양에이젠시",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50332597",
+          "tags": [
+            "#무역영어",
+            "#해상무역",
+            "#해외영업",
+            "#무역MR",
+            "#해외영업관리",
+            "#주문관리",
+            "#바이어발굴/관리",
+            "#무역중개인"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "MR"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#영업·판매·무역": [
+              "해외영업",
+              "영업",
+              "무역중개인",
+              "영업관리",
+              "해상무역",
+              "무역MR"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50381214",
+          "title": "해외영업팀 무역사무 신입사원 모집",
+          "cleaned_title": "해외영업팀 무역사무",
+          "company": "(주)에스이케이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50381214",
+          "tags": [
+            "#무역경리",
+            "#항공무역",
+            "#해외영업관리",
+            "#무역MR"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#영업·판매·무역",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "MR"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "공무"
+            ],
+            "#영업·판매·무역": [
+              "해외영업",
+              "영업",
+              "영업관리",
+              "무역MR",
+              "무역경리",
+              "항공무역"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "경리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50437075",
+          "title": "의약품 영업 담당자(MR) 신입(전환형 인턴) 모집 [전라북도]",
+          "cleaned_title": "의약품 영업 (MR) (전환형 )",
+          "company": "에스케이플라즈마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50437075",
+          "tags": [
+            "#영업직"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "MR"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "영업직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472548",
+          "title": "[광동제약계열사/중견기업]소싱(건설고객사)담당 신입/경력 채용",
+          "cleaned_title": "소싱(건설고객사)담당",
+          "company": "코리아이플랫폼(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472548",
+          "tags": [
+            "#거래처관리",
+            "#MRO",
+            "#영업",
+            "#거래처영업",
+            "#영업·판매·무역",
+            "#구매관리",
+            "#수/발",
+            "#B2B",
+            "#구매대행/소싱",
+            "#구매",
+            "#매출관리",
+            "#영업관리",
+            "#구매·자재·물류",
+            "#실적관리"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "MR"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "기타"
+            ],
+            "#구매·자재·물류": [
+              "구매",
+              "구매관리"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50494156",
+          "title": "[한국에머슨] 선박 MRO 영업담당자",
+          "cleaned_title": "선박 MRO 영업",
+          "company": "한국에머슨마린솔루션즈(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50494156",
+          "tags": [
+            "#영업·판매·무역",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "MR"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ]
+          }
+        }
+      ]
+    },
+    "약사": {
+      "size": 6,
+      "total_assignments": 6,
+      "documents": [
+        {
+          "rec_id": "50329521",
+          "title": "[제노스] 의약품 생산관리약사 채용공고",
+          "cleaned_title": "의약품 생산관리약사",
+          "company": "(주)제노스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50329521",
+          "tags": [],
+          "other_major_categories": [
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "약사"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산관리",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50396198",
+          "title": "[용마로지스] 관리약사 부문 인재 Pool 등록",
+          "cleaned_title": "관리약사 부문 Pool 등록",
+          "company": "용마로지스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50396198",
+          "tags": [
+            "#전국",
+            "#의료",
+            "#약사"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "약사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50424794",
+          "title": "연합인포맥스 연합뉴스경제TV본부 영업/마케팅 계약사원 모집",
+          "cleaned_title": "연합인포맥스 연합뉴스경제TV본부 영업 마케팅 계약",
+          "company": "(주)연합인포맥스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50424794",
+          "tags": [
+            "#영업직",
+            "#거래처관리",
+            "#IT영업",
+            "#거래처영업",
+            "#영업·판매·무역",
+            "#공공영업"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "약사"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "IT영업",
+              "영업직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50426721",
+          "title": "[제약/바이오] ㈜바이넥스 오송공장 신입/경력사원 모집",
+          "cleaned_title": "바이넥스 오송공장",
+          "company": "(주)바이넥스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50426721",
+          "tags": [
+            "#품질관리",
+            "#석유화학",
+            "#QC",
+            "#품질분석",
+            "#제약/바이오",
+            "#임상시험",
+            "#의료",
+            "#품질보증",
+            "#제약QA",
+            "#연구·R&D",
+            "#의약사무",
+            "#약사",
+            "#QA"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#생산",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "약사"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "QA",
+              "QC"
+            ],
+            "#구매·자재·물류": [
+              "품질관리"
+            ],
+            "#생산": [
+              "QA",
+              "QC",
+              "품질관리"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436150",
+          "title": "[HK이노엔]_2025 상반기 콜마그룹 대졸신입 공채(관리약사)",
+          "cleaned_title": "콜마그룹 (관리약사)",
+          "company": "에이치케이이노엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436150",
+          "tags": [
+            "#품질관리",
+            "#출고/출하",
+            "#생산",
+            "#제약/바이오",
+            "#공정관리",
+            "#의료",
+            "#연구·R&D",
+            "#구매·자재·물류",
+            "#공정엔지니어",
+            "#약사"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#생산",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "약사"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "품질관리"
+            ],
+            "#생산": [
+              "공정엔지니어",
+              "품질관리",
+              "생산",
+              "공정관리"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ]
+          }
+        },
+        {
+          "rec_id": "50441424",
+          "title": "[에이치에스바이오] 품질보증부 신입 채용",
+          "cleaned_title": "품질보증부",
+          "company": "(주)에이치에스바이오",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50441424",
+          "tags": [
+            "#QA",
+            "#총무·법무·사무",
+            "#QC",
+            "#생산",
+            "#제약/바이오",
+            "#전국",
+            "#제약QA",
+            "#의료",
+            "#인/허가",
+            "#의약사무"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "약사"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "QA",
+              "QC"
+            ],
+            "#생산": [
+              "QA",
+              "QC",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "CRA(임상연구원)": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "49982373",
+          "title": "마더스제약 R&D센터 연구원 모집",
+          "cleaned_title": "마더스제약 R&D센터 연구원",
+          "company": "(주)마더스제약",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49982373",
+          "tags": [
+            "#R&D",
+            "#제약/바이오",
+            "#유해화학물질",
+            "#의약외품연구",
+            "#CRA(임상연구원)",
+            "#이화학시험",
+            "#고분자",
+            "#R&D기획",
+            "#제제연"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "CRA(임상연구원)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "R&D",
+              "연구원",
+              "CRA(임상연구원)",
+              "R&D기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436092",
+          "title": "[HK이노엔]_2025 상반기 콜마그룹 대졸신입 공채(CRA_MSL)",
+          "cleaned_title": "콜마그룹 (CRA MSL)",
+          "company": "에이치케이이노엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436092",
+          "tags": [
+            "#임상개발",
+            "#임상시험",
+            "#연구·R&D",
+            "#CRA(임상연구원)",
+            "#연구원"
+          ],
+          "other_major_categories": [
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "CRA(임상연구원)"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "연구원",
+              "CRA(임상연구원)",
+              "R&D"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436102",
+          "title": "[HK이노엔]_2025 상반기 콜마그룹 대졸신입 공채(CRA_허가)",
+          "cleaned_title": "콜마그룹 (CRA 허가)",
+          "company": "에이치케이이노엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436102",
+          "tags": [
+            "#임상시험",
+            "#연구·R&D",
+            "#CRA(임상연구원)"
+          ],
+          "other_major_categories": [
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "CRA(임상연구원)"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "CRA(임상연구원)",
+              "R&D",
+              "연구원"
+            ]
+          }
+        }
+      ]
+    },
+    "심리치료사": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50018158",
+          "title": "[다인] 교육기획/운영 담당 채용전환형 인턴",
+          "cleaned_title": "교육기획 운영 담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50018158",
+          "tags": [
+            "#교육컨설턴트",
+            "#심리치료사",
+            "#공공·복지",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육기획",
+            "#사회복지사",
+            "#평생교육사",
+            "#인사교육",
+            "#EAP상담",
+            "#교육운영",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#교육",
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "심리치료사",
+              "사무직",
+              "평생교육사",
+              "사회복지사"
+            ],
+            "#교육": [
+              "교육운영",
+              "평생교육사",
+              "교육컨설턴트"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "컨설턴트"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50146896",
+          "title": "[다인] 고객관리센터운영 채용형인턴 (Counseling Manager)",
+          "cleaned_title": "고객관리센터운영 형 (Counseling Manager)",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50146896",
+          "tags": [
+            "#심리치료사",
+            "#공공·복지",
+            "#사회복지사",
+            "#EAP상담",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#공공·복지",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "고객관리"
+            ],
+            "#공공·복지": [
+              "심리치료사",
+              "사무직",
+              "사회복지사"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50264741",
+          "title": "[다인] 사업부 운영담당 채용전환형 인턴",
+          "cleaned_title": "사업부 운영담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50264741",
+          "tags": [
+            "#심리치료사",
+            "#공공·복지",
+            "#사회복지사",
+            "#EAP상담",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "심리치료사",
+              "사무직",
+              "사회복지사"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        }
+      ]
+    },
+    "간호사": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50202126",
+          "title": "(주)더웨이헬스케어 임상시험 CRA 신입 & 경력자 모집",
+          "cleaned_title": "임상시험 CRA & 자",
+          "company": "(주)더웨이헬스케어",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202126",
+          "tags": [
+            "#CRC(연구간호사)"
+          ],
+          "other_major_categories": [
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "간호사",
+            "CRC(연구간호사)"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "CRC(연구간호사)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50230173",
+          "title": "검진센터 기초팀 오전 검사실 직원 채용합니다",
+          "cleaned_title": "검진센터 기초팀 오전 검사실 합니다",
+          "company": "(의)하나로의료재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50230173",
+          "tags": [
+            "#간호사",
+            "#임상병리사",
+            "#의료",
+            "#검진센터"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "간호사",
+            "임상병리사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50390128",
+          "title": "[전주병원] 간호부 모집공고",
+          "cleaned_title": "간호부",
+          "company": "(의)영경의료재단전주병원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50390128",
+          "tags": [
+            "#간호조무사",
+            "#간호사",
+            "#의료"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "간호조무사",
+            "간호사"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "임상병리사": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50212332",
+          "title": "(주)키프라임리서치 2025년 수시채용(조직병리)",
+          "cleaned_title": "(조직병리)",
+          "company": "(주)키프라임리서치",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50212332",
+          "tags": [
+            "#임상병리사",
+            "#제약/바이오",
+            "#생명과학",
+            "#연구·R&D",
+            "#의료",
+            "#기기관리",
+            "#동물실험",
+            "#의약외품연구",
+            "#조직병리"
+          ],
+          "other_major_categories": [
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "임상병리사"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50230173",
+          "title": "검진센터 기초팀 오전 검사실 직원 채용합니다",
+          "cleaned_title": "검진센터 기초팀 오전 검사실 합니다",
+          "company": "(의)하나로의료재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50230173",
+          "tags": [
+            "#간호사",
+            "#임상병리사",
+            "#의료",
+            "#검진센터"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "간호사",
+            "임상병리사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50500727",
+          "title": "에스디바이오센서(주) 임상병리사(계약직) 채용",
+          "cleaned_title": "임상병리사(계약직)",
+          "company": "에스디바이오센서(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50500727",
+          "tags": [],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "임상병리사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "CRM(임상연구전문가)": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50326345",
+          "title": "연구원 정규직 모집 공고",
+          "cleaned_title": "연구원",
+          "company": "강남케이피아이 (주) 시화공장",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50326345",
+          "tags": [
+            "#R&D",
+            "#고분자",
+            "#신소재",
+            "#기술연구",
+            "#R&D기획",
+            "#CRM(임상연구전문가)"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "CRM(임상연구전문가)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "연구원",
+              "R&D",
+              "R&D기획",
+              "CRM(임상연구전문가)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50430909",
+          "title": "[일본artience그룹사] G/R INK연구팀 팀원모집 (신입,정규직)",
+          "cleaned_title": "G R INK연구팀 (,)",
+          "company": "삼영잉크페인트제조(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50430909",
+          "tags": [
+            "#유기합성",
+            "#생산",
+            "#도료/페인트",
+            "#임상개발",
+            "#바닥재",
+            "#연구·R&D",
+            "#생명과학",
+            "#도장/도금/도색",
+            "#신소재",
+            "#고분자",
+            "#제제연구",
+            "#CRM(임상연구전문가)",
+            "#화공약품"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "CRM(임상연구전문가)"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산"
+            ],
+            "#연구·r&d": [
+              "CRM(임상연구전문가)",
+              "R&D"
+            ]
+          }
+        }
+      ]
+    },
+    "상담실장": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50110580",
+          "title": "[직영] 각부문 STAFF 모집 (고객지원,상담실장)",
+          "cleaned_title": "각부문 STAFF (고객지원,상담실장)",
+          "company": "(주)DYB최선어학원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50110580&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#브랜드기획",
+            "#CS",
+            "#총무·법무·사무",
+            "#고객상담·TM",
+            "#게시판관리",
+            "#OA",
+            "#교육행정",
+            "#영업·판매·무역",
+            "#기획·전략",
+            "#고객관리",
+            "#Excel",
+            "#시설관리",
+            "#교육기획",
+            "#고객",
+            "#일하기",
+            "#DYB의"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "상담실장"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "CS",
+              "고객관리"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "브랜드기획"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "초음파사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50200329",
+          "title": "지멘스헬시니어스(주)초음파사업부 분당-Commodity Engineering",
+          "cleaned_title": "초음파사업부 분당 Commodity Engineering",
+          "company": "지멘스헬시니어스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50200329",
+          "tags": [
+            "#구매·자재·물류",
+            "#SCM"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "초음파사"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "SCM"
+            ]
+          }
+        }
+      ]
+    },
+    "CRC(연구간호사)": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50202126",
+          "title": "(주)더웨이헬스케어 임상시험 CRA 신입 & 경력자 모집",
+          "cleaned_title": "임상시험 CRA & 자",
+          "company": "(주)더웨이헬스케어",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202126",
+          "tags": [
+            "#CRC(연구간호사)"
+          ],
+          "other_major_categories": [
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "간호사",
+            "CRC(연구간호사)"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "CRC(연구간호사)"
+            ]
+          }
+        }
+      ]
+    },
+    "영양사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50291098",
+          "title": "(주)신라정밀 사내식당 영양사 모집(직영운영)",
+          "cleaned_title": "사내식당 영양사 (직영운영)",
+          "company": "(주)신라정밀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50291098",
+          "tags": [
+            "#영양사",
+            "#서비스"
+          ],
+          "other_major_categories": [
+            "#서비스"
+          ],
+          "mid_categories_in_this_major": [
+            "영양사"
+          ],
+          "mid_categories_in_others": {
+            "#서비스": [
+              "영양사"
+            ]
+          }
+        }
+      ]
+    },
+    "간호조무사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50390128",
+          "title": "[전주병원] 간호부 모집공고",
+          "cleaned_title": "간호부",
+          "company": "(의)영경의료재단전주병원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50390128",
+          "tags": [
+            "#간호조무사",
+            "#간호사",
+            "#의료"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "간호조무사",
+            "간호사"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "의공기사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50508136",
+          "title": "2025년 제2차 위촉직 채용 공고(비임상 영상병리 평가 지원)",
+          "cleaned_title": "제2차 위촉직 (비임상 영상병리 평가 지원)",
+          "company": "(재)오송첨단의료산업진흥재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50508136",
+          "tags": [
+            "#미생물",
+            "#의공기사",
+            "#제약/바이오",
+            "#연구·R&D",
+            "#의료",
+            "#동물실험",
+            "#조직병리"
+          ],
+          "other_major_categories": [
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "의공기사"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

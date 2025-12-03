@@ -1,0 +1,2384 @@
+{
+  "major_category": "#운전·운송·배송",
+  "statistics": {
+    "total_docs": 35,
+    "unique_docs": 35,
+    "num_mid_categories": 11,
+    "overlap_info": {
+      "with_영업_판매_무역": 20,
+      "with_고객상담_tm": 1,
+      "with_구매_자재_물류": 27,
+      "with_it개발_데이터": 1,
+      "with_연구_r&d": 1,
+      "with_의료": 1,
+      "with_인사_노무_hrd": 19,
+      "with_기획_전략": 7,
+      "with_회계_세무_재무": 3,
+      "with_생산": 6,
+      "with_건설_건축": 3,
+      "with_서비스": 1,
+      "with_마케팅_홍보_조사": 1
+    }
+  },
+  "mid_categories": {
+    "통관": {
+      "size": 16,
+      "total_assignments": 16,
+      "documents": [
+        {
+          "rec_id": "50208684",
+          "title": "[매주 금요일 재택근무] 해외사업 운영지원 팀원 모집",
+          "cleaned_title": "해외사업 운영지원",
+          "company": "(주)리브",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50208684",
+          "tags": [
+            "#통관",
+            "#벤더관리",
+            "#해외영업관리",
+            "#무역거래",
+            "#수출입"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "통관"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업관리",
+              "해외영업",
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50243101",
+          "title": "[부산/외국계] Jr. Logistics Speciallist (계약직)",
+          "cleaned_title": "Jr. Logistics Speciallist (계약직)",
+          "company": "한국암웨이㈜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50243101",
+          "tags": [
+            "#창고관리",
+            "#유통관리"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "통관"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "CS"
+            ],
+            "#구매·자재·물류": [
+              "유통관리",
+              "창고관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50262366",
+          "title": "신흥글로벌(주) 구매개발팀 정규직 채용",
+          "cleaned_title": "구매개발팀",
+          "company": "신흥글로벌(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50262366",
+          "tags": [
+            "#무역영어",
+            "#통관",
+            "#LC(신용장)",
+            "#B2B",
+            "#국제무역사",
+            "#수출입",
+            "#무역거래",
+            "#매출관리",
+            "#구매·자재·물류",
+            "#무역MR",
+            "#바이어발굴/관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#구매·자재·물류",
+            "#연구·r&d",
+            "#영업·판매·무역",
+            "#의료",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "통관"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#구매·자재·물류": [
+              "구매"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "국제무역사",
+              "무역MR"
+            ],
+            "#의료": [
+              "MR"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50280849",
+          "title": "각 부문별 신입 및 경력사원 채용",
+          "cleaned_title": "각 부문별",
+          "company": "(주)동신모텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50280849",
+          "tags": [
+            "#물류관리",
+            "#수급관리",
+            "#거래처관리",
+            "#유통관리",
+            "#배차관리",
+            "#구매관리",
+            "#창고관리",
+            "#납기관리",
+            "#구매",
+            "#자재관리",
+            "#재고관리",
+            "#구매·자재·물류",
+            "#물류기획",
+            "#수/발주"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "통관",
+            "배차관리"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "재고관리",
+              "자재관리",
+              "창고관리",
+              "물류관리",
+              "물류기획",
+              "구매관리",
+              "유통관리"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50313101",
+          "title": "해외사업팀 직원 채용",
+          "cleaned_title": "해외사업팀",
+          "company": "일동후디스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50313101",
+          "tags": [
+            "#무역영어",
+            "#무역경리",
+            "#해외영업",
+            "#통관",
+            "#수출입",
+            "#바이어발굴/관리"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "통관"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "해외영업",
+              "영업",
+              "무역경리"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "경리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50341453",
+          "title": "포워딩 영업 담당자 추가 모집 (신입 & 경력)",
+          "cleaned_title": "포워딩 영업 추가 ( & )",
+          "company": "밸러스해운항공(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50341453",
+          "tags": [
+            "#포워더",
+            "#운전·운송·배송",
+            "#통관",
+            "#해외영업",
+            "#영업",
+            "#영업·판매·무역",
+            "#영업관리",
+            "#선적",
+            "#국제물류",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "통관",
+            "포워더",
+            "선적"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "포워더",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "해외영업",
+              "포워더"
+            ]
+          }
+        },
+        {
+          "rec_id": "50411510",
+          "title": "신규사업팀 신입/경력 채용",
+          "cleaned_title": "신규사업팀",
+          "company": "(주)태웅로직스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50411510",
+          "tags": [
+            "#물류관리",
+            "#포워더",
+            "#거래처관리",
+            "#operation",
+            "#3pl",
+            "#오퍼레이션",
+            "#해외영업",
+            "#항공수",
+            "#operator",
+            "#forwarding",
+            "#iso",
+            "#tank",
+            "#포워딩",
+            "#국제물류",
+            "#3PL운영",
+            "#항공수출",
+            "#무역영어",
+            "#isotank",
+            "#오퍼레이터",
+            "#통관",
+            "#항공무역",
+            "#BL",
+            "#3자물류",
+            "#국내영업",
+            "#영업지원",
+            "#무역중개인",
+            "#해상수입",
+            "#SCM",
+            "#고객",
+            "#LC",
+            "#해상수출",
+            "#물류사무원",
+            "#i"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "통관",
+            "포워더"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "공무"
+            ],
+            "#구매·자재·물류": [
+              "물류사무원",
+              "물류관리",
+              "SCM",
+              "국제물류",
+              "포워더"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "무역중개인",
+              "항공무역",
+              "해외영업",
+              "영업지원",
+              "포워더"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50431954",
+          "title": "2025년 신입사원 채용 [물류운영 부문]",
+          "cleaned_title": "",
+          "company": "(주)제때",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50431954&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#물류자동화",
+            "#입고/입하",
+            "#유통관리",
+            "#적재/하역",
+            "#납기관리",
+            "#SCM",
+            "#출",
+            "#자재관리",
+            "#집하/분류",
+            "#수/발주"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "통관",
+            "적재/하역"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "SCM",
+              "자재관리",
+              "유통관리"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50432661",
+          "title": "자동차부품제조업 자재관리팀 신입/경력직 사원 모집 공고",
+          "cleaned_title": "자동차부품제조업 자재관리팀 직",
+          "company": "(주)무등기업평동",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50432661",
+          "tags": [
+            "#입고/입하",
+            "#수급관리",
+            "#유통관리",
+            "#자재구매",
+            "#외주관리",
+            "#자재관리",
+            "#재고관리",
+            "#구매·자재·물류",
+            "#수/발주"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "통관"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "자재관리",
+              "구매",
+              "유통관리",
+              "재고관리"
+            ],
+            "#생산": [
+              "제조"
+            ]
+          }
+        },
+        {
+          "rec_id": "50456870",
+          "title": "해외영업 신입&경력 채용 공고 (사세 확장에 따른 충원)",
+          "cleaned_title": "해외영업 & (사세 확장에 따른 충원)",
+          "company": "(주)펠릭스테크",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50456870",
+          "tags": [
+            "#해외시장개척",
+            "#통관"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "통관"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "해외영업",
+              "영업",
+              "해외시장개척"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472201",
+          "title": "[자동차부품] 영업기획팀 담당자 모집",
+          "cleaned_title": "영업기획팀",
+          "company": "울브린코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472201",
+          "tags": [
+            "#샵마스터",
+            "#거래처관리",
+            "#통관",
+            "#연",
+            "#영업",
+            "#해외시장개척",
+            "#영업지원",
+            "#해외영업관리",
+            "#매출관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "통관"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업기획",
+              "해외시장개척",
+              "영업관리",
+              "샵마스터",
+              "해외영업",
+              "영업지원"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472734",
+          "title": "[중견기업] 의류벤더 의류브랜드 자재 담당 채용 (신입/경력)",
+          "cleaned_title": "의류벤더 의류브랜드 자재 담당 ( )",
+          "company": "호전실업(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472734",
+          "tags": [
+            "#물류관리",
+            "#거래처관리",
+            "#유통관리",
+            "#출고",
+            "#자재구매",
+            "#외자구매",
+            "#구매기획",
+            "#구매관리",
+            "#창고관리",
+            "#자재관리",
+            "#재고관리",
+            "#구매·자재·물류",
+            "#물류기획",
+            "#수/발주"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "통관"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "재고관리",
+              "자재관리",
+              "창고관리",
+              "물류관리",
+              "구매기획",
+              "물류기획",
+              "구매관리",
+              "유통관리"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50497582",
+          "title": "한국바이오켐제약(주) 구매팀 신입/경력사원 모집",
+          "cleaned_title": "구매팀",
+          "company": "한국바이오켐제약(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497582",
+          "tags": [
+            "#포워더",
+            "#수급관리",
+            "#거래처관리",
+            "#유통관리",
+            "#선적",
+            "#외자구매",
+            "#구매기획",
+            "#구매관리",
+            "#외주관리",
+            "#구매",
+            "#구매·자재·물류",
+            "#국제물류",
+            "#수/발주",
+            "#견적관리"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "통관",
+            "포워더",
+            "선적"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "구매기획",
+              "구매관리",
+              "유통관리",
+              "국제물류",
+              "포워더"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "포워더"
+            ]
+          }
+        },
+        {
+          "rec_id": "50498234",
+          "title": "(주)그로우티 경영지원부 수입/통관 담당자 채용",
+          "cleaned_title": "경영지원부 수입 통관",
+          "company": "(주)그로우티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50498234",
+          "tags": [
+            "#물류관리",
+            "#입고/입하"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "통관"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "물류관리"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50500550",
+          "title": "단암시스템즈 원가팀 신입 및 경력 모집",
+          "cleaned_title": "단암시스템즈 원가팀",
+          "company": "단암시스템즈(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50500550",
+          "tags": [
+            "#유통관리",
+            "#회계",
+            "#수급관",
+            "#구매기획",
+            "#구매관리",
+            "#재무회계",
+            "#구매·자재·물류",
+            "#개발구매",
+            "#견적관리"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "통관"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "구매기획",
+              "구매관리",
+              "유통관리"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#회계·세무·재무": [
+              "회계",
+              "재무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50509312",
+          "title": "[생산관리팀]생산관리담당 신입사원 채용",
+          "cleaned_title": "생산관리담당",
+          "company": "(주)대명화학",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50509312",
+          "tags": [
+            "#생산",
+            "#통관",
+            "#영업·판매·무역",
+            "#구매",
+            "#생산관리",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#생산",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "통관"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매"
+            ],
+            "#생산": [
+              "생산",
+              "생산관리"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "운전": {
+      "size": 14,
+      "total_assignments": 14,
+      "documents": [
+        {
+          "rec_id": "50061389",
+          "title": "선박회사 선박운항 및 ISM 담당",
+          "cleaned_title": "선박회사 선박운항 ISM 담당",
+          "company": "우진선박(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50061389",
+          "tags": [
+            "#운전·운송·배송",
+            "#선박"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "운전"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50269867",
+          "title": "[셀메드] 조달부 자재관리(재고,물류,이송)/1톤운전,지게차 필수",
+          "cleaned_title": "조달부 자재관리(재고,물류,이송) 1톤운전,지게차 필수",
+          "company": "(주)제이비케이랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50269867",
+          "tags": [],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "운전"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "자재관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50331710",
+          "title": "포워딩 업무 및 영업 담당자 (신입 및 경력) 채용",
+          "cleaned_title": "포워딩 업무 영업 ( )",
+          "company": "(주)한림티앤씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50331710",
+          "tags": [
+            "#해상운송",
+            "#운전·운송·배송",
+            "#항공운송",
+            "#거래처관리",
+            "#거래처영업",
+            "#영업·판매·무역",
+            "#영업관리",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50337003",
+          "title": "(주)그린글로브라인 수출입 업무 신입사원 모집(부산)",
+          "cleaned_title": "수출입 업무 (부산)",
+          "company": "(주)그린글로브라인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50337003",
+          "tags": [
+            "#해상운송",
+            "#포워더",
+            "#운전·운송·배송",
+            "#항공운송",
+            "#영업·판매·무역",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송",
+            "포워더",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "포워더",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "포워더"
+            ]
+          }
+        },
+        {
+          "rec_id": "50341453",
+          "title": "포워딩 영업 담당자 추가 모집 (신입 & 경력)",
+          "cleaned_title": "포워딩 영업 추가 ( & )",
+          "company": "밸러스해운항공(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50341453",
+          "tags": [
+            "#포워더",
+            "#운전·운송·배송",
+            "#통관",
+            "#해외영업",
+            "#영업",
+            "#영업·판매·무역",
+            "#영업관리",
+            "#선적",
+            "#국제물류",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "통관",
+            "포워더",
+            "선적"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "포워더",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "해외영업",
+              "포워더"
+            ]
+          }
+        },
+        {
+          "rec_id": "50369097",
+          "title": "[쿠팡로지스틱스서비스] 밀크런 물류 운영 담당자 (신입)",
+          "cleaned_title": "밀크런 물류 운영 ()",
+          "company": "쿠팡(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50369097",
+          "tags": [
+            "#운전·운송·배송",
+            "#배차관리",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "배차관리"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372992",
+          "title": "2025년 로지스밸리그룹 하나로TNS 해상수출입 포워딩 실무 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 해상수출입 포워딩 실무",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372992",
+          "tags": [
+            "#해상운송",
+            "#운전·운송·배송",
+            "#해상무역",
+            "#항공운송",
+            "#영업·판매·무역",
+            "#국제무역사",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "국제무역사",
+              "영업",
+              "해상무역"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50373841",
+          "title": "[외국계] 스위스포트코리아 재무회계 단기계약직 채용",
+          "cleaned_title": "스위스포트코리아 재무회계 단기계약직",
+          "company": "스위스포트코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50373841",
+          "tags": [
+            "#회계·세무·재무",
+            "#운전·운송·배송",
+            "#항공운송",
+            "#회계",
+            "#재무",
+            "#재무회계"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#인사·노무·hrd",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50415411",
+          "title": "케미칼선박운항",
+          "cleaned_title": "케미칼선박운항",
+          "company": "선우탱커(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50415411",
+          "tags": [
+            "#해상운송",
+            "#무역영어",
+            "#운전·운송·배송",
+            "#선적",
+            "#영업·판매·무역",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "선적",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50424918",
+          "title": "관리팀 제품파트 신입사원 모집",
+          "cleaned_title": "관리팀 제품파트",
+          "company": "(주)크로바케미칼",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50424918&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#물류자동화",
+            "#입고/입하",
+            "#출고/출하",
+            "#운전·운송·배송",
+            "#서비스",
+            "#생산",
+            "#배차관리",
+            "#설비점검",
+            "#설비OP",
+            "#창고관리",
+            "#수불관리",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#생산",
+            "#서비스"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "배차관리"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "창고관리"
+            ],
+            "#생산": [
+              "설비OP",
+              "생산"
+            ],
+            "#서비스": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50428440",
+          "title": "양천자원회수시설 운전팀원(operator) 채용공고",
+          "cleaned_title": "양천자원회설 운전(operator)",
+          "company": "환경에너지솔루션(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50428440",
+          "tags": [
+            "#가스기능사",
+            "#건설·건축",
+            "#자동제어",
+            "#보",
+            "#기술엔지니어",
+            "#2교대",
+            "#기계기사",
+            "#공조냉동기사",
+            "#대기환경기사"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "운전"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "기계기사",
+              "가스기능사",
+              "대기환경기사",
+              "공조냉동기사"
+            ],
+            "#생산": [
+              "기술엔지니어",
+              "자동제어"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50462548",
+          "title": "삼익물류 영남 복합물류팀 신입/경력 모집 공고 [부산 북항]",
+          "cleaned_title": "삼익물류 영남 복합물류팀",
+          "company": "삼익물류주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50462548",
+          "tags": [
+            "#물류관리",
+            "#운전·운송·배송",
+            "#배차관리",
+            "#보세운송",
+            "#구매·자재·물류",
+            "#철도운송",
+            "#육상운송"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "배차관리",
+            "철도운송",
+            "육상운송",
+            "운전",
+            "보세운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "물류관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50478747",
+          "title": "중앙해양중공업㈜ 시운전부/생산/설계/품질관리부 신입사원 모집",
+          "cleaned_title": "중앙해양중공업 시운전부 생산 설계 품질관리부",
+          "company": "중앙해양중공업(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50478747",
+          "tags": [
+            "#생산",
+            "#제조",
+            "#생산관리"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "운전"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "품질관리"
+            ],
+            "#생산": [
+              "생산",
+              "품질관리",
+              "생산관리",
+              "구조해석/설계",
+              "제조"
+            ]
+          }
+        },
+        {
+          "rec_id": "50496260",
+          "title": "JNJ SHIPPING 해운대리점 영업기획(운항)팀 신입사원 채용",
+          "cleaned_title": "JNJ SHIPPING 해운대리점 영업기획(운항)팀",
+          "company": "제이앤제이해운(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50496260",
+          "tags": [
+            "#해상운송",
+            "#운전·운송·배송",
+            "#선박"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "포워더": {
+      "size": 9,
+      "total_assignments": 9,
+      "documents": [
+        {
+          "rec_id": "50337003",
+          "title": "(주)그린글로브라인 수출입 업무 신입사원 모집(부산)",
+          "cleaned_title": "수출입 업무 (부산)",
+          "company": "(주)그린글로브라인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50337003",
+          "tags": [
+            "#해상운송",
+            "#포워더",
+            "#운전·운송·배송",
+            "#항공운송",
+            "#영업·판매·무역",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송",
+            "포워더",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "포워더",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "포워더"
+            ]
+          }
+        },
+        {
+          "rec_id": "50341453",
+          "title": "포워딩 영업 담당자 추가 모집 (신입 & 경력)",
+          "cleaned_title": "포워딩 영업 추가 ( & )",
+          "company": "밸러스해운항공(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50341453",
+          "tags": [
+            "#포워더",
+            "#운전·운송·배송",
+            "#통관",
+            "#해외영업",
+            "#영업",
+            "#영업·판매·무역",
+            "#영업관리",
+            "#선적",
+            "#국제물류",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "통관",
+            "포워더",
+            "선적"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "포워더",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "해외영업",
+              "포워더"
+            ]
+          }
+        },
+        {
+          "rec_id": "50346709",
+          "title": "[수료증 발급] 한국국제물류협회 수출바우처사업 인턴직 채용",
+          "cleaned_title": "한국국제물류협회 수출바우처사업 직",
+          "company": "한국국제물류주선업협회",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50346709",
+          "tags": [
+            "#포워더",
+            "#물류관리",
+            "#구매·자재·물류",
+            "#국제물류",
+            "#물류기획"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "포워더"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "국제물류",
+              "구매",
+              "물류관리",
+              "물류기획",
+              "포워더"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "포워더"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50410932",
+          "title": "포워딩 수입/수출업무(해상,항공) 신입채용",
+          "cleaned_title": "포워딩 수입 수출업무(해상,항공)",
+          "company": "다이호해운항공(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50410932",
+          "tags": [
+            "#포워더",
+            "#영업·판매·무역"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "포워더"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "포워더"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "포워더"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50411510",
+          "title": "신규사업팀 신입/경력 채용",
+          "cleaned_title": "신규사업팀",
+          "company": "(주)태웅로직스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50411510",
+          "tags": [
+            "#물류관리",
+            "#포워더",
+            "#거래처관리",
+            "#operation",
+            "#3pl",
+            "#오퍼레이션",
+            "#해외영업",
+            "#항공수",
+            "#operator",
+            "#forwarding",
+            "#iso",
+            "#tank",
+            "#포워딩",
+            "#국제물류",
+            "#3PL운영",
+            "#항공수출",
+            "#무역영어",
+            "#isotank",
+            "#오퍼레이터",
+            "#통관",
+            "#항공무역",
+            "#BL",
+            "#3자물류",
+            "#국내영업",
+            "#영업지원",
+            "#무역중개인",
+            "#해상수입",
+            "#SCM",
+            "#고객",
+            "#LC",
+            "#해상수출",
+            "#물류사무원",
+            "#i"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "통관",
+            "포워더"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "공무"
+            ],
+            "#구매·자재·물류": [
+              "물류사무원",
+              "물류관리",
+              "SCM",
+              "국제물류",
+              "포워더"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "무역중개인",
+              "항공무역",
+              "해외영업",
+              "영업지원",
+              "포워더"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50422771",
+          "title": "International 포워딩 항공해상 Operation 신입직 모집",
+          "cleaned_title": "International 포워딩 항공해상 Operation 직",
+          "company": "디웰그룹코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50422771",
+          "tags": [
+            "#포워더",
+            "#영업·판매·무역"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "포워더"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "포워더"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "포워더"
+            ]
+          }
+        },
+        {
+          "rec_id": "50481695",
+          "title": "한국일본통운 항공업무 계약직 채용",
+          "cleaned_title": "한국일본통운 항공업무 계약직",
+          "company": "한국일본통운(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50481695",
+          "tags": [
+            "#포워더",
+            "#무역영어",
+            "#해상무역",
+            "#항공무역",
+            "#영업·판매·무역",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "포워더"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "공무"
+            ],
+            "#구매·자재·물류": [
+              "구매",
+              "포워더",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "항공무역",
+              "영업",
+              "포워더",
+              "해상무역"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50497582",
+          "title": "한국바이오켐제약(주) 구매팀 신입/경력사원 모집",
+          "cleaned_title": "구매팀",
+          "company": "한국바이오켐제약(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497582",
+          "tags": [
+            "#포워더",
+            "#수급관리",
+            "#거래처관리",
+            "#유통관리",
+            "#선적",
+            "#외자구매",
+            "#구매기획",
+            "#구매관리",
+            "#외주관리",
+            "#구매",
+            "#구매·자재·물류",
+            "#국제물류",
+            "#수/발주",
+            "#견적관리"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "통관",
+            "포워더",
+            "선적"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "구매기획",
+              "구매관리",
+              "유통관리",
+              "국제물류",
+              "포워더"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "포워더"
+            ]
+          }
+        },
+        {
+          "rec_id": "50513160",
+          "title": "대졸 신입 및 경력사원 채용",
+          "cleaned_title": "",
+          "company": "케이엠티씨로지스틱스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50513160",
+          "tags": [
+            "#포워더",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "포워더"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "포워더",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "포워더"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "해상운송": {
+      "size": 5,
+      "total_assignments": 5,
+      "documents": [
+        {
+          "rec_id": "50331710",
+          "title": "포워딩 업무 및 영업 담당자 (신입 및 경력) 채용",
+          "cleaned_title": "포워딩 업무 영업 ( )",
+          "company": "(주)한림티앤씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50331710",
+          "tags": [
+            "#해상운송",
+            "#운전·운송·배송",
+            "#항공운송",
+            "#거래처관리",
+            "#거래처영업",
+            "#영업·판매·무역",
+            "#영업관리",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50337003",
+          "title": "(주)그린글로브라인 수출입 업무 신입사원 모집(부산)",
+          "cleaned_title": "수출입 업무 (부산)",
+          "company": "(주)그린글로브라인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50337003",
+          "tags": [
+            "#해상운송",
+            "#포워더",
+            "#운전·운송·배송",
+            "#항공운송",
+            "#영업·판매·무역",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송",
+            "포워더",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "포워더",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "포워더"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372992",
+          "title": "2025년 로지스밸리그룹 하나로TNS 해상수출입 포워딩 실무 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 해상수출입 포워딩 실무",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372992",
+          "tags": [
+            "#해상운송",
+            "#운전·운송·배송",
+            "#해상무역",
+            "#항공운송",
+            "#영업·판매·무역",
+            "#국제무역사",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "국제무역사",
+              "영업",
+              "해상무역"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50415411",
+          "title": "케미칼선박운항",
+          "cleaned_title": "케미칼선박운항",
+          "company": "선우탱커(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50415411",
+          "tags": [
+            "#해상운송",
+            "#무역영어",
+            "#운전·운송·배송",
+            "#선적",
+            "#영업·판매·무역",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "선적",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50496260",
+          "title": "JNJ SHIPPING 해운대리점 영업기획(운항)팀 신입사원 채용",
+          "cleaned_title": "JNJ SHIPPING 해운대리점 영업기획(운항)팀",
+          "company": "제이앤제이해운(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50496260",
+          "tags": [
+            "#해상운송",
+            "#운전·운송·배송",
+            "#선박"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "배차관리": {
+      "size": 4,
+      "total_assignments": 4,
+      "documents": [
+        {
+          "rec_id": "50280849",
+          "title": "각 부문별 신입 및 경력사원 채용",
+          "cleaned_title": "각 부문별",
+          "company": "(주)동신모텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50280849",
+          "tags": [
+            "#물류관리",
+            "#수급관리",
+            "#거래처관리",
+            "#유통관리",
+            "#배차관리",
+            "#구매관리",
+            "#창고관리",
+            "#납기관리",
+            "#구매",
+            "#자재관리",
+            "#재고관리",
+            "#구매·자재·물류",
+            "#물류기획",
+            "#수/발주"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "통관",
+            "배차관리"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "재고관리",
+              "자재관리",
+              "창고관리",
+              "물류관리",
+              "물류기획",
+              "구매관리",
+              "유통관리"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50369097",
+          "title": "[쿠팡로지스틱스서비스] 밀크런 물류 운영 담당자 (신입)",
+          "cleaned_title": "밀크런 물류 운영 ()",
+          "company": "쿠팡(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50369097",
+          "tags": [
+            "#운전·운송·배송",
+            "#배차관리",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "배차관리"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매"
+            ]
+          }
+        },
+        {
+          "rec_id": "50424918",
+          "title": "관리팀 제품파트 신입사원 모집",
+          "cleaned_title": "관리팀 제품파트",
+          "company": "(주)크로바케미칼",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50424918&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#물류자동화",
+            "#입고/입하",
+            "#출고/출하",
+            "#운전·운송·배송",
+            "#서비스",
+            "#생산",
+            "#배차관리",
+            "#설비점검",
+            "#설비OP",
+            "#창고관리",
+            "#수불관리",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#생산",
+            "#서비스"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "배차관리"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "창고관리"
+            ],
+            "#생산": [
+              "설비OP",
+              "생산"
+            ],
+            "#서비스": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50462548",
+          "title": "삼익물류 영남 복합물류팀 신입/경력 모집 공고 [부산 북항]",
+          "cleaned_title": "삼익물류 영남 복합물류팀",
+          "company": "삼익물류주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50462548",
+          "tags": [
+            "#물류관리",
+            "#운전·운송·배송",
+            "#배차관리",
+            "#보세운송",
+            "#구매·자재·물류",
+            "#철도운송",
+            "#육상운송"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "배차관리",
+            "철도운송",
+            "육상운송",
+            "운전",
+            "보세운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "물류관리"
+            ]
+          }
+        }
+      ]
+    },
+    "선적": {
+      "size": 4,
+      "total_assignments": 4,
+      "documents": [
+        {
+          "rec_id": "50324673",
+          "title": "2025 천경해운 신입사원 채용",
+          "cleaned_title": "천경해운",
+          "company": "천경해운(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50324673",
+          "tags": [
+            "#선적",
+            "#해외영업지원",
+            "#해외영업관리",
+            "#매출관리",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "선적"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "해외영업",
+              "영업관리",
+              "영업지원"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50341453",
+          "title": "포워딩 영업 담당자 추가 모집 (신입 & 경력)",
+          "cleaned_title": "포워딩 영업 추가 ( & )",
+          "company": "밸러스해운항공(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50341453",
+          "tags": [
+            "#포워더",
+            "#운전·운송·배송",
+            "#통관",
+            "#해외영업",
+            "#영업",
+            "#영업·판매·무역",
+            "#영업관리",
+            "#선적",
+            "#국제물류",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "통관",
+            "포워더",
+            "선적"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "포워더",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "해외영업",
+              "포워더"
+            ]
+          }
+        },
+        {
+          "rec_id": "50415411",
+          "title": "케미칼선박운항",
+          "cleaned_title": "케미칼선박운항",
+          "company": "선우탱커(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50415411",
+          "tags": [
+            "#해상운송",
+            "#무역영어",
+            "#운전·운송·배송",
+            "#선적",
+            "#영업·판매·무역",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "선적",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50497582",
+          "title": "한국바이오켐제약(주) 구매팀 신입/경력사원 모집",
+          "cleaned_title": "구매팀",
+          "company": "한국바이오켐제약(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497582",
+          "tags": [
+            "#포워더",
+            "#수급관리",
+            "#거래처관리",
+            "#유통관리",
+            "#선적",
+            "#외자구매",
+            "#구매기획",
+            "#구매관리",
+            "#외주관리",
+            "#구매",
+            "#구매·자재·물류",
+            "#국제물류",
+            "#수/발주",
+            "#견적관리"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "통관",
+            "포워더",
+            "선적"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "구매기획",
+              "구매관리",
+              "유통관리",
+              "국제물류",
+              "포워더"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "포워더"
+            ]
+          }
+        }
+      ]
+    },
+    "항공운송": {
+      "size": 4,
+      "total_assignments": 4,
+      "documents": [
+        {
+          "rec_id": "50331710",
+          "title": "포워딩 업무 및 영업 담당자 (신입 및 경력) 채용",
+          "cleaned_title": "포워딩 업무 영업 ( )",
+          "company": "(주)한림티앤씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50331710",
+          "tags": [
+            "#해상운송",
+            "#운전·운송·배송",
+            "#항공운송",
+            "#거래처관리",
+            "#거래처영업",
+            "#영업·판매·무역",
+            "#영업관리",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50337003",
+          "title": "(주)그린글로브라인 수출입 업무 신입사원 모집(부산)",
+          "cleaned_title": "수출입 업무 (부산)",
+          "company": "(주)그린글로브라인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50337003",
+          "tags": [
+            "#해상운송",
+            "#포워더",
+            "#운전·운송·배송",
+            "#항공운송",
+            "#영업·판매·무역",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송",
+            "포워더",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "포워더",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "포워더"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372992",
+          "title": "2025년 로지스밸리그룹 하나로TNS 해상수출입 포워딩 실무 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 해상수출입 포워딩 실무",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372992",
+          "tags": [
+            "#해상운송",
+            "#운전·운송·배송",
+            "#해상무역",
+            "#항공운송",
+            "#영업·판매·무역",
+            "#국제무역사",
+            "#구매·자재·물류",
+            "#국제물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송",
+            "해상운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "국제물류"
+            ],
+            "#영업·판매·무역": [
+              "국제무역사",
+              "영업",
+              "해상무역"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50373841",
+          "title": "[외국계] 스위스포트코리아 재무회계 단기계약직 채용",
+          "cleaned_title": "스위스포트코리아 재무회계 단기계약직",
+          "company": "스위스포트코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50373841",
+          "tags": [
+            "#회계·세무·재무",
+            "#운전·운송·배송",
+            "#항공운송",
+            "#회계",
+            "#재무",
+            "#재무회계"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#인사·노무·hrd",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "운전",
+            "항공운송"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        }
+      ]
+    },
+    "적재/하역": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50431954",
+          "title": "2025년 신입사원 채용 [물류운영 부문]",
+          "cleaned_title": "",
+          "company": "(주)제때",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50431954&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#물류자동화",
+            "#입고/입하",
+            "#유통관리",
+            "#적재/하역",
+            "#납기관리",
+            "#SCM",
+            "#출",
+            "#자재관리",
+            "#집하/분류",
+            "#수/발주"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "통관",
+            "적재/하역"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "SCM",
+              "자재관리",
+              "유통관리"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "철도운송": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50462548",
+          "title": "삼익물류 영남 복합물류팀 신입/경력 모집 공고 [부산 북항]",
+          "cleaned_title": "삼익물류 영남 복합물류팀",
+          "company": "삼익물류주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50462548",
+          "tags": [
+            "#물류관리",
+            "#운전·운송·배송",
+            "#배차관리",
+            "#보세운송",
+            "#구매·자재·물류",
+            "#철도운송",
+            "#육상운송"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "배차관리",
+            "철도운송",
+            "육상운송",
+            "운전",
+            "보세운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "물류관리"
+            ]
+          }
+        }
+      ]
+    },
+    "육상운송": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50462548",
+          "title": "삼익물류 영남 복합물류팀 신입/경력 모집 공고 [부산 북항]",
+          "cleaned_title": "삼익물류 영남 복합물류팀",
+          "company": "삼익물류주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50462548",
+          "tags": [
+            "#물류관리",
+            "#운전·운송·배송",
+            "#배차관리",
+            "#보세운송",
+            "#구매·자재·물류",
+            "#철도운송",
+            "#육상운송"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "배차관리",
+            "철도운송",
+            "육상운송",
+            "운전",
+            "보세운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "물류관리"
+            ]
+          }
+        }
+      ]
+    },
+    "보세운송": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50462548",
+          "title": "삼익물류 영남 복합물류팀 신입/경력 모집 공고 [부산 북항]",
+          "cleaned_title": "삼익물류 영남 복합물류팀",
+          "company": "삼익물류주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50462548",
+          "tags": [
+            "#물류관리",
+            "#운전·운송·배송",
+            "#배차관리",
+            "#보세운송",
+            "#구매·자재·물류",
+            "#철도운송",
+            "#육상운송"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "배차관리",
+            "철도운송",
+            "육상운송",
+            "운전",
+            "보세운송"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "물류관리"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

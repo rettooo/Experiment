@@ -1,11 +1,14 @@
 import math
 from typing import List, Dict, Any, Set
+from core.interfaces.evaluator import QueryResult, EvaluationResult
 
 
 class RetrieverEvaluator:
     """검색 성능 지표 계산 class (평가지표 수정!!)"""
 
     def __init__(self, ground_truth_size: int = 5):
+        # 주의: ground_truth_size는 현재 사용되지 않음
+        # 실제 평가는 ground_truth_ids의 실제 개수를 사용
         self.gt_size = ground_truth_size
 
     def evaluate_query(
@@ -19,33 +22,64 @@ class RetrieverEvaluator:
 
         Args:
             retrieved_rec_idxs: 검색된 rec_idx 리스트 (순서대로, 최소 20개)
-            ground_truth_rec_idxs : 정답 rec_idx 리스트 (5개)
+            ground_truth_rec_idxs: 정답 rec_idx 리스트 (개수는 가변적)
             search_time: 검색 시간 (초, 선택)
         Returns:
             {'ndcg@10': 0.72, 'recall@20': 0.8, 'mrr@10': 0.5, 'search_time': 0.421, ...}
         """
+        # 사용자 요청 순서대로 지표 구성
         metrics = {
+            # 1. NDCG@10
             "ndcg@10": self.calculate_ndcg_at_k(
                 retrieved_rec_idxs, ground_truth_rec_idxs, k=10
             ),
-            "recall@20": self.calculate_recall_at_k(
-                retrieved_rec_idxs, ground_truth_rec_idxs, k=20
-            ),
+            # 2. MRR@10
             "mrr@10": self.calculate_mrr_at_k(
                 retrieved_rec_idxs, ground_truth_rec_idxs, k=10
             ),
+            # 3. Precision@3
             "precision@3": self.calculate_precision_at_k(
                 retrieved_rec_idxs, ground_truth_rec_idxs, k=3
             ),
+            # 4. Precision@5
             "precision@5": self.calculate_precision_at_k(
                 retrieved_rec_idxs, ground_truth_rec_idxs, k=5
             ),
+            # 5. Precision@10
+            "precision@10": self.calculate_precision_at_k(
+                retrieved_rec_idxs, ground_truth_rec_idxs, k=10
+            ),
+            # 6. Precision@20
+            "precision@20": self.calculate_precision_at_k(
+                retrieved_rec_idxs, ground_truth_rec_idxs, k=20
+            ),
+            # 7. Hit@10_count: 상위 10개 중 맞은 개수
+            "hit@10_count": len(
+                set(retrieved_rec_idxs[:10]) & set(ground_truth_rec_idxs)
+            ),
         }
-        # 추가 정보
-        metrics["hits@20"] = len(
+
+        # 8. R-recall: recall@(정답개수)
+        gt_count = len(ground_truth_rec_idxs)
+        if gt_count > 0:
+            metrics["r_recall"] = self.calculate_recall_at_k(
+                retrieved_rec_idxs, ground_truth_rec_idxs, k=gt_count
+            )
+        else:
+            metrics["r_recall"] = 0.0
+
+        # 추가 정보 (하위 호환성 및 디버깅용)
+        metrics["recall@10"] = self.calculate_recall_at_k(
+            retrieved_rec_idxs, ground_truth_rec_idxs, k=10
+        )
+        metrics["recall@20"] = self.calculate_recall_at_k(
+            retrieved_rec_idxs, ground_truth_rec_idxs, k=20
+        )
+        metrics["hit@20_count"] = len(
             set(retrieved_rec_idxs[:20]) & set(ground_truth_rec_idxs)
         )
-        metrics["total_gt"] = len(ground_truth_rec_idxs)
+        metrics["hits@20"] = metrics["hit@20_count"]  # 하위 호환성
+        metrics["total_gt"] = gt_count
 
         # 검색 시간 추가 (제공된 경우)
         if search_time is not None:
@@ -72,16 +106,18 @@ class RetrieverEvaluator:
         """
         gt_set = set(ground_truth_ids)
 
-        # DCG 계산
-        # DCG 계산
+        # DCG 계산 (표준 공식: relevance / log2(rank + 1))
+        # rank 1일 때 log2(2), rank 2일 때 log2(3), ...
         dcg = 0.0
         for i, rec_idx in enumerate(retrieved_ids[:k], start=1):
             relevance = 1.0 if rec_idx in gt_set else 0.0
             dcg += relevance / math.log2(i + 1)
+
         # IDCG 계산 (이상적 순서: 모든 정답이 맨 앞에)
         idcg = 0.0
-        for i in range(1, min(len(ground_truth_ids), k) + 1):
-            idcg += 1.0 / math.log2(i + 1)
+        num_relevant = min(len(ground_truth_ids), k)
+        for rank in range(1, num_relevant + 1):
+            idcg += 1.0 / math.log2(rank + 1)
         # NDCG 정규화
         if idcg == 0:
             return 0.0
@@ -91,17 +127,17 @@ class RetrieverEvaluator:
         self, retrieved_ids: List[str], ground_truth_ids: List[str], k=20
     ) -> float:
         """
-        Recall@20 : 정답 재현율
+        Recall@k : 정답 재현율
         - 수식: (상위 k개에 포함된 정답 개수) / (전체 정답 개수)
 
-        - 분모 : 항상 gt 의 개수 (5개)
-        - 분자 : 상위 k개에 포함된 정답 개수
-        - recall@20 = hits / 5
+        - 분모: 실제 ground_truth_ids의 개수 (가변적)
+        - 분자: 상위 k개에 포함된 정답 개수
+        - recall@k = hits / len(ground_truth_ids)
 
         Args:
-            retreived_ids: 검색된 rec_idx 결과
-            ground_truth_ids: 정답 rec_idx 리스트
-            k : 상위 k개 vudrk
+            retrieved_ids: 검색된 rec_idx 결과
+            ground_truth_ids: 정답 rec_idx 리스트 (개수는 가변적)
+            k: 상위 k개 평가
         Returns:
             0.0~ 1.0 (1.0이 가장 좋음)
         Example:
@@ -109,6 +145,11 @@ class RetrieverEvaluator:
             Retrieved@20 = [X, A, Y, B, Z, ..., C, ...]
             Hits = 3 (A, B, C)
             Recall@20 = 3 / 5 = 0.6
+
+            GT = [A, B, C] (3개)
+            Retrieved@20 = [X, A, Y, B, Z, ..., C, ...]
+            Hits = 3 (A, B, C)
+            Recall@20 = 3 / 3 = 1.0
         """
         if len(ground_truth_ids) == 0:
             return 0.0
@@ -117,7 +158,7 @@ class RetrieverEvaluator:
 
         hits = len(retrieved_set & gt_set)
 
-        # 분모: 전체 정답 개수 5개로 고정
+        # 분모: 실제 ground_truth_ids의 개수 (가변적)
         return hits / len(ground_truth_ids)
 
     def calculate_mrr_at_k(
@@ -129,8 +170,8 @@ class RetrieverEvaluator:
             - MRR = 1/ rank (첫번째 정답 위치)
         Args:
             retrieved_ids: 검색 결과 (순서 중요)
-            ground_truth_ids: 정답 rec_idx 리스트
-            K: 상위 k개에서만 찾기
+            ground_truth_ids: 정답 rec_idx 리스트 (개수는 가변적)
+            k: 상위 k개에서만 찾기
         Returns:
             0.0~ 1.0 (1.0이 가장 좋음)
         Example:
@@ -151,13 +192,13 @@ class RetrieverEvaluator:
         self, retrieved_ids: List[str], ground_truth_ids: List[str], k: int
     ) -> float:
         """
-        precision@k : 상위 K개중 정답의 비율
+        precision@k : 상위 k개 중 정답의 비율
         수식:
         - precision@k = (상위 k개에 포함된 정답 개수) / k
         Args:
             retrieved_ids: 검색된 rec_idx 결과
-            ground_truth_ids: 정답 rec_idx 리스트
-            k: 상위 k개 vudrk
+            ground_truth_ids: 정답 rec_idx 리스트 (개수는 가변적)
+            k: 상위 k개 평가
         Returns:
             0.0~ 1.0 (1.0이 가장 좋음)
         Example:
@@ -173,7 +214,7 @@ class RetrieverEvaluator:
 
         hits = len(retrieved_set & gt_set)
 
-        return hits / k  # k 3,5고정
+        return hits / k
 
     def evaluate_all_queries(self, results: List[Dict[str, Any]]) -> Dict[str, Any]:
         """
@@ -199,13 +240,20 @@ class RetrieverEvaluator:
         if total_queries == 0:
             return {"error": "No queries to evaluate"}
 
-        # 각 지표별 합산
+        # 각 지표별 합산 (사용자 요청 순서대로)
         metric_sums = {
             "ndcg@10": 0.0,
-            "recall@20": 0.0,
             "mrr@10": 0.0,
             "precision@3": 0.0,
             "precision@5": 0.0,
+            "precision@10": 0.0,
+            "precision@20": 0.0,
+            "hit@10_count": 0.0,
+            "r_recall": 0.0,
+            # 하위 호환성을 위한 추가 지표
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "hit@20_count": 0.0,
         }
         per_query_metrics = {}
 
@@ -230,6 +278,132 @@ class RetrieverEvaluator:
             "per_query_metrics": per_query_metrics,
         }
 
+    def evaluate(self, query_results: List[QueryResult]) -> List[EvaluationResult]:
+        """
+        QueryResult 리스트를 받아서 평가 지표를 계산하고 EvaluationResult 리스트 반환
+
+        Args:
+            query_results: QueryResult 객체 리스트
+
+        Returns:
+            EvaluationResult 리스트 (각 지표별)
+        """
+        if not query_results:
+            return []
+
+        # 각 쿼리별 지표 수집 (사용자 요청 순서대로)
+        all_metrics = {
+            "ndcg@10": [],
+            "mrr@10": [],
+            "precision@3": [],
+            "precision@5": [],
+            "precision@10": [],
+            "precision@20": [],
+            "hit@10_count": [],
+            "r_recall": [],
+            # 하위 호환성을 위한 추가 지표
+            "recall@10": [],
+            "recall@20": [],
+            "hit@20_count": [],
+        }
+
+        evaluated_count = 0
+        skipped_count = 0
+        missing_rec_idx_count = 0
+
+        for idx, query_result in enumerate(query_results):
+            # retrieved_docs에서 rec_idx 추출
+            retrieved_rec_idxs = []
+            missing_in_retrieved = 0
+
+            for doc in query_result.retrieved_docs:
+                if isinstance(doc, dict):
+                    metadata = doc.get("metadata", {})
+                    if not metadata:
+                        missing_in_retrieved += 1
+                        continue
+
+                    rec_idx = metadata.get("rec_idx") or metadata.get("rec_id")
+                    if rec_idx:
+                        retrieved_rec_idxs.append(str(rec_idx))
+                    else:
+                        missing_in_retrieved += 1
+                else:
+                    missing_in_retrieved += 1
+
+            # ground_truth_docs에서 rec_idx 추출
+            ground_truth_rec_idxs = []
+            for gt in query_result.ground_truth_docs:
+                if isinstance(gt, dict):
+                    rec_idx = gt.get("rec_idx") or gt.get("rec_id")
+                    if rec_idx:
+                        ground_truth_rec_idxs.append(str(rec_idx))
+                elif isinstance(gt, str):
+                    ground_truth_rec_idxs.append(gt)
+
+            # 각 쿼리 평가
+            if not retrieved_rec_idxs:
+                skipped_count += 1
+                if idx < 3:  # 처음 3개만 디버깅 정보 출력
+                    print(
+                        f"⚠️  쿼리 {idx} 스킵: retrieved_docs에서 rec_idx 추출 실패 (총 {len(query_result.retrieved_docs)}개 중 {missing_in_retrieved}개 실패)"
+                    )
+                continue
+
+            if not ground_truth_rec_idxs:
+                skipped_count += 1
+                if idx < 3:
+                    print(f"⚠️  쿼리 {idx} 스킵: ground_truth_docs가 비어있음")
+                continue
+
+            # 평가 수행
+            metrics = self.evaluate_query(retrieved_rec_idxs, ground_truth_rec_idxs)
+            evaluated_count += 1
+
+            # 지표별로 수집
+            for metric_name in all_metrics.keys():
+                if metric_name in metrics:
+                    all_metrics[metric_name].append(metrics[metric_name])
+
+        # 통계 정보
+        if skipped_count > 0:
+            print(
+                f"📊 평가 통계: {evaluated_count}개 평가 완료, {skipped_count}개 스킵"
+            )
+
+        # 평균 계산 및 EvaluationResult 생성
+        evaluation_results = []
+        for metric_name, values in all_metrics.items():
+            if values:
+                avg_score = sum(values) / len(values)
+                evaluation_results.append(
+                    EvaluationResult(
+                        metric_name=metric_name,
+                        score=avg_score,
+                        details={
+                            "total_queries": len(query_results),
+                            "evaluated_queries": len(values),
+                            "skipped_queries": skipped_count,
+                        },
+                    )
+                )
+            else:
+                # 평가된 쿼리가 없으면 0.0 반환
+                evaluation_results.append(
+                    EvaluationResult(
+                        metric_name=metric_name,
+                        score=0.0,
+                        details={
+                            "total_queries": len(query_results),
+                            "evaluated_queries": 0,
+                            "skipped_queries": skipped_count,
+                            "error": "No valid queries to evaluate",
+                        },
+                    )
+                )
+
+        return evaluation_results
+
 
 # ========================================
 # 유틸리티 함수
@@ -245,131 +419,17 @@ def print_evaluation_summary(summary: Dict[str, Any]):
 
     avg_metrics = summary["average_metrics"]
 
-    print("평균 지표:")
-    print(f"  NDCG@10:      {avg_metrics['ndcg@10']:.4f}")
-    print(f"  Recall@20:    {avg_metrics['recall@20']:.4f}")
-    print(f"  MRR@10:       {avg_metrics['mrr@10']:.4f}")
-    print(f"  Precision@3:  {avg_metrics['precision@3']:.4f}")
-    print(f"  Precision@5:  {avg_metrics['precision@5']:.4f}")
+    print("평균 지표 (사용자 요청 순서):")
+    print(f"  1. NDCG@10:        {avg_metrics.get('ndcg@10', 0.0):.4f}")
+    print(f"  2. MRR@10:         {avg_metrics.get('mrr@10', 0.0):.4f}")
+    print(f"  3. Precision@3:     {avg_metrics.get('precision@3', 0.0):.4f}")
+    print(f"  4. Precision@5:    {avg_metrics.get('precision@5', 0.0):.4f}")
+    print(f"  5. Precision@10:   {avg_metrics.get('precision@10', 0.0):.4f}")
+    print(f"  6. Precision@20:   {avg_metrics.get('precision@20', 0.0):.4f}")
+    print(f"  7. Hit@10_count:   {avg_metrics.get('hit@10_count', 0.0):.2f}")
+    print(f"  8. R-recall:       {avg_metrics.get('r_recall', 0.0):.4f}")
+    print(f"\n추가 지표 (하위 호환성):")
+    print(f"  Recall@10:        {avg_metrics.get('recall@10', 0.0):.4f}")
+    print(f"  Recall@20:        {avg_metrics.get('recall@20', 0.0):.4f}")
+    print(f"  Hit@20_count:     {avg_metrics.get('hit@20_count', 0.0):.2f}")
     print(f"{'='*60}\n")
-
-
-# ========================================
-# 테스트 코드 (실제 evaluation_queries.jsonl 형식)
-# ========================================
-
-if __name__ == "__main__":
-    print("=" * 70)
-    print("🧪 RetrieverEvaluator 테스트 (실제 데이터 형식)")
-    print("=" * 70)
-
-    evaluator = RetrieverEvaluator(ground_truth_size=5)
-
-    # 📊 실제 evaluation_queries.jsonl 형식 시뮬레이션
-    query_data = {
-        "query_id": "437",
-        "query_text": "전공: 생명공학\n관심 직무: 생명공학 연구원...",
-        "ground_truth": [
-            {"rec_idx": "50436465", "job_title": "[한국콜마] 연구전략", "url": "..."},
-            {
-                "rec_idx": "50436592",
-                "job_title": "[한국콜마] 컴플라이언스",
-                "url": "...",
-            },
-            {"rec_idx": "50436291", "job_title": "[한국콜마] 마케팅", "url": "..."},
-            {"rec_idx": "50436627", "job_title": "[한국콜마] 생산관리", "url": "..."},
-            {"rec_idx": "50436344", "job_title": "[한국콜마] 소재개발", "url": "..."},
-        ],
-    }
-
-    # ✅ Pipeline에서 하는 것처럼 rec_idx 추출
-    gt_rec_idxs = [str(gt["rec_idx"]) for gt in query_data["ground_truth"]]
-    print(f"\n📌 Query ID: {query_data['query_id']}")
-    print(f"📌 Ground Truth (GT): {len(gt_rec_idxs)}개")
-    print(f"   GT rec_idx: {gt_rec_idxs}\n")
-
-    # ========================================
-    # 시나리오 1: 완벽한 검색 (모든 정답이 상위 5개에)
-    # ========================================
-    print("\n" + "=" * 70)
-    print("✅ 시나리오 1: 완벽한 검색 (상위 5개에 모든 GT 포함)")
-    print("=" * 70)
-
-    perfect_retrieval = gt_rec_idxs + [f"9999{i}" for i in range(15)]  # 20개
-    print(f"검색 결과 (상위 10개): {perfect_retrieval[:10]}")
-
-    metrics1 = evaluator.evaluate_query(perfect_retrieval, gt_rec_idxs)
-    print("\n📊 평가 지표:")
-    for metric, value in metrics1.items():
-        print(f"  {metric:15s}: {value}")
-
-    # ========================================
-    # 시나리오 2: 일부 정답만 검색 (3개만 상위 10개에)
-    # ========================================
-    print("\n" + "=" * 70)
-    print("⚠️  시나리오 2: 일부 정답만 검색 (상위 10개에 3개만)")
-    print("=" * 70)
-
-    # 1위: 오답, 2위: GT[0], 4위: GT[1], 8위: GT[2], 나머지는 하위
-    partial_retrieval = [
-        "88888888",  # 1위: 오답
-        gt_rec_idxs[0],  # 2위: 50436465 ✅
-        "99999999",  # 3위: 오답
-        gt_rec_idxs[1],  # 4위: 50436592 ✅
-        "77777777",  # 5위: 오답
-        "66666666",  # 6위: 오답
-        "55555555",  # 7위: 오답
-        gt_rec_idxs[2],  # 8위: 50436291 ✅
-        "44444444",  # 9위: 오답
-        "33333333",  # 10위: 오답
-    ] + [
-        f"1111{i}" for i in range(10)
-    ]  # 11-20위: 오답
-
-    print(f"검색 결과 (상위 10개):")
-    for i, rec_idx in enumerate(partial_retrieval[:10], start=1):
-        is_gt = "✅ GT" if rec_idx in gt_rec_idxs else "❌"
-        print(f"  {i:2d}위: {rec_idx} {is_gt}")
-
-    metrics2 = evaluator.evaluate_query(partial_retrieval, gt_rec_idxs)
-    print("\n📊 평가 지표:")
-    for metric, value in metrics2.items():
-        print(f"  {metric:15s}: {value}")
-
-    # ========================================
-    # 시나리오 3: 정답이 하위에 (15위 이후)
-    # ========================================
-    print("\n" + "=" * 70)
-    print("❌ 시나리오 3: 정답이 하위에 (15-20위)")
-    print("=" * 70)
-
-    poor_retrieval = [
-        f"9999{i}" for i in range(15)
-    ] + gt_rec_idxs  # 1-15위 오답, 16-20위 정답
-    print(f"검색 결과 (상위 10개): {poor_retrieval[:10]}")
-    print(f"검색 결과 (16-20위): {poor_retrieval[15:20]}")
-
-    metrics3 = evaluator.evaluate_query(poor_retrieval, gt_rec_idxs)
-    print("\n📊 평가 지표:")
-    for metric, value in metrics3.items():
-        print(f"  {metric:15s}: {value}")
-
-    # ========================================
-    # 전체 결과 비교
-    # ========================================
-    print("\n" + "=" * 70)
-    print("📊 전체 시나리오 비교")
-    print("=" * 70)
-
-    results = [
-        {"query_id": "시나리오1_완벽", "metrics": metrics1},
-        {"query_id": "시나리오2_일부", "metrics": metrics2},
-        {"query_id": "시나리오3_하위", "metrics": metrics3},
-    ]
-
-    summary = evaluator.evaluate_all_queries(results)
-    print_evaluation_summary(summary)
-
-    print("\n" + "=" * 70)
-    print("✅ 테스트 완료!")
-    print("=" * 70)

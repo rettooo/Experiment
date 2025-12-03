@@ -55,17 +55,49 @@ class ChromaRetriever(BaseRetriever):
             for j, doc in enumerate(batch_docs):
                 # 고유 ID 생성
                 metadata = doc.get("metadata", {})
-                rec_idx = metadata.get("rec_idx", f"doc_{i+j}")
+                # rec_idx 또는 rec_id 확인 (StructuredDocumentLoader는 rec_id 사용)
+                rec_idx = (
+                    metadata.get("rec_idx") or metadata.get("rec_id") or f"doc_{i+j}"
+                )
 
-                # 청킹된 문서의 경우 chunk_index를 포함하여 고유 ID 생성
-                if "chunk_index" in metadata:
+                # 고유 ID 생성 우선순위:
+                # 1. chunk_id (StructuredDocumentLoader가 생성)
+                # 2. recursive chunking이 적용된 경우: chunk_id + recursive_chunk_index
+                # 3. chunk_index가 있는 경우: rec_idx_chunk_{chunk_index}
+                # 4. 그 외: rec_idx
+
+                if "chunk_id" in metadata:
+                    chunk_id = metadata["chunk_id"]
+                    # Recursive chunking이 적용된 경우 추가 인덱스 포함
+                    if "recursive_chunk_index" in metadata:
+                        doc_id = f"{chunk_id}_rec_{metadata['recursive_chunk_index']}"
+                    else:
+                        doc_id = chunk_id
+                elif "chunk_index" in metadata:
                     doc_id = f"{rec_idx}_chunk_{metadata['chunk_index']}"
                 else:
                     doc_id = str(rec_idx)
 
+                # ChromaDB 메타데이터는 primitive 타입만 허용하므로 변환
+                safe_metadata: Dict[str, Any] = {}
+                for key, value in metadata.items():
+                    if isinstance(value, (str, int, float, bool)) or value is None:
+                        safe_metadata[key] = value
+                    elif isinstance(value, list):
+                        # 리스트는 쉼표로 join 해서 문자열로 저장 (예: 태그 리스트)
+                        safe_metadata[key] = ", ".join(map(str, value))
+                    else:
+                        # 기타 타입(dict 등)은 문자열로 직렬화
+                        safe_metadata[key] = str(value)
+
+                # rec_idx가 없고 rec_id가 있는 경우, rec_idx도 메타데이터에 추가
+                # (검색 시 일관성 있게 rec_idx로 접근할 수 있도록)
+                if "rec_idx" not in safe_metadata and "rec_id" in safe_metadata:
+                    safe_metadata["rec_idx"] = safe_metadata["rec_id"]
+
                 batch_ids.append(doc_id)
                 batch_texts.append(doc["text"])
-                batch_metadatas.append(doc.get("metadata", {}))
+                batch_metadatas.append(safe_metadata)
 
             # 배치 추가
             self.collection.add(
@@ -98,7 +130,7 @@ class ChromaRetriever(BaseRetriever):
                     ),
                 }
                 # ChromaDB는 거리를 반환하므로 유사도로 변환 (1 - normalized_distance)
-                distance = results['distances'][0][i]
+                distance = results["distances"][0][i]
                 similarity = 1.0 / (1.0 + distance)  # 거리를 유사도로 변환
 
                 search_results.append((doc, similarity))
@@ -116,6 +148,31 @@ class ChromaRetriever(BaseRetriever):
             self.collection = self.client.create_collection(name=self.collection_name)
         except Exception as e:
             print(f"컬렉션 초기화 실패: {e}")
+
+    def get_metadata_by_rec_idx(self, rec_idx: str) -> Optional[Dict[str, Any]]:
+        """
+        rec_idx로 문서 메타데이터 조회
+
+        Args:
+            rec_idx: 문서 ID
+
+        Returns:
+            메타데이터 딕셔너리 (없으면 None)
+        """
+        try:
+            # ChromaDB에서 rec_idx로 필터링하여 조회
+            results = self.collection.get(
+                where={"rec_idx": rec_idx},
+                limit=1,
+            )
+
+            if results["metadatas"] and len(results["metadatas"]) > 0:
+                # 첫 번째 결과의 메타데이터 반환
+                return results["metadatas"][0]
+            return None
+        except Exception as e:
+            print(f"⚠️  rec_idx {rec_idx} 메타데이터 조회 실패: {e}")
+            return None
 
     def get_retriever_info(self) -> Dict[str, Any]:
         """검색기 정보 반환"""

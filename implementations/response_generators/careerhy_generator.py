@@ -144,12 +144,27 @@ class CareerHYResponseGenerator(BaseResponseGenerator):
                     if i < len(structured_result.recommendation_reasons):
                         reason = structured_result.recommendation_reasons[i]
 
+                    rec_idx = metadata.get("rec_idx")
+                    
+                    # 디버깅: 첫 번째 추천 공고의 메타데이터 확인
+                    if i == 0:
+                        logger.info(f"🔍 [응답 생성] 첫 번째 추천 공고 메타데이터:")
+                        logger.info(f"   - rec_idx: {rec_idx}")
+                        logger.info(f"   - deadline: {metadata.get('deadline', 'N/A')}")
+                        logger.info(f"   - start_date: {metadata.get('start_date', 'N/A')}")
+                        logger.info(f"   - crawling_time: {metadata.get('crawling_time', 'N/A')}")
+                        logger.info(f"   - 전체 메타데이터 키: {list(metadata.keys())[:15]}")
+                    
                     recommended_job = RecommendedJob(
-                        rec_idx=metadata.get("rec_idx"),
+                        rec_idx=rec_idx,
                         title=metadata.get(
                             "title", metadata.get("post_title", "제목 없음")
                         ),
-                        url=metadata.get("url") or metadata.get("detail_url", ""),
+                        url=(
+                            metadata.get("url")
+                            or metadata.get("detail_url")
+                            or (f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={rec_idx}" if rec_idx else "")
+                        ),
                         deadline=metadata.get("deadline"),
                         start_date=metadata.get("start_date"),
                         crawling_time=metadata.get("crawling_time"),
@@ -181,13 +196,20 @@ class CareerHYResponseGenerator(BaseResponseGenerator):
         recommended_jobs = []
         for i, doc in enumerate(retrieved_docs[:3]):
             metadata = doc.get("metadata", {})
+            rec_idx = metadata.get("rec_idx", f"fallback_{i}")
             recommended_job = RecommendedJob(
-                rec_idx=metadata.get("rec_idx", f"fallback_{i}"),
+                rec_idx=rec_idx,
                 title=metadata.get(
                     "title", metadata.get("post_title", f"채용공고 {i+1}")
                 ),
-                url=metadata.get("url", ""),
+                url=(
+                    metadata.get("url")
+                    or metadata.get("detail_url")
+                    or (f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={rec_idx}" if rec_idx and not rec_idx.startswith("fallback_") else "")
+                ),
                 deadline=metadata.get("deadline"),
+                start_date=metadata.get("start_date"),
+                crawling_time=metadata.get("crawling_time"),
                 recommendation_reason=f"검색 결과 상위 {i+1}번째로 관련성이 높은 공고입니다.",
             )
             recommended_jobs.append(recommended_job)

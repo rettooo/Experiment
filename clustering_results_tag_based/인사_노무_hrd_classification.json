@@ -1,0 +1,4105 @@
+{
+  "major_category": "#인사·노무·hrd",
+  "statistics": {
+    "total_docs": 854,
+    "unique_docs": 854,
+    "num_mid_categories": 8,
+    "overlap_info": {
+      "with_기획_전략": 274,
+      "with_생산": 213,
+      "with_연구_r&d": 203,
+      "with_총무_법무_사무": 117,
+      "with_it개발_데이터": 165,
+      "with_회계_세무_재무": 80,
+      "with_마케팅_홍보_조사": 110,
+      "with_구매_자재_물류": 97,
+      "with_공공_복지": 39,
+      "with_교육": 29,
+      "with_의료": 37,
+      "with_건설_건축": 98,
+      "with_영업_판매_무역": 149,
+      "with_디자인": 30,
+      "with_미디어_문화_스포츠": 36,
+      "with_고객상담_tm": 25,
+      "with_상품기획_md": 28,
+      "with_금융_보험": 20,
+      "with_운전_운송_배송": 19,
+      "with_서비스": 11
+    }
+  },
+  "mid_categories": {
+    "기타": {
+      "size": 783,
+      "total_assignments": 783,
+      "documents": [
+        {
+          "rec_id": "43681382",
+          "title": "계약직 연구보조원 상시채용[코오롱인더스트리 제조부문]",
+          "cleaned_title": "계약직 연구보조원 상시",
+          "company": "코오롱인더스트리(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=43681382",
+          "tags": [
+            "#신사업기획",
+            "#사무보조",
+            "#총무·법무·사무",
+            "#전략기획",
+            "#경영기획",
+            "#타당성검토",
+            "#사업제휴",
+            "#정보처리",
+            "#사업기획",
+            "#기획·전략",
+            "#Excel",
+            "#신사업발굴",
+            "#문서작성"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#생산",
+            "#연구·r&d",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획",
+              "전략기획",
+              "경영기획"
+            ],
+            "#생산": [
+              "제조"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "48594556",
+          "title": "[데이터팀] 백엔드 개발자 인턴 채용",
+          "cleaned_title": "백엔드 개발자",
+          "company": "(주)코딧",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=48594556",
+          "tags": [
+            "#IT개발·데이터",
+            "#Node.js",
+            "#백엔드/서버개발",
+            "#Javascript",
+            "#TypeScript",
+            "#RestAPI"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "데이터 사이언티스트"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "49129549",
+          "title": "[SW] 하반기 프론트엔드 개발자 인턴 채용",
+          "cleaned_title": "프론트엔드 개발자",
+          "company": "(주)코딧",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49129549",
+          "tags": [
+            "#프론트엔드",
+            "#IT개발·데이터",
+            "#React-Native",
+            "#React"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "프론트엔드"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "49187334",
+          "title": "[케이투코리아그룹] 법무, 내부감사 채용",
+          "cleaned_title": "법무, 내부감사",
+          "company": "케이투코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49187334",
+          "tags": [
+            "#법무사",
+            "#사내변호사",
+            "#법무",
+            "#변호사"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "법무",
+              "변호사",
+              "법무사",
+              "사내변호사"
+            ],
+            "#회계·세무·재무": [
+              "감사"
+            ]
+          }
+        },
+        {
+          "rec_id": "49421173",
+          "title": "2025년 클라코리아 각 부문별 채용",
+          "cleaned_title": "클라코리아 각 부문별",
+          "company": "클라코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49421173&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#브랜드기획",
+            "#전략기획",
+            "#사",
+            "#광고기획",
+            "#사업개발",
+            "#PM(프로젝트매니저)",
+            "#상품기획",
+            "#사업기획",
+            "#기획·전략",
+            "#마케팅기획",
+            "#기획",
+            "#서비스기획",
+            "#PO(프로덕트오너)"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "서비스기획",
+              "광고기획",
+              "브랜드기획",
+              "사업기획",
+              "전략기획",
+              "PM(프로젝트매니저)",
+              "PO(프로덕트오너)",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50016727",
+          "title": "(주)진 시험 연구 신입 채용",
+          "cleaned_title": "시험 연구",
+          "company": "(주)진",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50016727",
+          "tags": [
+            "#기술연구",
+            "#연구·R&D"
+          ],
+          "other_major_categories": [
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "R&D"
+            ]
+          }
+        },
+        {
+          "rec_id": "50017800",
+          "title": "구매부 신입/(중국어 또는 영어 가능자) 채용",
+          "cleaned_title": "구매부 (중국어 또는 영어 가능자)",
+          "company": "(주)대길통상",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50017800",
+          "tags": [
+            "#구매관리",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "구매관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50018358",
+          "title": "설계/사업관리 신입/경력 사원 채용",
+          "cleaned_title": "설계 사업관리",
+          "company": "성화산업주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50018358",
+          "tags": [
+            "#플랜트설계",
+            "#생산",
+            "#설계엔지니어",
+            "#PM(프로젝트매니저)",
+            "#사업기획",
+            "#기획·전략",
+            "#사업관리"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#기획·전략",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "설계엔지니어"
+            ],
+            "#기획·전략": [
+              "기획",
+              "PM(프로젝트매니저)",
+              "사업기획"
+            ],
+            "#생산": [
+              "구조해석/설계",
+              "플랜트설계",
+              "설계엔지니어",
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50019012",
+          "title": "[코스닥 상장] 지주사 회계팀 신입/경력 채용",
+          "cleaned_title": "지주사 회계팀",
+          "company": "(주)솔본",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50019012",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#IR/공시",
+            "#더존",
+            "#감사",
+            "#재무",
+            "#법인결산",
+            "#회계사",
+            "#외부감사",
+            "#연말정산",
+            "#관리회계",
+            "#기업회계",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#회계·세무·재무": [
+              "회계",
+              "재무",
+              "감사",
+              "회계사",
+              "전산회계",
+              "IR/공시"
+            ]
+          }
+        },
+        {
+          "rec_id": "50020529",
+          "title": "제약 개발/RA 담당자 채용",
+          "cleaned_title": "제약 개발 RA",
+          "company": "일양바이오팜(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50020529",
+          "tags": [
+            "#RA",
+            "#연구·R&D",
+            "#의료",
+            "#제제연구"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#의료": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50032398",
+          "title": "(주)대건알앤디 - 교통계획부 정규직 채용",
+          "cleaned_title": "교통계획부",
+          "company": "(주)대건알앤디",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50032398",
+          "tags": [
+            "#CAD",
+            "#건설·건축",
+            "#토목설계",
+            "#도시교통",
+            "#토목",
+            "#서구",
+            "#AutoCAD"
+          ],
+          "other_major_categories": [
+            "#건설·건축"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "토목설계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50033005",
+          "title": "영업부 정규직 채용합니다. (신입)",
+          "cleaned_title": "영업부 합니다. ()",
+          "company": "Photonics Industries International, Inc.",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50033005",
+          "tags": [
+            "#영업기획",
+            "#영업판촉",
+            "#영업전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업전략",
+              "영업기획",
+              "영업판촉"
+            ]
+          }
+        },
+        {
+          "rec_id": "50033412",
+          "title": "(주)퓨리텍 본사 생산관리 관리직 채용",
+          "cleaned_title": "퓨리텍 생산관리 관리직",
+          "company": "(주)퓨리텍삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50033412",
+          "tags": [
+            "#생산",
+            "#공정관리",
+            "#생산관리"
+          ],
+          "other_major_categories": [
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산",
+              "생산관리",
+              "공정관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50040811",
+          "title": "[퍼블리시스 그룹] 광고기획(전자 브랜드 VI팀) 인턴 채용",
+          "cleaned_title": "광고기획(전자 브랜드 VI팀)",
+          "company": "레오버넷(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50040811",
+          "tags": [
+            "#광고마케팅",
+            "#디자인",
+            "#AE(광고기획자)",
+            "#광고기획",
+            "#PhotoShop",
+            "#기획·전략",
+            "#일러스트",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "기타"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "광고마케팅",
+              "홍보",
+              "AE(광고기획자)"
+            ],
+            "#미디어·문화·스포츠": [
+              "AE(광고기획자)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50041751",
+          "title": "서울 영업 및 대리점관리 사원 채용",
+          "cleaned_title": "서울 영업 대리점관리",
+          "company": "대성쎌틱에너시스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50041751",
+          "tags": [
+            "#거래처관리",
+            "#영업",
+            "#영업·판매·무역"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50042263",
+          "title": "각 부문별 신입/경력직 채용공고",
+          "cleaned_title": "각 부문별 직",
+          "company": "(주)시몬느액세서리컬렉션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50042263",
+          "tags": [
+            "#재무제표",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#회계·세무·재무": [
+              "재무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50042393",
+          "title": "엔피씨로지스(주) 운영팀 파견사원 채용",
+          "cleaned_title": "운영팀 파견",
+          "company": "엔피씨로지스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50042393",
+          "tags": [
+            "#물류관리",
+            "#집"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "물류관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50042401",
+          "title": "법무법인(유한) 대륜 미래전략실 일본인 비서관 채용(서울)",
+          "cleaned_title": "법무법인(유한) 대륜 미래전략실 일본인 비서관 (서울)",
+          "company": "법무법인(유)대륜변호사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50042401",
+          "tags": [
+            "#사무보조",
+            "#문서작성",
+            "#타이핑",
+            "#전화응대",
+            "#임원비서",
+            "#경영지원",
+            "#서류관리",
+            "#송무비서",
+            "#사무행정",
+            "#수행비서",
+            "#사무직",
+            "#비서"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "비서",
+              "법무",
+              "송무비서",
+              "수행비서",
+              "임원비서",
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50052540",
+          "title": "[NKH그룹사] 2025년 신입사원 채용 - 설계입력",
+          "cleaned_title": "설계입력",
+          "company": "엔케이에이치주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50052540",
+          "tags": [
+            "#광학설계",
+            "#회로설계",
+            "#생산",
+            "#의료기기연구",
+            "#설계엔지니어",
+            "#기계설계",
+            "#연구·R&D",
+            "#제품설계",
+            "#기구설계"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "설계엔지니어"
+            ],
+            "#생산": [
+              "제품설계",
+              "구조해석/설계",
+              "기계설계",
+              "기구설계",
+              "설계엔지니어",
+              "회로설계",
+              "생산"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ]
+          }
+        },
+        {
+          "rec_id": "50052688",
+          "title": "[NKH그룹사] 2025년 신입사원 채용 - 전략기획/조직개발",
+          "cleaned_title": "전략기획 조직개발",
+          "company": "엔케이에이치주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50052688",
+          "tags": [
+            "#조직관리",
+            "#전략기획",
+            "#인큐베이팅",
+            "#시장조사",
+            "#사업기획",
+            "#기획·전략",
+            "#기획"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "전략기획",
+              "사업기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "인사": {
+      "size": 71,
+      "total_assignments": 71,
+      "documents": [
+        {
+          "rec_id": "50018158",
+          "title": "[다인] 교육기획/운영 담당 채용전환형 인턴",
+          "cleaned_title": "교육기획 운영 담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50018158",
+          "tags": [
+            "#교육컨설턴트",
+            "#심리치료사",
+            "#공공·복지",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육기획",
+            "#사회복지사",
+            "#평생교육사",
+            "#인사교육",
+            "#EAP상담",
+            "#교육운영",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#교육",
+            "#기획·전략",
+            "#의료",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "심리치료사",
+              "사무직",
+              "평생교육사",
+              "사회복지사"
+            ],
+            "#교육": [
+              "교육운영",
+              "평생교육사",
+              "교육컨설턴트"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "컨설턴트"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50022728",
+          "title": "경영지원팀 총무/구매 직원 경력무관 채용",
+          "cleaned_title": "경영지원팀 총무 구매 무관",
+          "company": "(주)동방엔지니어링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50022728",
+          "tags": [
+            "#회계·세무·재무",
+            "#자재구매",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#구매관리",
+            "#인사·노무·HRD",
+            "#구매",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "구매관리"
+            ],
+            "#총무·법무·사무": [
+              "총무"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50086763",
+          "title": "[패션브랜드] 이터널 영업부 채용공고 (과장~차장급)",
+          "cleaned_title": "이터널 영업부 (과장~차장급)",
+          "company": "(주)이터널그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50086763",
+          "tags": [
+            "#백화점영업",
+            "#영업·판매·무역",
+            "#인사·노무·HRD",
+            "#매출관리",
+            "#매장관리",
+            "#채용공고관리",
+            "#바이어발굴/관리"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "HRD",
+            "인사"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50139354",
+          "title": "인사총무팀 인사업무 담당자 모집",
+          "cleaned_title": "인사총무팀 인사업무",
+          "company": "(주)지에스씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50139354",
+          "tags": [
+            "#급여(Payroll)",
+            "#사무보조",
+            "#인사",
+            "#인",
+            "#HRM",
+            "#인력관리",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#조직문화",
+            "#제증명발급",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "인사기획",
+              "기획"
+            ],
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50145300",
+          "title": "대학교육(진로,취업) 교육기획 및 교육운영 학사/석사/박사 채용",
+          "cleaned_title": "대학교육(진로,취업) 교육기획 교육운영 학사 석사 박사",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50145300",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영",
+              "교수설계",
+              "교육컨텐츠개발",
+              "교재개발"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50202078",
+          "title": "[대용산업] 인사팀 팀원 채용",
+          "cleaned_title": "[] 인사팀",
+          "company": "대용산업",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202078",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사행정",
+            "#ER(노무관리)",
+            "#인사",
+            "#노무",
+            "#HRM",
+            "#기획·전략",
+            "#MBO",
+            "#인사·노무·HRD",
+            "#임금협상",
+            "#평가/보상",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "ER(노무관리)",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50235727",
+          "title": "성실하고 책임감 있는 정규직 신입 경영컨설턴트 모집",
+          "cleaned_title": "성실하고 책임감 있는 경영컨설턴트",
+          "company": "(주)한국인적자원경영컨설팅",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50235727",
+          "tags": [
+            "#총무·법무·사무",
+            "#경영기획",
+            "#문서작성",
+            "#경영분석",
+            "#HR컨설팅",
+            "#컨설턴트",
+            "#자료조사",
+            "#기획·전략",
+            "#인사·노무·HRD",
+            "#경영컨설팅",
+            "#리서치",
+            "#인사기획",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HR컨설팅"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "컨설턴트",
+              "기획",
+              "인사기획",
+              "경영기획"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50244220",
+          "title": "2025년 캠아이티㈜ 연구직/설계직 상시채용",
+          "cleaned_title": "캠아이티 연구직 설계직 상시",
+          "company": "캠아이티(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50244220",
+          "tags": [
+            "#신사업기획",
+            "#전략기획",
+            "#경영혁신(PI)",
+            "#회계·세무·재무",
+            "#경영기획",
+            "#세무회",
+            "#사업제휴",
+            "#회계",
+            "#사업기획",
+            "#기획·전략",
+            "#기획",
+            "#관리회계",
+            "#기업회계",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#생산",
+            "#연구·r&d",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획",
+              "경영기획",
+              "인사기획",
+              "전략기획"
+            ],
+            "#생산": [
+              "구조해석/설계"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "회계",
+              "재무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50270103",
+          "title": "[현대차그룹] 모비언트㈜ 사무직 각 분야별 신입 및 경력 채용",
+          "cleaned_title": "모비언트 사무직 각 분야별",
+          "company": "모비언트(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50270103",
+          "tags": [
+            "#세무회계",
+            "#조직관리",
+            "#회계·세무·재무",
+            "#인사행정",
+            "#투자전략",
+            "#사업기획",
+            "#기획·전략",
+            "#재무",
+            "#인사",
+            "#인사·노무·HRD",
+            "#기획",
+            "#자금관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획",
+              "인사기획",
+              "사업기획"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50273155",
+          "title": "[노무사단기 채용] 온라인컨텐츠기획 팀원급 인재채용",
+          "cleaned_title": "온라인컨텐츠기획 급",
+          "company": "(주)에스티유니타스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50273155",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#콘텐츠기획",
+            "#노무사",
+            "#온라인컨텐츠기획",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육운영",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "노무사",
+            "HRD",
+            "인사"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영",
+              "교육컨텐츠기획"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50282018",
+          "title": "[Man Energy Solutions] HR Operator (경증장애인 모집 전형)",
+          "cleaned_title": "HR Operator (경증장애인 전형)",
+          "company": "만에너지솔루션즈코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50282018",
+          "tags": [
+            "#인사행정",
+            "#인사",
+            "#인사·노무·HRD"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50284306",
+          "title": "에스아이플렉스 인사총무팀 총무 담당자 채용",
+          "cleaned_title": "에스아이플렉스 인사총무팀 총무",
+          "company": "(주)에스아이플렉스삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50284306",
+          "tags": [
+            "#전산총무",
+            "#비품관리",
+            "#문서작성",
+            "#사무행정",
+            "#시설관리",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50299439",
+          "title": "[강소기업] 본사 인사총무팀 신입 채용",
+          "cleaned_title": "인사총무팀",
+          "company": "케이웨더㈜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50299439",
+          "tags": [
+            "#급여(Payroll)",
+            "#실적관리",
+            "#인사",
+            "#인사·노무·HRD",
+            "#면접/인터뷰",
+            "#복리후생",
+            "#법정의무교육"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50327291",
+          "title": "생산관리/생산부/제조생산/구매/QA/공무/온라인MD 신입/경력",
+          "cleaned_title": "생산관리 생산부 제조생산 구매 QA 공무 온라인MD",
+          "company": "(주) 비알팜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50327291",
+          "tags": [
+            "#브랜드기획",
+            "#마케팅·홍",
+            "#사업개발",
+            "#시장조사",
+            "#상품기획",
+            "#사업기획",
+            "#기획·전략",
+            "#마케팅기획",
+            "#기획",
+            "#사업관리",
+            "#서비스기획",
+            "#웹기획",
+            "#실적관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#상품기획·md",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "인사"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "공무",
+              "QA"
+            ],
+            "#구매·자재·물류": [
+              "구매"
+            ],
+            "#기획·전략": [
+              "기획",
+              "서비스기획",
+              "브랜드기획",
+              "인사기획",
+              "웹기획",
+              "사업기획",
+              "마케팅기획",
+              "상품기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획"
+            ],
+            "#상품기획·md": [
+              "온라인MD"
+            ],
+            "#생산": [
+              "생산",
+              "생산관리",
+              "제조",
+              "QA"
+            ]
+          }
+        },
+        {
+          "rec_id": "50335765",
+          "title": "영업관리 및 인사 채용(신입/경력)",
+          "cleaned_title": "영업관리 인사 ( )",
+          "company": "(주)이현어패럴",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50335765",
+          "tags": [
+            "#인사행정",
+            "#영업기획",
+            "#ER(노무관리)",
+            "#인사",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#조직문화",
+            "#인사교육",
+            "#영업관리",
+            "#채용공고관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "ER(노무관리)",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "영업전략",
+              "영업기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50347533",
+          "title": "㈜아모텍 인사(HR) 부문 인턴사원 모집",
+          "cleaned_title": "아모텍 인사(HR) 부문",
+          "company": "(주)아모텍삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50347533",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사행정",
+            "#인사",
+            "#온보딩",
+            "#인력관리",
+            "#인사·노무·HRD",
+            "#면접/인터뷰",
+            "#조직문화",
+            "#채용공고관리",
+            "#평가/보상",
+            "#복리후생",
+            "#제증명발급",
+            "#법정의무교육"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50350522",
+          "title": "정규직 경력 임원 비서 채용 (인사팀 소속)",
+          "cleaned_title": "임원 비서 (인사팀 소속)",
+          "company": "(주)레뱅",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50350522",
+          "tags": [
+            "#내방객응대",
+            "#송무비서",
+            "#총무"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "비서",
+              "총무",
+              "송무비서"
+            ]
+          }
+        },
+        {
+          "rec_id": "50358219",
+          "title": "(주)티엘비 인사/총무 부문 사원모집",
+          "cleaned_title": "티엘비 인사 총무 부문",
+          "company": "(주)티엘비삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50358219",
+          "tags": [],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50358515",
+          "title": "[경영기획부] 엔지니어링업체 입찰/자금/인사 등 신입사원 모집",
+          "cleaned_title": "엔지니어링업체 입찰 자금 인사 등",
+          "company": "(주)화정엔지니어링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50358515",
+          "tags": [
+            "#회계·세무·재무",
+            "#건설·건축",
+            "#건설경리",
+            "#경리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#기획·전략",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "BI 엔지니어"
+            ],
+            "#건설·건축": [
+              "건설경리"
+            ],
+            "#기획·전략": [
+              "경영기획",
+              "기획"
+            ],
+            "#회계·세무·재무": [
+              "경리",
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50371794",
+          "title": "삼영엠티(주) 경영지원팀 신입·경력직 사원 채용",
+          "cleaned_title": "경영지원팀 ·직",
+          "company": "삼영엠티(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50371794",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사",
+            "#HRM",
+            "#인사·노무·HRD",
+            "#총무",
+            "#복리후생"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        }
+      ]
+    },
+    "HRD": {
+      "size": 55,
+      "total_assignments": 55,
+      "documents": [
+        {
+          "rec_id": "50018158",
+          "title": "[다인] 교육기획/운영 담당 채용전환형 인턴",
+          "cleaned_title": "교육기획 운영 담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50018158",
+          "tags": [
+            "#교육컨설턴트",
+            "#심리치료사",
+            "#공공·복지",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육기획",
+            "#사회복지사",
+            "#평생교육사",
+            "#인사교육",
+            "#EAP상담",
+            "#교육운영",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#교육",
+            "#기획·전략",
+            "#의료",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "심리치료사",
+              "사무직",
+              "평생교육사",
+              "사회복지사"
+            ],
+            "#교육": [
+              "교육운영",
+              "평생교육사",
+              "교육컨설턴트"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "컨설턴트"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50022728",
+          "title": "경영지원팀 총무/구매 직원 경력무관 채용",
+          "cleaned_title": "경영지원팀 총무 구매 무관",
+          "company": "(주)동방엔지니어링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50022728",
+          "tags": [
+            "#회계·세무·재무",
+            "#자재구매",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#구매관리",
+            "#인사·노무·HRD",
+            "#구매",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "구매관리"
+            ],
+            "#총무·법무·사무": [
+              "총무"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50086763",
+          "title": "[패션브랜드] 이터널 영업부 채용공고 (과장~차장급)",
+          "cleaned_title": "이터널 영업부 (과장~차장급)",
+          "company": "(주)이터널그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50086763",
+          "tags": [
+            "#백화점영업",
+            "#영업·판매·무역",
+            "#인사·노무·HRD",
+            "#매출관리",
+            "#매장관리",
+            "#채용공고관리",
+            "#바이어발굴/관리"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "HRD",
+            "인사"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50139354",
+          "title": "인사총무팀 인사업무 담당자 모집",
+          "cleaned_title": "인사총무팀 인사업무",
+          "company": "(주)지에스씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50139354",
+          "tags": [
+            "#급여(Payroll)",
+            "#사무보조",
+            "#인사",
+            "#인",
+            "#HRM",
+            "#인력관리",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#조직문화",
+            "#제증명발급",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "인사기획",
+              "기획"
+            ],
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50145300",
+          "title": "대학교육(진로,취업) 교육기획 및 교육운영 학사/석사/박사 채용",
+          "cleaned_title": "대학교육(진로,취업) 교육기획 교육운영 학사 석사 박사",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50145300",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영",
+              "교수설계",
+              "교육컨텐츠개발",
+              "교재개발"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50202078",
+          "title": "[대용산업] 인사팀 팀원 채용",
+          "cleaned_title": "[] 인사팀",
+          "company": "대용산업",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202078",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사행정",
+            "#ER(노무관리)",
+            "#인사",
+            "#노무",
+            "#HRM",
+            "#기획·전략",
+            "#MBO",
+            "#인사·노무·HRD",
+            "#임금협상",
+            "#평가/보상",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "ER(노무관리)",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50235727",
+          "title": "성실하고 책임감 있는 정규직 신입 경영컨설턴트 모집",
+          "cleaned_title": "성실하고 책임감 있는 경영컨설턴트",
+          "company": "(주)한국인적자원경영컨설팅",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50235727",
+          "tags": [
+            "#총무·법무·사무",
+            "#경영기획",
+            "#문서작성",
+            "#경영분석",
+            "#HR컨설팅",
+            "#컨설턴트",
+            "#자료조사",
+            "#기획·전략",
+            "#인사·노무·HRD",
+            "#경영컨설팅",
+            "#리서치",
+            "#인사기획",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HR컨설팅"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "컨설턴트",
+              "기획",
+              "인사기획",
+              "경영기획"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50270103",
+          "title": "[현대차그룹] 모비언트㈜ 사무직 각 분야별 신입 및 경력 채용",
+          "cleaned_title": "모비언트 사무직 각 분야별",
+          "company": "모비언트(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50270103",
+          "tags": [
+            "#세무회계",
+            "#조직관리",
+            "#회계·세무·재무",
+            "#인사행정",
+            "#투자전략",
+            "#사업기획",
+            "#기획·전략",
+            "#재무",
+            "#인사",
+            "#인사·노무·HRD",
+            "#기획",
+            "#자금관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획",
+              "인사기획",
+              "사업기획"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50273155",
+          "title": "[노무사단기 채용] 온라인컨텐츠기획 팀원급 인재채용",
+          "cleaned_title": "온라인컨텐츠기획 급",
+          "company": "(주)에스티유니타스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50273155",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#콘텐츠기획",
+            "#노무사",
+            "#온라인컨텐츠기획",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육운영",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "노무사",
+            "HRD",
+            "인사"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영",
+              "교육컨텐츠기획"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50282018",
+          "title": "[Man Energy Solutions] HR Operator (경증장애인 모집 전형)",
+          "cleaned_title": "HR Operator (경증장애인 전형)",
+          "company": "만에너지솔루션즈코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50282018",
+          "tags": [
+            "#인사행정",
+            "#인사",
+            "#인사·노무·HRD"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50299439",
+          "title": "[강소기업] 본사 인사총무팀 신입 채용",
+          "cleaned_title": "인사총무팀",
+          "company": "케이웨더㈜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50299439",
+          "tags": [
+            "#급여(Payroll)",
+            "#실적관리",
+            "#인사",
+            "#인사·노무·HRD",
+            "#면접/인터뷰",
+            "#복리후생",
+            "#법정의무교육"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50335765",
+          "title": "영업관리 및 인사 채용(신입/경력)",
+          "cleaned_title": "영업관리 인사 ( )",
+          "company": "(주)이현어패럴",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50335765",
+          "tags": [
+            "#인사행정",
+            "#영업기획",
+            "#ER(노무관리)",
+            "#인사",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#조직문화",
+            "#인사교육",
+            "#영업관리",
+            "#채용공고관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "ER(노무관리)",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "영업전략",
+              "영업기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50347533",
+          "title": "㈜아모텍 인사(HR) 부문 인턴사원 모집",
+          "cleaned_title": "아모텍 인사(HR) 부문",
+          "company": "(주)아모텍삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50347533",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사행정",
+            "#인사",
+            "#온보딩",
+            "#인력관리",
+            "#인사·노무·HRD",
+            "#면접/인터뷰",
+            "#조직문화",
+            "#채용공고관리",
+            "#평가/보상",
+            "#복리후생",
+            "#제증명발급",
+            "#법정의무교육"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50371794",
+          "title": "삼영엠티(주) 경영지원팀 신입·경력직 사원 채용",
+          "cleaned_title": "경영지원팀 ·직",
+          "company": "삼영엠티(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50371794",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사",
+            "#HRM",
+            "#인사·노무·HRD",
+            "#총무",
+            "#복리후생"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372926",
+          "title": "2025년 로지스밸리그룹 하나로TNS 기획감사실 신입 및 경력 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 기획감사실",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372926",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#회계·세무·재무": [
+              "감사",
+              "회계",
+              "재무",
+              "전산회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372958",
+          "title": "2025년 로지스밸리그룹 하나로TNS 글로벌영업 관리 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 글로벌영업 관리",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372958",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#영업·판매·무역",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#회계·세무·재무": [
+              "회계",
+              "재무",
+              "감사",
+              "전산회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50378176",
+          "title": "대학교육(스피치, 글쓰기) 교육과정 및 교육 콘텐츠 개발 담당자",
+          "cleaned_title": "대학교육(스피치, 글쓰기) 교육과정 교육 콘텐츠 개발",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50378176",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#교육",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#교육": [
+              "교수설계",
+              "교육운영",
+              "교육컨텐츠개발",
+              "교재개발"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50390000",
+          "title": "[카펙발레오] 인사팀 사무직 채용(계약)",
+          "cleaned_title": "인사팀 사무직 (계약)",
+          "company": "(주)카펙발레오",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50390000",
+          "tags": [
+            "#인사·노무·HRD",
+            "#HRD"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50391984",
+          "title": "[포르쉐공식딜러] (주)도이치아우토 인사 담당자 채용",
+          "cleaned_title": "인사",
+          "company": "(주)도이치아우토",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50391984",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사행정",
+            "#인사",
+            "#온보딩",
+            "#인력관리",
+            "#인사·노무·HRD",
+            "#조직문화",
+            "#인사교육",
+            "#복리후생",
+            "#제증명발급",
+            "#법정의무교육"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50395758",
+          "title": "HR 인턴 (서울/3~6개월)",
+          "cleaned_title": "HR (서울 3~6개월)",
+          "company": "(주)히타치에너지코리아",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50395758",
+          "tags": [
+            "#인사",
+            "#HRM",
+            "#인사·노무·HRD"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "HRM": {
+      "size": 22,
+      "total_assignments": 22,
+      "documents": [
+        {
+          "rec_id": "50139354",
+          "title": "인사총무팀 인사업무 담당자 모집",
+          "cleaned_title": "인사총무팀 인사업무",
+          "company": "(주)지에스씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50139354",
+          "tags": [
+            "#급여(Payroll)",
+            "#사무보조",
+            "#인사",
+            "#인",
+            "#HRM",
+            "#인력관리",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#조직문화",
+            "#제증명발급",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "인사기획",
+              "기획"
+            ],
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50145300",
+          "title": "대학교육(진로,취업) 교육기획 및 교육운영 학사/석사/박사 채용",
+          "cleaned_title": "대학교육(진로,취업) 교육기획 교육운영 학사 석사 박사",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50145300",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영",
+              "교수설계",
+              "교육컨텐츠개발",
+              "교재개발"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50202078",
+          "title": "[대용산업] 인사팀 팀원 채용",
+          "cleaned_title": "[] 인사팀",
+          "company": "대용산업",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202078",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사행정",
+            "#ER(노무관리)",
+            "#인사",
+            "#노무",
+            "#HRM",
+            "#기획·전략",
+            "#MBO",
+            "#인사·노무·HRD",
+            "#임금협상",
+            "#평가/보상",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "ER(노무관리)",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50371794",
+          "title": "삼영엠티(주) 경영지원팀 신입·경력직 사원 채용",
+          "cleaned_title": "경영지원팀 ·직",
+          "company": "삼영엠티(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50371794",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사",
+            "#HRM",
+            "#인사·노무·HRD",
+            "#총무",
+            "#복리후생"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372926",
+          "title": "2025년 로지스밸리그룹 하나로TNS 기획감사실 신입 및 경력 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 기획감사실",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372926",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#회계·세무·재무": [
+              "감사",
+              "회계",
+              "재무",
+              "전산회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372958",
+          "title": "2025년 로지스밸리그룹 하나로TNS 글로벌영업 관리 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 글로벌영업 관리",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372958",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#영업·판매·무역",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#회계·세무·재무": [
+              "회계",
+              "재무",
+              "감사",
+              "전산회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50378176",
+          "title": "대학교육(스피치, 글쓰기) 교육과정 및 교육 콘텐츠 개발 담당자",
+          "cleaned_title": "대학교육(스피치, 글쓰기) 교육과정 교육 콘텐츠 개발",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50378176",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#교육",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#교육": [
+              "교수설계",
+              "교육운영",
+              "교육컨텐츠개발",
+              "교재개발"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50395758",
+          "title": "HR 인턴 (서울/3~6개월)",
+          "cleaned_title": "HR (서울 3~6개월)",
+          "company": "(주)히타치에너지코리아",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50395758",
+          "tags": [
+            "#인사",
+            "#HRM",
+            "#인사·노무·HRD"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50400726",
+          "title": "[호반호텔앤리조트] 본사 인사팀 채용",
+          "cleaned_title": "인사팀",
+          "company": "(주)호반호텔앤리조트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50400726",
+          "tags": [
+            "#인사행정",
+            "#노무사",
+            "#인사",
+            "#HRM",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#조직문화",
+            "#복리후생"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "노무사",
+            "HRM"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50402106",
+          "title": "인사팀 채용담당자 모집 (계약직)",
+          "cleaned_title": "인사팀 (계약직)",
+          "company": "크린팩토메이션(주) 삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50402106",
+          "tags": [
+            "#사무보조",
+            "#총무·법무·사무",
+            "#인사행정",
+            "#문서작성",
+            "#OA",
+            "#PowerPoint",
+            "#서류관리",
+            "#HRM",
+            "#Excel",
+            "#채",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#면접/인터뷰",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50413227",
+          "title": "(주)일삼 비서실 비서 모집",
+          "cleaned_title": "일삼 비서실 비서",
+          "company": "㈜일삼",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50413227",
+          "tags": [
+            "#급여(Payroll)",
+            "#면접",
+            "#ER(노무관리)",
+            "#HRM",
+            "#인사·노무·HRD",
+            "#HRD"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "HRD",
+            "ER(노무관리)",
+            "인사",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "비서"
+            ]
+          }
+        },
+        {
+          "rec_id": "50417190",
+          "title": "한국정보인증에서 HR팀 신입사원(채용전제형 인턴)을 찾습니다.",
+          "cleaned_title": "한국정보인증에서 HR팀 (전제형 )을 찾습니다.",
+          "company": "한국정보인증(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50417190",
+          "tags": [
+            "#총무·법무·사무",
+            "#인사행정",
+            "#인사",
+            "#HRM",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#인사교육",
+            "#총무",
+            "#복리후생",
+            "#채용공고관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "인사기획",
+              "기획"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50430373",
+          "title": "백제약품 경영지원 기획/인사/노무 경력사원 채용 공고",
+          "cleaned_title": "백제약품 경영지원 기획 인사 노무",
+          "company": "백제약품(주) 영등포지점",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50430373",
+          "tags": [
+            "#인사행정",
+            "#경영기획",
+            "#ER(노무관리)",
+            "#인사",
+            "#기획·전략",
+            "#HRM",
+            "#인력관리",
+            "#마케팅기획",
+            "#인사·노무·HRD",
+            "#채용담당자",
+            "#인사교육",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "ER(노무관리)",
+            "채용담당자",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획",
+              "경영기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50442344",
+          "title": "HR Specialist, Local Sales 신입/경력 모집",
+          "cleaned_title": "HR Specialist, Local Sales",
+          "company": "에이에스이코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50442344&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#신사업기획",
+            "#급여(Payroll)",
+            "#ER(노무관리)",
+            "#HR컨설팅",
+            "#인사",
+            "#기획·전략",
+            "#HRM",
+            "#신사업발굴",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#복리후생",
+            "#실적관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "HRD",
+            "인사",
+            "ER(노무관리)",
+            "HRM",
+            "HR컨설팅"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50460141",
+          "title": "(주)바이넥스 인천(송도) 인사팀 신입사원 모집",
+          "cleaned_title": "인천(송도) 인사팀",
+          "company": "(주)바이넥스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50460141",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사행정",
+            "#노무사",
+            "#인사",
+            "#HRM",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#면접/인터뷰",
+            "#조직문화",
+            "#인사교육",
+            "#복리후생",
+            "#채용공고관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "HRD",
+            "HRM",
+            "노무사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "인사기획",
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50463042",
+          "title": "2025년 로지스밸리그룹 하나로TNS 항공수입그룹 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 항공수입그룹",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50463042",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#회계·세무·재무": [
+              "회계",
+              "재무",
+              "감사",
+              "전산회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50481077",
+          "title": "[RISE KOREA] 본사 인사팀 직원 채용",
+          "cleaned_title": "인사팀",
+          "company": "(주)라이즈에듀케이션코리아",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50481077",
+          "tags": [
+            "#급여(Payroll)",
+            "#제증명발급",
+            "#인사행정",
+            "#송파",
+            "#인사",
+            "#HRM",
+            "#인력관리",
+            "#인사·노무·HRD",
+            "#복리후생",
+            "#채용공고관리",
+            "#법정의무교육"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50482547",
+          "title": "2025 2분기 수시채용",
+          "cleaned_title": "",
+          "company": "깨끗한나라(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50482547",
+          "tags": [
+            "#신사업기획",
+            "#리스크",
+            "#경영기획",
+            "#ER(노무관리)",
+            "#사업기획",
+            "#기획·전략",
+            "#인사",
+            "#HRM",
+            "#신사업발굴",
+            "#인사·노무·HRD",
+            "#사업관리",
+            "#HRD",
+            "#법정의무교육"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "HRD",
+            "인사",
+            "ER(노무관리)",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획",
+              "경영기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50492797",
+          "title": "2025 새론오토모티브 상반기 신입채용 - HR팀(채용연계형인턴)",
+          "cleaned_title": "새론오토모티브 HR팀(연계형)",
+          "company": "새론오토모티브㈜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50492797",
+          "tags": [
+            "#인사행정",
+            "#인사",
+            "#HRM",
+            "#인력관리",
+            "#온보딩",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#인사교육",
+            "#조직문화",
+            "#총무·법무",
+            "#제증명발급",
+            "#법정의무교육",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "인사기획",
+              "기획"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50509450",
+          "title": "[제닉스] 경영지원실(총무) 채용",
+          "cleaned_title": "경영지원실(총무)",
+          "company": "제닉스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50509450",
+          "tags": [
+            "#총무·법무·사무",
+            "#인사",
+            "#HRM",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#총무"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "채용담당자": {
+      "size": 11,
+      "total_assignments": 11,
+      "documents": [
+        {
+          "rec_id": "50139354",
+          "title": "인사총무팀 인사업무 담당자 모집",
+          "cleaned_title": "인사총무팀 인사업무",
+          "company": "(주)지에스씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50139354",
+          "tags": [
+            "#급여(Payroll)",
+            "#사무보조",
+            "#인사",
+            "#인",
+            "#HRM",
+            "#인력관리",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#조직문화",
+            "#제증명발급",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "인사기획",
+              "기획"
+            ],
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50335765",
+          "title": "영업관리 및 인사 채용(신입/경력)",
+          "cleaned_title": "영업관리 인사 ( )",
+          "company": "(주)이현어패럴",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50335765",
+          "tags": [
+            "#인사행정",
+            "#영업기획",
+            "#ER(노무관리)",
+            "#인사",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#조직문화",
+            "#인사교육",
+            "#영업관리",
+            "#채용공고관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "ER(노무관리)",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "영업전략",
+              "영업기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372926",
+          "title": "2025년 로지스밸리그룹 하나로TNS 기획감사실 신입 및 경력 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 기획감사실",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372926",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#회계·세무·재무": [
+              "감사",
+              "회계",
+              "재무",
+              "전산회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372958",
+          "title": "2025년 로지스밸리그룹 하나로TNS 글로벌영업 관리 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 글로벌영업 관리",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372958",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#영업·판매·무역",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#회계·세무·재무": [
+              "회계",
+              "재무",
+              "감사",
+              "전산회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50402106",
+          "title": "인사팀 채용담당자 모집 (계약직)",
+          "cleaned_title": "인사팀 (계약직)",
+          "company": "크린팩토메이션(주) 삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50402106",
+          "tags": [
+            "#사무보조",
+            "#총무·법무·사무",
+            "#인사행정",
+            "#문서작성",
+            "#OA",
+            "#PowerPoint",
+            "#서류관리",
+            "#HRM",
+            "#Excel",
+            "#채",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#면접/인터뷰",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50430373",
+          "title": "백제약품 경영지원 기획/인사/노무 경력사원 채용 공고",
+          "cleaned_title": "백제약품 경영지원 기획 인사 노무",
+          "company": "백제약품(주) 영등포지점",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50430373",
+          "tags": [
+            "#인사행정",
+            "#경영기획",
+            "#ER(노무관리)",
+            "#인사",
+            "#기획·전략",
+            "#HRM",
+            "#인력관리",
+            "#마케팅기획",
+            "#인사·노무·HRD",
+            "#채용담당자",
+            "#인사교육",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "ER(노무관리)",
+            "채용담당자",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획",
+              "경영기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50460141",
+          "title": "(주)바이넥스 인천(송도) 인사팀 신입사원 모집",
+          "cleaned_title": "인천(송도) 인사팀",
+          "company": "(주)바이넥스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50460141",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사행정",
+            "#노무사",
+            "#인사",
+            "#HRM",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#면접/인터뷰",
+            "#조직문화",
+            "#인사교육",
+            "#복리후생",
+            "#채용공고관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "HRD",
+            "HRM",
+            "노무사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "인사기획",
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50463042",
+          "title": "2025년 로지스밸리그룹 하나로TNS 항공수입그룹 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 항공수입그룹",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50463042",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#회계·세무·재무": [
+              "회계",
+              "재무",
+              "감사",
+              "전산회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472507",
+          "title": "2025년 가비아 상반기 신입/경력 공개채용",
+          "cleaned_title": "가비아 공개",
+          "company": "(주)가비아",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472507",
+          "tags": [
+            "#IT개발·데이터",
+            "#인사",
+            "#기획·전략",
+            "#온보딩",
+            "#채용담당자",
+            "#IT컨설팅",
+            "#사업관리",
+            "#인사·노무·HRD",
+            "#웹기획",
+            "#서비스기획",
+            "#UI/UX",
+            "#복리후생",
+            "#인사기획",
+            "#기술지"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "IT컨설팅"
+            ],
+            "#기획·전략": [
+              "기획",
+              "서비스기획",
+              "IT컨설팅",
+              "인사기획",
+              "웹기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50509450",
+          "title": "[제닉스] 경영지원실(총무) 채용",
+          "cleaned_title": "경영지원실(총무)",
+          "company": "제닉스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50509450",
+          "tags": [
+            "#총무·법무·사무",
+            "#인사",
+            "#HRM",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#총무"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50510979",
+          "title": "인사(HR) 담당자 모집",
+          "cleaned_title": "인사(HR)",
+          "company": "한국요꼬가와일렉트로닉스매뉴팩처링(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50510979",
+          "tags": [
+            "#급여(Payroll)",
+            "#인재발굴",
+            "#인사행정",
+            "#ER(노무관리)",
+            "#인사",
+            "#HRM",
+            "#인력관리",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#조직문화",
+            "#인사교육",
+            "#채용공고관리"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "ER(노무관리)",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "ER(노무관리)": {
+      "size": 11,
+      "total_assignments": 11,
+      "documents": [
+        {
+          "rec_id": "50202078",
+          "title": "[대용산업] 인사팀 팀원 채용",
+          "cleaned_title": "[] 인사팀",
+          "company": "대용산업",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202078",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사행정",
+            "#ER(노무관리)",
+            "#인사",
+            "#노무",
+            "#HRM",
+            "#기획·전략",
+            "#MBO",
+            "#인사·노무·HRD",
+            "#임금협상",
+            "#평가/보상",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "ER(노무관리)",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50335765",
+          "title": "영업관리 및 인사 채용(신입/경력)",
+          "cleaned_title": "영업관리 인사 ( )",
+          "company": "(주)이현어패럴",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50335765",
+          "tags": [
+            "#인사행정",
+            "#영업기획",
+            "#ER(노무관리)",
+            "#인사",
+            "#영업·판매·무역",
+            "#영업전략",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#조직문화",
+            "#인사교육",
+            "#영업관리",
+            "#채용공고관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "ER(노무관리)",
+            "HRD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "영업전략",
+              "영업기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50413227",
+          "title": "(주)일삼 비서실 비서 모집",
+          "cleaned_title": "일삼 비서실 비서",
+          "company": "㈜일삼",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50413227",
+          "tags": [
+            "#급여(Payroll)",
+            "#면접",
+            "#ER(노무관리)",
+            "#HRM",
+            "#인사·노무·HRD",
+            "#HRD"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "HRD",
+            "ER(노무관리)",
+            "인사",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "비서"
+            ]
+          }
+        },
+        {
+          "rec_id": "50427006",
+          "title": "엠케이에스코리아(유) 2025년 상반기 각 부문 신입/경력 수시채용",
+          "cleaned_title": "각 부문",
+          "company": "엠케이에스코리아(유)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50427006",
+          "tags": [
+            "#기술기획",
+            "#경영분석",
+            "#ER(노무관리)",
+            "#PM(프로젝트매니저)",
+            "#사업기획",
+            "#PL(프로젝트리더)",
+            "#기획·전략",
+            "#인사",
+            "#인사·노무·HRD",
+            "#사업관리",
+            "#인사기획",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "ER(노무관리)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "PL(프로젝트리더)",
+              "인사기획",
+              "사업기획",
+              "PM(프로젝트매니저)",
+              "기술기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50430373",
+          "title": "백제약품 경영지원 기획/인사/노무 경력사원 채용 공고",
+          "cleaned_title": "백제약품 경영지원 기획 인사 노무",
+          "company": "백제약품(주) 영등포지점",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50430373",
+          "tags": [
+            "#인사행정",
+            "#경영기획",
+            "#ER(노무관리)",
+            "#인사",
+            "#기획·전략",
+            "#HRM",
+            "#인력관리",
+            "#마케팅기획",
+            "#인사·노무·HRD",
+            "#채용담당자",
+            "#인사교육",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "ER(노무관리)",
+            "채용담당자",
+            "HRD",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획",
+              "경영기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50442344",
+          "title": "HR Specialist, Local Sales 신입/경력 모집",
+          "cleaned_title": "HR Specialist, Local Sales",
+          "company": "에이에스이코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50442344&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#신사업기획",
+            "#급여(Payroll)",
+            "#ER(노무관리)",
+            "#HR컨설팅",
+            "#인사",
+            "#기획·전략",
+            "#HRM",
+            "#신사업발굴",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#복리후생",
+            "#실적관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "HRD",
+            "인사",
+            "ER(노무관리)",
+            "HRM",
+            "HR컨설팅"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50474343",
+          "title": "각 부문별 신입/경력 모집",
+          "cleaned_title": "각 부문별",
+          "company": "(주)듀링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50474343",
+          "tags": [
+            "#급여(Payroll)",
+            "#ERP",
+            "#인사행정",
+            "#ER(노무관리)",
+            "#인사",
+            "#인력관리",
+            "#4대보험",
+            "#인사·노무·HRD",
+            "#인사교육",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "ER(노무관리)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "인사기획",
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50482547",
+          "title": "2025 2분기 수시채용",
+          "cleaned_title": "",
+          "company": "깨끗한나라(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50482547",
+          "tags": [
+            "#신사업기획",
+            "#리스크",
+            "#경영기획",
+            "#ER(노무관리)",
+            "#사업기획",
+            "#기획·전략",
+            "#인사",
+            "#HRM",
+            "#신사업발굴",
+            "#인사·노무·HRD",
+            "#사업관리",
+            "#HRD",
+            "#법정의무교육"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "HRD",
+            "인사",
+            "ER(노무관리)",
+            "HRM"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획",
+              "경영기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50506499",
+          "title": "금호타이어 '25년 2분기 수시채용(신입_노무관리)",
+          "cleaned_title": "금호타이어 ( 노무관리)",
+          "company": "금호타이어(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506499",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사행정",
+            "#ER(노무관리)",
+            "#인사",
+            "#인사·노무·HRD",
+            "#평가/보상",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "ER(노무관리)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "인사기획",
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50510979",
+          "title": "인사(HR) 담당자 모집",
+          "cleaned_title": "인사(HR)",
+          "company": "한국요꼬가와일렉트로닉스매뉴팩처링(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50510979",
+          "tags": [
+            "#급여(Payroll)",
+            "#인재발굴",
+            "#인사행정",
+            "#ER(노무관리)",
+            "#인사",
+            "#HRM",
+            "#인력관리",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#조직문화",
+            "#인사교육",
+            "#채용공고관리"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "ER(노무관리)",
+            "채용담당자",
+            "HRM"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50521437",
+          "title": "㈜에코비트워터 본사 각 부문별 신입/경력 채용",
+          "cleaned_title": "에코비트워터 각 부문별",
+          "company": "(주)에코비트워터",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50521437",
+          "tags": [
+            "#조직관리",
+            "#사업제휴",
+            "#사업개발",
+            "#ER(노무관리)",
+            "#HR컨설팅",
+            "#사업기획",
+            "#문화기획",
+            "#기획·전략",
+            "#인사",
+            "#HRM",
+            "#인사·노무·HRD",
+            "#사업관리",
+            "#HRD",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "ER(노무관리)",
+            "HRM",
+            "HR컨설팅"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획",
+              "문화기획",
+              "사업기획"
+            ]
+          }
+        }
+      ]
+    },
+    "HR컨설팅": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50235727",
+          "title": "성실하고 책임감 있는 정규직 신입 경영컨설턴트 모집",
+          "cleaned_title": "성실하고 책임감 있는 경영컨설턴트",
+          "company": "(주)한국인적자원경영컨설팅",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50235727",
+          "tags": [
+            "#총무·법무·사무",
+            "#경영기획",
+            "#문서작성",
+            "#경영분석",
+            "#HR컨설팅",
+            "#컨설턴트",
+            "#자료조사",
+            "#기획·전략",
+            "#인사·노무·HRD",
+            "#경영컨설팅",
+            "#리서치",
+            "#인사기획",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "HR컨설팅"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "컨설턴트",
+              "기획",
+              "인사기획",
+              "경영기획"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50442344",
+          "title": "HR Specialist, Local Sales 신입/경력 모집",
+          "cleaned_title": "HR Specialist, Local Sales",
+          "company": "에이에스이코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50442344&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#신사업기획",
+            "#급여(Payroll)",
+            "#ER(노무관리)",
+            "#HR컨설팅",
+            "#인사",
+            "#기획·전략",
+            "#HRM",
+            "#신사업발굴",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#복리후생",
+            "#실적관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "HRD",
+            "인사",
+            "ER(노무관리)",
+            "HRM",
+            "HR컨설팅"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50521437",
+          "title": "㈜에코비트워터 본사 각 부문별 신입/경력 채용",
+          "cleaned_title": "에코비트워터 각 부문별",
+          "company": "(주)에코비트워터",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50521437",
+          "tags": [
+            "#조직관리",
+            "#사업제휴",
+            "#사업개발",
+            "#ER(노무관리)",
+            "#HR컨설팅",
+            "#사업기획",
+            "#문화기획",
+            "#기획·전략",
+            "#인사",
+            "#HRM",
+            "#인사·노무·HRD",
+            "#사업관리",
+            "#HRD",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "ER(노무관리)",
+            "HRM",
+            "HR컨설팅"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획",
+              "문화기획",
+              "사업기획"
+            ]
+          }
+        }
+      ]
+    },
+    "노무사": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50273155",
+          "title": "[노무사단기 채용] 온라인컨텐츠기획 팀원급 인재채용",
+          "cleaned_title": "온라인컨텐츠기획 급",
+          "company": "(주)에스티유니타스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50273155",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#콘텐츠기획",
+            "#노무사",
+            "#온라인컨텐츠기획",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육운영",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "노무사",
+            "HRD",
+            "인사"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영",
+              "교육컨텐츠기획"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50400726",
+          "title": "[호반호텔앤리조트] 본사 인사팀 채용",
+          "cleaned_title": "인사팀",
+          "company": "(주)호반호텔앤리조트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50400726",
+          "tags": [
+            "#인사행정",
+            "#노무사",
+            "#인사",
+            "#HRM",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#조직문화",
+            "#복리후생"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "인사",
+            "HRD",
+            "노무사",
+            "HRM"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50460141",
+          "title": "(주)바이넥스 인천(송도) 인사팀 신입사원 모집",
+          "cleaned_title": "인천(송도) 인사팀",
+          "company": "(주)바이넥스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50460141",
+          "tags": [
+            "#급여(Payroll)",
+            "#인사행정",
+            "#노무사",
+            "#인사",
+            "#HRM",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#면접/인터뷰",
+            "#조직문화",
+            "#인사교육",
+            "#복리후생",
+            "#채용공고관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "인사",
+            "채용담당자",
+            "HRD",
+            "HRM",
+            "노무사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "인사기획",
+              "기획"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

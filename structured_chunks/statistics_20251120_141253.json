@@ -1,0 +1,8 @@
+{
+  "total_chunks": 2503,
+  "total_documents": 1473,
+  "fallback_chunks": 600,
+  "lightweight_chunks": 193,
+  "chunked_fallbacks": 407,
+  "timestamp": "20251120_141253"
+}

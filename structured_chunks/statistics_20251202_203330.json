@@ -1,0 +1,18 @@
+{
+  "total_chunks": 2503,
+  "total_documents": 1473,
+  "section_distribution": {
+    "qualifications": 584,
+    "job_duties": 279,
+    "preferred": 1040,
+    "full_text": 600
+  },
+  "avg_chunk_length": 285.96,
+  "avg_chunks_per_doc": 1.7,
+  "total_unique_tags": 1436,
+  "target_sections": [
+    "preferred",
+    "qualifications",
+    "job_duties"
+  ]
+}

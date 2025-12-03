@@ -1,0 +1,1337 @@
+{
+  "major_category": "#공공·복지",
+  "statistics": {
+    "total_docs": 61,
+    "unique_docs": 61,
+    "num_mid_categories": 5,
+    "overlap_info": {
+      "with_교육": 5,
+      "with_기획_전략": 14,
+      "with_의료": 5,
+      "with_인사_노무_hrd": 39,
+      "with_총무_법무_사무": 57,
+      "with_고객상담_tm": 2,
+      "with_회계_세무_재무": 11,
+      "with_구매_자재_물류": 10,
+      "with_생산": 8,
+      "with_it개발_데이터": 4,
+      "with_연구_r&d": 8,
+      "with_영업_판매_무역": 9,
+      "with_건설_건축": 8,
+      "with_디자인": 1,
+      "with_마케팅_홍보_조사": 3,
+      "with_미디어_문화_스포츠": 1,
+      "with_서비스": 2,
+      "with_상품기획_md": 1
+    }
+  },
+  "mid_categories": {
+    "사무직": {
+      "size": 56,
+      "total_assignments": 56,
+      "documents": [
+        {
+          "rec_id": "50018158",
+          "title": "[다인] 교육기획/운영 담당 채용전환형 인턴",
+          "cleaned_title": "교육기획 운영 담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50018158",
+          "tags": [
+            "#교육컨설턴트",
+            "#심리치료사",
+            "#공공·복지",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육기획",
+            "#사회복지사",
+            "#평생교육사",
+            "#인사교육",
+            "#EAP상담",
+            "#교육운영",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사",
+            "사무직",
+            "평생교육사",
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영",
+              "평생교육사",
+              "교육컨설턴트"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "컨설턴트"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50042401",
+          "title": "법무법인(유한) 대륜 미래전략실 일본인 비서관 채용(서울)",
+          "cleaned_title": "법무법인(유한) 대륜 미래전략실 일본인 비서관 (서울)",
+          "company": "법무법인(유)대륜변호사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50042401",
+          "tags": [
+            "#사무보조",
+            "#문서작성",
+            "#타이핑",
+            "#전화응대",
+            "#임원비서",
+            "#경영지원",
+            "#서류관리",
+            "#송무비서",
+            "#사무행정",
+            "#수행비서",
+            "#사무직",
+            "#비서"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "비서",
+              "법무",
+              "송무비서",
+              "수행비서",
+              "임원비서",
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50054348",
+          "title": "(주)두문 일반 사무직 신입사원 채용",
+          "cleaned_title": "일반 사무직",
+          "company": "(주)두문",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50054348",
+          "tags": [
+            "#고객상담·TM",
+            "#고객관리"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "고객관리"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50146896",
+          "title": "[다인] 고객관리센터운영 채용형인턴 (Counseling Manager)",
+          "cleaned_title": "고객관리센터운영 형 (Counseling Manager)",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50146896",
+          "tags": [
+            "#심리치료사",
+            "#공공·복지",
+            "#사회복지사",
+            "#EAP상담",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사",
+            "사무직",
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "고객관리"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50169738",
+          "title": "세무사무실 사무직원(신입) 육아휴직대체자 구함.",
+          "cleaned_title": "세무사무실 사무() 육아휴직대체자 구함.",
+          "company": "세무법인 서정",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50169738",
+          "tags": [],
+          "other_major_categories": [
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "사무직"
+            ],
+            "#회계·세무·재무": [
+              "세무사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50176518",
+          "title": "사조산업(주) 수산관련 사무직 채용합니다.",
+          "cleaned_title": "수산관련 사무직 합니다.",
+          "company": "사조산업(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50176518",
+          "tags": [
+            "#무역거래"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50235880",
+          "title": "사무직(경영지원) 채용",
+          "cleaned_title": "사무직(경영지원)",
+          "company": "엔에스하이드로(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50235880",
+          "tags": [
+            "#품질관리",
+            "#자재관리",
+            "#재고관리",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#생산",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "재고관리",
+              "품질관리",
+              "자재관리"
+            ],
+            "#생산": [
+              "품질관리"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50264741",
+          "title": "[다인] 사업부 운영담당 채용전환형 인턴",
+          "cleaned_title": "사업부 운영담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50264741",
+          "tags": [
+            "#심리치료사",
+            "#공공·복지",
+            "#사회복지사",
+            "#EAP상담",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사",
+            "사무직",
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50270103",
+          "title": "[현대차그룹] 모비언트㈜ 사무직 각 분야별 신입 및 경력 채용",
+          "cleaned_title": "모비언트 사무직 각 분야별",
+          "company": "모비언트(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50270103",
+          "tags": [
+            "#세무회계",
+            "#조직관리",
+            "#회계·세무·재무",
+            "#인사행정",
+            "#투자전략",
+            "#사업기획",
+            "#기획·전략",
+            "#재무",
+            "#인사",
+            "#인사·노무·HRD",
+            "#기획",
+            "#자금관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "인사기획",
+              "사업기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50273882",
+          "title": "[미소페] 관리부 사무직 신입 직원 채용",
+          "cleaned_title": "관리부 사무직",
+          "company": "(주)비경통상",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50273882",
+          "tags": [
+            "#회계·세무·재무",
+            "#회계",
+            "#더존",
+            "#총무"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직",
+              "총무"
+            ],
+            "#회계·세무·재무": [
+              "회계",
+              "재무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50280824",
+          "title": "[사무직] 2025 사무/무역사무 경력무관 채용",
+          "cleaned_title": "사무 무역사무 무관",
+          "company": "(주)듀라인삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50280824",
+          "tags": [],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50281842",
+          "title": "사무직 인턴 모집(자재관리)",
+          "cleaned_title": "사무직 (자재관리)",
+          "company": "삼덕통상(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50281842",
+          "tags": [
+            "#양산구매",
+            "#자재구매",
+            "#구매관리",
+            "#자재관리",
+            "#수불관리",
+            "#외주관리"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "자재관리",
+              "구매",
+              "구매관리"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50284306",
+          "title": "에스아이플렉스 인사총무팀 총무 담당자 채용",
+          "cleaned_title": "에스아이플렉스 인사총무팀 총무",
+          "company": "(주)에스아이플렉스삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50284306",
+          "tags": [
+            "#전산총무",
+            "#비품관리",
+            "#문서작성",
+            "#사무행정",
+            "#시설관리",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "인사"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50296434",
+          "title": "[방산 스타트업] 경영지원팀 팀원 채용",
+          "cleaned_title": "경영지원팀",
+          "company": "퀀텀에어로",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50296434",
+          "tags": [
+            "#사무행정",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50303649",
+          "title": "[품질관리] HACCP QC 사무직 신입 사원",
+          "cleaned_title": "HACCP QC 사무직",
+          "company": "(주)엔아이에프",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50303649",
+          "tags": [
+            "#품질관리",
+            "#생산"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#생산",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "QC"
+            ],
+            "#구매·자재·물류": [
+              "품질관리"
+            ],
+            "#생산": [
+              "품질관리",
+              "QC",
+              "생산"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50316497",
+          "title": "연성대학교 2024학년도 2학기 17차 직원 채용 공고(정규직)",
+          "cleaned_title": "학년도 2학기 차 ()",
+          "company": "연성대학교",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50316497",
+          "tags": [
+            "#사무보조",
+            "#총무·법무·사무",
+            "#문서작성",
+            "#교육행정",
+            "#사무행정",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50332597",
+          "title": "해운무역 사무직",
+          "cleaned_title": "해운무역 사무직",
+          "company": "대양에이젠시",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50332597",
+          "tags": [
+            "#무역영어",
+            "#해상무역",
+            "#해외영업",
+            "#무역MR",
+            "#해외영업관리",
+            "#주문관리",
+            "#바이어발굴/관리",
+            "#무역중개인"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#의료",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "해외영업",
+              "영업",
+              "무역중개인",
+              "영업관리",
+              "해상무역",
+              "무역MR"
+            ],
+            "#의료": [
+              "MR"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50337252",
+          "title": "사무직 인턴 모집(신제품개발, 홍보, 일반사무 분야)",
+          "cleaned_title": "사무직 (신제품개발, 홍보, 일반사무 분야)",
+          "company": "삼덕통상(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50337252",
+          "tags": [
+            "#디자인",
+            "#홍보",
+            "#연구·R&D",
+            "#홍보물",
+            "#신발개발",
+            "#산업디자인",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#연구·r&d",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#디자인": [
+              "산업디자인"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50341480",
+          "title": "2025년도 정규직 공개 채용의 건",
+          "cleaned_title": "도 공개 의 건",
+          "company": "서울전선(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50341480",
+          "tags": [
+            "#총무·법무·사무",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50342198",
+          "title": "동탄사무직 채용 (마케팅 / 영업지원)",
+          "cleaned_title": "동탄사무직 (마케팅 영업지원)",
+          "company": "(주)지안켐텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50342198",
+          "tags": [
+            "#무역영어",
+            "#해상무역",
+            "#무역경리",
+            "#항공무역",
+            "#해외영업지원",
+            "#영업지원",
+            "#B2B",
+            "#무역거래",
+            "#수출입",
+            "#구매·자재·물류",
+            "#물류사무원"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "공무"
+            ],
+            "#구매·자재·물류": [
+              "물류사무원",
+              "구매"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업지원",
+              "영업",
+              "해외영업",
+              "해상무역",
+              "무역경리",
+              "항공무역"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ],
+            "#회계·세무·재무": [
+              "경리"
+            ]
+          }
+        }
+      ]
+    },
+    "사회복지사": {
+      "size": 5,
+      "total_assignments": 5,
+      "documents": [
+        {
+          "rec_id": "50018158",
+          "title": "[다인] 교육기획/운영 담당 채용전환형 인턴",
+          "cleaned_title": "교육기획 운영 담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50018158",
+          "tags": [
+            "#교육컨설턴트",
+            "#심리치료사",
+            "#공공·복지",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육기획",
+            "#사회복지사",
+            "#평생교육사",
+            "#인사교육",
+            "#EAP상담",
+            "#교육운영",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사",
+            "사무직",
+            "평생교육사",
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영",
+              "평생교육사",
+              "교육컨설턴트"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "컨설턴트"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50146896",
+          "title": "[다인] 고객관리센터운영 채용형인턴 (Counseling Manager)",
+          "cleaned_title": "고객관리센터운영 형 (Counseling Manager)",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50146896",
+          "tags": [
+            "#심리치료사",
+            "#공공·복지",
+            "#사회복지사",
+            "#EAP상담",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사",
+            "사무직",
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "고객관리"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50264741",
+          "title": "[다인] 사업부 운영담당 채용전환형 인턴",
+          "cleaned_title": "사업부 운영담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50264741",
+          "tags": [
+            "#심리치료사",
+            "#공공·복지",
+            "#사회복지사",
+            "#EAP상담",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사",
+            "사무직",
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436511",
+          "title": "[한국콜마] 2025 상반기 콜마그룹 대졸신입 공채(ESG)",
+          "cleaned_title": "콜마그룹 (ESG)",
+          "company": "한국콜마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436511",
+          "tags": [
+            "#데이터분석",
+            "#전략기획",
+            "#공공·복지",
+            "#기획·전략",
+            "#ESG",
+            "#사회복지사"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "전략기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50510765",
+          "title": "[굿피플인터내셔널] 글로벌전략실 팀원 채용(재공고)",
+          "cleaned_title": "글로벌전략실 (재)",
+          "company": "사단법인 굿피플 인터내셔널",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50510765",
+          "tags": [
+            "#신사업기획",
+            "#사업개발",
+            "#사업기획",
+            "#공공·복지",
+            "#기획·전략",
+            "#신사업발굴",
+            "#사업관리",
+            "#사회복지사",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "사무직",
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        }
+      ]
+    },
+    "심리치료사": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50018158",
+          "title": "[다인] 교육기획/운영 담당 채용전환형 인턴",
+          "cleaned_title": "교육기획 운영 담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50018158",
+          "tags": [
+            "#교육컨설턴트",
+            "#심리치료사",
+            "#공공·복지",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육기획",
+            "#사회복지사",
+            "#평생교육사",
+            "#인사교육",
+            "#EAP상담",
+            "#교육운영",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사",
+            "사무직",
+            "평생교육사",
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영",
+              "평생교육사",
+              "교육컨설턴트"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "컨설턴트"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50146896",
+          "title": "[다인] 고객관리센터운영 채용형인턴 (Counseling Manager)",
+          "cleaned_title": "고객관리센터운영 형 (Counseling Manager)",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50146896",
+          "tags": [
+            "#심리치료사",
+            "#공공·복지",
+            "#사회복지사",
+            "#EAP상담",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사",
+            "사무직",
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "고객관리"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50264741",
+          "title": "[다인] 사업부 운영담당 채용전환형 인턴",
+          "cleaned_title": "사업부 운영담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50264741",
+          "tags": [
+            "#심리치료사",
+            "#공공·복지",
+            "#사회복지사",
+            "#EAP상담",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사",
+            "사무직",
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        }
+      ]
+    },
+    "병역특례": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50270615",
+          "title": "[수산그룹]수산INT 개발직군 채용(신입/경력/병역특례)",
+          "cleaned_title": "수산INT 개발직군 ( 병역특례)",
+          "company": "(주)수산아이앤티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50270615",
+          "tags": [
+            "#보안관제",
+            "#보안컨설팅",
+            "#백엔드/서버개발",
+            "#데이터엔지니어",
+            "#웹개발",
+            "#데이터분석가"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "병역특례"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "데이터분석가",
+              "보안컨설팅",
+              "보안관제",
+              "데이터엔지니어",
+              "웹개발",
+              "백엔드/서버개발"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50340994",
+          "title": "[SSC 대전 본사] R&D 부문 신입/경력 채용(전문연구요원 가능)",
+          "cleaned_title": "R&D 부문 (전문연구요원 가능)",
+          "company": "(주)스페이스솔루션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50340994",
+          "tags": [
+            "#R&D",
+            "#반도체",
+            "#전문연구요원",
+            "#병역특례"
+          ],
+          "other_major_categories": [
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "병역특례"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50369244",
+          "title": "2025년 SW개발분야 산업기능요원 채용 (병역특례-보충역)",
+          "cleaned_title": "SW개발분야 산업기능요원 (병역특례 보충역)",
+          "company": "(주)프람트테크놀로지",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50369244",
+          "tags": [
+            "#DBA",
+            "#IT개발·데이터",
+            "#Linux",
+            "#백엔드/서버개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "병역특례"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "DBA",
+              "백엔드/서버개발"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "평생교육사": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50018158",
+          "title": "[다인] 교육기획/운영 담당 채용전환형 인턴",
+          "cleaned_title": "교육기획 운영 담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50018158",
+          "tags": [
+            "#교육컨설턴트",
+            "#심리치료사",
+            "#공공·복지",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육기획",
+            "#사회복지사",
+            "#평생교육사",
+            "#인사교육",
+            "#EAP상담",
+            "#교육운영",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "심리치료사",
+            "사무직",
+            "평생교육사",
+            "사회복지사"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영",
+              "평생교육사",
+              "교육컨설턴트"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "컨설턴트"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50505359",
+          "title": "2025년 제3차 채용 공고(신입직-채용형인턴)",
+          "cleaned_title": "제3차 (직 형)",
+          "company": "시청자미디어재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50505359",
+          "tags": [
+            "#정책연구",
+            "#총무·법무·사무",
+            "#서비스",
+            "#건설·건축",
+            "#평생교",
+            "#연구·R&D",
+            "#공공·복지",
+            "#문화기획",
+            "#기획·전략",
+            "#교육",
+            "#시설관리",
+            "#평생교육사"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#교육",
+            "#기획·전략",
+            "#서비스",
+            "#연구·r&d",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "평생교육사"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "기타"
+            ],
+            "#교육": [
+              "평생교육사"
+            ],
+            "#기획·전략": [
+              "기획",
+              "문화기획"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

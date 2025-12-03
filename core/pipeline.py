@@ -22,8 +22,14 @@ from utils.sampler import (
     analyze_sample_distribution,
 )
 from implementations.evaluators import RetrieverEvaluator
+from implementations.loaders import StructuredDocumentLoader, Chunk
 
-# from implementations.evaluators.langsmith_evaluator import CareerHYLangSmithEvaluator  # 사용 안 함
+# 임베딩 생성 전에 섹션별 분포 확인
+from collections import Counter
+
+from implementations.evaluators.evaluators_back.langsmith_evaluator import (
+    CareerHYLangSmithEvaluator,
+)
 
 
 class ExperimentPipeline:
@@ -68,14 +74,38 @@ class ExperimentPipeline:
             print("\n=== 4. 검색 시스템 구축 ===")
             self._build_retrieval_system(processed_docs, embeddings, components)
 
+            eval_mode = self.config.evaluation.mode
+            print(f"🔍 평가 모드: {eval_mode}")
+
+            # 평가 없이 인덱스 구축까지만 수행하는 모드
+            if eval_mode == "build_only":
+                print("\n=== 5. 평가 스킵 (build_only 모드) ===")
+                build_only_results = {
+                    "experiment_info": {
+                        "name": self.config.experiment_name,
+                        "description": self.config.description,
+                        "experiment_id": self.experiment_id,
+                        "timestamp": datetime.now().isoformat(),
+                        "duration_seconds": time.time() - start_time,
+                        "evaluation_type": "build_only",
+                    },
+                    "config": {
+                        "embedder": asdict(self.config.embedder),
+                        "chunker": asdict(self.config.chunker),
+                        "retriever": asdict(self.config.retriever),
+                    },
+                    "document_count": components["retriever"].get_document_count(),
+                }
+                print(
+                    f"\n📦 build_only 완료 - Chroma/검색 시스템에 저장된 청크 수: {build_only_results['document_count']}"
+                )
+                return build_only_results
+
             # 5. Ground Truth 쿼리 로드
             print("\n=== 5. Ground Truth 쿼리 로드 ===")
             test_queries = self._load_test_queries()
 
             # 6. 평가 실행 (모드에 따라 분기)
-            eval_mode = self.config.evaluation.mode
-            print(f"🔍 평가 모드: {eval_mode}")
-
             if eval_mode == "retrieval_only":
                 # 검색 성능 평가만 수행
                 print("\n=== 6. 검색 성능 평가 (Retrieval Only) ===")
@@ -143,10 +173,12 @@ class ExperimentPipeline:
                 )
             )
 
-        # 평가기 초기화 (dual evaluation 모드용, 현재는 사용 안 함)
-        # components["evaluator"] = SearchMetricsEvaluator(
-        #     k_values=self.config.evaluation.retrieval.k_values
-        # )
+        # 평가기 초기화 (dual evaluation 모드용)
+        from implementations.evaluators import RetrieverEvaluator
+
+        if hasattr(self.config, "evaluation") and self.config.evaluation:
+            components["evaluator"] = RetrieverEvaluator()
+            print("✅ 평가기 초기화 완료: RetrieverEvaluator")
 
         return components
 
@@ -197,6 +229,11 @@ class ExperimentPipeline:
         self, documents: List[Dict[str, Any]], components: Dict[str, Any]
     ) -> tuple:
         """문서 청킹 및 임베딩 처리 (캐싱 지원)"""
+
+        # StructuredDocumentLoader 기반 텍스트 파서 사용 여부에 따라 분기
+        if getattr(self.config.data, "use_structured_loader", False):
+            return self._process_documents_structured(documents, components)
+
         chunker = components["chunker"]
         embedder = components["embedder"]
 
@@ -251,6 +288,165 @@ class ExperimentPipeline:
 
         return all_chunks, embeddings
 
+    def _process_documents_structured(
+        self, documents: List[Dict[str, Any]], components: Dict[str, Any]
+    ) -> tuple:
+        """
+        StructuredDocumentLoader + 텍스트 기반 JobPostParser를 사용한
+        섹션별 청킹 및 임베딩 처리 (캐싱 지원)
+        """
+        embedder = components["embedder"]
+        data_cfg = self.config.data
+
+        # 🔑 임베딩 캐시 키 생성 (임베더+청커 설정 + structured + data_version)
+        base_cache_key = embedding_cache.generate_cache_key(
+            self.config.embedder, self.config.chunker
+        )
+        cache_key = f"{base_cache_key}_structured_{data_cfg.data_version}"
+
+        # 캐시 확인
+        if embedding_cache.exists(cache_key):
+            print(f"✅ 기존 structured 임베딩 캐시 사용: {cache_key}")
+            cached_documents, cached_embeddings = embedding_cache.load(cache_key)
+            return cached_documents, cached_embeddings
+
+        # StructuredDocumentLoader 초기화
+        loader = StructuredDocumentLoader(
+            strategy=getattr(data_cfg, "structured_parser_strategy", "fast"),
+            target_sections=(
+                data_cfg.structured_target_sections
+                if getattr(data_cfg, "structured_target_sections", None)
+                else None
+            ),
+            include_context=True,
+        )
+
+        print("문서 구조화 청킹 중 (StructuredDocumentLoader + TextJobPostParser)...")
+        chunks: List[Chunk] = loader.load_from_documents(documents)
+
+        # Text 파서 결과 통계 출력 및 중간 결과 저장
+        loader.print_statistics()
+        try:
+            saved_files = loader.save_chunks(output_dir="structured_chunks")
+            print(f"📁 Text 파서 중간 결과 저장 완료: {saved_files}")
+        except Exception as e:
+            print(f"⚠️ Text 파서 중간 결과 저장 실패 (실험은 계속 진행): {e}")
+
+        # Recursive chunking 추가 적용 (chunker가 recursive 타입이고 설정된 경우)
+        chunker = components.get("chunker")
+        apply_recursive_chunking = (
+            chunker is not None
+            and hasattr(chunker, "chunk")
+            and self.config.chunker.type == "recursive"
+            and self.config.chunker.chunk_size is not None
+        )
+
+        if apply_recursive_chunking:
+            print(f"\n🔄 Recursive Chunking 추가 적용 중...")
+            print(f"   - Chunk size: {self.config.chunker.chunk_size}")
+            print(f"   - Chunk overlap: {self.config.chunker.chunk_overlap}")
+
+            final_chunks = []
+            original_count = len(chunks)
+            section_stats = {}  # 섹션별 통계
+
+            for chunk in chunks:
+                section_type = chunk.metadata.get("section_type", "unknown")
+
+                # 각 섹션 청크에 대해 recursive chunking 적용
+                sub_chunks = chunker.chunk(chunk.text, chunk.metadata)
+
+                # 섹션별 통계 수집
+                if section_type not in section_stats:
+                    section_stats[section_type] = {
+                        "original_chunks": 0,
+                        "final_chunks": 0,
+                        "split_count": 0,  # 나뉜 청크 수
+                    }
+                section_stats[section_type]["original_chunks"] += 1
+                section_stats[section_type]["final_chunks"] += len(sub_chunks)
+                if len(sub_chunks) > 1:
+                    section_stats[section_type]["split_count"] += 1
+
+                # 원본 메타데이터 유지하면서 chunk_index 추가
+                for i, sub_chunk in enumerate(sub_chunks):
+                    # 원본 섹션 정보 유지
+                    final_metadata = {
+                        **chunk.metadata,
+                        **sub_chunk["metadata"],
+                        "original_chunk_id": chunk.metadata.get("chunk_id"),
+                        "recursive_chunk_index": i,
+                        "recursive_chunk_count": len(sub_chunks),
+                    }
+                    final_chunks.append(
+                        {"text": sub_chunk["text"], "metadata": final_metadata}
+                    )
+
+            print(
+                f"   ✅ Recursive chunking 완료: {original_count}개 → {len(final_chunks)}개 청크"
+            )
+
+            # 섹션별 통계 출력
+            print(f"\n   📊 섹션별 Recursive Chunking 통계:")
+            for section_type, stats in sorted(section_stats.items()):
+                avg_final = (
+                    stats["final_chunks"] / stats["original_chunks"]
+                    if stats["original_chunks"] > 0
+                    else 0
+                )
+                split_pct = (
+                    (stats["split_count"] / stats["original_chunks"] * 100)
+                    if stats["original_chunks"] > 0
+                    else 0
+                )
+                print(f"      - {section_type}:")
+                print(
+                    f"        • 원본: {stats['original_chunks']}개 → 최종: {stats['final_chunks']}개 (평균 {avg_final:.2f}배)"
+                )
+                print(
+                    f"        • 분할된 청크: {stats['split_count']}개 ({split_pct:.1f}%)"
+                )
+
+            structured_docs = final_chunks
+        else:
+            # Recursive chunking 미적용: 원본 청크 그대로 사용
+            structured_docs: List[Dict[str, Any]] = [
+                {"text": chunk.text, "metadata": chunk.metadata} for chunk in chunks
+            ]
+
+        print(f"총 최종 청크 수: {len(structured_docs)}")
+
+        # 임베딩 생성
+        texts = [doc["text"] for doc in structured_docs]
+        print("임베딩 생성 중 (structured)...")
+        embeddings = embedder.embed(texts)
+
+        print(f"임베딩 완료: {len(embeddings)}개 벡터")
+
+        # 캐시에 저장 (각 문서 ID(rec_idx)도 함께 기록)
+        doc_ids = [
+            doc.get("metadata", {}).get("rec_idx")
+            for doc in structured_docs
+            if doc.get("metadata", {}).get("rec_idx") is not None
+        ]
+        additional_info = {
+            "original_document_count": len(documents),
+            "structured": True,
+            "target_sections": getattr(data_cfg, "structured_target_sections", None),
+            "embedder_config": self.config.embedder.__dict__,
+            "data_version": data_cfg.data_version,
+            "document_ids": doc_ids,
+        }
+
+        try:
+            embedding_cache.save(
+                cache_key, structured_docs, embeddings, additional_info
+            )
+        except Exception as e:
+            print(f"⚠️  structured 임베딩 캐시 저장 실패 (실험은 계속 진행): {e}")
+
+        return structured_docs, embeddings
+
     def _build_retrieval_system(
         self,
         documents: List[Dict[str, Any]],
@@ -293,9 +489,32 @@ class ExperimentPipeline:
                 for line_num, line in enumerate(f, start=1):
                     try:
                         query_data = json.loads(line.strip())
+
+                        # query_text에서 질문과 프로필 분리
+                        if "query_text" in query_data:
+                            parsed = self._parse_query_text(query_data["query_text"])
+                            query_data["query"] = parsed["query"]
+                            query_data["user_profile"] = parsed["user_profile"]
+                            # query_text는 그대로 유지 (하위 호환성)
+
+                            # 첫 번째 쿼리만 디버깅 정보 출력
+                            if line_num == 1:
+                                print(f"🔍 첫 번째 쿼리 파싱 결과:")
+                                print(f"   - 질문: {parsed['query'][:100]}...")
+                                print(
+                                    f"   - 프로필 키: {list(parsed['user_profile'].keys())}"
+                                )
+                                if "catalogs" in parsed["user_profile"]:
+                                    print(
+                                        f"   - 수강 이력: {len(parsed['user_profile']['catalogs'])}개 강의"
+                                    )
+
                         queries.append(query_data)
                     except json.JSONDecodeError as e:
                         print(f"⚠️  JSON 파싱 오류 (Line {line_num}): {e}")
+                        continue
+                    except Exception as e:
+                        print(f"⚠️  쿼리 파싱 오류 (Line {line_num}): {e}")
                         continue
 
             # 데이터 형식 확인
@@ -304,6 +523,8 @@ class ExperimentPipeline:
                 print(
                     f"   - GT 포함 (평균 {sum(len(q.get('ground_truth', [])) for q in queries) / len(queries):.1f}개/쿼리)"
                 )
+                if queries[0].get("user_profile"):
+                    print(f"   - 사용자 프로필 자동 파싱 완료")
             else:
                 print(f"📊 기존 테스트 쿼리 형식 로드: {len(queries)}개 쿼리")
 
@@ -312,6 +533,131 @@ class ExperimentPipeline:
         except Exception as e:
             print(f"❌ 쿼리 로드 실패: {e}")
             return []
+
+    def _parse_query_text(self, query_text: str) -> Dict[str, Any]:
+        """
+        query_text에서 질문과 사용자 프로필을 분리
+
+        형식:
+        질문: ...
+        전공: ...
+        관심 직무: ...
+        자격증: ...
+        동아리/대외활동: ...
+        수강 이력:
+        ...
+        """
+        result = {"query": "", "user_profile": {}}
+
+        if not query_text:
+            return result
+
+        lines = query_text.split("\n")
+        current_section = None
+        query_parts = []
+        profile_parts = {}
+        course_history_lines = []
+
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+
+            # 섹션 헤더 확인
+            if line.startswith("질문:"):
+                current_section = "query"
+                query_parts.append(line.replace("질문:", "").strip())
+            elif line.startswith("전공:"):
+                current_section = "profile"
+                profile_parts["major"] = line.replace("전공:", "").strip()
+            elif line.startswith("관심 직무:"):
+                current_section = "profile"
+                interest_job = line.replace("관심 직무:", "").strip()
+                # 쉼표로 구분된 경우 리스트로 변환
+                if "," in interest_job:
+                    profile_parts["interest_job"] = [
+                        j.strip() for j in interest_job.split(",")
+                    ]
+                else:
+                    profile_parts["interest_job"] = interest_job
+            elif line.startswith("자격증:"):
+                current_section = "profile"
+                certification = line.replace("자격증:", "").strip()
+                # 쉼표로 구분된 경우 리스트로 변환
+                if "," in certification:
+                    profile_parts["certification"] = [
+                        c.strip() for c in certification.split(",")
+                    ]
+                else:
+                    profile_parts["certification"] = certification
+            elif line.startswith("동아리/대외활동:"):
+                current_section = "profile"
+                activities = line.replace("동아리/대외활동:", "").strip()
+                # 쉼표로 구분된 경우 리스트로 변환
+                if "," in activities:
+                    profile_parts["club_activities"] = [
+                        a.strip() for a in activities.split(",")
+                    ]
+                else:
+                    profile_parts["club_activities"] = activities
+            elif line.startswith("수강 이력:"):
+                current_section = "course_history"
+                course_history_lines = []
+            else:
+                # 현재 섹션에 따라 내용 추가
+                if current_section == "query":
+                    query_parts.append(line)
+                elif current_section == "course_history":
+                    course_history_lines.append(line)
+
+        # 질문 조합
+        result["query"] = " ".join(query_parts).strip()
+
+        # 수강 이력 파싱
+        if course_history_lines:
+            catalogs = []
+            current_course = {}
+
+            for line in course_history_lines:
+                if line.startswith("강의명:"):
+                    if current_course:
+                        catalogs.append(current_course)
+                    current_course = {
+                        "course_name": line.replace("강의명:", "").strip()
+                    }
+                elif line.startswith("핵심 역량:"):
+                    if current_course:
+                        current_course["core_competency"] = line.replace(
+                            "핵심 역량:", ""
+                        ).strip()
+                elif line.startswith("강의 개요:"):
+                    if current_course:
+                        current_course["course_overview"] = line.replace(
+                            "강의 개요:", ""
+                        ).strip()
+                elif line.startswith("학습 목표:"):
+                    if current_course:
+                        current_course["learning_objectives"] = line.replace(
+                            "학습 목표:", ""
+                        ).strip()
+                elif current_course and line:
+                    # 이전 필드에 내용 추가
+                    if "course_overview" in current_course and not current_course.get(
+                        "learning_objectives"
+                    ):
+                        current_course["course_overview"] += " " + line
+                    elif "learning_objectives" in current_course:
+                        current_course["learning_objectives"] += " " + line
+
+            if current_course:
+                catalogs.append(current_course)
+
+            if catalogs:
+                profile_parts["catalogs"] = catalogs
+
+        result["user_profile"] = profile_parts
+
+        return result
 
     def _create_sample_queries(self) -> List[Dict[str, Any]]:
         """샘플 테스트 쿼리 생성 (Ground Truth가 없을 때)"""
@@ -336,6 +682,218 @@ class ExperimentPipeline:
 
         print(f"샘플 쿼리 생성: {len(sample_queries)}개")
         return sample_queries
+
+    def _print_retrieval_evaluation_statistics(
+        self, test_queries: List[Dict[str, Any]]
+    ) -> None:
+        """Retrieval 평가 전 통계 출력"""
+        from collections import Counter
+
+        print("\n" + "=" * 80)
+        print("📊 Retrieval 평가 전 통계")
+        print("=" * 80)
+
+        # 총 쿼리 개수
+        total_queries = len(test_queries)
+        print(f"\n📝 총 쿼리 개수: {total_queries}개")
+
+        # 정답 분포 분석
+        gt_counts = []
+        valid_queries = 0
+
+        for query_data in test_queries:
+            # 필드명 호환성
+            ground_truth = query_data.get("ground_truth_docs") or query_data.get(
+                "ground_truth", []
+            )
+
+            if ground_truth:
+                gt_count = len(ground_truth)
+                gt_counts.append(gt_count)
+                valid_queries += 1
+
+        if gt_counts:
+            print(f"\n✅ 유효한 쿼리 개수: {valid_queries}개 (정답이 있는 쿼리)")
+            print(f"⚠️  정답 없는 쿼리: {total_queries - valid_queries}개")
+
+            # 정답 개수 통계
+            print(f"\n📊 정답 개수 통계:")
+            print(f"   - 평균: {sum(gt_counts) / len(gt_counts):.2f}개")
+            print(f"   - 중앙값: {sorted(gt_counts)[len(gt_counts) // 2]}개")
+            print(f"   - 최소: {min(gt_counts)}개")
+            print(f"   - 최대: {max(gt_counts)}개")
+
+            # 정답 개수 분포
+            gt_distribution = Counter(gt_counts)
+            print(f"\n📈 정답 개수 분포:")
+            sorted_dist = sorted(gt_distribution.items(), key=lambda x: x[0])
+            for count, freq in sorted_dist[:20]:  # 상위 20개만 표시
+                percentage = (freq / len(gt_counts)) * 100
+                print(f"   - {count}개 정답: {freq}개 쿼리 ({percentage:.1f}%)")
+
+            # Retrieval 설정 정보
+            print(f"\n🔍 Retrieval 설정:")
+            print(
+                f"   - top_k: {self.config.retriever.top_k}개 (동적 top_k: max(기존 top_k, 정답개수), 최대 60)"
+            )
+            # 평가 지표 출력 (사용자 요청 순서)
+            if (
+                hasattr(self.config, "evaluation")
+                and self.config.evaluation
+                and self.config.evaluation.metrics
+            ):
+                metrics_list = self.config.evaluation.metrics
+                # 사용자 요청 순서대로 정렬
+                metric_order = [
+                    "ndcg@10",
+                    "mrr@10",
+                    "precision@3",
+                    "precision@5",
+                    "precision@10",
+                    "precision@20",
+                    "hit@10_count",
+                    "r_recall",
+                ]
+                ordered_metrics = [m for m in metric_order if m in metrics_list]
+                other_metrics = [m for m in metrics_list if m not in metric_order]
+                all_metrics = ordered_metrics + other_metrics
+                print(f"   - 평가 지표: {', '.join(all_metrics)}")
+            else:
+                print(f"   - 평가 지표: (설정되지 않음)")
+        else:
+            print(f"\n⚠️  정답이 있는 쿼리가 없습니다!")
+
+        print("=" * 80 + "\n")
+
+    def _print_single_query_details(self, query_result, evaluator) -> None:
+        """단일 쿼리에 대한 상세 결과 출력 (디버깅용)"""
+        print("\n" + "=" * 80)
+        print("🔍 단일 쿼리 상세 결과 (첫 번째 쿼리)")
+        print("=" * 80)
+
+        # 쿼리 정보
+        query_text = query_result.query
+        print(f"\n📝 쿼리:")
+        print(
+            f"   {query_text[:200]}..." if len(query_text) > 200 else f"   {query_text}"
+        )
+
+        # Ground Truth 문서들
+        gt_docs = query_result.ground_truth_docs
+        print(f"\n✅ Ground Truth 문서 ({len(gt_docs)}개):")
+        gt_rec_idxs = set()
+        for idx, gt_doc in enumerate(gt_docs, 1):
+            if isinstance(gt_doc, dict):
+                rec_idx = gt_doc.get("rec_idx") or gt_doc.get("rec_id", "unknown")
+                title = (
+                    gt_doc.get("title")
+                    or gt_doc.get("job_title")
+                    or gt_doc.get("post_title", "제목 없음")
+                )
+                url = gt_doc.get("url") or gt_doc.get("detail_url", "")
+                company = gt_doc.get("company") or gt_doc.get("company_name", "")
+                deadline = gt_doc.get("deadline", "")
+                start_date = gt_doc.get("start_date", "")
+                crawling_time = gt_doc.get("crawling_time", "")
+            else:
+                rec_idx = str(gt_doc)
+                title = "제목 없음"
+                url = ""
+                company = ""
+                deadline = ""
+                start_date = ""
+                crawling_time = ""
+
+            gt_rec_idxs.add(str(rec_idx))
+            print(f"   {idx}. rec_idx: {rec_idx}")
+            print(f"      - 제목: {title}")
+            print(f"      - 회사: {company}")
+            print(f"      - URL: {url}")
+            if deadline:
+                print(f"      - 마감일: {deadline}")
+            if start_date:
+                print(f"      - 시작일: {start_date}")
+            if crawling_time:
+                print(f"      - 크롤링시간: {crawling_time}")
+
+        # 검색된 문서들
+        retrieved_docs = query_result.retrieved_docs
+        print(f"\n🔍 검색된 문서 (상위 {len(retrieved_docs)}개):")
+
+        # 평가 지표 계산 (이 쿼리만)
+        retrieved_rec_idxs = []
+        for doc in retrieved_docs:
+            if isinstance(doc, dict):
+                metadata = doc.get("metadata", {})
+                rec_idx = metadata.get("rec_idx") or metadata.get("rec_id", "unknown")
+                retrieved_rec_idxs.append(str(rec_idx))
+
+        if retrieved_rec_idxs and gt_rec_idxs:
+            metrics = evaluator.evaluate_query(retrieved_rec_idxs, list(gt_rec_idxs))
+            print(f"\n📊 이 쿼리의 평가 지표:")
+            print(f"   - NDCG@10: {metrics.get('ndcg@10', 0.0):.4f}")
+            print(f"   - MRR@10: {metrics.get('mrr@10', 0.0):.4f}")
+            print(f"   - Precision@3: {metrics.get('precision@3', 0.0):.4f}")
+            print(f"   - Precision@5: {metrics.get('precision@5', 0.0):.4f}")
+            print(f"   - Precision@10: {metrics.get('precision@10', 0.0):.4f}")
+            print(f"   - Precision@20: {metrics.get('precision@20', 0.0):.4f}")
+            print(f"   - Hit@10_count: {metrics.get('hit@10_count', 0.0):.0f}")
+            print(f"   - R-recall: {metrics.get('r_recall', 0.0):.4f}")
+            print(f"   - Recall@10: {metrics.get('recall@10', 0.0):.4f}")
+            print(f"   - Recall@20: {metrics.get('recall@20', 0.0):.4f}")
+
+        # 검색된 문서 상세 정보
+        for rank, doc in enumerate(retrieved_docs[:20], 1):  # 상위 20개만
+            if isinstance(doc, dict):
+                metadata = doc.get("metadata", {})
+                rec_idx = metadata.get("rec_idx") or metadata.get("rec_id", "unknown")
+                title = metadata.get("title") or metadata.get("post_title", "제목 없음")
+                company = metadata.get("company") or metadata.get("company_name", "")
+                url = metadata.get("url") or metadata.get("detail_url", "")
+                deadline = metadata.get("deadline", "")
+                start_date = metadata.get("start_date", "")
+                crawling_time = metadata.get("crawling_time", "")
+                score = doc.get("score", 0.0)
+
+                # GT 매칭 여부
+                is_gt = str(rec_idx) in gt_rec_idxs
+                match_marker = "✅" if is_gt else "❌"
+
+                print(
+                    f"\n   {rank}. {match_marker} rec_idx: {rec_idx} (score: {score:.4f})"
+                )
+                print(f"      - 제목: {title}")
+                print(f"      - 회사: {company}")
+                print(f"      - URL: {url}")
+                if deadline:
+                    print(f"      - 마감일: {deadline}")
+                if start_date:
+                    print(f"      - 시작일: {start_date}")
+                if crawling_time:
+                    print(f"      - 크롤링시간: {crawling_time}")
+
+        # 매칭 통계
+        matched_count = sum(
+            1
+            for doc in retrieved_docs[:20]
+            if isinstance(doc, dict)
+            and str(
+                doc.get("metadata", {}).get("rec_idx")
+                or doc.get("metadata", {}).get("rec_id", "")
+            )
+            in gt_rec_idxs
+        )
+        print(f"\n📈 매칭 통계:")
+        print(f"   - GT 문서 수: {len(gt_rec_idxs)}개")
+        print(f"   - 검색된 문서 수: {len(retrieved_docs)}개")
+        print(f"   - 상위 20개 중 매칭: {matched_count}개")
+        print(
+            f"   - 매칭률: {matched_count / len(gt_rec_idxs) * 100:.1f}%"
+            if gt_rec_idxs
+            else "   - 매칭률: N/A"
+        )
+
+        print("=" * 80 + "\n")
 
     def count_tokens(self, text: str) -> int:
         """텍스트의 토큰 수 계산 (tiktoken 사용)"""
@@ -445,6 +1003,19 @@ class ExperimentPipeline:
         retriever = components["retriever"]
         evaluator = components["evaluator"]
 
+        # 디버깅 모드: 단일 쿼리만 평가
+        debug_single_query = getattr(
+            self.config.evaluation, "debug_single_query", False
+        )
+        if debug_single_query:
+            print("\n" + "=" * 80)
+            print("🔍 디버깅 모드: 단일 쿼리만 평가합니다")
+            print("=" * 80)
+            test_queries = test_queries[:1]
+
+        # 평가 전 통계 출력
+        self._print_retrieval_evaluation_statistics(test_queries)
+
         query_results = []
         skipped_queries = 0
         TOKEN_LIMIT = 8000  # 안전 마진 포함
@@ -472,14 +1043,46 @@ class ExperimentPipeline:
                 skipped_queries += 1
                 continue
 
-            # 필수 필드 체크
-            if "query" not in query_data:
-                print(f"'query' 필드 없음, 쿼리 스킵")
+            # 필드명 호환성: query_text 또는 query
+            query_text = query_data.get("query") or query_data.get("query_text")
+            if not query_text:
+                print(f"'query' 또는 'query_text' 필드 없음, 쿼리 스킵")
                 skipped_queries += 1
                 continue
 
-            query_text = query_data["query"]
-            ground_truth = query_data.get("ground_truth_docs", [])
+            # 필드명 호환성: ground_truth_docs 또는 ground_truth
+            ground_truth = query_data.get("ground_truth_docs") or query_data.get(
+                "ground_truth", []
+            )
+
+            # ground_truth가 rec_idx만 있는 경우 dict 형태로 변환
+            if (
+                ground_truth
+                and isinstance(ground_truth[0], dict)
+                and "rec_idx" in ground_truth[0]
+            ):
+                ground_truth = [
+                    {
+                        "rec_idx": (
+                            gt.get("rec_idx", gt) if isinstance(gt, dict) else gt
+                        ),
+                        "url": gt.get(
+                            "url",
+                            f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={gt.get('rec_idx', gt) if isinstance(gt, dict) else gt}",
+                        ),
+                        "job_title": gt.get("job_title", ""),
+                    }
+                    for gt in ground_truth
+                ]
+            elif ground_truth and isinstance(ground_truth[0], str):
+                ground_truth = [
+                    {
+                        "rec_idx": gt,
+                        "url": f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={gt}",
+                        "job_title": "",
+                    }
+                    for gt in ground_truth
+                ]
 
             # 토큰 수 체크 및 필요시 수강 이력 트리밍
             original_token_count = self.count_tokens(query_text)
@@ -505,10 +1108,29 @@ class ExperimentPipeline:
                 # 쿼리 임베딩 생성
                 query_embedding = embedder.embed([query_text])[0]
 
+                # 동적 top_k 설정: R-recall 계산을 위해 정답 개수만큼은 검색
+                base_top_k = self.config.retriever.top_k
+                gt_count = len(ground_truth) if ground_truth else 0
+                # max(기존 top_k, 정답개수)로 설정 (최대 60개로 제한)
+                # R-recall을 정확히 계산하려면 최소한 GT count만큼은 검색해야 함
+                evaluation_top_k = min(max(base_top_k, gt_count), 60)
+
+                # 디버깅: GT count가 base_top_k보다 큰 경우 로그 출력
+                if gt_count > base_top_k and len(query_results) == 0:
+                    print(
+                        f"  ⚠️  GT count({gt_count}) > base_top_k({base_top_k}), evaluation_top_k={evaluation_top_k}로 검색"
+                    )
+
                 # 검색 수행
                 search_results = retriever.search(
-                    query_embedding, top_k=self.config.retriever.top_k
+                    query_embedding, top_k=evaluation_top_k
                 )
+
+                # 디버깅: 실제 검색된 문서 수 확인
+                if len(search_results) < evaluation_top_k and len(query_results) == 0:
+                    print(
+                        f"  ⚠️  검색 요청: {evaluation_top_k}개, 실제 검색: {len(search_results)}개"
+                    )
 
                 # 검색 결과 디버깅 (첫 번째 쿼리만)
                 if len(query_results) == 0:
@@ -532,10 +1154,14 @@ class ExperimentPipeline:
                         if isinstance(item, tuple) and len(item) == 2:
                             doc, score = item
                             if isinstance(doc, dict):
+                                metadata = doc.get("metadata", {})
                                 retrieved_docs.append(
                                     {
                                         "text": doc.get("text", ""),
-                                        "metadata": doc.get("metadata", {}),
+                                        "metadata": {
+                                            **metadata,  # 모든 메타데이터 포함 (deadline, start_date, crawling_time 등)
+                                            "score": score,  # 유사도 점수도 포함
+                                        },
                                     }
                                 )
                             else:
@@ -584,12 +1210,55 @@ class ExperimentPipeline:
 
         print(f"\n처리 완료: {len(query_results)}개, 스킵: {skipped_queries}개")
 
+        # 첫 번째 쿼리에 대한 상세 결과 출력
+        if query_results:
+            self._print_single_query_details(query_results[0], evaluator)
+
         # 평가 지표 계산
         evaluation_results = evaluator.evaluate(query_results)
 
-        print("\n=== 평가 결과 ===")
-        for result in evaluation_results:
-            print(f"{result.metric_name}: {result.score:.4f}")
+        # 디버깅 모드인 경우 여기서 종료 (전체 통계 생략)
+        if debug_single_query:
+            print("\n" + "=" * 80)
+            print("✅ 디버깅 모드: 단일 쿼리 평가 완료")
+            print("=" * 80)
+            return query_results
+
+        print("\n=== 평가 결과 (사용자 요청 순서) ===")
+        # 평가 지표 순서 정의 (사용자 요청 순서)
+        metric_order = [
+            "ndcg@10",
+            "mrr@10",
+            "precision@3",
+            "precision@5",
+            "precision@10",
+            "precision@20",
+            "hit@10_count",
+            "r_recall",
+        ]
+
+        # 순서대로 출력
+        for metric_name in metric_order:
+            result = next(
+                (r for r in evaluation_results if r.metric_name == metric_name), None
+            )
+            if result:
+                if metric_name == "hit@10_count":
+                    print(f"{result.metric_name}: {result.score:.2f}")
+                else:
+                    print(f"{result.metric_name}: {result.score:.4f}")
+
+        # 추가 지표 출력 (하위 호환성)
+        other_results = [
+            r for r in evaluation_results if r.metric_name not in metric_order
+        ]
+        if other_results:
+            print("\n=== 추가 지표 (하위 호환성) ===")
+            for result in other_results:
+                if result.metric_name == "hit@20_count":
+                    print(f"{result.metric_name}: {result.score:.2f}")
+                else:
+                    print(f"{result.metric_name}: {result.score:.4f}")
 
         return query_results
 
@@ -689,6 +1358,9 @@ class ExperimentPipeline:
         embedder = components["embedder"]
         retriever = components["retriever"]
 
+        # 평가 전 통계 출력
+        self._print_retrieval_evaluation_statistics(test_queries)
+
         query_results = []
         skipped_queries = 0
         TOKEN_LIMIT = 8000
@@ -705,12 +1377,51 @@ class ExperimentPipeline:
                         skipped_queries += 1
                         continue
 
-                if not isinstance(query_data, dict) or "query" not in query_data:
+                if not isinstance(query_data, dict):
                     skipped_queries += 1
                     continue
 
-                query_text = query_data["query"]
-                ground_truth = query_data.get("ground_truth_docs", [])
+                # 필드명 호환성: query_text 또는 query
+                query_text = query_data.get("query") or query_data.get("query_text")
+                if not query_text:
+                    skipped_queries += 1
+                    continue
+
+                # 필드명 호환성: ground_truth_docs 또는 ground_truth
+                ground_truth = query_data.get("ground_truth_docs") or query_data.get(
+                    "ground_truth", []
+                )
+
+                # ground_truth가 rec_idx만 있는 경우 dict 형태로 변환
+                if (
+                    ground_truth
+                    and isinstance(ground_truth[0], dict)
+                    and "rec_idx" in ground_truth[0]
+                ):
+                    # 이미 dict 형태이지만 rec_idx만 있는 경우, url이 없으면 추가
+                    ground_truth = [
+                        {
+                            "rec_idx": (
+                                gt.get("rec_idx", gt) if isinstance(gt, dict) else gt
+                            ),
+                            "url": gt.get(
+                                "url",
+                                f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={gt.get('rec_idx', gt) if isinstance(gt, dict) else gt}",
+                            ),
+                            "job_title": gt.get("job_title", ""),
+                        }
+                        for gt in ground_truth
+                    ]
+                elif ground_truth and isinstance(ground_truth[0], str):
+                    # rec_idx 문자열 리스트인 경우
+                    ground_truth = [
+                        {
+                            "rec_idx": gt,
+                            "url": f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={gt}",
+                            "job_title": "",
+                        }
+                        for gt in ground_truth
+                    ]
 
                 # 토큰 수 체크 및 트리밍
                 original_token_count = self.count_tokens(query_text)
@@ -778,8 +1489,47 @@ class ExperimentPipeline:
 
         for i, query_data in enumerate(sampled_queries):
             try:
-                query_text = query_data["query"]
-                ground_truth = query_data.get("ground_truth_docs", [])
+                # 필드명 호환성: query_text 또는 query
+                query_text = query_data.get("query") or query_data.get("query_text")
+                if not query_text:
+                    print(
+                        f"   샘플 쿼리 {i} 생성 평가 실패: 'query' 또는 'query_text' 필드 없음"
+                    )
+                    continue
+
+                # 필드명 호환성: ground_truth_docs 또는 ground_truth
+                ground_truth = query_data.get("ground_truth_docs") or query_data.get(
+                    "ground_truth", []
+                )
+
+                # ground_truth가 rec_idx만 있는 경우 dict 형태로 변환
+                if (
+                    ground_truth
+                    and isinstance(ground_truth[0], dict)
+                    and "rec_idx" in ground_truth[0]
+                ):
+                    ground_truth = [
+                        {
+                            "rec_idx": (
+                                gt.get("rec_idx", gt) if isinstance(gt, dict) else gt
+                            ),
+                            "url": gt.get(
+                                "url",
+                                f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={gt.get('rec_idx', gt) if isinstance(gt, dict) else gt}",
+                            ),
+                            "job_title": gt.get("job_title", ""),
+                        }
+                        for gt in ground_truth
+                    ]
+                elif ground_truth and isinstance(ground_truth[0], str):
+                    ground_truth = [
+                        {
+                            "rec_idx": gt,
+                            "url": f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={gt}",
+                            "job_title": "",
+                        }
+                        for gt in ground_truth
+                    ]
 
                 # 토큰 수 체크 및 트리밍
                 original_token_count = self.count_tokens(query_text)
@@ -788,20 +1538,51 @@ class ExperimentPipeline:
 
                 # 검색 수행
                 query_embedding = embedder.embed([query_text])[0]
+
+                # 동적 top_k 설정: R-recall 계산을 위해 정답 개수만큼은 검색
+                base_top_k = self.config.retriever.top_k
+                gt_count = len(ground_truth) if ground_truth else 0
+                # max(기존 top_k, 정답개수)로 설정 (최대 60개로 제한)
+                evaluation_top_k = min(max(base_top_k, gt_count), 60)
+
                 search_results = retriever.search(
-                    query_embedding, top_k=self.config.retriever.top_k
+                    query_embedding, top_k=evaluation_top_k
                 )
 
-                # 검색 결과 정리
+                # 검색 결과 정리 (메타데이터 전체 포함)
                 retrieved_docs = []
                 for item in search_results:
                     if isinstance(item, tuple) and len(item) == 2:
                         doc, score = item
                         if isinstance(doc, dict):
+                            metadata = doc.get("metadata", {})
+
+                            # 디버깅: 첫 번째 검색 결과의 메타데이터 확인
+                            if len(retrieved_docs) == 0:
+                                print(
+                                    f"\n🔍 [생성 평가] 첫 번째 검색 결과 메타데이터 확인:"
+                                )
+                                print(f"   - rec_idx: {metadata.get('rec_idx', 'N/A')}")
+                                print(
+                                    f"   - deadline: {metadata.get('deadline', 'N/A')}"
+                                )
+                                print(
+                                    f"   - start_date: {metadata.get('start_date', 'N/A')}"
+                                )
+                                print(
+                                    f"   - crawling_time: {metadata.get('crawling_time', 'N/A')}"
+                                )
+                                print(
+                                    f"   - 전체 메타데이터 키: {list(metadata.keys())[:15]}"
+                                )
+
                             retrieved_docs.append(
                                 {
                                     "text": doc.get("text", ""),
-                                    "metadata": doc.get("metadata", {}),
+                                    "metadata": {
+                                        **metadata,  # 모든 메타데이터 포함 (deadline, start_date, crawling_time 등)
+                                        "score": score,  # 유사도 점수도 포함
+                                    },
                                 }
                             )
 
@@ -901,12 +1682,59 @@ class ExperimentPipeline:
         if retrieval_evaluation is not None:
             # 검색 평가가 활성화된 경우만 실행
             retrieval_query_results = retrieval_evaluation["query_results"]
-            evaluator = components["evaluator"]
+
+            # evaluator가 없으면 직접 생성
+            if "evaluator" not in components:
+                from implementations.evaluators import RetrieverEvaluator
+
+                evaluator = RetrieverEvaluator()
+            else:
+                evaluator = components["evaluator"]
+
             retrieval_evaluation_results = evaluator.evaluate(retrieval_query_results)
 
-            print("\n=== 검색 성능 평가 결과 ===")
-            for result in retrieval_evaluation_results:
-                print(f"{result.metric_name}: {result.score:.4f}")
+            print("\n=== 검색 성능 평가 결과 (사용자 요청 순서) ===")
+            # 평가 지표 순서 정의 (사용자 요청 순서)
+            metric_order = [
+                "ndcg@10",
+                "mrr@10",
+                "precision@3",
+                "precision@5",
+                "precision@10",
+                "precision@20",
+                "hit@10_count",
+                "r_recall",
+            ]
+
+            # 순서대로 출력
+            for metric_name in metric_order:
+                result = next(
+                    (
+                        r
+                        for r in retrieval_evaluation_results
+                        if r.metric_name == metric_name
+                    ),
+                    None,
+                )
+                if result:
+                    if metric_name == "hit@10_count":
+                        print(f"{result.metric_name}: {result.score:.2f}")
+                    else:
+                        print(f"{result.metric_name}: {result.score:.4f}")
+
+            # 추가 지표 출력 (하위 호환성)
+            other_results = [
+                r
+                for r in retrieval_evaluation_results
+                if r.metric_name not in metric_order
+            ]
+            if other_results:
+                print("\n=== 추가 지표 (하위 호환성) ===")
+                for result in other_results:
+                    if result.metric_name == "hit@20_count":
+                        print(f"{result.metric_name}: {result.score:.2f}")
+                    else:
+                        print(f"{result.metric_name}: {result.score:.4f}")
         else:
             print("\n=== 검색 성능 평가 생략됨 ===")
             print("   (프로필 기반 검색 시스템 - GT 준비 필요)")
@@ -1012,27 +1840,184 @@ class ExperimentPipeline:
             #     results["config"]["langsmith"] = asdict(self.config.langsmith)
 
         # 4. 결과 파일 저장
-        results_file = self.output_dir / f"results_{self.experiment_id}.json"
-        with open(results_file, "w", encoding="utf-8") as f:
-            json.dump(results, f, ensure_ascii=False, indent=2)
+        try:
+            # 디렉토리 확인 및 생성
+            self.output_dir.mkdir(parents=True, exist_ok=True)
+
+            results_file = self.output_dir / f"results_{self.experiment_id}.json"
+            with open(results_file, "w", encoding="utf-8") as f:
+                json.dump(results, f, ensure_ascii=False, indent=2)
+            print(f"✅ 요약 결과 저장: {results_file.absolute()}")
+        except Exception as e:
+            print(f"❌ 요약 결과 저장 실패: {e}")
+            import traceback
+
+            traceback.print_exc()
 
         # 5. 상세 결과 저장
         # 검색 결과
-        retrieval_detailed_file = (
-            self.output_dir / f"retrieval_detailed_{self.experiment_id}.jsonl"
-        )
-        with open(retrieval_detailed_file, "w", encoding="utf-8") as f:
-            for qr in retrieval_query_results:
-                query_detail = {
-                    "query": qr.query,
-                    "ground_truth_count": len(qr.ground_truth_docs),
-                    "retrieved_count": len(qr.retrieved_docs),
-                    "retrieved_doc_ids": [
-                        doc.get("metadata", {}).get("rec_idx", "unknown")
-                        for doc in qr.retrieved_docs
-                    ],
-                }
-                f.write(json.dumps(query_detail, ensure_ascii=False) + "\n")
+        try:
+            retrieval_detailed_file = (
+                self.output_dir / f"retrieval_detailed_{self.experiment_id}.jsonl"
+            )
+            with open(retrieval_detailed_file, "w", encoding="utf-8") as f:
+                for qr in retrieval_query_results:
+                    # 검색된 문서 메타데이터
+                    retrieved_docs_detail = []
+                    for doc in qr.retrieved_docs:
+                        if isinstance(doc, dict):
+                            metadata = doc.get("metadata", {})
+                            rec_idx = metadata.get("rec_idx") or metadata.get(
+                                "rec_id", "unknown"
+                            )
+                            retrieved_docs_detail.append(
+                                {
+                                    "rec_idx": rec_idx,
+                                    "title": (
+                                        metadata.get("title")
+                                        or metadata.get("post_title")
+                                        or ""
+                                    ),
+                                    "company": (
+                                        metadata.get("company")
+                                        or metadata.get("company_name")
+                                        or ""
+                                    ),
+                                    "url": (
+                                        metadata.get("url")
+                                        or metadata.get("detail_url")
+                                        or (
+                                            f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={rec_idx}"
+                                            if rec_idx != "unknown"
+                                            else ""
+                                        )
+                                    ),
+                                    "deadline": metadata.get("deadline"),
+                                    "start_date": metadata.get("start_date"),
+                                    "crawling_time": metadata.get("crawling_time"),
+                                    "score": doc.get("score", 0.0),
+                                }
+                            )
+
+                    # GT 문서 메타데이터
+                    # retriever에서 메타데이터 조회 가능 여부 확인
+                    retriever = components.get("retriever")
+                    has_get_metadata = retriever and hasattr(
+                        retriever, "get_metadata_by_rec_idx"
+                    )
+
+                    ground_truth_detail = []
+                    for gt in qr.ground_truth_docs:
+                        if isinstance(gt, dict):
+                            rec_idx = gt.get("rec_idx") or gt.get("rec_id", "unknown")
+
+                            # 기존 메타데이터에서 title과 company 가져오기
+                            title = (
+                                gt.get("title")
+                                or gt.get("job_title")
+                                or gt.get("post_title")
+                                or ""
+                            )
+                            company = gt.get("company") or gt.get("company_name") or ""
+
+                            # title이나 company가 비어있고 retriever에서 조회 가능하면 조회
+                            if (
+                                (not title or not company)
+                                and has_get_metadata
+                                and rec_idx != "unknown"
+                            ):
+                                try:
+                                    metadata = retriever.get_metadata_by_rec_idx(
+                                        rec_idx
+                                    )
+                                    if metadata:
+                                        if not title:
+                                            title = (
+                                                metadata.get("title")
+                                                or metadata.get("post_title")
+                                                or ""
+                                            )
+                                        if not company:
+                                            company = (
+                                                metadata.get("company")
+                                                or metadata.get("company_name")
+                                                or ""
+                                            )
+                                except Exception as e:
+                                    # 조회 실패해도 계속 진행
+                                    pass
+
+                            ground_truth_detail.append(
+                                {
+                                    "rec_idx": rec_idx,
+                                    "title": title,
+                                    "company": company,
+                                    "url": (
+                                        gt.get("url")
+                                        or gt.get("detail_url")
+                                        or (
+                                            f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={rec_idx}"
+                                            if rec_idx != "unknown"
+                                            else ""
+                                        )
+                                    ),
+                                    "deadline": gt.get("deadline"),
+                                    "start_date": gt.get("start_date"),
+                                    "crawling_time": gt.get("crawling_time"),
+                                }
+                            )
+                        else:
+                            rec_idx_str = str(gt)
+
+                            # retriever에서 메타데이터 조회
+                            title = ""
+                            company = ""
+                            if has_get_metadata and rec_idx_str != "unknown":
+                                try:
+                                    metadata = retriever.get_metadata_by_rec_idx(
+                                        rec_idx_str
+                                    )
+                                    if metadata:
+                                        title = (
+                                            metadata.get("title")
+                                            or metadata.get("post_title")
+                                            or ""
+                                        )
+                                        company = (
+                                            metadata.get("company")
+                                            or metadata.get("company_name")
+                                            or ""
+                                        )
+                                except Exception as e:
+                                    # 조회 실패해도 계속 진행
+                                    pass
+
+                            ground_truth_detail.append(
+                                {
+                                    "rec_idx": rec_idx_str,
+                                    "title": title,
+                                    "company": company,
+                                    "url": f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={rec_idx_str}",
+                                    "deadline": None,
+                                    "start_date": None,
+                                    "crawling_time": None,
+                                }
+                            )
+
+                    query_detail = {
+                        "query": qr.query,
+                        "ground_truth_count": len(qr.ground_truth_docs),
+                        "retrieved_count": len(qr.retrieved_docs),
+                        "retrieved_docs": retrieved_docs_detail,
+                        "ground_truth_docs": ground_truth_detail,
+                    }
+                    f.write(json.dumps(query_detail, ensure_ascii=False) + "\n")
+            print(f"✅ 검색 상세 결과 저장: {retrieval_detailed_file.absolute()}")
+        except Exception as e:
+            print(f"❌ 검색 상세 결과 저장 실패: {e}")
+            import traceback
+
+            traceback.print_exc()
 
         # 생성 결과 (있다면)
         if dual_results["generation_evaluation"] is not None:
@@ -1040,36 +2025,66 @@ class ExperimentPipeline:
             generation_results = generation_evaluation["query_results"]
 
             if generation_results:
-                generation_detailed_file = (
-                    self.output_dir / f"generation_detailed_{self.experiment_id}.jsonl"
-                )
-                with open(generation_detailed_file, "w", encoding="utf-8") as f:
+                try:
+                    generation_detailed_file = (
+                        self.output_dir
+                        / f"generation_detailed_{self.experiment_id}.jsonl"
+                    )
+                    with open(generation_detailed_file, "w", encoding="utf-8") as f:
+                        for result in generation_results:
+                            f.write(json.dumps(result, ensure_ascii=False) + "\n")
+                    print(
+                        f"✅ 생성 상세 결과 저장: {generation_detailed_file.absolute()}"
+                    )
+                except Exception as e:
+                    print(f"❌ 생성 상세 결과 저장 실패: {e}")
+                    import traceback
+
+                    traceback.print_exc()
+
+                try:
+                    # 생성된 응답만 별도 저장
+                    responses_file = (
+                        self.output_dir
+                        / f"generated_responses_{self.experiment_id}.json"
+                    )
+                    responses_only = []
                     for result in generation_results:
-                        f.write(json.dumps(result, ensure_ascii=False) + "\n")
+                        if result.get("generated_response"):
+                            responses_only.append(
+                                {
+                                    "query": result["query"],
+                                    "response": result["generated_response"],
+                                }
+                            )
 
-                # 생성된 응답만 별도 저장
-                responses_file = (
-                    self.output_dir / f"generated_responses_{self.experiment_id}.json"
+                    with open(responses_file, "w", encoding="utf-8") as f:
+                        json.dump(responses_only, f, ensure_ascii=False, indent=2)
+                    print(f"✅ 생성된 응답 저장: {responses_file.absolute()}")
+                except Exception as e:
+                    print(f"❌ 생성된 응답 저장 실패: {e}")
+                    import traceback
+
+                    traceback.print_exc()
+
+        print(f"\n{'='*60}")
+        print(f"✅ 결과 저장 완료")
+        print(f"{'='*60}")
+        print(f"📁 저장 디렉토리: {self.output_dir.absolute()}")
+        if "results_file" in locals():
+            print(f"📄 요약 결과: {results_file.name} ({results_file.absolute()})")
+        if "retrieval_detailed_file" in locals():
+            print(
+                f"📄 검색 상세 결과: {retrieval_detailed_file.name} ({retrieval_detailed_file.absolute()})"
+            )
+        if dual_results["generation_evaluation"] is not None:
+            generation_evaluation = dual_results["generation_evaluation"]
+            if generation_evaluation.get("query_results"):
+                print(
+                    f"📄 생성 상세 결과: generation_detailed_{self.experiment_id}.jsonl"
                 )
-                responses_only = []
-                for result in generation_results:
-                    if result.get("generated_response"):
-                        responses_only.append(
-                            {
-                                "query": result["query"],
-                                "response": result["generated_response"],
-                            }
-                        )
-
-                with open(responses_file, "w", encoding="utf-8") as f:
-                    json.dump(responses_only, f, ensure_ascii=False, indent=2)
-
-                print(f"  - 생성 상세 결과: {generation_detailed_file}")
-                print(f"  - 생성된 응답: {responses_file}")
-
-        print(f"결과 저장 완료:")
-        print(f"  - 요약 결과: {results_file}")
-        print(f"  - 검색 상세 결과: {retrieval_detailed_file}")
+                print(f"📄 생성된 응답: generated_responses_{self.experiment_id}.json")
+        print(f"{'='*60}\n")
 
         return results
 
@@ -1127,9 +2142,29 @@ class ExperimentPipeline:
                 # 2. 쿼리 임베딩 변환 (embed는 List[str]을 받으므로 리스트로 감싸기)
                 query_embedding = embedder.embed([query_text])[0]
 
-                # 3. 검색 실행 (config에서 top_k 가져오기)
-                top_k = self.config.retriever.top_k
-                search_results = retriever.search(query_embedding, top_k=top_k)
+                # 3. 동적 top_k 설정: R-recall 계산을 위해 정답 개수만큼은 검색
+                base_top_k = self.config.retriever.top_k
+                gt_count = len(ground_truth) if ground_truth else 0
+                # max(기존 top_k, 정답개수)로 설정 (최대 60개로 제한)
+                # R-recall을 정확히 계산하려면 최소한 GT count만큼은 검색해야 함
+                evaluation_top_k = min(max(base_top_k, gt_count), 60)
+
+                # 디버깅: GT count가 base_top_k보다 큰 경우 로그 출력
+                if gt_count > base_top_k and idx == 1:
+                    print(
+                        f"  ⚠️  Query {query_id}: GT count({gt_count}) > base_top_k({base_top_k}), evaluation_top_k={evaluation_top_k}로 검색"
+                    )
+
+                # 4. 검색 실행
+                search_results = retriever.search(
+                    query_embedding, top_k=evaluation_top_k
+                )
+
+                # 디버깅: 실제 검색된 문서 수 확인
+                if len(search_results) < evaluation_top_k and idx == 1:
+                    print(
+                        f"  ⚠️  Query {query_id}: 검색 요청 {evaluation_top_k}개, 실제 검색 {len(search_results)}개"
+                    )
 
                 # ⏱️ 검색 시간 측정 종료
                 search_time = time.time() - search_start
@@ -1160,7 +2195,68 @@ class ExperimentPipeline:
                     retrieved_rec_idxs, gt_rec_idxs, search_time=search_time
                 )
 
-                # 결과 저장
+                # retriever에서 메타데이터 조회 가능 여부 확인
+                has_get_metadata = retriever and hasattr(
+                    retriever, "get_metadata_by_rec_idx"
+                )
+
+                # GT 문서에 title과 company 추가 (비어있는 경우)
+                enriched_ground_truth = []
+                for gt in ground_truth:
+                    gt_rec_idx = str(gt.get("rec_idx", gt))
+
+                    # 기존 메타데이터에서 title과 company 가져오기
+                    title = (
+                        gt.get("title")
+                        or gt.get("job_title")
+                        or gt.get("post_title")
+                        or ""
+                    )
+                    company = gt.get("company") or gt.get("company_name") or ""
+
+                    # title이나 company가 비어있고 retriever에서 조회 가능하면 조회
+                    if (
+                        (not title or not company)
+                        and has_get_metadata
+                        and gt_rec_idx != "unknown"
+                    ):
+                        try:
+                            metadata = retriever.get_metadata_by_rec_idx(gt_rec_idx)
+                            if metadata:
+                                if not title:
+                                    title = (
+                                        metadata.get("title")
+                                        or metadata.get("post_title")
+                                        or ""
+                                    )
+                                if not company:
+                                    company = (
+                                        metadata.get("company")
+                                        or metadata.get("company_name")
+                                        or ""
+                                    )
+                        except Exception as e:
+                            # 조회 실패해도 계속 진행
+                            pass
+
+                    enriched_ground_truth.append(
+                        {
+                            "rec_idx": gt_rec_idx,
+                            "title": title,
+                            "company": company,
+                            "url": gt.get("url")
+                            or gt.get(
+                                "detail_url",
+                                f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={gt_rec_idx}",
+                            ),
+                            "deadline": gt.get("deadline"),
+                            "start_date": gt.get("start_date"),
+                            "crawling_time": gt.get("crawling_time"),
+                        }
+                    )
+
+                # 결과 저장 (메타데이터 포함)
+                # 메타데이터에서 모든 필드를 정확히 추출
                 result = {
                     "query_id": query_id,
                     "query_text": query_text,
@@ -1169,13 +2265,32 @@ class ExperimentPipeline:
                             "rank": i + 1,
                             "rec_idx": retrieved_rec_idxs[i],
                             "score": retrieved_docs[i]["score"],
-                            "job_title": retrieved_docs[i]["metadata"].get(
-                                "post_title", "제목 없음"
+                            "title": (
+                                retrieved_docs[i]["metadata"].get("title")
+                                or retrieved_docs[i]["metadata"].get("post_title")
+                                or "제목 없음"
+                            ),
+                            "company": (
+                                retrieved_docs[i]["metadata"].get("company")
+                                or retrieved_docs[i]["metadata"].get("company_name")
+                                or ""
+                            ),
+                            "url": (
+                                retrieved_docs[i]["metadata"].get("url")
+                                or retrieved_docs[i]["metadata"].get("detail_url")
+                                or f"https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx={retrieved_rec_idxs[i]}"
+                            ),
+                            "deadline": retrieved_docs[i]["metadata"].get("deadline"),
+                            "start_date": retrieved_docs[i]["metadata"].get(
+                                "start_date"
+                            ),
+                            "crawling_time": retrieved_docs[i]["metadata"].get(
+                                "crawling_time"
                             ),
                         }
                         for i in range(len(retrieved_rec_idxs))
                     ],
-                    "ground_truth": ground_truth,
+                    "ground_truth": enriched_ground_truth,
                     "metrics": metrics,
                 }
                 results.append(result)

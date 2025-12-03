@@ -64,51 +64,127 @@ class CareerHYLangSmithEvaluator:
         print(f"🔍 LangSmith 평가 시작: {len(query_results)}개 쿼리")
         print(f"🤖 Judge 모델: {self.judge_model}")
         print(f"📊 평가 지표: {self.metrics}")
+        print(f"📁 LangSmith 프로젝트: {self.project_name}")
+
+        # LangSmith 프로젝트명을 환경변수로 설정 (전체 평가 세션 동안 유지)
+        import os
+
+        original_project = os.environ.get("LANGCHAIN_PROJECT")
+        os.environ["LANGCHAIN_PROJECT"] = self.project_name
+        print(f"✅ LangSmith 프로젝트명 설정: {self.project_name}")
 
         # 직접 평가 실행
         final_results = []
 
-        for metric_name in self.metrics:
-            print(f"\n📈 {metric_name} 평가 중...")
+        try:
+            for metric_name in self.metrics:
+                print(f"\n📈 {metric_name} 평가 중...")
 
-            try:
-                scores = []
-                reasonings = []
+                try:
+                    scores = []
+                    reasonings = []
+                    failed_count = 0
 
-                for i, result in enumerate(query_results):
-                    evaluation_result = await self._evaluate_single_query(
-                        result, metric_name
+                    for i, result in enumerate(query_results):
+                        try:
+                            # generated_response 구조 확인 (디버깅)
+                            if i == 0:
+                                generated_response = result.get(
+                                    "generated_response", {}
+                                )
+                                print(f"🔍 첫 번째 쿼리의 generated_response 구조:")
+                                print(f"   - 타입: {type(generated_response)}")
+                                print(
+                                    f"   - 키: {list(generated_response.keys()) if isinstance(generated_response, dict) else 'N/A'}"
+                                )
+                                if isinstance(generated_response, dict):
+                                    recommended_jobs = generated_response.get(
+                                        "recommended_jobs", []
+                                    )
+                                    print(
+                                        f"   - recommended_jobs 개수: {len(recommended_jobs) if isinstance(recommended_jobs, list) else 'N/A'}"
+                                    )
+                                    print(
+                                        f"   - content 존재: {'content' in generated_response}"
+                                    )
+
+                            evaluation_result = await self._evaluate_single_query(
+                                result, metric_name
+                            )
+
+                            if evaluation_result["score"] > 0:
+                                scores.append(evaluation_result["score"])
+                                reasonings.append(evaluation_result["reasoning"])
+                            else:
+                                failed_count += 1
+                                if i < 3:  # 처음 3개만 상세 로그
+                                    print(
+                                        f"   ⚠️  쿼리 {i} 평가 실패: {evaluation_result.get('reasoning', 'N/A')}"
+                                    )
+
+                        except Exception as e:
+                            failed_count += 1
+                            if i < 3:
+                                print(f"   ❌ 쿼리 {i} 평가 중 예외 발생: {e}")
+                            import traceback
+
+                            traceback.print_exc()
+
+                    if not scores:
+                        print(
+                            f"❌ {metric_name}: 모든 쿼리 평가 실패 ({failed_count}개)"
+                        )
+                        final_results.append(
+                            LangSmithEvaluationResult(
+                                metric_name=metric_name,
+                                score=0.0,
+                                reasoning=f"모든 쿼리 평가 실패 ({failed_count}개)",
+                                details={
+                                    "error": "all_evaluations_failed",
+                                    "failed_count": failed_count,
+                                },
+                            )
+                        )
+                    else:
+                        avg_score = sum(scores) / len(scores)
+                        final_results.append(
+                            LangSmithEvaluationResult(
+                                metric_name=metric_name,
+                                score=avg_score,
+                                reasoning=f"평균 점수: {avg_score:.3f} ({len(scores)}/{len(query_results)}개 성공)",
+                                details={
+                                    "individual_scores": scores,
+                                    "individual_reasonings": reasonings,
+                                    "total_queries": len(query_results),
+                                    "successful_queries": len(scores),
+                                    "failed_queries": failed_count,
+                                },
+                            )
+                        )
+                        print(
+                            f"✅ {metric_name} 평가 완료: {avg_score:.3f} ({len(scores)}/{len(query_results)}개 성공)"
+                        )
+
+                except Exception as e:
+                    print(f"❌ {metric_name} 평가 중 전체 실패: {e}")
+                    import traceback
+
+                    traceback.print_exc()
+                    final_results.append(
+                        LangSmithEvaluationResult(
+                            metric_name=metric_name,
+                            score=0.0,
+                            reasoning=f"평가 실패: {e}",
+                            details={"error": str(e)},
+                        )
                     )
-                    scores.append(evaluation_result["score"])
-                    reasonings.append(evaluation_result["reasoning"])
 
-                avg_score = sum(scores) / len(scores) if scores else 0.0
-
-                final_results.append(
-                    LangSmithEvaluationResult(
-                        metric_name=metric_name,
-                        score=avg_score,
-                        reasoning=f"평균 점수: {avg_score:.3f}",
-                        details={
-                            "individual_scores": scores,
-                            "individual_reasonings": reasonings,
-                            "total_queries": len(query_results),
-                        },
-                    )
-                )
-
-                print(f"✅ {metric_name} 평가 완료: {avg_score:.3f}")
-
-            except Exception as e:
-                print(f"❌ {metric_name} 평가 실패: {e}")
-                final_results.append(
-                    LangSmithEvaluationResult(
-                        metric_name=metric_name,
-                        score=0.0,
-                        reasoning=f"평가 실패: {e}",
-                        details={"error": str(e)},
-                    )
-                )
+        finally:
+            # 원래 프로젝트명 복원
+            if original_project:
+                os.environ["LANGCHAIN_PROJECT"] = original_project
+            elif "LANGCHAIN_PROJECT" in os.environ:
+                del os.environ["LANGCHAIN_PROJECT"]
 
         print(f"\n🎉 LangSmith 평가 완료!")
         for result in final_results:
@@ -126,11 +202,18 @@ class CareerHYLangSmithEvaluator:
             user_profile = query_result.get("user_profile", {})
             generated_response = query_result.get("generated_response", {})
             alternative_query = query_result.get("alternative_query", "")
+            retrieved_docs = query_result.get(
+                "retrieved_docs", []
+            )  # 전체 텍스트 접근용
 
             # 메트릭별 평가 프롬프트 생성
             if metric_name == "recommendation_quality":
                 prompt = self._create_recommendation_quality_prompt(
-                    query, user_profile, generated_response, alternative_query
+                    query,
+                    user_profile,
+                    generated_response,
+                    alternative_query,
+                    retrieved_docs,
                 )
             elif metric_name == "personalization_score":
                 prompt = self._create_personalization_prompt(
@@ -142,13 +225,31 @@ class CareerHYLangSmithEvaluator:
                 )
             elif metric_name == "profile_alignment":
                 prompt = self._create_profile_alignment_prompt(
-                    user_profile, generated_response
+                    user_profile, generated_response, retrieved_docs
                 )
             else:
                 raise ValueError(f"Unknown metric: {metric_name}")
 
-            # LLM으로 평가 실행
-            response = await self.llm.ainvoke(prompt)
+            # LLM으로 평가 실행 (LangSmith 프로젝트명은 이미 환경변수로 설정됨)
+            from langchain_core.runnables import RunnableConfig
+
+            # LangChain 프로젝트명을 명시적으로 설정 (환경변수와 함께)
+            config = RunnableConfig(
+                tags=[f"evaluation-{metric_name}", *self.base_tags],
+                metadata={
+                    "metric": metric_name,
+                    "project": self.project_name,
+                },
+            )
+
+            # 환경변수 재확인 및 설정
+            import os
+
+            if os.environ.get("LANGCHAIN_PROJECT") != self.project_name:
+                os.environ["LANGCHAIN_PROJECT"] = self.project_name
+                print(f"   🔧 LangChain 프로젝트명 재설정: {self.project_name}")
+
+            response = await self.llm.ainvoke(prompt, config=config)
             response_text = response.content
 
             # 점수와 이유 추출
@@ -175,13 +276,39 @@ class CareerHYLangSmithEvaluator:
         user_profile: Dict,
         generated_response: Dict,
         alternative_query: str = "",
+        retrieved_docs: List[Dict[str, Any]] = None,
     ) -> str:
         """추천 품질 평가 프롬프트 생성"""
         # alternative_query가 있으면 사용, 없으면 query 사용
         display_query = alternative_query if alternative_query else query
         # 평가 대상 : 추천 공고 리스트, 조언 / 설명 텍스트
-        recommended_jobs = json.dumps(
-            generated_response.get("recommended_jobs", []), ensure_ascii=False, indent=2
+        recommended_jobs = generated_response.get("recommended_jobs", [])
+
+        # 추천된 공고의 전체 텍스트 포함
+        recommended_jobs_with_text = []
+        for job in recommended_jobs:
+            rec_idx = job.get("rec_idx")
+            if rec_idx and retrieved_docs:
+                # retrieved_docs에서 해당 rec_idx의 전체 텍스트 찾기
+                full_text = ""
+                for doc in retrieved_docs:
+                    doc_metadata = doc.get("metadata", {})
+                    if str(doc_metadata.get("rec_idx", "")) == str(rec_idx):
+                        full_text = doc.get("text", "")
+                        break
+
+                job_with_text = {
+                    **job,
+                    "full_text": (
+                        full_text[:2000] if full_text else "텍스트 없음"
+                    ),  # 최대 2000자
+                }
+            else:
+                job_with_text = {**job, "full_text": "텍스트 없음"}
+            recommended_jobs_with_text.append(job_with_text)
+
+        recommended_jobs_json = json.dumps(
+            recommended_jobs_with_text, ensure_ascii=False, indent=2
         )
         recommendation_content = generated_response.get("content", "")
         return f"""
@@ -196,7 +323,7 @@ class CareerHYLangSmithEvaluator:
 
 
 [평가 대상]
-1. 추천 공고 리스트: {recommended_jobs}
+1. 추천 공고 리스트 (전체 텍스트 포함): {recommended_jobs_json}
 2. 생성된 조언 및 설명: {recommendation_content}
 
 평가 기준:
@@ -225,6 +352,21 @@ class CareerHYLangSmithEvaluator:
         """개인화 평가 프롬프트 생성"""
         display_query = alternative_query if alternative_query else query
         recommendation_content = generated_response.get("content", "")
+
+        # 자격증 정보 포맷팅
+        certifications = user_profile.get("certification", [])
+        if isinstance(certifications, list):
+            cert_display = ", ".join(certifications) if certifications else "없음"
+        else:
+            cert_display = str(certifications) if certifications else "없음"
+
+        # 동아리 활동 정보 포맷팅
+        club_activities = user_profile.get("club_activities", [])
+        if isinstance(club_activities, list):
+            club_display = ", ".join(club_activities) if club_activities else "없음"
+        else:
+            club_display = str(club_activities) if club_activities else "없음"
+
         return f"""
 다음 '추천 조언'이 사용자에게 얼마나 '개인화'되어 있는지 1-5점으로 평가해주세요.
 (이 평가는 추천된 공고 리스트가 아닌, '생성된 조언' 텍스트 자체에 집중합니다.)
@@ -235,16 +377,18 @@ class CareerHYLangSmithEvaluator:
 사용자 프로필:
 - 전공: {user_profile.get('major', 'N/A')}
 - 관심 직무: {user_profile.get('interest_job', 'N/A')}
+- 자격증: {cert_display}
+- 동아리/대외활동: {club_display}
 
 [평가대상]
 - 생성된 조언:
 {recommendation_content}
 
 [평가 기준]
-- 이 조언이 '사용자 프로필'(전공, 관심 직무)의 요소를 얼마나 구체적으로 '언급'하고 '반영'하여 맞춤형 조언을 제공하는지 평가합니다.
+- 이 조언이 '사용자 프로필'(전공, 관심 직무, 자격증, 동아리 활동)의 요소를 얼마나 구체적으로 '언급'하고 '반영'하여 맞춤형 조언을 제공하는지 평가합니다.
 
 [점수 기준]
-- 5점 (매우 우수): 사용자의 전공, 관심 직무를 명확히 언급하며, 이와 직접적으로 연결된 구체적인 행동(예: '경영학 전공이시니 OOO 경험을 강조하세요')을 제안합니다.
+- 5점 (매우 우수): 사용자의 전공, 관심 직무, 자격증, 동아리 활동 등을 명확히 언급하며, 이와 직접적으로 연결된 구체적인 행동(예: '경영학 전공이시니 OOO 경험을 강조하세요', 'SQLD 자격증을 보유하셨으니...')을 제안합니다.
 - 3점 (보통): 프로필 요소를 언급하기는 하나, '관련 경험을 쌓으세요'처럼 일반적인 수준의 조언에 그칩니다.
 - 1점 (매우 미흡): 프로필을 전혀 반영하지 않은(예: "당신에게 맞는 공고를 추천합니다") 템플릿 형태의 일반적인 조언입니다.
 
@@ -286,12 +430,61 @@ class CareerHYLangSmithEvaluator:
 """
 
     def _create_profile_alignment_prompt(
-        self, user_profile: Dict, generated_response: Dict
+        self,
+        user_profile: Dict,
+        generated_response: Dict,
+        retrieved_docs: List[Dict[str, Any]] = None,
     ) -> str:
         """프로필 일치도 평가 프롬프트 생성"""
-        recommended_jobs = json.dumps(
-            generated_response.get("recommended_jobs", []), ensure_ascii=False, indent=2
+        recommended_jobs = generated_response.get("recommended_jobs", [])
+
+        # 수강 이력 상세 정보 포맷팅 (수강 이력 중복 제거)
+        catalogs = user_profile.get("catalogs", [])
+        course_details = ""
+        if catalogs and len(catalogs) > 0:
+            detail_lines = []
+            for cat in catalogs[:10]:
+                course_name = (
+                    cat.get("course_name", "N/A") if isinstance(cat, dict) else "N/A"
+                )
+                core_competency = (
+                    cat.get("core_competency", "N/A")
+                    if isinstance(cat, dict)
+                    else "N/A"
+                )
+                detail_lines.append(f"  • {course_name} (핵심 역량: {core_competency})")
+            course_details = (
+                f"- 수강 이력 상세 ({len(catalogs)}개 강의):\n"
+                + "\n".join(detail_lines)
+            )
+
+        # 추천된 공고에 전체 텍스트 포함
+        recommended_jobs_with_text = []
+        for job in recommended_jobs:
+            rec_idx = job.get("rec_idx")
+            if rec_idx and retrieved_docs:
+                # retrieved_docs에서 해당 rec_idx의 전체 텍스트 찾기
+                full_text = ""
+                for doc in retrieved_docs:
+                    doc_metadata = doc.get("metadata", {})
+                    if str(doc_metadata.get("rec_idx", "")) == str(rec_idx):
+                        full_text = doc.get("text", "")
+                        break
+
+                job_with_text = {
+                    **job,
+                    "full_text": (
+                        full_text[:2000] if full_text else "텍스트 없음"
+                    ),  # 최대 2000자
+                }
+            else:
+                job_with_text = {**job, "full_text": "텍스트 없음"}
+            recommended_jobs_with_text.append(job_with_text)
+
+        recommended_jobs_json = json.dumps(
+            recommended_jobs_with_text, ensure_ascii=False, indent=2
         )
+
         return f"""
 추천된 '채용 공고 리스트'가 '사용자 프로필'과 얼마나 일치하는지 1-5점으로 평가해주세요.
 (이 평가는 '사용자 질문'이나 '생성된 조언'을 **무시**하고, 오직 추천된 공고가 '사용자 프로필'과 얼마나 일치하는지에 집중합니다.)
@@ -299,11 +492,11 @@ class CareerHYLangSmithEvaluator:
 [정보]
 사용자 프로필:
 - 전공: {user_profile.get('major', 'N/A')}
-- 수강이력: {user_profile.get('courses', [])}
+{course_details}
 
 [평가 대상]
-추천된 공고들:
-{recommended_jobs}
+추천된 공고들 (전체 텍스트 포함):
+{recommended_jobs_json}
 
 [점수 기준]
 - 5점 (매우 우수): 모든 추천 공고가 사용자의 전공 또는 수강이력 명확하게 일치합니다.
@@ -317,19 +510,39 @@ class CareerHYLangSmithEvaluator:
     def _extract_score(self, response_text: str) -> float:
         """응답에서 점수 추출"""
         try:
+            import re
+
+            # 여러 패턴 시도
+            patterns = [
+                r"점수[:\s]*(\d+\.?\d*)",
+                r"점수[:\s]*(\d+)",
+                r"(\d+\.?\d*)\s*점",
+                r"(\d+)\s*점",
+                r"score[:\s]*(\d+\.?\d*)",
+            ]
+
+            for pattern in patterns:
+                matches = re.findall(pattern, response_text, re.IGNORECASE)
+                if matches:
+                    score = float(matches[0])
+                    score = max(1.0, min(5.0, score))  # 1-5 범위로 제한
+                    return score
+
+            # 패턴 매칭 실패 시 라인별 검색
             lines = response_text.strip().split("\n")
             for line in lines:
-                if "점수" in line and ":" in line:
-                    score_part = line.split(":")[1].strip()
-                    import re
-
-                    numbers = re.findall(r"\d+\.?\d*", score_part)
+                if "점수" in line or "score" in line.lower():
+                    numbers = re.findall(r"\d+\.?\d*", line)
                     if numbers:
                         score = float(numbers[0])
-                        return max(1.0, min(5.0, score))  # 1-5 범위로 제한
-            return 3.0  # 기본값
-        except:
-            return 3.0
+                        return max(1.0, min(5.0, score))
+
+            # 모두 실패하면 0 반환 (평가 실패로 표시)
+            print(f"⚠️  점수 추출 실패. 응답 텍스트: {response_text[:200]}...")
+            return 0.0
+        except Exception as e:
+            print(f"⚠️  점수 추출 중 예외: {e}")
+            return 0.0
 
     def _extract_reasoning(self, response_text: str) -> str:
         """응답에서 이유 추출"""

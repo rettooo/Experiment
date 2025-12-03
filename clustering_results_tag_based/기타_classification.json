@@ -1,0 +1,259 @@
+{
+  "major_category": "기타",
+  "statistics": {
+    "total_docs": 18,
+    "unique_docs": 18,
+    "num_mid_categories": 1,
+    "overlap_info": {}
+  },
+  "mid_categories": {
+    "기타": {
+      "size": 18,
+      "total_assignments": 18,
+      "documents": [
+        {
+          "rec_id": "50210396",
+          "title": "차량 사이버보안 위협 분석 및 테스트-RED팀 (신입/경력 무관)",
+          "cleaned_title": "차량 사이버보안 위협 분석 테스트 RED팀 ( 무관)",
+          "company": "(주)페스카로",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50210396",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50231999",
+          "title": "[젠틀몬스터] LAB 모션오브제 외형제작 및 모델링 담당자 모집",
+          "cleaned_title": "LAB 모션오브제 외형제작 모델링",
+          "company": "(주)아이아이컴바인드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50231999",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50313293",
+          "title": "(주)바이오톡스텍 신뢰성보증 담당자 모집공고",
+          "cleaned_title": "신뢰성보증",
+          "company": "(주)바이오톡스텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50313293",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50313309",
+          "title": "(주)바이오톡스텍 병리/시험책임자 모집",
+          "cleaned_title": "병리 시험책임자",
+          "company": "(주)바이오톡스텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50313309",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50315197",
+          "title": "(주)제니스유통 관리부 신입 및 경력사원 모집",
+          "cleaned_title": "관리부",
+          "company": "(주)제니스유통",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50315197",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50332340",
+          "title": "경영지원 업무 담당자 모집",
+          "cleaned_title": "경영지원 업무",
+          "company": "(주)베스툴",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50332340",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50336417",
+          "title": "RM(Risk Management) 부문 독립성팀 정규전환형 인턴",
+          "cleaned_title": "RM(Risk Management) 부문 독립성팀 정규전환형",
+          "company": "한영회계법인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50336417",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50341601",
+          "title": "울산 소재지 외국인지원센터 인도네시아어 통번역사 모집",
+          "cleaned_title": "울산 소재지 외국인지원센터 인도네시아어 통번역사",
+          "company": "(주)에이치알스탠다드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50341601",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50401983",
+          "title": "리뉴어스주식회사 청원사업소 신입직원 모집(전기)",
+          "cleaned_title": "리뉴어스 청원사업소 (전기)",
+          "company": "리뉴어스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50401983",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50413879",
+          "title": "2025년 대졸 체험형 인턴 모집",
+          "cleaned_title": "체험형",
+          "company": "(주)휴비츠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50413879",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50436112",
+          "title": "[HK이노엔]_2025 상반기 콜마그룹 대졸신입 공채(약무정책)",
+          "cleaned_title": "콜마그룹 (약무정책)",
+          "company": "에이치케이이노엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436112",
+          "tags": [
+            "#정책연구"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50436234",
+          "title": "[HK연우]_2025 상반기 콜마그룹 대졸신입 공채(글로벌소싱)",
+          "cleaned_title": "콜마그룹 (글로벌소싱)",
+          "company": "(주)연우",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436234",
+          "tags": [
+            "#입고/입하"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50443997",
+          "title": "Marketing Assistant",
+          "cleaned_title": "Marketing Assistant",
+          "company": "블록체인랩스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50443997",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50473058",
+          "title": "[다원시스] 본사 전산 인프라&보안 담당자 모집(신입/경력)",
+          "cleaned_title": "전산 인프라&보안 ( )",
+          "company": "(주)다원시스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50473058",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50499322",
+          "title": "서울여자대학교 관재업무 계약직원 모집(보훈)",
+          "cleaned_title": "관재업무 계약 (보훈)",
+          "company": "서울여자대학교",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50499322",
+          "tags": [
+            "#입시컨설팅",
+            "#대학교",
+            "#동화구연"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50506553",
+          "title": "[포스텍] 선박 사이버보안 신입사원 모집",
+          "cleaned_title": "선박 사이버보안",
+          "company": "(주)포스텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506553",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50506780",
+          "title": "금융컨설팅부문 리스크 컨설팅 인턴",
+          "cleaned_title": "금융컨설팅부문 리스크 컨설팅",
+          "company": "한영회계법인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506780",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50509719",
+          "title": "[CRISPY] 글로벌 숏폼 드라마 조연출 인턴을 모십니다",
+          "cleaned_title": "글로벌 숏폼 드라마 조연출 을 모십니다",
+          "company": "주식회사 더크리스피",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50509719",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    }
+  }
+}

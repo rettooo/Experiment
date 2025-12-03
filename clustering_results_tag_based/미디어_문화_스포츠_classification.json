@@ -1,0 +1,3611 @@
+{
+  "major_category": "#미디어·문화·스포츠",
+  "statistics": {
+    "total_docs": 69,
+    "unique_docs": 69,
+    "num_mid_categories": 18,
+    "overlap_info": {
+      "with_기획_전략": 40,
+      "with_디자인": 10,
+      "with_마케팅_홍보_조사": 35,
+      "with_인사_노무_hrd": 36,
+      "with_교육": 4,
+      "with_연구_r&d": 15,
+      "with_it개발_데이터": 14,
+      "with_고객상담_tm": 1,
+      "with_구매_자재_물류": 1,
+      "with_영업_판매_무역": 2,
+      "with_생산": 8,
+      "with_서비스": 2,
+      "with_건설_건축": 2,
+      "with_총무_법무_사무": 5,
+      "with_회계_세무_재무": 3,
+      "with_상품기획_md": 1,
+      "with_의료": 1,
+      "with_공공_복지": 1
+    }
+  },
+  "mid_categories": {
+    "기타": {
+      "size": 13,
+      "total_assignments": 13,
+      "documents": [
+        {
+          "rec_id": "50062661",
+          "title": "[아이스크림미디어] 영상 제작자 모집(촬영)",
+          "cleaned_title": "영상 제작자 (촬영)",
+          "company": "(주)아이스크림미디어",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50062661",
+          "tags": [
+            "#교육",
+            "#영상제작",
+            "#미디어·문화·스포츠",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#교육"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육컨텐츠개발"
+            ]
+          }
+        },
+        {
+          "rec_id": "50110867",
+          "title": "2025년 일본 영업/구매 모집 (신입 가능)",
+          "cleaned_title": "일본 영업 구매 ( 가능)",
+          "company": "(주)동방엔지니어링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50110867",
+          "tags": [
+            "#고객상담·TM",
+            "#상담원",
+            "#영업",
+            "#거래처영업",
+            "#교육",
+            "#기업영업",
+            "#일본어",
+            "#미디어·문화·스포츠",
+            "#일"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#교육",
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "상담원"
+            ],
+            "#교육": [
+              "기타"
+            ],
+            "#구매·자재·물류": [
+              "구매"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50138185",
+          "title": "바이스앤 골프아카데미 운영 및 기획",
+          "cleaned_title": "바이스앤 골프아카데미 운영 기획",
+          "company": "(주)바이스앤",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50138185",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#골프",
+            "#유아교육",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#미디어·문화·스포츠",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "교육운영",
+              "교육컨텐츠개발",
+              "교육컨텐츠기획"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50350531",
+          "title": "공연기획&해외운영 사업부 인턴사원 모집",
+          "cleaned_title": "공연기획&해외운영 사업부",
+          "company": "(주)에이치에스엔터테인먼트앤컨텐츠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50350531",
+          "tags": [
+            "#시장조사",
+            "#공연기획",
+            "#미디어·문화·스포츠",
+            "#마케팅·홍보·조사",
+            "#글로벌마케팅",
+            "#공연예술"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "글로벌마케팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50361366",
+          "title": "국가유산체험센터 운영·콘텐츠 인턴 모집",
+          "cleaned_title": "국가유산체험센터 운영·콘텐츠",
+          "company": "와이비에스에듀사회적협동조합",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50361366",
+          "tags": [
+            "#서비스",
+            "#미디어·문화·스포츠",
+            "#매장관리",
+            "#문화재"
+          ],
+          "other_major_categories": [
+            "#서비스"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#서비스": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50369785",
+          "title": "[PLEDIS Entertainment] A&R (뮤직 프로덕션)",
+          "cleaned_title": "A&R (뮤직 프로덕션)",
+          "company": "(주)플레디스엔터테인먼트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50369785",
+          "tags": [
+            "#엔터테인먼트",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50369813",
+          "title": "[PLEDIS Entertainment] A&R (크리에이티브 프로덕션)",
+          "cleaned_title": "A&R (크리에이티브 프로덕션)",
+          "company": "(주)플레디스엔터테인먼트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50369813",
+          "tags": [
+            "#엔터테인먼트",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50371926",
+          "title": "[쇼핑엔티] 홈쇼핑 편성 담당 신입/경력 채용",
+          "cleaned_title": "홈쇼핑 편성 담당",
+          "company": "(주)티알엔",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50371926",
+          "tags": [
+            "#데이터분석",
+            "#상품기획·MD",
+            "#편성",
+            "#시장조사",
+            "#영업·판매·무역",
+            "#기획·전략",
+            "#홈쇼핑",
+            "#사업관리",
+            "#기획",
+            "#미디어·문화·스포츠",
+            "#예산관리",
+            "#실적관리",
+            "#방송송출"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#상품기획·md",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#상품기획·md": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50378999",
+          "title": "굿모닝병원 국제진료센터 직원(영어 통역)채용 공고",
+          "cleaned_title": "굿모닝병원 국제진료센터 (영어 통역)",
+          "company": "(의)백송의료재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50378999",
+          "tags": [
+            "#영어",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#의료",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#의료": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50414115",
+          "title": "후지퍼시픽뮤직코리아㈜ 음악 저작권 관리 신입사원 모집",
+          "cleaned_title": "후지퍼시픽뮤직코리아 음악 저작권 관리",
+          "company": "후지퍼시픽뮤직코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50414115",
+          "tags": [
+            "#총무·법무·사무",
+            "#저작권",
+            "#음악저작권",
+            "#미디어·문화·스포츠",
+            "#라이선스",
+            "#사무직",
+            "#저작권관리"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50432445",
+          "title": "매일경제 세계지식포럼 연사섭외 및 기획 (영어)담당자 채용",
+          "cleaned_title": "매일경제 세계지식포럼 연사섭외 기획 (영어)",
+          "company": "(주)매일경제신문사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50432445",
+          "tags": [
+            "#전략기획",
+            "#영어",
+            "#경영기획",
+            "#행사기획",
+            "#기획·전략",
+            "#미디어·문화·스포츠",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "전략기획",
+              "경영기획",
+              "행사기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "행사기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50469617",
+          "title": "2025년 2차 직원(계약직) 채용 공고(홍보영상기획)",
+          "cleaned_title": "2차 (계약직) (홍보영상기획)",
+          "company": "한국식품산업클러스터진흥원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50469617",
+          "tags": [
+            "#홍보",
+            "#영상제작",
+            "#미디어·문화·스포츠",
+            "#영상편집",
+            "#기업홍보",
+            "#마케팅·홍보·조사",
+            "#영상자막"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "기업홍보"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50518601",
+          "title": "2025년 제1차 신입직원 채용공고",
+          "cleaned_title": "제1차",
+          "company": "(사)대한카누연맹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50518601",
+          "tags": [
+            "#총무·법무·사무",
+            "#기획·전략",
+            "#사무행정",
+            "#미디어·문화·스포츠",
+            "#생활체육",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "MC": {
+      "size": 12,
+      "total_assignments": 12,
+      "documents": [
+        {
+          "rec_id": "50072669",
+          "title": "[BMC광주사업장]모터 연구소 신입/경력 채용",
+          "cleaned_title": "모터 연구소",
+          "company": "(주)비엠씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50072669",
+          "tags": [],
+          "other_major_categories": [
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "MC"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50324621",
+          "title": "[분당/코스닥] SW 개발(임베디드/응용소프트웨어)",
+          "cleaned_title": "SW 개발(임베디드 응용소프트웨어)",
+          "company": "코츠테크놀로지㈜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50324621",
+          "tags": [
+            "#MCU",
+            "#IT개발·데이터",
+            "#C언어",
+            "#생산",
+            "#임베디드리눅스",
+            "#임베디드",
+            "#설계엔지니어",
+            "#Linux",
+            "#S/W",
+            "#H/W",
+            "#Windows",
+            "#C++",
+            "#FPGA",
+            "#네트워크",
+            "#C#"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#생산",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "MC"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#건설·건축": [
+              "설계엔지니어"
+            ],
+            "#생산": [
+              "설계엔지니어",
+              "생산"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50325155",
+          "title": "(주)DHMC 회계 사무원을 모집합니다",
+          "cleaned_title": "DHMC 회계 사무원을 합니다",
+          "company": "(주) 디에이취엠씨 영암지점",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50325155",
+          "tags": [
+            "#더존"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "MC"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50335541",
+          "title": "단암시스템즈 연구개발직 소프트웨어 설계 개발자 모집",
+          "cleaned_title": "단암시스템즈 연구개발직 소프트웨어 설계 개발자",
+          "company": "단암시스템즈(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50335541",
+          "tags": [
+            "#MCU",
+            "#회로설계",
+            "#MFC",
+            "#전자제어",
+            "#IT개발·데이터",
+            "#생산",
+            "#안",
+            "#RTOS",
+            "#임베디드",
+            "#S/W",
+            "#데이터엔지니어",
+            "#H/W",
+            "#OrCAD",
+            "#C#"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "MC"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "데이터엔지니어"
+            ],
+            "#생산": [
+              "구조해석/설계",
+              "전자제어",
+              "회로설계",
+              "생산"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50342276",
+          "title": "[분당/코스닥] HW 시스템 설계 및 개발 채용",
+          "cleaned_title": "HW 시스템 설계 개발",
+          "company": "코츠테크놀로지㈜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50342276",
+          "tags": [
+            "#MCU",
+            "#IT개발·데이터",
+            "#C언어",
+            "#생산",
+            "#임베디드리눅스",
+            "#임베디드",
+            "#설계엔지니어",
+            "#Linux",
+            "#S/W",
+            "#H/W",
+            "#Windows",
+            "#C++",
+            "#FPGA",
+            "#네트워크",
+            "#C#"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#생산",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "MC"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#건설·건축": [
+              "설계엔지니어"
+            ],
+            "#생산": [
+              "구조해석/설계",
+              "설계엔지니어",
+              "생산"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50397332",
+          "title": "Burson 국내/해외 PR 단기 대학생 인턴 모집(6개월)",
+          "cleaned_title": "Burson 국내 해외 PR 단기 대학생 (6개월)",
+          "company": "(주) 시너지버슨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50397332",
+          "tags": [
+            "#IMC",
+            "#기업홍보",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "MC"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "기업홍보"
+            ]
+          }
+        },
+        {
+          "rec_id": "50429439",
+          "title": "기술연구소 하드웨어/펌웨어 엔지니어 모집",
+          "cleaned_title": "기술연구소 하드웨어 펌웨어 엔지니어",
+          "company": "제뉴주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50429439",
+          "tags": [
+            "#MCU",
+            "#펌웨어",
+            "#C언어",
+            "#IT개발·데이터",
+            "#생산",
+            "#의왕시",
+            "#임베디드",
+            "#SI개발",
+            "#H/W",
+            "#OrCAD"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "MC"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "BI 엔지니어",
+              "SI개발"
+            ],
+            "#생산": [
+              "생산"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50439259",
+          "title": "단암시스템즈 연구개발직 하드웨어 부문 신입/경력(RF개발)모집",
+          "cleaned_title": "단암시스템즈 연구개발직 하드웨어 부문 (RF개발)",
+          "company": "단암시스템즈(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50439259",
+          "tags": [
+            "#MCU",
+            "#회로설계",
+            "#MFC",
+            "#전자제어",
+            "#IT개발·데이터",
+            "#생산",
+            "#안",
+            "#RTOS",
+            "#임베디드",
+            "#S/W",
+            "#데이터엔지니어",
+            "#H/W",
+            "#OrCAD",
+            "#C#"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "MC"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "데이터엔지니어"
+            ],
+            "#생산": [
+              "전자제어",
+              "회로설계",
+              "생산"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50456438",
+          "title": "[Tech] 채용연계형 인턴십(IT 인프라)",
+          "cleaned_title": "연계형 십(IT 인프라)",
+          "company": "(주)케이뱅크",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50456438",
+          "tags": [
+            "#IT개발·데이터",
+            "#Tomcat",
+            "#미들웨어",
+            "#Nginx",
+            "#인프라",
+            "#Java",
+            "#AI(인공지능)"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "MC"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50485371",
+          "title": "(주)DHMC 회계 사무원을 모집합니다(진례 본점)",
+          "cleaned_title": "DHMC 회계 사무원을 합니다(진례 본점)",
+          "company": "(주) 디에이취엠씨 영암지점",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50485371",
+          "tags": [
+            "#더존"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "MC"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50495072",
+          "title": "단암시스템즈 연구개발직 하드웨어 부문 신입/경력 모집",
+          "cleaned_title": "단암시스템즈 연구개발직 하드웨어 부문",
+          "company": "단암시스템즈(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50495072",
+          "tags": [
+            "#MCU",
+            "#회로설계",
+            "#IT개발·데이터",
+            "#생산",
+            "#RTOS",
+            "#임베디드",
+            "#임베디드리눅스",
+            "#S/W",
+            "#H/W",
+            "#FPGA"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "MC"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#생산": [
+              "회로설계",
+              "생산"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50498368",
+          "title": "언론홍보 인턴 /사원급 모집",
+          "cleaned_title": "언론홍보 급",
+          "company": "커뮤니크(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50498368",
+          "tags": [
+            "#SNS마케팅",
+            "#언론홍보",
+            "#광고마케팅",
+            "#블로그마케팅",
+            "#비즈니스마케팅",
+            "#AE(광고기획자)",
+            "#바이럴마케팅",
+            "#IMC",
+            "#기업홍보",
+            "#마케팅·홍보·조사",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "MC",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "광고기획",
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "비즈니스마케팅",
+              "블로그마케팅",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "온라인마케팅",
+              "기업홍보",
+              "SNS마케팅",
+              "바이럴마케팅"
+            ]
+          }
+        }
+      ]
+    },
+    "인플루언서": {
+      "size": 12,
+      "total_assignments": 12,
+      "documents": [
+        {
+          "rec_id": "50262885",
+          "title": "[채용연계형/6개월 인턴] Global Account Manager",
+          "cleaned_title": "Global Account Manager",
+          "company": "(주)마야크루",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50262885",
+          "tags": [
+            "#광고마케팅",
+            "#브랜드마케팅",
+            "#인플루언서마케팅",
+            "#마케팅기획",
+            "#제휴마케팅",
+            "#모바일마케팅",
+            "#AM(어카운트매니저)",
+            "#기업홍보",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "마케팅기획",
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "브랜드마케팅",
+              "AM(어카운트매니저)",
+              "광고마케팅",
+              "마케팅전략",
+              "기업홍보",
+              "마케팅기획",
+              "제휴마케팅",
+              "모바일마케팅",
+              "인플루언서마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50315206",
+          "title": "[사회조사] 리서치연구원모집 - 신입연구원 모집",
+          "cleaned_title": "리서치연구원 연구원",
+          "company": "(주)유니온리서치",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50315206",
+          "tags": [
+            "#비즈니스마케",
+            "#통계/분석",
+            "#설문조사",
+            "#사보/뉴스레터",
+            "#CRM마케팅",
+            "#프로덕트마케팅",
+            "#사회조사",
+            "#제휴마케팅",
+            "#AM(어카운트매니저)",
+            "#마케팅·홍보·조사",
+            "#인플루언서마케팅"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "프로덕트마케팅",
+              "CRM마케팅",
+              "AM(어카운트매니저)",
+              "제휴마케팅",
+              "인플루언서마케팅"
+            ],
+            "#연구·r&d": [
+              "연구원"
+            ]
+          }
+        },
+        {
+          "rec_id": "50318360",
+          "title": "[조이그라이슨] 마케팅팀 인턴/경력직 채용공고",
+          "cleaned_title": "마케팅팀 직",
+          "company": "(주)이터널그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50318360",
+          "tags": [
+            "#마케팅",
+            "#브랜드마케팅",
+            "#마케팅기획",
+            "#퍼포먼스마케팅",
+            "#오프라인마케팅",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#인플루언서마케팅",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "마케팅기획",
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "브랜드마케팅",
+              "퍼포먼스마케팅",
+              "오프라인마케팅",
+              "온라인마케팅",
+              "마케팅전략",
+              "마케팅기획",
+              "인플루언서마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50340395",
+          "title": "[비나우] 마케팅 직군 신입/경력 수시 채용",
+          "cleaned_title": "마케팅 직군",
+          "company": "(주)비나우",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50340395",
+          "tags": [
+            "#SNS마케팅",
+            "#마케팅",
+            "#콘텐츠마케팅",
+            "#브랜드마케팅",
+            "#퍼포먼스마케팅",
+            "#일본마케팅",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#글로벌마케팅",
+            "#인플루언서마케팅",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "글로벌마케팅",
+              "브랜드마케팅",
+              "퍼포먼스마케팅",
+              "콘텐츠마케팅",
+              "온라인마케팅",
+              "콘텐츠기획",
+              "SNS마케팅",
+              "인플루언서마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50359645",
+          "title": "[ Craver ] 뷰티 브랜드 SKIN1004 오프라인 마케팅·브랜딩 인턴",
+          "cleaned_title": "오프라인 마케팅·브랜딩",
+          "company": "(주)크레이버코퍼레이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50359645",
+          "tags": [
+            "#SNS마케팅",
+            "#콘텐츠마케팅",
+            "#브랜드마케팅",
+            "#인플루언서마케팅",
+            "#마케팅기획",
+            "#오프라인마케팅",
+            "#이",
+            "#콘텐츠기획",
+            "#기업홍보",
+            "#마케팅·홍보·조사",
+            "#마케팅",
+            "#디지털마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "브랜드마케팅",
+              "오프라인마케팅",
+              "콘텐츠마케팅",
+              "콘텐츠기획",
+              "기업홍보",
+              "마케팅기획",
+              "SNS마케팅",
+              "인플루언서마케팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50395651",
+          "title": "[㈜에실로코리아] Marketing 인턴",
+          "cleaned_title": "[] Marketing",
+          "company": "㈜에실로코리아",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50395651",
+          "tags": [
+            "#SNS마케팅",
+            "#글로벌마케팅",
+            "#광고마케팅",
+            "#블로그마케팅",
+            "#인플루언서마케팅",
+            "#마케팅기획",
+            "#체험마케팅",
+            "#모바",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#마케팅",
+            "#디지털마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "마케팅기획",
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "글로벌마케팅",
+              "블로그마케팅",
+              "광고마케팅",
+              "마케팅전략",
+              "마케팅기획",
+              "체험마케팅",
+              "SNS마케팅",
+              "인플루언서마케팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50413945",
+          "title": "뷰티&라이프 브랜드 디지털 마케팅 매니저 모집",
+          "cleaned_title": "뷰티&라이프 브랜드 디지털 마케팅 매니저",
+          "company": "더핑거그룹플러스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50413945",
+          "tags": [
+            "#SN",
+            "#콘텐츠마케팅",
+            "#홍보",
+            "#AE(광고기획자)",
+            "#디지털마케팅",
+            "#인플루언서마케팅",
+            "#마케팅기획",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#콘텐츠에디터",
+            "#마케팅",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터",
+            "AE(광고기획자)",
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "콘텐츠마케팅",
+              "AE(광고기획자)",
+              "온라인마케팅",
+              "콘텐츠기획",
+              "마케팅기획",
+              "콘텐츠에디터",
+              "인플루언서마케팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50431321",
+          "title": "[중견기업 그룹사] 디지털 마케팅 신입/경력 정규직 모집",
+          "cleaned_title": "디지털 마케팅",
+          "company": "(주)에스엘바이오텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50431321",
+          "tags": [
+            "#마케팅",
+            "#콘텐츠마케팅",
+            "#브랜드마케팅",
+            "#디지털마케팅",
+            "#마케팅기획",
+            "#퍼포먼스마케팅",
+            "#기업홍보",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#인플루언서마케팅",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "마케팅기획",
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "브랜드마케팅",
+              "퍼포먼스마케팅",
+              "콘텐츠마케팅",
+              "온라인마케팅",
+              "마케팅전략",
+              "기업홍보",
+              "마케팅기획",
+              "인플루언서마케팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50432217",
+          "title": "(주)GBS - 경영기획/경영전략/연구기획(기업 및 기관 대상)",
+          "cleaned_title": "GBS 경영기획 경영전략 연구기획(기업 기관 대상)",
+          "company": "(주)지비에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50432217",
+          "tags": [
+            "#콘텐츠마케팅",
+            "#경영기획",
+            "#시장조사",
+            "#전략기",
+            "#인플루언서마케팅",
+            "#사업기획",
+            "#기획·전략",
+            "#마케팅기획",
+            "#오프라인마케팅",
+            "#마케팅·홍보·조사",
+            "#글로벌마케팅",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획",
+              "마케팅기획",
+              "사업기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "글로벌마케팅",
+              "오프라인마케팅",
+              "콘텐츠마케팅",
+              "마케팅전략",
+              "마케팅기획",
+              "인플루언서마케팅"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50470563",
+          "title": "인사이트 넘치는 콘텐츠 마케터 인턴 모집",
+          "cleaned_title": "인사이트 넘치는 콘텐츠 마케터",
+          "company": "(주)센터플러스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50470563",
+          "tags": [
+            "#콘텐츠마",
+            "#바이럴마케팅",
+            "#시장조사",
+            "#디지털마케팅",
+            "#인플루언서마케팅",
+            "#매체관리",
+            "#마케팅기획",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#마케팅",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "온라인마케팅",
+              "마케팅전략",
+              "콘텐츠기획",
+              "마케팅기획",
+              "바이럴마케팅",
+              "인플루언서마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472296",
+          "title": "[Craver] SKIN1004 동남아시아 이커머스 MD 마케팅 인턴 채용",
+          "cleaned_title": "동남아시아 이커머스 MD 마케팅",
+          "company": "(주)크레이버코퍼레이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472296",
+          "tags": [
+            "#SNS마케팅",
+            "#광고마케팅",
+            "#콘텐츠마케팅",
+            "#브랜드마케팅",
+            "#바이럴마케팅",
+            "#인플루언서마케팅",
+            "#퍼포먼스마케팅",
+            "#콘텐츠에디터",
+            "#마케팅·홍보·조사",
+            "#글로벌마케팅",
+            "#마케팅"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터",
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "글로벌마케팅",
+              "브랜드마케팅",
+              "퍼포먼스마케팅",
+              "콘텐츠마케팅",
+              "광고마케팅",
+              "SNS마케팅",
+              "바이럴마케팅",
+              "콘텐츠에디터",
+              "인플루언서마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50473741",
+          "title": "[윙잇] 커머스 마케팅 인턴 (채용전환형)",
+          "cleaned_title": "커머스 마케팅 (전환형)",
+          "company": "(주)윙잇",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50473741",
+          "tags": [
+            "#광고마케팅",
+            "#마케팅·홍보·조사",
+            "#콘텐츠",
+            "#광고PD",
+            "#바이럴마케팅",
+            "#마케팅기획",
+            "#모바일마케팅",
+            "#온라인마케팅",
+            "#마케팅",
+            "#마케팅전략",
+            "#인플루언서마케팅",
+            "#디지털마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "마케팅기획",
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "광고PD",
+              "광고마케팅",
+              "온라인마케팅",
+              "마케팅전략",
+              "마케팅기획",
+              "바이럴마케팅",
+              "모바일마케팅",
+              "인플루언서마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "AE(광고기획자)": {
+      "size": 10,
+      "total_assignments": 10,
+      "documents": [
+        {
+          "rec_id": "50040811",
+          "title": "[퍼블리시스 그룹] 광고기획(전자 브랜드 VI팀) 인턴 채용",
+          "cleaned_title": "광고기획(전자 브랜드 VI팀)",
+          "company": "레오버넷(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50040811",
+          "tags": [
+            "#광고마케팅",
+            "#디자인",
+            "#AE(광고기획자)",
+            "#광고기획",
+            "#PhotoShop",
+            "#기획·전략",
+            "#일러스트",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "기타"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "광고마케팅",
+              "홍보",
+              "AE(광고기획자)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50324602",
+          "title": "[신입 경력] 광고 기획자 채용",
+          "cleaned_title": "광고 기획자",
+          "company": "(주)프로젝트402",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50324602",
+          "tags": [
+            "#키워드광고",
+            "#광고마케팅",
+            "#콘텐츠마케팅",
+            "#검색광고",
+            "#광고PD",
+            "#AE(광고기획자)",
+            "#광고캠페인",
+            "#마케팅기획",
+            "#광고주관리",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#콘텐츠에디터"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "광고PD",
+              "콘텐츠마케팅",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "콘텐츠기획",
+              "마케팅기획",
+              "콘텐츠에디터"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50354562",
+          "title": "[NHN ACE] 광고운영 신입사원 공개채용",
+          "cleaned_title": "광고운영 공개",
+          "company": "(주)엔에이치엔에이스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50354562",
+          "tags": [
+            "#키워드광고",
+            "#광고마케팅",
+            "#미디어플",
+            "#검색광고",
+            "#AE(광고기획자)",
+            "#매체관리",
+            "#광고캠페인",
+            "#퍼포먼스마케팅",
+            "#배너광고",
+            "#광고주관리",
+            "#마케팅·홍보·조사",
+            "#디지털마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "광고기획",
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "퍼포먼스마케팅",
+              "AE(광고기획자)",
+              "광고마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50359475",
+          "title": "온라인 홍보 마케팅 기획자 신입을 모집합니다",
+          "cleaned_title": "온라인 홍보 마케팅 기획자 을 합니다",
+          "company": "(주)엣나우",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50359475",
+          "tags": [
+            "#광고마케팅",
+            "#AE(광고기획자)",
+            "#바이럴마케팅",
+            "#기획·전략",
+            "#광고",
+            "#유튜브",
+            "#마케팅기획",
+            "#미디어·문화·스포츠",
+            "#영상편집",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "온라인마케팅",
+              "마케팅전략",
+              "마케팅기획",
+              "바이럴마케팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50360311",
+          "title": "[신입/경력] 유튜브 바이럴 영상기획&채널 운영 채용",
+          "cleaned_title": "유튜브 바이럴 영상기획&채널 운영",
+          "company": "해커스교육그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50360311",
+          "tags": [
+            "#광고마케팅",
+            "#콘텐츠마케팅",
+            "#광고PD",
+            "#AE(광고기획자)",
+            "#광고기획",
+            "#바이럴마케팅",
+            "#기획·전략",
+            "#광고캠페",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#콘텐츠에디터",
+            "#트렌드분석"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "광고PD",
+              "콘텐츠마케팅",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "콘텐츠기획",
+              "바이럴마케팅",
+              "콘텐츠에디터"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50413945",
+          "title": "뷰티&라이프 브랜드 디지털 마케팅 매니저 모집",
+          "cleaned_title": "뷰티&라이프 브랜드 디지털 마케팅 매니저",
+          "company": "더핑거그룹플러스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50413945",
+          "tags": [
+            "#SN",
+            "#콘텐츠마케팅",
+            "#홍보",
+            "#AE(광고기획자)",
+            "#디지털마케팅",
+            "#인플루언서마케팅",
+            "#마케팅기획",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#콘텐츠에디터",
+            "#마케팅",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터",
+            "AE(광고기획자)",
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "콘텐츠마케팅",
+              "AE(광고기획자)",
+              "온라인마케팅",
+              "콘텐츠기획",
+              "마케팅기획",
+              "콘텐츠에디터",
+              "인플루언서마케팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50443338",
+          "title": "[신입/인턴] 콘텐츠에디터, 콘텐츠마케터 채용",
+          "cleaned_title": "콘텐츠에디터, 콘텐츠마케터",
+          "company": "(주)어반컴플렉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50443338",
+          "tags": [
+            "#언론홍보",
+            "#광고마케팅",
+            "#디자인",
+            "#브랜드마케팅",
+            "#AE(광고기획자)",
+            "#BM(브랜드매니저)",
+            "#마케팅기획",
+            "#이벤트프로모션",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "기타"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "콘텐츠에디터",
+              "홍보",
+              "BM(브랜드매니저)",
+              "브랜드마케팅",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "온라인마케팅",
+              "마케팅전략",
+              "마케팅기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50483975",
+          "title": "[종합광고대행사]정직원 전환형 신입 아트디렉터/AD 채용",
+          "cleaned_title": "정 전환형 아트디렉터 AD",
+          "company": "(주)라이크어버진",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483975",
+          "tags": [
+            "#광고마케팅",
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#AE(광고기획자)",
+            "#광고디자인",
+            "#CW(카피라이터)",
+            "#마케팅기획",
+            "#시각디자인",
+            "#미디어·문화·스포츠",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)",
+            "PD/AD/FD",
+            "CW(카피라이터)",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "AD(아트디렉터)",
+              "광고디자인",
+              "시각디자인"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "CW(카피라이터)",
+              "마케팅전략",
+              "마케팅기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50485225",
+          "title": "[볼드]CREATOR / AE / CW - 대행사업무가능자",
+          "cleaned_title": "CREATOR AE CW 대행사업무가능자",
+          "company": "(주)볼드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50485225",
+          "tags": [
+            "#CW(카피라이터",
+            "#마케팅·홍보·조사",
+            "#AE(광고기획자)",
+            "#AD(아트디렉터)",
+            "#광고기획",
+            "#PD/AD/FD",
+            "#기획·전략",
+            "#영상제작",
+            "#미디어·문화·스포츠",
+            "#영상편집",
+            "#CW(카피라이터)"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)",
+            "PD/AD/FD",
+            "CW(카피라이터)",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "AD(아트디렉터)"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "CW(카피라이터)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50498368",
+          "title": "언론홍보 인턴 /사원급 모집",
+          "cleaned_title": "언론홍보 급",
+          "company": "커뮤니크(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50498368",
+          "tags": [
+            "#SNS마케팅",
+            "#언론홍보",
+            "#광고마케팅",
+            "#블로그마케팅",
+            "#비즈니스마케팅",
+            "#AE(광고기획자)",
+            "#바이럴마케팅",
+            "#IMC",
+            "#기업홍보",
+            "#마케팅·홍보·조사",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "MC",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "광고기획",
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "비즈니스마케팅",
+              "블로그마케팅",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "온라인마케팅",
+              "기업홍보",
+              "SNS마케팅",
+              "바이럴마케팅"
+            ]
+          }
+        }
+      ]
+    },
+    "에디터": {
+      "size": 10,
+      "total_assignments": 10,
+      "documents": [
+        {
+          "rec_id": "50290007",
+          "title": "파이낸셜포스트 채용 연계형 인턴(기자) 채용",
+          "cleaned_title": "연계형 (기자)",
+          "company": "파이낸셜포스트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50290007",
+          "tags": [
+            "#콘텐츠마케팅",
+            "#홍보",
+            "#기자",
+            "#에디터",
+            "#미디어·문화·스포츠",
+            "#콘텐츠기획",
+            "#기업홍보",
+            "#마케팅·홍보·조사",
+            "#콘텐츠에디터"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기자",
+            "에디터"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "콘텐츠마케팅",
+              "기업홍보",
+              "콘텐츠기획",
+              "콘텐츠에디터"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50324602",
+          "title": "[신입 경력] 광고 기획자 채용",
+          "cleaned_title": "광고 기획자",
+          "company": "(주)프로젝트402",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50324602",
+          "tags": [
+            "#키워드광고",
+            "#광고마케팅",
+            "#콘텐츠마케팅",
+            "#검색광고",
+            "#광고PD",
+            "#AE(광고기획자)",
+            "#광고캠페인",
+            "#마케팅기획",
+            "#광고주관리",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#콘텐츠에디터"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "광고PD",
+              "콘텐츠마케팅",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "콘텐츠기획",
+              "마케팅기획",
+              "콘텐츠에디터"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50360311",
+          "title": "[신입/경력] 유튜브 바이럴 영상기획&채널 운영 채용",
+          "cleaned_title": "유튜브 바이럴 영상기획&채널 운영",
+          "company": "해커스교육그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50360311",
+          "tags": [
+            "#광고마케팅",
+            "#콘텐츠마케팅",
+            "#광고PD",
+            "#AE(광고기획자)",
+            "#광고기획",
+            "#바이럴마케팅",
+            "#기획·전략",
+            "#광고캠페",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#콘텐츠에디터",
+            "#트렌드분석"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "광고PD",
+              "콘텐츠마케팅",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "콘텐츠기획",
+              "바이럴마케팅",
+              "콘텐츠에디터"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50380751",
+          "title": "2025 KINX 채용연계형 인턴, 경력 채용",
+          "cleaned_title": "KINX 연계형 ,",
+          "company": "(주)케이아이엔엑스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50380751&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#전략기획",
+            "#블로그마케팅",
+            "#콘텐츠마케팅",
+            "#시장조사",
+            "#행사기획",
+            "#기획·전략",
+            "#서비스기획",
+            "#콘텐츠에디터",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#글로벌마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "전략기획",
+              "서비스기획",
+              "행사기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "블로그마케팅",
+              "글로벌마케팅",
+              "행사기획",
+              "콘텐츠마케팅",
+              "콘텐츠기획",
+              "콘텐츠에디터"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50413258",
+          "title": "(주)공간몬스터 신입 마케터 공개채용",
+          "cleaned_title": "마케터 공개",
+          "company": "(주)공간몬스터",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50413258",
+          "tags": [
+            "#SNS마케팅",
+            "#콘텐츠마케팅",
+            "#홍보",
+            "#브랜드마케팅",
+            "#바이럴마케팅",
+            "#마케팅기획",
+            "#콘텐츠에디터",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#마케팅",
+            "#디지털마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "브랜드마케팅",
+              "콘텐츠마케팅",
+              "마케팅전략",
+              "콘텐츠기획",
+              "마케팅기획",
+              "SNS마케팅",
+              "바이럴마케팅",
+              "콘텐츠에디터"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50413945",
+          "title": "뷰티&라이프 브랜드 디지털 마케팅 매니저 모집",
+          "cleaned_title": "뷰티&라이프 브랜드 디지털 마케팅 매니저",
+          "company": "더핑거그룹플러스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50413945",
+          "tags": [
+            "#SN",
+            "#콘텐츠마케팅",
+            "#홍보",
+            "#AE(광고기획자)",
+            "#디지털마케팅",
+            "#인플루언서마케팅",
+            "#마케팅기획",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#콘텐츠에디터",
+            "#마케팅",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터",
+            "AE(광고기획자)",
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅",
+              "콘텐츠마케팅",
+              "AE(광고기획자)",
+              "온라인마케팅",
+              "콘텐츠기획",
+              "마케팅기획",
+              "콘텐츠에디터",
+              "인플루언서마케팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50442712",
+          "title": "[인턴] 문화예술 콘텐츠 파트 전환형 (6개월)",
+          "cleaned_title": "문화예술 콘텐츠 파트 전환형 (6개월)",
+          "company": "(주)비케이씨앤씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50442712",
+          "tags": [
+            "#콘텐츠마케팅",
+            "#기획·전략",
+            "#문화기획",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#콘텐츠에디터"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "문화기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠마케팅",
+              "콘텐츠기획",
+              "콘텐츠에디터"
+            ]
+          }
+        },
+        {
+          "rec_id": "50443338",
+          "title": "[신입/인턴] 콘텐츠에디터, 콘텐츠마케터 채용",
+          "cleaned_title": "콘텐츠에디터, 콘텐츠마케터",
+          "company": "(주)어반컴플렉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50443338",
+          "tags": [
+            "#언론홍보",
+            "#광고마케팅",
+            "#디자인",
+            "#브랜드마케팅",
+            "#AE(광고기획자)",
+            "#BM(브랜드매니저)",
+            "#마케팅기획",
+            "#이벤트프로모션",
+            "#마케팅·홍보·조사",
+            "#마케팅전략",
+            "#온라인마케팅"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "기타"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "콘텐츠에디터",
+              "홍보",
+              "BM(브랜드매니저)",
+              "브랜드마케팅",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "온라인마케팅",
+              "마케팅전략",
+              "마케팅기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50456416",
+          "title": "[BizㆍMarketing] 채용연계형 인턴십(콘텐츠 서비스 기획)",
+          "cleaned_title": "연계형 십(콘텐츠 서비스 기획)",
+          "company": "(주)케이뱅크",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50456416",
+          "tags": [
+            "#콘텐츠마케팅",
+            "#기획·전략",
+            "#서비스기획",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#콘텐츠에디터"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "서비스기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠마케팅",
+              "콘텐츠기획",
+              "콘텐츠에디터"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472296",
+          "title": "[Craver] SKIN1004 동남아시아 이커머스 MD 마케팅 인턴 채용",
+          "cleaned_title": "동남아시아 이커머스 MD 마케팅",
+          "company": "(주)크레이버코퍼레이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472296",
+          "tags": [
+            "#SNS마케팅",
+            "#광고마케팅",
+            "#콘텐츠마케팅",
+            "#브랜드마케팅",
+            "#바이럴마케팅",
+            "#인플루언서마케팅",
+            "#퍼포먼스마케팅",
+            "#콘텐츠에디터",
+            "#마케팅·홍보·조사",
+            "#글로벌마케팅",
+            "#마케팅"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "에디터",
+            "인플루언서"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "글로벌마케팅",
+              "브랜드마케팅",
+              "퍼포먼스마케팅",
+              "콘텐츠마케팅",
+              "광고마케팅",
+              "SNS마케팅",
+              "바이럴마케팅",
+              "콘텐츠에디터",
+              "인플루언서마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "PD/AD/FD": {
+      "size": 8,
+      "total_assignments": 8,
+      "documents": [
+        {
+          "rec_id": "50221441",
+          "title": "드라마제작사 신입/경력 제작PD 및 기획PD 모집",
+          "cleaned_title": "드라마제작사 제작PD 기획PD",
+          "company": "(주)아크미디어",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50221441",
+          "tags": [
+            "#PD/AD/FD",
+            "#영상제작",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "PD/AD/FD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50273161",
+          "title": "콘텐츠(웹툰/스토리 IP 해외수출) 기획 PD 채용",
+          "cleaned_title": "콘텐츠(웹툰 스토리 IP 해외수출) 기획 PD",
+          "company": "(주)피알액트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50273161",
+          "tags": [
+            "#스토리텔링",
+            "#미디어·문화·스포츠",
+            "#만화/웹툰",
+            "#뉴미디어"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "PD/AD/FD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50315931",
+          "title": "[브리드] 판타지/무협 웹소설/장르소설 PD (신입/경력)",
+          "cleaned_title": "판타지 무협 웹소설 장르소설 PD ( )",
+          "company": "(주)브리드컴퍼니",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50315931",
+          "tags": [
+            "#웹소설",
+            "#기획·전략",
+            "#전자출판",
+            "#미디어·문화·스포츠",
+            "#만화/웹툰",
+            "#출판기획",
+            "#IP비즈니스"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "PD/AD/FD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "출판기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50403042",
+          "title": "[아워코퍼레이션] 미디어커머스 영상 PD 채용 전환형 인턴",
+          "cleaned_title": "미디어커머스 영상 PD 전환형",
+          "company": "(주)아워코퍼레이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50403042",
+          "tags": [
+            "#촬영",
+            "#PD/AD/FD",
+            "#촬영보조",
+            "#영상제작",
+            "#미디어·문화·스포츠",
+            "#영상편집",
+            "#영상자막"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "PD/AD/FD"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50483975",
+          "title": "[종합광고대행사]정직원 전환형 신입 아트디렉터/AD 채용",
+          "cleaned_title": "정 전환형 아트디렉터 AD",
+          "company": "(주)라이크어버진",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483975",
+          "tags": [
+            "#광고마케팅",
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#AE(광고기획자)",
+            "#광고디자인",
+            "#CW(카피라이터)",
+            "#마케팅기획",
+            "#시각디자인",
+            "#미디어·문화·스포츠",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)",
+            "PD/AD/FD",
+            "CW(카피라이터)",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "AD(아트디렉터)",
+              "광고디자인",
+              "시각디자인"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "CW(카피라이터)",
+              "마케팅전략",
+              "마케팅기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50485225",
+          "title": "[볼드]CREATOR / AE / CW - 대행사업무가능자",
+          "cleaned_title": "CREATOR AE CW 대행사업무가능자",
+          "company": "(주)볼드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50485225",
+          "tags": [
+            "#CW(카피라이터",
+            "#마케팅·홍보·조사",
+            "#AE(광고기획자)",
+            "#AD(아트디렉터)",
+            "#광고기획",
+            "#PD/AD/FD",
+            "#기획·전략",
+            "#영상제작",
+            "#미디어·문화·스포츠",
+            "#영상편집",
+            "#CW(카피라이터)"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)",
+            "PD/AD/FD",
+            "CW(카피라이터)",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "AD(아트디렉터)"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "CW(카피라이터)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50496628",
+          "title": "(주) 썸씽스페셜 방송 기획개발 인턴 PD 채용",
+          "cleaned_title": "썸씽스페셜 방송 기획개발 PD",
+          "company": "(주)썸씽스페셜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50496628",
+          "tags": [
+            "#콘텐츠마케팅",
+            "#디자인",
+            "#시장조사",
+            "#PD/AD/FD",
+            "#기획·전략",
+            "#TV",
+            "#콘텐츠디자인",
+            "#기획",
+            "#미디어·문화·스포츠",
+            "#콘텐츠기획",
+            "#자료",
+            "#마케팅·홍보·조사",
+            "#트렌드분석"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "PD/AD/FD"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#디자인": [
+              "콘텐츠디자인"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠마케팅",
+              "콘텐츠기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50496813",
+          "title": "[브리드] 로맨스/BL 웹소설/장르소설 PD (신입/경력)",
+          "cleaned_title": "로맨스 BL 웹소설 장르소설 PD ( )",
+          "company": "(주)브리드컴퍼니",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50496813",
+          "tags": [
+            "#웹소설",
+            "#기획·전략",
+            "#전자출판",
+            "#미디어·문화·스포츠",
+            "#만화/웹툰",
+            "#출판기획",
+            "#IP비즈니스"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "PD/AD/FD"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "출판기획"
+            ]
+          }
+        }
+      ]
+    },
+    "기자": {
+      "size": 4,
+      "total_assignments": 4,
+      "documents": [
+        {
+          "rec_id": "50290007",
+          "title": "파이낸셜포스트 채용 연계형 인턴(기자) 채용",
+          "cleaned_title": "연계형 (기자)",
+          "company": "파이낸셜포스트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50290007",
+          "tags": [
+            "#콘텐츠마케팅",
+            "#홍보",
+            "#기자",
+            "#에디터",
+            "#미디어·문화·스포츠",
+            "#콘텐츠기획",
+            "#기업홍보",
+            "#마케팅·홍보·조사",
+            "#콘텐츠에디터"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기자",
+            "에디터"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "콘텐츠마케팅",
+              "기업홍보",
+              "콘텐츠기획",
+              "콘텐츠에디터"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50295831",
+          "title": "로리더 사회부/ 산업부 취재기자",
+          "cleaned_title": "사회부 산업부 취재기자",
+          "company": "로리더",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50295831",
+          "tags": [
+            "#기자",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기자"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50369355",
+          "title": "[바이오스펙테이터] 연구원/연구기자 모집(학사~석사)",
+          "cleaned_title": "연구원 연구기자 (학사~석사)",
+          "company": "(주)바이오스펙테이터",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50369355",
+          "tags": [
+            "#학술연구",
+            "#줄기세포",
+            "#R&D",
+            "#임상개발",
+            "#제약/바이오",
+            "#임상시험",
+            "#생명과학",
+            "#제제연구",
+            "#유전자",
+            "#의약외품연구",
+            "#제형연구",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "기자"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "연구원",
+              "R&D",
+              "R&D기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50507938",
+          "title": "2025년 제2차 위촉직 채용 공고(전기자극 하드웨어 개발)",
+          "cleaned_title": "제2차 위촉직 (전기자극 하드웨어 개발)",
+          "company": "(재)오송첨단의료산업진흥재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50507938",
+          "tags": [
+            "#회로설계",
+            "#전자제어",
+            "#IT개발·데이터",
+            "#생산",
+            "#임베디드리눅스",
+            "#임베디드",
+            "#연구·R&D",
+            "#전자파"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기자"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#생산": [
+              "전자제어",
+              "회로설계",
+              "생산"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "AD(아트디렉터)": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50426113",
+          "title": "[퍼블리시스 그룹] 디자인 (전자브랜드 VI팀) 인턴 채용",
+          "cleaned_title": "디자인 (전자브랜드 VI팀)",
+          "company": "레오버넷(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50426113",
+          "tags": [
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#편집디자인",
+            "#광고디자인",
+            "#PhotoShop",
+            "#일러스트",
+            "#시각디자인",
+            "#그래픽디자인",
+            "#로고디자인",
+            "#미디어·문화·스포츠"
+          ],
+          "other_major_categories": [
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)"
+          ],
+          "mid_categories_in_others": {
+            "#디자인": [
+              "광고디자인",
+              "AD(아트디렉터)",
+              "시각디자인",
+              "편집디자인",
+              "그래픽디자인",
+              "로고디자인"
+            ],
+            "#마케팅·홍보·조사": [
+              "AD(아트디렉터)"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50483975",
+          "title": "[종합광고대행사]정직원 전환형 신입 아트디렉터/AD 채용",
+          "cleaned_title": "정 전환형 아트디렉터 AD",
+          "company": "(주)라이크어버진",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483975",
+          "tags": [
+            "#광고마케팅",
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#AE(광고기획자)",
+            "#광고디자인",
+            "#CW(카피라이터)",
+            "#마케팅기획",
+            "#시각디자인",
+            "#미디어·문화·스포츠",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)",
+            "PD/AD/FD",
+            "CW(카피라이터)",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "AD(아트디렉터)",
+              "광고디자인",
+              "시각디자인"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "CW(카피라이터)",
+              "마케팅전략",
+              "마케팅기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50485225",
+          "title": "[볼드]CREATOR / AE / CW - 대행사업무가능자",
+          "cleaned_title": "CREATOR AE CW 대행사업무가능자",
+          "company": "(주)볼드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50485225",
+          "tags": [
+            "#CW(카피라이터",
+            "#마케팅·홍보·조사",
+            "#AE(광고기획자)",
+            "#AD(아트디렉터)",
+            "#광고기획",
+            "#PD/AD/FD",
+            "#기획·전략",
+            "#영상제작",
+            "#미디어·문화·스포츠",
+            "#영상편집",
+            "#CW(카피라이터)"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)",
+            "PD/AD/FD",
+            "CW(카피라이터)",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "AD(아트디렉터)"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "CW(카피라이터)"
+            ]
+          }
+        }
+      ]
+    },
+    "컬러리스트": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50087358",
+          "title": "디자인연구개발팀 디자이너 정규직 채용 (신입)",
+          "cleaned_title": "디자인연구개발팀 디자이너 ()",
+          "company": "(주)성지라미텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50087358",
+          "tags": [
+            "#디자인",
+            "#컬러리스트",
+            "#PhotoShop",
+            "#서구",
+            "#가구디자인",
+            "#일러스트레이터",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#디자인",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "컬러리스트"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#디자인": [
+              "가구디자인",
+              "웹디자인",
+              "컬러리스트",
+              "일러스트레이터"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50306086",
+          "title": "(주)오타종패키징퍼시픽 제품개발팀 정규직 채용 - 신입",
+          "cleaned_title": "제품개발팀",
+          "company": "(주)오타종패키징퍼시픽",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50306086",
+          "tags": [
+            "#디자인",
+            "#서비스",
+            "#R&D",
+            "#컬러리스트",
+            "#생산",
+            "#패키지디자인",
+            "#연구·R&D",
+            "#기획·전략",
+            "#고객응대",
+            "#제품설계",
+            "#기획",
+            "#현장",
+            "#R&D기획",
+            "#실적관리",
+            "#KPI관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#디자인",
+            "#생산",
+            "#서비스",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "컬러리스트"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#디자인": [
+              "컬러리스트",
+              "패키지디자인"
+            ],
+            "#생산": [
+              "제품설계",
+              "생산"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "R&D",
+              "R&D기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "CW(카피라이터)": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50483975",
+          "title": "[종합광고대행사]정직원 전환형 신입 아트디렉터/AD 채용",
+          "cleaned_title": "정 전환형 아트디렉터 AD",
+          "company": "(주)라이크어버진",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50483975",
+          "tags": [
+            "#광고마케팅",
+            "#디자인",
+            "#AD(아트디렉터)",
+            "#AE(광고기획자)",
+            "#광고디자인",
+            "#CW(카피라이터)",
+            "#마케팅기획",
+            "#시각디자인",
+            "#미디어·문화·스포츠",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)",
+            "PD/AD/FD",
+            "CW(카피라이터)",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "마케팅기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "AD(아트디렉터)",
+              "광고디자인",
+              "시각디자인"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "광고마케팅",
+              "CW(카피라이터)",
+              "마케팅전략",
+              "마케팅기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50485225",
+          "title": "[볼드]CREATOR / AE / CW - 대행사업무가능자",
+          "cleaned_title": "CREATOR AE CW 대행사업무가능자",
+          "company": "(주)볼드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50485225",
+          "tags": [
+            "#CW(카피라이터",
+            "#마케팅·홍보·조사",
+            "#AE(광고기획자)",
+            "#AD(아트디렉터)",
+            "#광고기획",
+            "#PD/AD/FD",
+            "#기획·전략",
+            "#영상제작",
+            "#미디어·문화·스포츠",
+            "#영상편집",
+            "#CW(카피라이터)"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "AD(아트디렉터)",
+            "PD/AD/FD",
+            "CW(카피라이터)",
+            "AE(광고기획자)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "광고기획"
+            ],
+            "#디자인": [
+              "AD(아트디렉터)"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅",
+              "AD(아트디렉터)",
+              "AE(광고기획자)",
+              "CW(카피라이터)"
+            ]
+          }
+        }
+      ]
+    },
+    "큐레이터": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50505166",
+          "title": "2025 이랜드문화재단 큐레이터 인턴",
+          "cleaned_title": "큐레이터",
+          "company": "이랜드문화재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50505166",
+          "tags": [
+            "#큐레이터",
+            "#작가",
+            "#영화미술",
+            "#미디어·문화·스포츠",
+            "#모델에이전시"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "큐레이터",
+            "작가",
+            "영화미술"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50507179",
+          "title": "(주)아트숨비 브랜드/시각 디자이너(인턴) 채용",
+          "cleaned_title": "브랜드 시각 디자이너()",
+          "company": "(주)아트숨비",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50507179",
+          "tags": [
+            "#예술경영",
+            "#큐레이터",
+            "#축제기획",
+            "#문화예술기획",
+            "#행사기획",
+            "#도시재생",
+            "#기획·전략",
+            "#문화기획",
+            "#순수미술",
+            "#기획",
+            "#미디어·문화·스포츠",
+            "#문화재",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#디자인",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "큐레이터"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "문화기획",
+              "행사기획"
+            ],
+            "#디자인": [
+              "기타"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "행사기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "DJ": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50316205",
+          "title": "[25년 상반기 전환형 인턴] iOS/Android/백엔드 개발자 채용",
+          "cleaned_title": "iOS Android 백엔드 개발자",
+          "company": "(주)비모소프트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50316205",
+          "tags": [
+            "#프론트엔드",
+            "#IT개발·데이터",
+            "#Git",
+            "#풀스택",
+            "#알고리즘",
+            "#iOS",
+            "#백엔드/서버개발",
+            "#Java",
+            "#아키텍쳐",
+            "#Hadoop",
+            "#Docker",
+            "#Django",
+            "#Android",
+            "#영상처리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "DJ"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "프론트엔드"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "아나운서": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50351241",
+          "title": "[에그피알] PR팀 AE 신입 채용공고",
+          "cleaned_title": "PR팀 AE",
+          "company": "에그피알(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50351241",
+          "tags": [
+            "#프레",
+            "#내가고르는간식",
+            "#언론홍보",
+            "#겨울시청광장스케이트",
+            "#내가고르는명절선물",
+            "#마케팅교육",
+            "#홍보",
+            "#가을가죽공방클래스",
+            "#아나운서스피치교육",
+            "#생일케익고르기",
+            "#마케팅·홍보·조사",
+            "#디지털마케팅"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "아나운서"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "디지털마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "영상디자이너": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50410829",
+          "title": "[스타쉽엔터테인먼트] 영상 제작팀 채용",
+          "cleaned_title": "영상 제작팀",
+          "company": "(주)스타쉽엔터테인먼트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50410829",
+          "tags": [
+            "#디자인",
+            "#영상디자이너",
+            "#영상디자인",
+            "#영상제작",
+            "#미디어·문화·스포츠",
+            "#영상편집"
+          ],
+          "other_major_categories": [
+            "#디자인",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "영상디자이너"
+          ],
+          "mid_categories_in_others": {
+            "#디자인": [
+              "영상디자인"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "크리에이터": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50428728",
+          "title": "[어스얼라이언스] 교육콘텐츠 기획&운영(인턴)",
+          "cleaned_title": "교육콘텐츠 기획&운영()",
+          "company": "어스얼라이언스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50428728",
+          "tags": [
+            "#크리에이터",
+            "#유튜브",
+            "#미디어·문화·스포츠",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#뉴미디어"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "크리에이터"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠기획"
+            ]
+          }
+        }
+      ]
+    },
+    "작가": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50505166",
+          "title": "2025 이랜드문화재단 큐레이터 인턴",
+          "cleaned_title": "큐레이터",
+          "company": "이랜드문화재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50505166",
+          "tags": [
+            "#큐레이터",
+            "#작가",
+            "#영화미술",
+            "#미디어·문화·스포츠",
+            "#모델에이전시"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "큐레이터",
+            "작가",
+            "영화미술"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "영화미술": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50505166",
+          "title": "2025 이랜드문화재단 큐레이터 인턴",
+          "cleaned_title": "큐레이터",
+          "company": "이랜드문화재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50505166",
+          "tags": [
+            "#큐레이터",
+            "#작가",
+            "#영화미술",
+            "#미디어·문화·스포츠",
+            "#모델에이전시"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "큐레이터",
+            "작가",
+            "영화미술"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "통/번역": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50506661",
+          "title": "[삼정KPMG] 감사방법론 참고자료 및 교재 번역 인턴 채용",
+          "cleaned_title": "[] 감사방법론 참고자료 교재 번역",
+          "company": "삼정KPMG",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506661",
+          "tags": [
+            "#사무보조",
+            "#총무·법무·사무",
+            "#미디어·문화·스포츠",
+            "#통/번역"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "통/번역"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ],
+            "#회계·세무·재무": [
+              "감사"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

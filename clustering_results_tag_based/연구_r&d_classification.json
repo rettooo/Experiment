@@ -1,0 +1,3279 @@
+{
+  "major_category": "#연구·r&d",
+  "statistics": {
+    "total_docs": 358,
+    "unique_docs": 358,
+    "num_mid_categories": 12,
+    "overlap_info": {
+      "with_기획_전략": 99,
+      "with_생산": 118,
+      "with_인사_노무_hrd": 203,
+      "with_총무_법무_사무": 23,
+      "with_it개발_데이터": 177,
+      "with_의료": 25,
+      "with_건설_건축": 50,
+      "with_미디어_문화_스포츠": 15,
+      "with_마케팅_홍보_조사": 17,
+      "with_디자인": 11,
+      "with_서비스": 6,
+      "with_영업_판매_무역": 9,
+      "with_구매_자재_물류": 25,
+      "with_회계_세무_재무": 4,
+      "with_운전_운송_배송": 1,
+      "with_고객상담_tm": 3,
+      "with_공공_복지": 8,
+      "with_교육": 14,
+      "with_상품기획_md": 6,
+      "with_금융_보험": 2
+    }
+  },
+  "mid_categories": {
+    "R&D": {
+      "size": 195,
+      "total_assignments": 195,
+      "documents": [
+        {
+          "rec_id": "47944456",
+          "title": "정부지원 및 국책과제 담당 인턴",
+          "cleaned_title": "정부지원 국책과제 담당",
+          "company": "(주)코딧",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=47944456",
+          "tags": [
+            "#경영기획",
+            "#연구·R&D",
+            "#기획·전략",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "49982373",
+          "title": "마더스제약 R&D센터 연구원 모집",
+          "cleaned_title": "마더스제약 R&D센터 연구원",
+          "company": "(주)마더스제약",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49982373",
+          "tags": [
+            "#R&D",
+            "#제약/바이오",
+            "#유해화학물질",
+            "#의약외품연구",
+            "#CRA(임상연구원)",
+            "#이화학시험",
+            "#고분자",
+            "#R&D기획",
+            "#제제연"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "연구원",
+            "CRA(임상연구원)",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#의료": [
+              "CRA(임상연구원)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50016727",
+          "title": "(주)진 시험 연구 신입 채용",
+          "cleaned_title": "시험 연구",
+          "company": "(주)진",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50016727",
+          "tags": [
+            "#기술연구",
+            "#연구·R&D"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50020529",
+          "title": "제약 개발/RA 담당자 채용",
+          "cleaned_title": "제약 개발 RA",
+          "company": "일양바이오팜(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50020529",
+          "tags": [
+            "#RA",
+            "#연구·R&D",
+            "#의료",
+            "#제제연구"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#의료",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#의료": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50052540",
+          "title": "[NKH그룹사] 2025년 신입사원 채용 - 설계입력",
+          "cleaned_title": "설계입력",
+          "company": "엔케이에이치주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50052540",
+          "tags": [
+            "#광학설계",
+            "#회로설계",
+            "#생산",
+            "#의료기기연구",
+            "#설계엔지니어",
+            "#기계설계",
+            "#연구·R&D",
+            "#제품설계",
+            "#기구설계"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "설계엔지니어"
+            ],
+            "#생산": [
+              "제품설계",
+              "구조해석/설계",
+              "기계설계",
+              "기구설계",
+              "설계엔지니어",
+              "회로설계",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50061763",
+          "title": "(반도체 제조업) 설계 신입사원 채용 (김포 하성 Plant)",
+          "cleaned_title": "(반도체 제조업) 설계 (김포 하성 Plant)",
+          "company": "(주)케이에스엠컴포넌트삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50061763",
+          "tags": [
+            "#기술설계",
+            "#R&D",
+            "#생산",
+            "#반도체",
+            "#기계설계",
+            "#연구·R&D",
+            "#기술엔지니어"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "제조",
+              "기술엔지니어",
+              "기술설계",
+              "구조해석/설계",
+              "기계설계",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50079364",
+          "title": "PSM, 산업안전, 화학사고예방관리계획서 채용(경력&신입)",
+          "cleaned_title": "PSM, 산업안전, 화학사고예방관리계획서 (&)",
+          "company": "라온안전",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50079364",
+          "tags": [
+            "#건설·건축",
+            "#생산",
+            "#컨설턴트",
+            "#안전관리자",
+            "#연구·R&D",
+            "#유해화학물질",
+            "#기획·전략",
+            "#위험성평가",
+            "#PSM"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#기획·전략",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전관리자"
+            ],
+            "#기획·전략": [
+              "기획",
+              "컨설턴트"
+            ],
+            "#생산": [
+              "PSM",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50079393",
+          "title": "PSM, 산업안전, 화학사고예방관리계획서 채용(신입)",
+          "cleaned_title": "PSM, 산업안전, 화학사고예방관리계획서 ()",
+          "company": "라온안전",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50079393",
+          "tags": [
+            "#건설·건축",
+            "#생산",
+            "#컨설턴트",
+            "#안전관리자",
+            "#연구·R&D",
+            "#유해화학물질",
+            "#기획·전략",
+            "#위험성평가",
+            "#PSM"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#기획·전략",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전관리자"
+            ],
+            "#기획·전략": [
+              "기획",
+              "컨설턴트"
+            ],
+            "#생산": [
+              "PSM",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50089878",
+          "title": "연구개발 신입/경력직원 모집",
+          "cleaned_title": "연구개발",
+          "company": "(주)신성산업",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50089878",
+          "tags": [
+            "#유기합성",
+            "#R&D",
+            "#고분자"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50090467",
+          "title": "연구보조원, 연구인턴 신입, 경력 채용",
+          "cleaned_title": "연구보조원, 연구 ,",
+          "company": "(사)한국정책경영연구원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50090467",
+          "tags": [
+            "#학술연구",
+            "#R&D",
+            "#연구·R&D"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50092989",
+          "title": "환경 · 해양사업본부(부산) / 해양조사 분야",
+          "cleaned_title": "환경 · 해양사업본부(부산) 해양조사 분야",
+          "company": "㈜세광종합기술단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50092989",
+          "tags": [
+            "#수질환경기사",
+            "#토양환경기사",
+            "#환경영향평가",
+            "#건설·건축",
+            "#환경분석",
+            "#환경플랜트",
+            "#연구·R&D",
+            "#부",
+            "#토양환경",
+            "#토목기술자",
+            "#측량/계측",
+            "#해양조사",
+            "#대기환경기사"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#서비스"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "토양환경기사",
+              "수질환경기사",
+              "토목기술자",
+              "대기환경기사"
+            ],
+            "#서비스": [
+              "양조사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50102554",
+          "title": "위드텍 채용 공고(연구 개발/제어)",
+          "cleaned_title": "위드텍 (연구 개발 제어)",
+          "company": "(주)위드텍삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50102554",
+          "tags": [
+            "#IT개발·데이터",
+            "#C언어",
+            "#반도체",
+            "#연구·R&D",
+            "#S/W",
+            "#기술연구",
+            "#알고리즘개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50102565",
+          "title": "위드텍 채용 공고(연구 개발/설계)",
+          "cleaned_title": "위드텍 (연구 개발 설계)",
+          "company": "(주)위드텍삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50102565",
+          "tags": [
+            "#솔리드웍스",
+            "#생산",
+            "#반도체",
+            "#연구·R&D",
+            "#공정설계",
+            "#알고리즘개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#생산": [
+              "구조해석/설계",
+              "생산",
+              "공정설계"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50125611",
+          "title": "[서울 가산R&D센터] 제어개발실[S/W팀, H/W팀] 연구원 모집",
+          "cleaned_title": "제어개발실 연구원",
+          "company": "(주)삼현",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50125611",
+          "tags": [
+            "#연구·R&D",
+            "#기구설계",
+            "#기술연구"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#생산": [
+              "기구설계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50139638",
+          "title": "재사용 발사체 개발 신입 연구원 모집",
+          "cleaned_title": "재사용 발사체 개발 연구원",
+          "company": "케이마쉬(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50139638",
+          "tags": [
+            "#부품설계",
+            "#주간근무",
+            "#R&D",
+            "#생산",
+            "#설계엔지니어",
+            "#기계설계",
+            "#도면해독",
+            "#조립",
+            "#2D설계",
+            "#기술엔지니어",
+            "#제조",
+            "#인벤터",
+            "#3D설계"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#건설·건축": [
+              "2D설계",
+              "설계엔지니어",
+              "3D설계"
+            ],
+            "#생산": [
+              "기술엔지니어",
+              "기계설계",
+              "부품설계",
+              "제조",
+              "설계엔지니어",
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50139672",
+          "title": "(주)인테그텍 - C# 응용프로그래머 신입 및 경력 모집",
+          "cleaned_title": "C# 응용프로그래머",
+          "company": "(주)인테그텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50139672",
+          "tags": [
+            "#프로그램설계",
+            "#생산",
+            "#IT개발·데이터",
+            "#R&D",
+            "#연구·R&D",
+            "#C++",
+            "#C#"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#생산": [
+              "프로그램설계",
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50144661",
+          "title": "(주)키프라임리서치 2025년 수시채용(조제담당자)",
+          "cleaned_title": "(조제)",
+          "company": "(주)키프라임리서치",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50144661",
+          "tags": [
+            "#제약/바이오",
+            "#생명과학",
+            "#연구·R&D",
+            "#기기관리",
+            "#동물실험",
+            "#의약외품연구"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50152256",
+          "title": "당진 동광태양광 전기안전관리자 채용 공고",
+          "cleaned_title": "당진 동광태양광 전기안전관리자",
+          "company": "탑솔라(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50152256",
+          "tags": [
+            "#신재생에너지",
+            "#건설·건축",
+            "#연구·R&D",
+            "#전기시공",
+            "#전기기사"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전관리자",
+              "전기기사"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50157478",
+          "title": "MEMS Engineer 채용 [신입/경력]",
+          "cleaned_title": "MEMS Engineer",
+          "company": "(주)코리아인스트루먼트삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50157478",
+          "tags": [
+            "#R&D",
+            "#생산",
+            "#반도체",
+            "#연구·R&D",
+            "#MEMS"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50158346",
+          "title": "[지멘스헬시니어스] Ultrasound Engineer",
+          "cleaned_title": "Ultrasound Engineer",
+          "company": "지멘스헬시니어스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50158346",
+          "tags": [
+            "#의료기기연구",
+            "#연구·R&D"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "R&D"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    },
+    "기타": {
+      "size": 128,
+      "total_assignments": 128,
+      "documents": [
+        {
+          "rec_id": "43681382",
+          "title": "계약직 연구보조원 상시채용[코오롱인더스트리 제조부문]",
+          "cleaned_title": "계약직 연구보조원 상시",
+          "company": "코오롱인더스트리(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=43681382",
+          "tags": [
+            "#신사업기획",
+            "#사무보조",
+            "#총무·법무·사무",
+            "#전략기획",
+            "#경영기획",
+            "#타당성검토",
+            "#사업제휴",
+            "#정보처리",
+            "#사업기획",
+            "#기획·전략",
+            "#Excel",
+            "#신사업발굴",
+            "#문서작성"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#생산",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획",
+              "전략기획",
+              "경영기획"
+            ],
+            "#생산": [
+              "제조"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "48594556",
+          "title": "[데이터팀] 백엔드 개발자 인턴 채용",
+          "cleaned_title": "백엔드 개발자",
+          "company": "(주)코딧",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=48594556",
+          "tags": [
+            "#IT개발·데이터",
+            "#Node.js",
+            "#백엔드/서버개발",
+            "#Javascript",
+            "#TypeScript",
+            "#RestAPI"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "데이터 사이언티스트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "49129549",
+          "title": "[SW] 하반기 프론트엔드 개발자 인턴 채용",
+          "cleaned_title": "프론트엔드 개발자",
+          "company": "(주)코딧",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49129549",
+          "tags": [
+            "#프론트엔드",
+            "#IT개발·데이터",
+            "#React-Native",
+            "#React"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "프론트엔드"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50019470",
+          "title": "쌍용건설 ERP 운영 및 Java 웹개발",
+          "cleaned_title": "쌍용건설 ERP 운영 Java 웹개발",
+          "company": "(주)유인시스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50019470",
+          "tags": [
+            "#프론트엔드",
+            "#ERP",
+            "#OracleDB",
+            "#IT개발·데이터",
+            "#Maven",
+            "#SVN",
+            "#Spring",
+            "#웹개발",
+            "#Java",
+            "#Eclipse",
+            "#백엔드/서버개발",
+            "#Javascript",
+            "#SpringBoot",
+            "#JSP"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "웹개발",
+              "프론트엔드",
+              "백엔드/서버개발"
+            ],
+            "#건설·건축": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50033556",
+          "title": "[BBC 코스닥] 연구개발 전담인력 모집",
+          "cleaned_title": "연구개발 전담인력",
+          "company": "비비씨(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50033556",
+          "tags": [
+            "#브러쉬",
+            "#생산",
+            "#섬유/의류",
+            "#플라스틱",
+            "#시료분석",
+            "#신소재",
+            "#압출성형"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#생산": [
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50052688",
+          "title": "[NKH그룹사] 2025년 신입사원 채용 - 전략기획/조직개발",
+          "cleaned_title": "전략기획 조직개발",
+          "company": "엔케이에이치주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50052688",
+          "tags": [
+            "#조직관리",
+            "#전략기획",
+            "#인큐베이팅",
+            "#시장조사",
+            "#사업기획",
+            "#기획·전략",
+            "#기획"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "전략기획",
+              "사업기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50072669",
+          "title": "[BMC광주사업장]모터 연구소 신입/경력 채용",
+          "cleaned_title": "모터 연구소",
+          "company": "(주)비엠씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50072669",
+          "tags": [],
+          "other_major_categories": [
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#미디어·문화·스포츠": [
+              "MC"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50080387",
+          "title": "[펨트론] SW 개발자 채용",
+          "cleaned_title": "SW 개발자",
+          "company": "(주)펨트론",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50080387",
+          "tags": [
+            "#MMI",
+            "#WPF",
+            "#MFC",
+            "#IT개발·데이터",
+            "#모션제어",
+            "#알고리즘",
+            "#C++",
+            "#UI",
+            "#C#",
+            "#영상처리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50087358",
+          "title": "디자인연구개발팀 디자이너 정규직 채용 (신입)",
+          "cleaned_title": "디자인연구개발팀 디자이너 ()",
+          "company": "(주)성지라미텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50087358",
+          "tags": [
+            "#디자인",
+            "#컬러리스트",
+            "#PhotoShop",
+            "#서구",
+            "#가구디자인",
+            "#일러스트레이터",
+            "#웹디자인"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#디자인",
+            "#미디어·문화·스포츠",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#디자인": [
+              "가구디자인",
+              "웹디자인",
+              "컬러리스트",
+              "일러스트레이터"
+            ],
+            "#미디어·문화·스포츠": [
+              "컬러리스트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50089758",
+          "title": "한국부동산개발협회 계약직 직원 채용(법정업무팀 위탁파트)",
+          "cleaned_title": "계약직 (법정업무팀 위탁파트)",
+          "company": "한국부동산개발협회",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50089758",
+          "tags": [],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50098271",
+          "title": "연구과제참여 - 머신/딥러닝 기반 의료영상분석 채용 공고",
+          "cleaned_title": "연구과제참여 머신 딥러닝 기반 의료영상분석",
+          "company": "서울대학교병원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50098271",
+          "tags": [
+            "#IT개발·데이터",
+            "#머신러닝",
+            "#Python",
+            "#AI(인공지능)"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#의료",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#의료": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50125052",
+          "title": "스마트시티 연구 및 전략 컨설턴트 모집",
+          "cleaned_title": "스마트시티 연구 전략 컨설턴트",
+          "company": "(주)한국스마트시티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50125052",
+          "tags": [
+            "#IT컨설팅",
+            "#IT개발·데이터"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "IT컨설팅"
+            ],
+            "#기획·전략": [
+              "컨설턴트",
+              "IT컨설팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50157118",
+          "title": "방위산업 연구개발 부문 채용공고 (RF설계엔지니어)",
+          "cleaned_title": "방위산업 연구개발 부문 (RF설계엔지니어)",
+          "company": "(주)유텔",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50157118",
+          "tags": [
+            "#회로설계",
+            "#MFC",
+            "#펌웨어",
+            "#IT개발·데이터",
+            "#C언어",
+            "#생산",
+            "#임베디드",
+            "#설계엔지니어",
+            "#S/W",
+            "#H/W",
+            "#LabVIEW",
+            "#FPGA",
+            "#C#",
+            "#ASP.NET"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "BI 엔지니어"
+            ],
+            "#건설·건축": [
+              "설계엔지니어"
+            ],
+            "#생산": [
+              "설계엔지니어",
+              "구조해석/설계",
+              "회로설계",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50165941",
+          "title": "SGC솔루션(주) 논산사업장 개발팀 (신입 및 경력) 채용",
+          "cleaned_title": "SGC솔루션 논산사업장 개발팀 ( )",
+          "company": "에스지씨솔루션(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50165941",
+          "tags": [
+            "#생산자동화",
+            "#생산설계",
+            "#생산",
+            "#기계설계",
+            "#금형설계",
+            "#사출금형",
+            "#제품설계",
+            "#생산관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#생산": [
+              "생산",
+              "제품설계",
+              "금형설계",
+              "생산설계",
+              "생산관리",
+              "기계설계"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50171902",
+          "title": "IT 웹/서버, 클라우드 프로그램 개발자 모집(신입/경력)",
+          "cleaned_title": "IT 웹 서버, 클라우드 프로그램 개발자 ( )",
+          "company": "마준소프트(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50171902",
+          "tags": [
+            "#ASP",
+            "#IT개발·데이터",
+            "#CentOS",
+            "#임베디드",
+            "#Ajax",
+            "#백엔드/서버개발",
+            "#앱개발",
+            "#웹개발",
+            "#IDC",
+            "#Windows",
+            "#.NET",
+            "#네트워크",
+            "#정보보안",
+            "#C++",
+            "#C#"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "정보보안",
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ]
+          }
+        },
+        {
+          "rec_id": "50178613",
+          "title": "자동차 내장 부품 설계/개발 경력 인재 채용",
+          "cleaned_title": "자동차 내장 부품 설계 개발",
+          "company": "아시모리코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50178613",
+          "tags": [],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#생산": [
+              "구조해석/설계"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50195440",
+          "title": "[판교]웹 UI 프론트 개발자 모집",
+          "cleaned_title": "웹 UI 프론트 개발자",
+          "company": "브이플러스랩(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50195440",
+          "tags": [
+            "#프론트엔드",
+            "#IT개발·데이터",
+            "#Ajax",
+            "#웹개발",
+            "#Javascript",
+            "#React",
+            "#PHP"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#디자인"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "프론트엔드",
+              "웹개발"
+            ],
+            "#디자인": [
+              "UI/UX디자인"
+            ]
+          }
+        },
+        {
+          "rec_id": "50198922",
+          "title": "2025년 상반기 신입/경력 개발자 모집",
+          "cleaned_title": "개발자",
+          "company": "(주)명지정보기술",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50198922",
+          "tags": [
+            "#프론트엔드",
+            "#IT개발·데이터",
+            "#MyBatis",
+            "#PostgreSQL",
+            "#XML",
+            "#Ajax",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#Java",
+            "#Javascript",
+            "#반응형웹",
+            "#GIS",
+            "#Eclipse",
+            "#JSP"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "프론트엔드",
+              "백엔드/서버개발",
+              "웹개발"
+            ]
+          }
+        },
+        {
+          "rec_id": "50200343",
+          "title": "백엔드 개발자 (전환형 인턴)",
+          "cleaned_title": "백엔드 개발자 (전환형 )",
+          "company": "(주)넥스트그라운드",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50200343",
+          "tags": [
+            "#백엔드/서버개발",
+            "#IT개발·데이터"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발"
+            ]
+          }
+        },
+        {
+          "rec_id": "50202785",
+          "title": "상품기획팀 개발구매 (수출입 관리) 신입/경력사원 모집",
+          "cleaned_title": "상품기획팀 개발구매 (수출입 관리)",
+          "company": "(주)조이트론",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202785",
+          "tags": [
+            "#품질관",
+            "#구매기획",
+            "#구매관리",
+            "#B2B",
+            "#구매",
+            "#수출입",
+            "#구매·자재·물류",
+            "#수/발주",
+            "#정산관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#구매·자재·물류",
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#구매·자재·물류": [
+              "구매",
+              "구매기획",
+              "구매관리"
+            ],
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ]
+          }
+        }
+      ]
+    },
+    "연구원": {
+      "size": 67,
+      "total_assignments": 67,
+      "documents": [
+        {
+          "rec_id": "49982373",
+          "title": "마더스제약 R&D센터 연구원 모집",
+          "cleaned_title": "마더스제약 R&D센터 연구원",
+          "company": "(주)마더스제약",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49982373",
+          "tags": [
+            "#R&D",
+            "#제약/바이오",
+            "#유해화학물질",
+            "#의약외품연구",
+            "#CRA(임상연구원)",
+            "#이화학시험",
+            "#고분자",
+            "#R&D기획",
+            "#제제연"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "연구원",
+            "CRA(임상연구원)",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#의료": [
+              "CRA(임상연구원)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50059415",
+          "title": "기업부설연구소 연구원 모집",
+          "cleaned_title": "기업부설연구소 연구원",
+          "company": "(주)아이티켐",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50059415",
+          "tags": [
+            "#유기합성",
+            "#생산",
+            "#공정관리",
+            "#의약외품연구",
+            "#이화학시험",
+            "#신소재",
+            "#기술연구"
+          ],
+          "other_major_categories": [
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산",
+              "공정관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50082504",
+          "title": "공공ㆍ사회조사 연구원(신입&경력) 채용",
+          "cleaned_title": "공공ㆍ사회조사 연구원(&)",
+          "company": "(주)코그니티브컨설팅그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50082504",
+          "tags": [
+            "#통계/분석",
+            "#사회조사",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50088293",
+          "title": "2025 충북대학교병원 스마트글로벌헬스센터 계약직 연구원 채용",
+          "cleaned_title": "스마트글로벌헬스센터 계약직 연구원",
+          "company": "충북대학교병원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50088293",
+          "tags": [],
+          "other_major_categories": [
+            "#의료",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#의료": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50125601",
+          "title": "[창원 본사] 제어개발실[S/W팀, H/W팀] 연구원 모집",
+          "cleaned_title": "제어개발실 연구원",
+          "company": "(주)삼현",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50125601",
+          "tags": [],
+          "other_major_categories": [
+            "#it개발·데이터"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50125611",
+          "title": "[서울 가산R&D센터] 제어개발실[S/W팀, H/W팀] 연구원 모집",
+          "cleaned_title": "제어개발실 연구원",
+          "company": "(주)삼현",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50125611",
+          "tags": [
+            "#연구·R&D",
+            "#기구설계",
+            "#기술연구"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#생산": [
+              "기구설계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50139638",
+          "title": "재사용 발사체 개발 신입 연구원 모집",
+          "cleaned_title": "재사용 발사체 개발 연구원",
+          "company": "케이마쉬(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50139638",
+          "tags": [
+            "#부품설계",
+            "#주간근무",
+            "#R&D",
+            "#생산",
+            "#설계엔지니어",
+            "#기계설계",
+            "#도면해독",
+            "#조립",
+            "#2D설계",
+            "#기술엔지니어",
+            "#제조",
+            "#인벤터",
+            "#3D설계"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#건설·건축": [
+              "2D설계",
+              "설계엔지니어",
+              "3D설계"
+            ],
+            "#생산": [
+              "기술엔지니어",
+              "기계설계",
+              "부품설계",
+              "제조",
+              "설계엔지니어",
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50171838",
+          "title": "R&D 부설연구소 기계팀 연구원모집",
+          "cleaned_title": "R&D 부설연구소 기계팀 연구원",
+          "company": "(주)와이즈",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50171838",
+          "tags": [
+            "#솔리드웍스",
+            "#회로설계",
+            "#펌웨어",
+            "#기술설계",
+            "#생산",
+            "#2D설계",
+            "#금형설계",
+            "#공정설계",
+            "#PCB",
+            "#구조해석/설계",
+            "#기술엔지니어",
+            "#열해석",
+            "#계장설계",
+            "#3D설계"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "3D설계",
+              "2D설계"
+            ],
+            "#생산": [
+              "금형설계",
+              "기술엔지니어",
+              "기술설계",
+              "계장설계",
+              "공정설계",
+              "구조해석/설계",
+              "회로설계",
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50181656",
+          "title": "리서치연구원 신입/경력",
+          "cleaned_title": "리서치연구원",
+          "company": "(주)나도기브",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50181656",
+          "tags": [
+            "#학술연구",
+            "#설문조사",
+            "#시장조사",
+            "#연구·R&D",
+            "#사회조사",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보"
+            ]
+          }
+        },
+        {
+          "rec_id": "50221847",
+          "title": "[범우연합] 화성 연구소 연구원 모집",
+          "cleaned_title": "화성 연구소 연구원",
+          "company": "벡스인터코퍼레이션(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50221847",
+          "tags": [
+            "#기술연구",
+            "#R&D"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50272921",
+          "title": "유기/고분자 합성 개발 연구원(병특지원 가능)",
+          "cleaned_title": "유기 고분자 합성 개발 연구원(병특지원 가능)",
+          "company": "자경케미칼(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50272921",
+          "tags": [
+            "#유기합성",
+            "#연구·R&D"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50275455",
+          "title": "[계약직/기간제] 서울대학교병원 교수 국책 과제 연구원 채용",
+          "cleaned_title": "교수 국책 과제 연구원",
+          "company": "서울대학교병원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50275455",
+          "tags": [],
+          "other_major_categories": [
+            "#의료",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#의료": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50281267",
+          "title": "신입 여론조사 연구원 채용 공고",
+          "cleaned_title": "여론조사 연구원",
+          "company": "(주)여론조사꽃",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50281267",
+          "tags": [
+            "#마케팅·홍보·조사",
+            "#사회조사"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50287217",
+          "title": "경력직 연구원 및 신입 모집공고- 해양생태계 분야",
+          "cleaned_title": "직 연구원 해양생태계 분야",
+          "company": "한국생태연구원(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50287217",
+          "tags": [
+            "#생명과학",
+            "#환경오염"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "연구원"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50293125",
+          "title": "(주)코스모코스 화장품(Sun Care 및 Base Makeup) 연구원 모집",
+          "cleaned_title": "화장품(Sun Care Base Makeup) 연구원",
+          "company": "(주)코스모코스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50293125",
+          "tags": [
+            "#세포실험",
+            "#R&D",
+            "#제약/바이오",
+            "#임상PM",
+            "#생명과학",
+            "#인",
+            "#이화학시험",
+            "#신소재",
+            "#고분자",
+            "#제형연구",
+            "#기술연구",
+            "#제제연구"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D",
+            "임상PM"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50305339",
+          "title": "자기공명분광(MRS) 인턴 및 연구원 모집(대학생/학사/석사/박사)",
+          "cleaned_title": "자기공명분광(MRS) 연구원 (대학생 학사 석사 박사)",
+          "company": "서울대학교병원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50305339",
+          "tags": [
+            "#학술연구",
+            "#IT개발·데이터",
+            "#의료영상",
+            "#의료기기연구",
+            "#의료",
+            "#이미지프로세싱",
+            "#############################",
+            "#데이터분석가",
+            "#기술연구",
+            "#AI(인공지능)",
+            "#딥러닝",
+            "#영상처리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#영업·판매·무역",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "데이터분석가"
+            ],
+            "#영업·판매·무역": [
+              "기타"
+            ],
+            "#의료": [
+              "MR"
+            ]
+          }
+        },
+        {
+          "rec_id": "50315206",
+          "title": "[사회조사] 리서치연구원모집 - 신입연구원 모집",
+          "cleaned_title": "리서치연구원 연구원",
+          "company": "(주)유니온리서치",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50315206",
+          "tags": [
+            "#비즈니스마케",
+            "#통계/분석",
+            "#설문조사",
+            "#사보/뉴스레터",
+            "#CRM마케팅",
+            "#프로덕트마케팅",
+            "#사회조사",
+            "#제휴마케팅",
+            "#AM(어카운트매니저)",
+            "#마케팅·홍보·조사",
+            "#인플루언서마케팅"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "프로덕트마케팅",
+              "CRM마케팅",
+              "AM(어카운트매니저)",
+              "제휴마케팅",
+              "인플루언서마케팅"
+            ],
+            "#미디어·문화·스포츠": [
+              "인플루언서"
+            ]
+          }
+        },
+        {
+          "rec_id": "50318641",
+          "title": "연구원/R&D 정규직 신입사원 채용",
+          "cleaned_title": "연구원 R&D",
+          "company": "(주)대동켐텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50318641",
+          "tags": [
+            "#R&D",
+            "#신소재",
+            "#기술연구",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "연구원",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50324780",
+          "title": "연구원 인원 모집 (신입/경력)",
+          "cleaned_title": "연구원 인원 ( )",
+          "company": "(주)금아하이드파워",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50324780",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "연구원"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50326345",
+          "title": "연구원 정규직 모집 공고",
+          "cleaned_title": "연구원",
+          "company": "강남케이피아이 (주) 시화공장",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50326345",
+          "tags": [
+            "#R&D",
+            "#고분자",
+            "#신소재",
+            "#기술연구",
+            "#R&D기획",
+            "#CRM(임상연구전문가)"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D",
+            "R&D기획",
+            "CRM(임상연구전문가)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#의료": [
+              "CRM(임상연구전문가)"
+            ]
+          }
+        }
+      ]
+    },
+    "R&D기획": {
+      "size": 42,
+      "total_assignments": 42,
+      "documents": [
+        {
+          "rec_id": "47944456",
+          "title": "정부지원 및 국책과제 담당 인턴",
+          "cleaned_title": "정부지원 국책과제 담당",
+          "company": "(주)코딧",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=47944456",
+          "tags": [
+            "#경영기획",
+            "#연구·R&D",
+            "#기획·전략",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "49982373",
+          "title": "마더스제약 R&D센터 연구원 모집",
+          "cleaned_title": "마더스제약 R&D센터 연구원",
+          "company": "(주)마더스제약",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49982373",
+          "tags": [
+            "#R&D",
+            "#제약/바이오",
+            "#유해화학물질",
+            "#의약외품연구",
+            "#CRA(임상연구원)",
+            "#이화학시험",
+            "#고분자",
+            "#R&D기획",
+            "#제제연"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "연구원",
+            "CRA(임상연구원)",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#의료": [
+              "CRA(임상연구원)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50170804",
+          "title": "[제이씨앤엠] 기술연구소 인재채용",
+          "cleaned_title": "기술연구소",
+          "company": "제이씨앤엠(주) 삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50170804",
+          "tags": [
+            "#미생물",
+            "#건설·건축",
+            "#유해화학물질",
+            "#시료분석",
+            "#이화학시험",
+            "#고분자",
+            "#수질분석",
+            "#기술연구",
+            "#시료채취",
+            "#R&D기획",
+            "#실험보조"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D기획",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50200247",
+          "title": "(주)에이피텍 딥러닝 머신비전 및 LLM 전문가 채용",
+          "cleaned_title": "딥러닝 머신비전 LLM 전문가",
+          "company": "(주)에이피텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50200247",
+          "tags": [
+            "#R&D",
+            "#생산",
+            "#반도체",
+            "#반도체설계",
+            "#설계엔지니어",
+            "#로봇설계",
+            "#CVD",
+            "#전자파",
+            "#OLED",
+            "#기술연구",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#기획·전략",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "설계엔지니어"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#생산": [
+              "설계엔지니어",
+              "반도체설계",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50306086",
+          "title": "(주)오타종패키징퍼시픽 제품개발팀 정규직 채용 - 신입",
+          "cleaned_title": "제품개발팀",
+          "company": "(주)오타종패키징퍼시픽",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50306086",
+          "tags": [
+            "#디자인",
+            "#서비스",
+            "#R&D",
+            "#컬러리스트",
+            "#생산",
+            "#패키지디자인",
+            "#연구·R&D",
+            "#기획·전략",
+            "#고객응대",
+            "#제품설계",
+            "#기획",
+            "#현장",
+            "#R&D기획",
+            "#실적관리",
+            "#KPI관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#디자인",
+            "#미디어·문화·스포츠",
+            "#생산",
+            "#서비스",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#디자인": [
+              "컬러리스트",
+              "패키지디자인"
+            ],
+            "#미디어·문화·스포츠": [
+              "컬러리스트"
+            ],
+            "#생산": [
+              "제품설계",
+              "생산"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50318641",
+          "title": "연구원/R&D 정규직 신입사원 채용",
+          "cleaned_title": "연구원 R&D",
+          "company": "(주)대동켐텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50318641",
+          "tags": [
+            "#R&D",
+            "#신소재",
+            "#기술연구",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "연구원",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50326345",
+          "title": "연구원 정규직 모집 공고",
+          "cleaned_title": "연구원",
+          "company": "강남케이피아이 (주) 시화공장",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50326345",
+          "tags": [
+            "#R&D",
+            "#고분자",
+            "#신소재",
+            "#기술연구",
+            "#R&D기획",
+            "#CRM(임상연구전문가)"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D",
+            "R&D기획",
+            "CRM(임상연구전문가)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#의료": [
+              "CRM(임상연구전문가)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50331739",
+          "title": "(주)퓨리텍 그래핀사업부 연구원(정규직) 채용",
+          "cleaned_title": "퓨리텍 그래핀사업부 연구원()",
+          "company": "(주)퓨리텍삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50331739",
+          "tags": [
+            "#R&D",
+            "#신소재",
+            "#기술연구",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50343190",
+          "title": "기술연구개발 보조 신입 채용(정규직)",
+          "cleaned_title": "기술연구개발 보조 ()",
+          "company": "제노(JENO)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50343190",
+          "tags": [
+            "#회로설계",
+            "#정책연구",
+            "#Altium",
+            "#R&D",
+            "#생산",
+            "#로봇설계",
+            "#로봇엔지니어",
+            "#VHDL",
+            "#Pads",
+            "#FPGA",
+            "#기술연구",
+            "#OrCAD",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획",
+            "로봇엔지니어"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#생산": [
+              "회로설계",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50347906",
+          "title": "TSMOST 정규직 채용공고(선행개발)",
+          "cleaned_title": "TSMOST (선행개발)",
+          "company": "티에스모스트(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50347906",
+          "tags": [
+            "#신사업기획",
+            "#전략기획",
+            "#경영기획",
+            "#기술기획",
+            "#연구·R&D",
+            "#사업기획",
+            "#기획·전략",
+            "#신사업발굴",
+            "#기획",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "사업기획",
+              "경영기획",
+              "전략기획",
+              "기술기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50348766",
+          "title": "[강소기업] 신규개발부 R&D 정규직 시제품 제작 및 테스트 수행",
+          "cleaned_title": "신규개발부 R&D 시제품 제작 테스트 수행",
+          "company": "가람환경기술(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50348766",
+          "tags": [
+            "#신사업기획",
+            "#총무·법무·사무",
+            "#R&D기획",
+            "#전략기획",
+            "#R&D",
+            "#경영기획",
+            "#기획·전략",
+            "#마케팅기획",
+            "#마케팅·홍보·조사",
+            "#마케팅전략"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "경영기획",
+              "사업기획",
+              "전략기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보",
+              "마케팅전략"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50369355",
+          "title": "[바이오스펙테이터] 연구원/연구기자 모집(학사~석사)",
+          "cleaned_title": "연구원 연구기자 (학사~석사)",
+          "company": "(주)바이오스펙테이터",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50369355",
+          "tags": [
+            "#학술연구",
+            "#줄기세포",
+            "#R&D",
+            "#임상개발",
+            "#제약/바이오",
+            "#임상시험",
+            "#생명과학",
+            "#제제연구",
+            "#유전자",
+            "#의약외품연구",
+            "#제형연구",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#미디어·문화·스포츠"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "기자"
+            ]
+          }
+        },
+        {
+          "rec_id": "50370200",
+          "title": "(주)에코파워텍 기업부설연구소 연구보조 채용",
+          "cleaned_title": "기업부설연구소 연구보조",
+          "company": "(주)에코파워텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50370200",
+          "tags": [
+            "#R&D",
+            "#기술연구",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50385934",
+          "title": "설계 및 연구개발 신입사원 모집 공고",
+          "cleaned_title": "설계 연구개발",
+          "company": "엔알텍(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50385934",
+          "tags": [
+            "#기술연구",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D기획",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#생산": [
+              "구조해석/설계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50392542",
+          "title": "(주)케이디파인켐 연구팀 신입사원 채용",
+          "cleaned_title": "연구팀",
+          "company": "(주)케이디파인켐",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50392542",
+          "tags": [
+            "#R&D",
+            "#유해화학물질",
+            "#기술연구",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50402500",
+          "title": "일본계기업 어플리케이션 개발 엔지니어 채용",
+          "cleaned_title": "일본계기업 어플리케이션 개발 엔지니어",
+          "company": "호리바에스텍코리아(주) 삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50402500",
+          "tags": [
+            "#거래처관리",
+            "#연구·R&D",
+            "#영업·판매·무역",
+            "#거래처영업",
+            "#고객관리",
+            "#기술영업",
+            "#어플리케이션",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#고객상담·tm",
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "BI 엔지니어"
+            ],
+            "#고객상담·tm": [
+              "고객관리"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "기술영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50425659",
+          "title": "(주)이노폴 화학 개발팀 신입 채용(4100~)",
+          "cleaned_title": "~)",
+          "company": "(주)이노폴",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50425659",
+          "tags": [
+            "#유기합성",
+            "#R&D",
+            "#도료/페인트",
+            "#이화학시험",
+            "#고분자",
+            "#신소재",
+            "#기술연구",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50428699",
+          "title": "[(주)정코스] 피부과학연구소 화장품 연구기획 신입사원 채용",
+          "cleaned_title": "[] 피부과학연구소 화장품 연구기획",
+          "company": "(주)정코스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50428699",
+          "tags": [
+            "#상품기획·MD",
+            "#화장품",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#상품기획·md",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D기획",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#상품기획·md": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50432891",
+          "title": "사업기획, 콘텐츠개발, 학술연구, 지역개발, 사무직 채용",
+          "cleaned_title": "사업기획, 콘텐츠개발, 학술연구, 지역개발, 사무직",
+          "company": "플랜비",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50432891",
+          "tags": [
+            "#사업기획",
+            "#문화기획",
+            "#기획·전략",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#공공·복지",
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D기획",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획",
+              "사업기획",
+              "문화기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50442137",
+          "title": "기업부설연구소 연구원 채용",
+          "cleaned_title": "기업부설연구소 연구원",
+          "company": "레이트론(주) 삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50442137",
+          "tags": [
+            "#알고리즘개발",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D기획",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "CRA(임상연구원)": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "49982373",
+          "title": "마더스제약 R&D센터 연구원 모집",
+          "cleaned_title": "마더스제약 R&D센터 연구원",
+          "company": "(주)마더스제약",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49982373",
+          "tags": [
+            "#R&D",
+            "#제약/바이오",
+            "#유해화학물질",
+            "#의약외품연구",
+            "#CRA(임상연구원)",
+            "#이화학시험",
+            "#고분자",
+            "#R&D기획",
+            "#제제연"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "연구원",
+            "CRA(임상연구원)",
+            "R&D기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#의료": [
+              "CRA(임상연구원)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436092",
+          "title": "[HK이노엔]_2025 상반기 콜마그룹 대졸신입 공채(CRA_MSL)",
+          "cleaned_title": "콜마그룹 (CRA MSL)",
+          "company": "에이치케이이노엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436092",
+          "tags": [
+            "#임상개발",
+            "#임상시험",
+            "#연구·R&D",
+            "#CRA(임상연구원)",
+            "#연구원"
+          ],
+          "other_major_categories": [
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "CRA(임상연구원)",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#의료": [
+              "CRA(임상연구원)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436102",
+          "title": "[HK이노엔]_2025 상반기 콜마그룹 대졸신입 공채(CRA_허가)",
+          "cleaned_title": "콜마그룹 (CRA 허가)",
+          "company": "에이치케이이노엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436102",
+          "tags": [
+            "#임상시험",
+            "#연구·R&D",
+            "#CRA(임상연구원)"
+          ],
+          "other_major_categories": [
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "CRA(임상연구원)",
+            "R&D",
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#의료": [
+              "CRA(임상연구원)"
+            ]
+          }
+        }
+      ]
+    },
+    "인증심사원": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50346186",
+          "title": "[코스닥 상장사] 내진해석 신입/경력 모집",
+          "cleaned_title": "내진해석",
+          "company": "(주)디티앤씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50346186",
+          "tags": [
+            "#생산",
+            "#구조해석/설계",
+            "#인증심사원",
+            "#열해석",
+            "#기술연구",
+            "#연구원"
+          ],
+          "other_major_categories": [
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "인증심사원",
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "구조해석/설계",
+              "생산"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436592",
+          "title": "[한국콜마] 2025 상반기 콜마그룹 대졸신입 공채(컴플라이언스)",
+          "cleaned_title": "콜마그룹 (컴플라이언스)",
+          "company": "한국콜마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436592",
+          "tags": [
+            "#연구·R&D",
+            "#법무",
+            "#컴플라이언스",
+            "#인증심사원",
+            "#법무사"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "인증심사원",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "컴플라이언스",
+              "법무",
+              "법무사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50482730",
+          "title": "㈜노루페인트/㈜노루케미칼 채용(연구소, 품질관리, 생산기술)",
+          "cleaned_title": "노루페인트 노루케미칼 (연구소, 품질관리, 생산기술)",
+          "company": "(주)노루페인트삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50482730",
+          "tags": [
+            "#품질관리",
+            "#QC",
+            "#품질분석",
+            "#도료/페인트",
+            "#건설·건축",
+            "#연구·R&D",
+            "#품질보증",
+            "#위험성평가",
+            "#인증심사원",
+            "#연구원"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#구매·자재·물류",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "인증심사원",
+            "R&D",
+            "연구원"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "QC"
+            ],
+            "#구매·자재·물류": [
+              "품질관리"
+            ],
+            "#생산": [
+              "품질관리",
+              "생산기술",
+              "생산",
+              "QC"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "임상PM": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50293125",
+          "title": "(주)코스모코스 화장품(Sun Care 및 Base Makeup) 연구원 모집",
+          "cleaned_title": "화장품(Sun Care Base Makeup) 연구원",
+          "company": "(주)코스모코스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50293125",
+          "tags": [
+            "#세포실험",
+            "#R&D",
+            "#제약/바이오",
+            "#임상PM",
+            "#생명과학",
+            "#인",
+            "#이화학시험",
+            "#신소재",
+            "#고분자",
+            "#제형연구",
+            "#기술연구",
+            "#제제연구"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D",
+            "임상PM"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50474310",
+          "title": "[송파/문정] 화장품시험검사기관 시험검사팀 검사원 채용",
+          "cleaned_title": "화장품시험검사기관 시험검사팀 검",
+          "company": "한국피부과학연구원(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50474310",
+          "tags": [
+            "#미생물",
+            "#생산",
+            "#임상개발",
+            "#임상시험",
+            "#의료",
+            "#연구·R&D",
+            "#임상PM",
+            "#시료분석",
+            "#화장품",
+            "#의약외품연구",
+            "#이화학시험",
+            "#임상DM",
+            "#C",
+            "#시료채취"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#의료",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "임상DM",
+            "R&D",
+            "임상PM"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산"
+            ],
+            "#의료": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "CRM(임상연구전문가)": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50326345",
+          "title": "연구원 정규직 모집 공고",
+          "cleaned_title": "연구원",
+          "company": "강남케이피아이 (주) 시화공장",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50326345",
+          "tags": [
+            "#R&D",
+            "#고분자",
+            "#신소재",
+            "#기술연구",
+            "#R&D기획",
+            "#CRM(임상연구전문가)"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "연구원",
+            "R&D",
+            "R&D기획",
+            "CRM(임상연구전문가)"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#의료": [
+              "CRM(임상연구전문가)"
+            ]
+          }
+        },
+        {
+          "rec_id": "50430909",
+          "title": "[일본artience그룹사] G/R INK연구팀 팀원모집 (신입,정규직)",
+          "cleaned_title": "G R INK연구팀 (,)",
+          "company": "삼영잉크페인트제조(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50430909",
+          "tags": [
+            "#유기합성",
+            "#생산",
+            "#도료/페인트",
+            "#임상개발",
+            "#바닥재",
+            "#연구·R&D",
+            "#생명과학",
+            "#도장/도금/도색",
+            "#신소재",
+            "#고분자",
+            "#제제연구",
+            "#CRM(임상연구전문가)",
+            "#화공약품"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "CRM(임상연구전문가)",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산"
+            ],
+            "#의료": [
+              "CRM(임상연구전문가)"
+            ]
+          }
+        }
+      ]
+    },
+    "로봇엔지니어": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50343190",
+          "title": "기술연구개발 보조 신입 채용(정규직)",
+          "cleaned_title": "기술연구개발 보조 ()",
+          "company": "제노(JENO)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50343190",
+          "tags": [
+            "#회로설계",
+            "#정책연구",
+            "#Altium",
+            "#R&D",
+            "#생산",
+            "#로봇설계",
+            "#로봇엔지니어",
+            "#VHDL",
+            "#Pads",
+            "#FPGA",
+            "#기술연구",
+            "#OrCAD",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D",
+            "R&D기획",
+            "로봇엔지니어"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#생산": [
+              "회로설계",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50442969",
+          "title": "로봇/로보틱스 S/W 엔지니어 모집(인턴/신입/경력/전문연구요원)",
+          "cleaned_title": "로봇 로보틱스 S W 엔지니어 ( 전문연구요원)",
+          "company": "(주)테솔로",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50442969",
+          "tags": [
+            "#펌웨어",
+            "#IT개발·데이터",
+            "#임베디드",
+            "#로봇엔지니어",
+            "#알고리즘",
+            "#S/W",
+            "#AI(인공지능)",
+            "#C++",
+            "#알고리즘개발",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "R&D기획",
+            "R&D",
+            "로봇엔지니어"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "BI 엔지니어"
+            ],
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        }
+      ]
+    },
+    "CRC(연구간호사)": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50202126",
+          "title": "(주)더웨이헬스케어 임상시험 CRA 신입 & 경력자 모집",
+          "cleaned_title": "임상시험 CRA & 자",
+          "company": "(주)더웨이헬스케어",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50202126",
+          "tags": [
+            "#CRC(연구간호사)"
+          ],
+          "other_major_categories": [
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "CRC(연구간호사)"
+          ],
+          "mid_categories_in_others": {
+            "#의료": [
+              "간호사",
+              "CRC(연구간호사)"
+            ]
+          }
+        }
+      ]
+    },
+    "대기측정분석사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50411996",
+          "title": "태림페이퍼(주)의령공장 환경팀 폐수처리장 신입사원 채용 공고",
+          "cleaned_title": "환경팀 폐수처리장",
+          "company": "태림페이퍼(주) 의령공장",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50411996",
+          "tags": [
+            "#대기측정분석사",
+            "#환경관리자",
+            "#건설·건축",
+            "#연구·R&D",
+            "#폐수처리장관리"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "대기측정분석사",
+            "R&D"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "환경관리자"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "임상DM": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50474310",
+          "title": "[송파/문정] 화장품시험검사기관 시험검사팀 검사원 채용",
+          "cleaned_title": "화장품시험검사기관 시험검사팀 검",
+          "company": "한국피부과학연구원(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50474310",
+          "tags": [
+            "#미생물",
+            "#생산",
+            "#임상개발",
+            "#임상시험",
+            "#의료",
+            "#연구·R&D",
+            "#임상PM",
+            "#시료분석",
+            "#화장품",
+            "#의약외품연구",
+            "#이화학시험",
+            "#임상DM",
+            "#C",
+            "#시료채취"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#의료",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "임상DM",
+            "R&D",
+            "임상PM"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산"
+            ],
+            "#의료": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

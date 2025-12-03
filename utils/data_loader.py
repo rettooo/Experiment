@@ -184,12 +184,19 @@ class S3DataLoader:
                 # 텍스트 정제
                 cleaned_text = self.clean_text(raw_text)
 
-                # 메타데이터 준비
+                # 메타데이터 준비 (필드명 정규화 포함)
+                raw_metadata = metadata_map[rec_idx]
+                
+                # 필드명 정규화: 원본 필드명도 보존하면서 표준 필드명 추가
                 metadata = {
-                    **metadata_map[rec_idx],
+                    **raw_metadata,  # 원본 메타데이터 전체 보존
                     "source": "s3",
                     "pdf_file": pdf_file,
                     "rec_idx": rec_idx,
+                    # 표준 필드명 추가 (원본 필드명이 다른 경우를 대비)
+                    "title": raw_metadata.get("title") or raw_metadata.get("post_title") or "",
+                    "company": raw_metadata.get("company") or raw_metadata.get("company_name") or "",
+                    "url": raw_metadata.get("url") or raw_metadata.get("detail_url") or "",
                 }
 
                 documents.append({"text": cleaned_text, "metadata": metadata})

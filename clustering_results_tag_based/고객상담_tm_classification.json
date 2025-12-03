@@ -1,0 +1,1802 @@
+{
+  "major_category": "#고객상담·tm",
+  "statistics": {
+    "total_docs": 52,
+    "unique_docs": 52,
+    "num_mid_categories": 9,
+    "overlap_info": {
+      "with_구매_자재_물류": 10,
+      "with_기획_전략": 17,
+      "with_영업_판매_무역": 34,
+      "with_공공_복지": 2,
+      "with_인사_노무_hrd": 25,
+      "with_총무_법무_사무": 8,
+      "with_생산": 4,
+      "with_마케팅_홍보_조사": 5,
+      "with_의료": 2,
+      "with_교육": 1,
+      "with_미디어_문화_스포츠": 1,
+      "with_it개발_데이터": 11,
+      "with_운전_운송_배송": 1,
+      "with_연구_r&d": 3,
+      "with_서비스": 2,
+      "with_회계_세무_재무": 2,
+      "with_금융_보험": 1,
+      "with_상품기획_md": 2,
+      "with_건설_건축": 1
+    }
+  },
+  "mid_categories": {
+    "고객관리": {
+      "size": 35,
+      "total_assignments": 35,
+      "documents": [
+        {
+          "rec_id": "50054348",
+          "title": "(주)두문 일반 사무직 신입사원 채용",
+          "cleaned_title": "일반 사무직",
+          "company": "(주)두문",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50054348",
+          "tags": [
+            "#고객상담·TM",
+            "#고객관리"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50056234",
+          "title": "2025년 영업팀/ 생산팀 신입사원 채용- 평택공장",
+          "cleaned_title": "영업팀 생산팀 평택공장",
+          "company": "대원산업㈜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50056234",
+          "tags": [
+            "#생산",
+            "#영업·판매·무역",
+            "#고객관리",
+            "#생산관리"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "생산",
+              "생산관리"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50061362",
+          "title": "한일철강(주)포항/부산 영업소 영업사원 채용(신입/경력)",
+          "cleaned_title": "포항 부산 영업소 영업 ( )",
+          "company": "한일철강(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50061362",
+          "tags": [
+            "#영업직",
+            "#영업기획",
+            "#거래처관리",
+            "#영업",
+            "#영업마케팅",
+            "#거래처영업",
+            "#영업·판매·무역",
+            "#고객관리",
+            "#기업영업",
+            "#바",
+            "#영업관리",
+            "#자재판매",
+            "#영업전략",
+            "#거래처납품"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "자재판매",
+              "영업관리",
+              "영업마케팅",
+              "영업직",
+              "영업전략",
+              "영업기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50110580",
+          "title": "[직영] 각부문 STAFF 모집 (고객지원,상담실장)",
+          "cleaned_title": "각부문 STAFF (고객지원,상담실장)",
+          "company": "(주)DYB최선어학원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50110580&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#브랜드기획",
+            "#CS",
+            "#총무·법무·사무",
+            "#고객상담·TM",
+            "#게시판관리",
+            "#OA",
+            "#교육행정",
+            "#영업·판매·무역",
+            "#기획·전략",
+            "#고객관리",
+            "#Excel",
+            "#시설관리",
+            "#교육기획",
+            "#고객",
+            "#일하기",
+            "#DYB의"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#의료",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "CS",
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "브랜드기획"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#의료": [
+              "상담실장"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50146896",
+          "title": "[다인] 고객관리센터운영 채용형인턴 (Counseling Manager)",
+          "cleaned_title": "고객관리센터운영 형 (Counseling Manager)",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50146896",
+          "tags": [
+            "#심리치료사",
+            "#공공·복지",
+            "#사회복지사",
+            "#EAP상담",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "심리치료사",
+              "사무직",
+              "사회복지사"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50223181",
+          "title": "[구로지사]반도체 영업 담당자 모집(신입)",
+          "cleaned_title": "반도체 영업 ()",
+          "company": "아이씨뱅큐(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50223181",
+          "tags": [
+            "#IT영업",
+            "#영업마케팅",
+            "#거래처영업",
+            "#고객관리",
+            "#기업영업",
+            "#온라인판매",
+            "#유통영업",
+            "#영업전략",
+            "#거래처납품"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "IT영업",
+              "온라인판매",
+              "영업마케팅",
+              "영업전략"
+            ]
+          }
+        },
+        {
+          "rec_id": "50294758",
+          "title": "[태극제약] 제약영업부문 인천지점 약국(OTC)영업사원 채용",
+          "cleaned_title": "제약영업부문 인천지점 약국(OTC)영업",
+          "company": "태극제약(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50294758",
+          "tags": [
+            "#영업직",
+            "#거래처관리",
+            "#영업",
+            "#영업판촉",
+            "#영업·판매·무역",
+            "#거래처영업",
+            "#고객관리",
+            "#제약영업"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "제약영업",
+              "영업직",
+              "영업판촉"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50304110",
+          "title": "[서울사무소] 국내영업팀(화장품 OEM, ODM) 팀원 모집",
+          "cleaned_title": "국내영업팀(화장품 OEM, ODM)",
+          "company": "(주)나우코스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50304110",
+          "tags": [
+            "#영업직",
+            "#실적관리",
+            "#거래처관리",
+            "#화장품판매",
+            "#거래처영업",
+            "#영업·판매·무역",
+            "#화장품영업",
+            "#고객관리",
+            "#매출관리",
+            "#유통영업",
+            "#주문관리",
+            "#수/발주",
+            "#거래처납품"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "화장품판매",
+              "영업직",
+              "화장품영업"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50318919",
+          "title": "2025년 경동물류 신입사원 모집 공고 (전산실)",
+          "cleaned_title": "경동물류 (전산실)",
+          "company": "경동물류(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50318919",
+          "tags": [
+            "#총무·법무·사무",
+            "#IT개발·데이터",
+            "#서버구축",
+            "#시스템설계",
+            "#영업·판매·무역",
+            "#서류관리",
+            "#인프라",
+            "#고객관리",
+            "#사무행정",
+            "#솔루션",
+            "#네트워크",
+            "#시스템관리",
+            "#데이터관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#구매·자재·물류",
+            "#생산",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#구매·자재·물류": [
+              "기타"
+            ],
+            "#생산": [
+              "시스템설계"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50337256",
+          "title": "동양이엔피(주) 영업팀 신입사원 채용",
+          "cleaned_title": "동양이엔피 영업팀",
+          "company": "동양이엔피(주) 삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50337256",
+          "tags": [
+            "#영업직",
+            "#영업·판매·무역",
+            "#고객관리",
+            "#매출관리",
+            "#영업관리",
+            "#거래처납품"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "영업직"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50351536",
+          "title": "영업관리(신입/경력직)채용",
+          "cleaned_title": "영업관리( 직)",
+          "company": "(주)나라삼양감속기",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50351536",
+          "tags": [
+            "#영업기획",
+            "#거래처관리",
+            "#고객관리",
+            "#매출관리",
+            "#수/발주",
+            "#실적관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리",
+              "영업기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50354861",
+          "title": "[아기유니콘] 영업지원 담당자(총판 관리)",
+          "cleaned_title": "영업지원 (총판 관리)",
+          "company": "주식회사 에스티씨랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50354861",
+          "tags": [
+            "#영업관리",
+            "#고객관리"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "영업지원",
+              "영업관리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50356662",
+          "title": "(주)에코에너젠 영업마케팅부 채용(신입/경력)",
+          "cleaned_title": "영업마케팅부 ( )",
+          "company": "(주)에코에너젠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50356662",
+          "tags": [
+            "#기술영업",
+            "#영업·판매·무역",
+            "#고객관리",
+            "#B2B"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업마케팅",
+              "기술영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50386629",
+          "title": "(주)퓨리텍 바이오사업부 (영업직) 채용",
+          "cleaned_title": "퓨리텍 바이오사업부 (영업직)",
+          "company": "(주)퓨리텍삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50386629",
+          "tags": [
+            "#거래처관리",
+            "#영업·판매·무역",
+            "#고객관리",
+            "#해외영업관리",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "영업직",
+              "영업관리",
+              "해외영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50392297",
+          "title": "2025년 해외영업팀 신입 및 경력사원 공개채용",
+          "cleaned_title": "해외영업팀 공개",
+          "company": "코리녹스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50392297",
+          "tags": [
+            "#거래처관리",
+            "#영업·판매·무역",
+            "#고객관리",
+            "#기업영업"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "해외영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50402084",
+          "title": "[외국계/정규직] 기계사업부 Sales Admin 채용 (사원-대리급)",
+          "cleaned_title": "기계사업부 Sales Admin ( 대리급)",
+          "company": "디케이에스에이치코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50402084",
+          "tags": [
+            "#고객관리",
+            "#매출관리",
+            "#구"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50402500",
+          "title": "일본계기업 어플리케이션 개발 엔지니어 채용",
+          "cleaned_title": "일본계기업 어플리케이션 개발 엔지니어",
+          "company": "호리바에스텍코리아(주) 삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50402500",
+          "tags": [
+            "#거래처관리",
+            "#연구·R&D",
+            "#영업·판매·무역",
+            "#거래처영업",
+            "#고객관리",
+            "#기술영업",
+            "#어플리케이션",
+            "#R&D기획"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "BI 엔지니어"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "R&D",
+              "R&D기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "기술영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50416654",
+          "title": "[신입모집] 스타트업 사내 서비스 운영 담당자 채용",
+          "cleaned_title": "스타트업 사내 서비스 운영",
+          "company": "(주)레디포스트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50416654",
+          "tags": [
+            "#가맹점영업",
+            "#거래처관리",
+            "#가맹점관리",
+            "#B2C",
+            "#거래처영업",
+            "#영업·판매·무역",
+            "#고객관리",
+            "#B2B",
+            "#기업영업",
+            "#S/W",
+            "#고객상담",
+            "#매출관리",
+            "#공공영업",
+            "#정산관리"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50416843",
+          "title": "[범우연합] 유통영업 담당자 모집",
+          "cleaned_title": "유통영업",
+          "company": "벡스인터코퍼레이션(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50416843",
+          "tags": [
+            "#가맹점영업",
+            "#서",
+            "#영업직",
+            "#거래처관리",
+            "#영업",
+            "#영업판촉",
+            "#영업·판매·무역",
+            "#거래처영업",
+            "#고객관리",
+            "#식품/음료영업",
+            "#매장관리",
+            "#유통영업",
+            "#거래처납품"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "영업판촉",
+              "식품/음료영업",
+              "영업직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50430158",
+          "title": "반도체 PKG 기술영업(송도 일본계)",
+          "cleaned_title": "반도체 PKG 기술영업(송도 일본계)",
+          "company": "티오케이첨단재료삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50430158",
+          "tags": [
+            "#기술영업",
+            "#영업·판매·무역",
+            "#고객관리",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "기술영업",
+              "영업관리"
+            ]
+          }
+        }
+      ]
+    },
+    "CS": {
+      "size": 16,
+      "total_assignments": 16,
+      "documents": [
+        {
+          "rec_id": "50015734",
+          "title": "한일후지코리아 영업지원팀(Logistics Coordinator) 사원모집",
+          "cleaned_title": "한일후지코리아 영업지원팀(Logistics Coordinator)",
+          "company": "한일후지코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50015734",
+          "tags": [
+            "#물류관리",
+            "#해상무역",
+            "#창원",
+            "#해외영업관리",
+            "#수출입",
+            "#구매·자재·물류",
+            "#국제물류",
+            "#물류기획",
+            "#물류사무원"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "물류사무원",
+              "구매",
+              "물류관리",
+              "물류기획",
+              "국제물류"
+            ],
+            "#기획·전략": [
+              "COO",
+              "기획"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업지원",
+              "영업관리",
+              "해외영업",
+              "해상무역"
+            ]
+          }
+        },
+        {
+          "rec_id": "50110580",
+          "title": "[직영] 각부문 STAFF 모집 (고객지원,상담실장)",
+          "cleaned_title": "각부문 STAFF (고객지원,상담실장)",
+          "company": "(주)DYB최선어학원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50110580&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#브랜드기획",
+            "#CS",
+            "#총무·법무·사무",
+            "#고객상담·TM",
+            "#게시판관리",
+            "#OA",
+            "#교육행정",
+            "#영업·판매·무역",
+            "#기획·전략",
+            "#고객관리",
+            "#Excel",
+            "#시설관리",
+            "#교육기획",
+            "#고객",
+            "#일하기",
+            "#DYB의"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#영업·판매·무역",
+            "#의료",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "CS",
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "브랜드기획"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#의료": [
+              "상담실장"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50121984",
+          "title": "부산경남지사 영업 및 대리점관리 영업사원 채용",
+          "cleaned_title": "부산경남지사 영업 대리점관리 영업",
+          "company": "대성쎌틱에너시스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50121984",
+          "tags": [
+            "#CS",
+            "#고객상담·TM",
+            "#거래처관리",
+            "#영업",
+            "#영업·판매·무역"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50146576",
+          "title": "[주식회사 테크로스] 엔지니어 / AS관리 상시채용",
+          "cleaned_title": "엔지니어 AS관리 상시",
+          "company": "(주)테크로스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50146576",
+          "tags": [
+            "#CS"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "BI 엔지니어"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50232096",
+          "title": "인아텍앤코포(주) 기술지원팀 신입 채용",
+          "cleaned_title": "기술지원팀",
+          "company": "인아텍앤코포(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50232096",
+          "tags": [
+            "#기술상담",
+            "#CS",
+            "#고객상담·TM"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "CS",
+            "기술상담"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기술지원"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50243101",
+          "title": "[부산/외국계] Jr. Logistics Speciallist (계약직)",
+          "cleaned_title": "Jr. Logistics Speciallist (계약직)",
+          "company": "한국암웨이㈜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50243101",
+          "tags": [
+            "#창고관리",
+            "#유통관리"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#운전·운송·배송"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "유통관리",
+              "창고관리"
+            ],
+            "#운전·운송·배송": [
+              "통관"
+            ]
+          }
+        },
+        {
+          "rec_id": "50268370",
+          "title": "[화이트생명과학] 제약 CSO 영업처,개발 및 관리",
+          "cleaned_title": "제약 CSO 영업처,개발 관리",
+          "company": "(주)화이트생명과학",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50268370",
+          "tags": [
+            "#거래처관리",
+            "#영업",
+            "#전국",
+            "#영업·판매·무역",
+            "#기획·전략",
+            "#CSO",
+            "#제약영업"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "CSO",
+              "기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "제약영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50443318",
+          "title": "[안진회계법인] 경영자문부문 Discovery팀 Forensic&Analytics",
+          "cleaned_title": "[] 경영자문부문 Discovery팀 Forensic&Analytics",
+          "company": "안진회계법인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50443318",
+          "tags": [
+            "#IT개발·데이터",
+            "#데이터엔지니어",
+            "#데이터분석가",
+            "#정보보안"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "정보보안",
+              "데이터엔지니어",
+              "데이터분석가"
+            ],
+            "#회계·세무·재무": [
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50443944",
+          "title": "[발렌티노코리아] Logistics Executive",
+          "cleaned_title": "[] Logistics Executive",
+          "company": "발렌티노코리아 주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50443944",
+          "tags": [
+            "#SCM"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "SCM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50456419",
+          "title": "[Tech] 채용연계형 인턴십(프론트엔드 개발)",
+          "cleaned_title": "연계형 십(프론트엔드 개발)",
+          "company": "(주)케이뱅크",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50456419",
+          "tags": [
+            "#HTML",
+            "#프론트엔드",
+            "#CSS",
+            "#IT개발·데이터",
+            "#Javascript",
+            "#AI(인공지능)"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "프론트엔드"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50458728",
+          "title": "[Tech] 채용연계형 인턴십",
+          "cleaned_title": "연계형 십",
+          "company": "(주)케이뱅크",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50458728",
+          "tags": [
+            "#HTML",
+            "#프론트엔드",
+            "#CSS",
+            "#IT개발·데이터",
+            "#미들웨어",
+            "#Ja",
+            "#기획·전략",
+            "#인프라",
+            "#Nginx",
+            "#백엔드/서버개발",
+            "#Java",
+            "#머신러닝",
+            "#서비스기획",
+            "#AI(인공지능)"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "프론트엔드",
+              "백엔드/서버개발"
+            ],
+            "#기획·전략": [
+              "기획",
+              "서비스기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50480661",
+          "title": "Logistics Specialist (3년 내외, 수출/입)",
+          "cleaned_title": "Logistics Specialist (3년 내외, 수출 입)",
+          "company": "머크(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50480661",
+          "tags": [
+            "#물류관리",
+            "#영업·판매·무역",
+            "#수출입",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "물류관리"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50499769",
+          "title": "4월 사무·기술직 신입/경력 모집 (관리기획/SCM/고객품질)",
+          "cleaned_title": "4월 사무·기술직 (관리기획 SCM 고객품질)",
+          "company": "스템코(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50499769&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#CS",
+            "#고객상담·TM",
+            "#상담원",
+            "#출고/출하",
+            "#아웃바운드",
+            "#원가관리",
+            "#인바운드",
+            "#고객관리",
+            "#SCM",
+            "#운",
+            "#구매·자재·물류",
+            "#CX매니저"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#생산",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "아웃바운드",
+            "CS",
+            "인바운드",
+            "상담원",
+            "CX매니저",
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "SCM",
+              "구매"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#생산": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50501828",
+          "title": "(주)미코 각 부문 신입/경력 수시채용",
+          "cleaned_title": "각 부문",
+          "company": "(주)미코",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50501828&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#SE(시스템엔지니어)",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#CSS",
+            "#Git",
+            "#투자전략",
+            "#재무",
+            "#기획·전략",
+            "#MSSQL",
+            "#.NET",
+            "#Java",
+            "#Javascript",
+            "#C#",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "SE(시스템엔지니어)"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50511751",
+          "title": "[글로벌 해운선사] ZIM Korea 채용연계형 인턴십",
+          "cleaned_title": "ZIM Korea 연계형 십",
+          "company": "우성마리타임(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50511751",
+          "tags": [
+            "#CS",
+            "#고객상담·TM",
+            "#인바운드",
+            "#고객관리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "CS",
+            "인바운드",
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50518596",
+          "title": "한국브룩스오토메이션 물류 Logistics 담당자 채용",
+          "cleaned_title": "한국브룩스오토메이션 물류 Logistics",
+          "company": "한국브룩스오토메이션(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50518596",
+          "tags": [
+            "#물류관리",
+            "#ERP",
+            "#거래처관리",
+            "#자재구매",
+            "#구매관리",
+            "#전략구매",
+            "#납기관리",
+            "#SCM",
+            "#외주관리",
+            "#자재관리",
+            "#구매·자재·물류",
+            "#물류기획"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "CS"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "자재관리",
+              "물류관리",
+              "SCM",
+              "물류기획",
+              "구매관리"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "상담원": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50110867",
+          "title": "2025년 일본 영업/구매 모집 (신입 가능)",
+          "cleaned_title": "일본 영업 구매 ( 가능)",
+          "company": "(주)동방엔지니어링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50110867",
+          "tags": [
+            "#고객상담·TM",
+            "#상담원",
+            "#영업",
+            "#거래처영업",
+            "#교육",
+            "#기업영업",
+            "#일본어",
+            "#미디어·문화·스포츠",
+            "#일"
+          ],
+          "other_major_categories": [
+            "#교육",
+            "#구매·자재·물류",
+            "#미디어·문화·스포츠",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "상담원"
+          ],
+          "mid_categories_in_others": {
+            "#교육": [
+              "기타"
+            ],
+            "#구매·자재·물류": [
+              "구매"
+            ],
+            "#미디어·문화·스포츠": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50299921",
+          "title": "[외국계] Customer Helpdesk 고객지원팀 (전화수신)",
+          "cleaned_title": "Customer Helpdesk 고객지원팀 (전화수신)",
+          "company": "써모피셔사이언티픽 코리아 (주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50299921",
+          "tags": [
+            "#고객상담·TM",
+            "#서비스",
+            "#상담원",
+            "#고객응대",
+            "#콜센터/고객센터"
+          ],
+          "other_major_categories": [
+            "#서비스"
+          ],
+          "mid_categories_in_this_major": [
+            "상담원",
+            "콜센터/고객센터"
+          ],
+          "mid_categories_in_others": {
+            "#서비스": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50499769",
+          "title": "4월 사무·기술직 신입/경력 모집 (관리기획/SCM/고객품질)",
+          "cleaned_title": "4월 사무·기술직 (관리기획 SCM 고객품질)",
+          "company": "스템코(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50499769&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#CS",
+            "#고객상담·TM",
+            "#상담원",
+            "#출고/출하",
+            "#아웃바운드",
+            "#원가관리",
+            "#인바운드",
+            "#고객관리",
+            "#SCM",
+            "#운",
+            "#구매·자재·물류",
+            "#CX매니저"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#생산",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "아웃바운드",
+            "CS",
+            "인바운드",
+            "상담원",
+            "CX매니저",
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "SCM",
+              "구매"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#생산": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "인바운드": {
+      "size": 3,
+      "total_assignments": 3,
+      "documents": [
+        {
+          "rec_id": "50458813",
+          "title": "[유진투자선물] 부문별 신입/경력 채용(국제영업팀)",
+          "cleaned_title": "부문별 (국제영업팀)",
+          "company": "유진투자선물(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50458813",
+          "tags": [
+            "#고객상담·TM",
+            "#선물중개회사",
+            "#금융상품영업",
+            "#인바운드",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#금융·보험",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "인바운드"
+          ],
+          "mid_categories_in_others": {
+            "#금융·보험": [
+              "금융상품영업"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50499769",
+          "title": "4월 사무·기술직 신입/경력 모집 (관리기획/SCM/고객품질)",
+          "cleaned_title": "4월 사무·기술직 (관리기획 SCM 고객품질)",
+          "company": "스템코(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50499769&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#CS",
+            "#고객상담·TM",
+            "#상담원",
+            "#출고/출하",
+            "#아웃바운드",
+            "#원가관리",
+            "#인바운드",
+            "#고객관리",
+            "#SCM",
+            "#운",
+            "#구매·자재·물류",
+            "#CX매니저"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#생산",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "아웃바운드",
+            "CS",
+            "인바운드",
+            "상담원",
+            "CX매니저",
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "SCM",
+              "구매"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#생산": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50511751",
+          "title": "[글로벌 해운선사] ZIM Korea 채용연계형 인턴십",
+          "cleaned_title": "ZIM Korea 연계형 십",
+          "company": "우성마리타임(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50511751",
+          "tags": [
+            "#CS",
+            "#고객상담·TM",
+            "#인바운드",
+            "#고객관리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "CS",
+            "인바운드",
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "기술상담": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50232096",
+          "title": "인아텍앤코포(주) 기술지원팀 신입 채용",
+          "cleaned_title": "기술지원팀",
+          "company": "인아텍앤코포(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50232096",
+          "tags": [
+            "#기술상담",
+            "#CS",
+            "#고객상담·TM"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "CS",
+            "기술상담"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기술지원"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "콜센터/고객센터": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50299921",
+          "title": "[외국계] Customer Helpdesk 고객지원팀 (전화수신)",
+          "cleaned_title": "Customer Helpdesk 고객지원팀 (전화수신)",
+          "company": "써모피셔사이언티픽 코리아 (주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50299921",
+          "tags": [
+            "#고객상담·TM",
+            "#서비스",
+            "#상담원",
+            "#고객응대",
+            "#콜센터/고객센터"
+          ],
+          "other_major_categories": [
+            "#서비스"
+          ],
+          "mid_categories_in_this_major": [
+            "상담원",
+            "콜센터/고객센터"
+          ],
+          "mid_categories_in_others": {
+            "#서비스": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "아웃바운드": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50499769",
+          "title": "4월 사무·기술직 신입/경력 모집 (관리기획/SCM/고객품질)",
+          "cleaned_title": "4월 사무·기술직 (관리기획 SCM 고객품질)",
+          "company": "스템코(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50499769&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#CS",
+            "#고객상담·TM",
+            "#상담원",
+            "#출고/출하",
+            "#아웃바운드",
+            "#원가관리",
+            "#인바운드",
+            "#고객관리",
+            "#SCM",
+            "#운",
+            "#구매·자재·물류",
+            "#CX매니저"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#생산",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "아웃바운드",
+            "CS",
+            "인바운드",
+            "상담원",
+            "CX매니저",
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "SCM",
+              "구매"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#생산": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "CX매니저": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50499769",
+          "title": "4월 사무·기술직 신입/경력 모집 (관리기획/SCM/고객품질)",
+          "cleaned_title": "4월 사무·기술직 (관리기획 SCM 고객품질)",
+          "company": "스템코(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50499769&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#CS",
+            "#고객상담·TM",
+            "#상담원",
+            "#출고/출하",
+            "#아웃바운드",
+            "#원가관리",
+            "#인바운드",
+            "#고객관리",
+            "#SCM",
+            "#운",
+            "#구매·자재·물류",
+            "#CX매니저"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#생산",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "아웃바운드",
+            "CS",
+            "인바운드",
+            "상담원",
+            "CX매니저",
+            "고객관리"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "SCM",
+              "구매"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#생산": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "전화상담": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50506855",
+          "title": "(본사)분양관리팀 계약직 사무보조 단기 직원 모집",
+          "cleaned_title": "()분양관리팀 계약직 사무보조 단기",
+          "company": "디에스종합건설(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506855",
+          "tags": [
+            "#사무보조",
+            "#총무·법무·사무",
+            "#고객상담·TM",
+            "#건설·건축",
+            "#사무행정",
+            "#분양상담사",
+            "#전화상담",
+            "#문서작성",
+            "#공인중개사"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "전화상담"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "분양상담사",
+              "공인중개사"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

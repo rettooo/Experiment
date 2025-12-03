@@ -1,0 +1,970 @@
+{
+  "major_category": "#금융·보험",
+  "statistics": {
+    "total_docs": 24,
+    "unique_docs": 24,
+    "num_mid_categories": 8,
+    "overlap_info": {
+      "with_기획_전략": 10,
+      "with_인사_노무_hrd": 20,
+      "with_서비스": 1,
+      "with_영업_판매_무역": 4,
+      "with_총무_법무_사무": 4,
+      "with_it개발_데이터": 5,
+      "with_건설_건축": 1,
+      "with_연구_r&d": 2,
+      "with_마케팅_홍보_조사": 1,
+      "with_회계_세무_재무": 5,
+      "with_상품기획_md": 1,
+      "with_고객상담_tm": 1
+    }
+  },
+  "mid_categories": {
+    "기타": {
+      "size": 16,
+      "total_assignments": 16,
+      "documents": [
+        {
+          "rec_id": "50122381",
+          "title": "[히스토리벤처투자] 액셀러레이팅팀 채용연계형 인턴 채용",
+          "cleaned_title": "[] 액셀러레이팅팀 연계형",
+          "company": "히스토리벤처투자 주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50122381",
+          "tags": [
+            "#엑셀러레이팅",
+            "#기획·전략",
+            "#투자심사",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50327148",
+          "title": "[JustCo] 외국계 공유 오피스 고객 서비스 운영팀 인턴 모집",
+          "cleaned_title": "외국계 공유 오피스 고객 서비스 운영팀",
+          "company": "저스트코코리아온쇼어(유)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50327148",
+          "tags": [
+            "#호텔",
+            "#호텔영업",
+            "#총무·법무·사무",
+            "#서비스",
+            "#금융·보험",
+            "#영업·판매·무역",
+            "#고객응대",
+            "#부동산영업",
+            "#고객안내",
+            "#객실관리",
+            "#호텔리어",
+            "#GRO(컨시어지)",
+            "#비서"
+          ],
+          "other_major_categories": [
+            "#서비스",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#서비스": [
+              "호텔리어",
+              "GRO(컨시어지)"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "부동산영업",
+              "호텔영업"
+            ],
+            "#총무·법무·사무": [
+              "비서",
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50379567",
+          "title": "창업기획자,액셀러레이터 (서울근무)",
+          "cleaned_title": "창업기획자,액셀러레이터 (서울근무)",
+          "company": "제피러스랩",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50379567",
+          "tags": [
+            "#창업컨설팅",
+            "#기획·전략",
+            "#투자심사",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50395394",
+          "title": "[풍림무약] 기획조정실(사업기획) 담당자 채용의 건",
+          "cleaned_title": "[] 기획조정실(사업기획) 의 건",
+          "company": "풍림무약",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50395394",
+          "tags": [
+            "#신사업기획",
+            "#데이터분석",
+            "#투자검",
+            "#전략기획",
+            "#경영기획",
+            "#투자전략",
+            "#사업개발",
+            "#경영분석",
+            "#사업기획",
+            "#기획·전략",
+            "#신사업발굴",
+            "#기획",
+            "#사업관리",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획",
+              "전략기획",
+              "경영기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50396265",
+          "title": "[광주광역시 동양저축은행]마이데이터팀(전산) 행원 채용공고",
+          "cleaned_title": "마이데이터팀(전산) 행원",
+          "company": "(주)동양저축은행",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50396265",
+          "tags": [
+            "#보안관제",
+            "#보안컨설팅",
+            "#모의해킹",
+            "#인프라",
+            "#저축은행",
+            "#네트워크",
+            "#정보보안",
+            "#금융·보험",
+            "#클라우드"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "데이터 사이언티스트",
+              "보안관제",
+              "보안컨설팅",
+              "정보보안"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50396932",
+          "title": "[E9pay] 자금세탁방지부 AML 담당자 모집",
+          "cleaned_title": "자금세탁방지부 AML",
+          "company": "(주)이나인페이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50396932",
+          "tags": [
+            "#AML",
+            "#특수은행",
+            "#위험관리",
+            "#금융·보험",
+            "#외환관리"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50416736",
+          "title": "[알파자산운용] PE본부 인턴 채용(~채용 시까지)",
+          "cleaned_title": "PE본부 (~ 시까지)",
+          "company": "알파자산운용(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50416736",
+          "tags": [
+            "#증권사",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50456410",
+          "title": "[BizㆍMarketing] 채용연계형 인턴십(금융 상품 기획)",
+          "cleaned_title": "연계형 십(금융 상품 기획)",
+          "company": "(주)케이뱅크",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50456410",
+          "tags": [
+            "#상품기획·MD",
+            "#상품관리",
+            "#상품기획",
+            "#기획·전략",
+            "#기획",
+            "#일반은행",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#상품기획·md",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "상품기획"
+            ],
+            "#상품기획·md": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50456427",
+          "title": "[Tech] 채용연계형 인턴십(백엔드 개발)",
+          "cleaned_title": "연계형 십(백엔드 개발)",
+          "company": "(주)케이뱅크",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50456427",
+          "tags": [
+            "#IT개발·데이터",
+            "#기획·전략",
+            "#백엔드/서버개발",
+            "#서비스기획",
+            "#일반은행",
+            "#금융·보험",
+            "#AI(인공지능)"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발"
+            ],
+            "#기획·전략": [
+              "기획",
+              "서비스기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50458721",
+          "title": "[유진투자선물] 부문별 신입/경력 채용(컴플라이언스팀)",
+          "cleaned_title": "부문별 (컴플라이언스팀)",
+          "company": "유진투자선물(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50458721",
+          "tags": [
+            "#총무·법무·사무",
+            "#회계·세무·재무",
+            "#리스크",
+            "#선물중개회사",
+            "#감사",
+            "#기획·전략",
+            "#내부감사",
+            "#컴플라이언스",
+            "#외부감사",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "컴플라이언스",
+              "총무",
+              "법무"
+            ],
+            "#회계·세무·재무": [
+              "감사",
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50460516",
+          "title": "[유화증권] 리스크관리 신입사원 채용",
+          "cleaned_title": "[] 리스크관리",
+          "company": "유화증권 주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50460516",
+          "tags": [
+            "#증권사",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50474460",
+          "title": "[이지자산평가] 대체평가부문 채용",
+          "cleaned_title": "대체평가부문",
+          "company": "이지자산평가(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50474460",
+          "tags": [
+            "#투자자산",
+            "#재무분석",
+            "#금융·보험",
+            "#펀드",
+            "#기업분석"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "재무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50485275",
+          "title": "[신한자산신탁] 2025년 신입직원 공개채용",
+          "cleaned_title": "공개",
+          "company": "신한자산신탁(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50485275",
+          "tags": [
+            "#영업",
+            "#영업·판매·무역",
+            "#금융·보험",
+            "#신탁"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50517015",
+          "title": "[미래에셋자산운용]주식운용부문 인턴(정규직전환형), 경력 채용",
+          "cleaned_title": "주식운용부문 (전환형),",
+          "company": "미래에셋자산운용(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50517015",
+          "tags": [
+            "#자산관리",
+            "#총무·법무·사무",
+            "#회계·세무·재무",
+            "#자산운용사",
+            "#투자자산",
+            "#자산운용",
+            "#금융·보험",
+            "#펀드"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50517017",
+          "title": "[미래에셋자산운용] 재무실 자금팀 인턴(정규직 전환형) 채용",
+          "cleaned_title": "재무실 자금팀 ( 전환형)",
+          "company": "미래에셋자산운용(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50517017",
+          "tags": [
+            "#회계·세무·재무",
+            "#회계결산",
+            "#자산운용사",
+            "#회계",
+            "#기획·전략",
+            "#예산관리",
+            "#금융·보험",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50519603",
+          "title": "2025년 상반기 일진그룹 대졸 신입 공채(법무/컴플라이언스)",
+          "cleaned_title": "일진그룹 (법무 컴플라이언스)",
+          "company": "(주)일진",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50519603",
+          "tags": [
+            "#총무·법무·사무",
+            "#투자검토",
+            "#법무",
+            "#컴플라이언스",
+            "#투자심사",
+            "#금융·보험",
+            "#투자분석",
+            "#법무사"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "법무",
+              "컴플라이언스",
+              "총무",
+              "법무사"
+            ]
+          }
+        }
+      ]
+    },
+    "보험심사": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50166351",
+          "title": "㈜국제손해사정 배상책임팀(대인) 경력 및 신입직원 채용",
+          "cleaned_title": "국제손해사정 배상책임팀(대인)",
+          "company": "(주)국제손해사정",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50166351",
+          "tags": [
+            "#손해보험사",
+            "#생명보험사",
+            "#보험청구",
+            "#투자자문",
+            "#보험사고",
+            "#기업심사",
+            "#저축은행",
+            "#손해평가",
+            "#보험심사",
+            "#배상책임",
+            "#금융·보험",
+            "#손해보험",
+            "#배상",
+            "#손해사정사"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "보험심사",
+            "손해사정사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436424",
+          "title": "2025년 상반기 대졸 신입사원 채용(기업보험총괄)",
+          "cleaned_title": "(기업보험총괄)",
+          "company": "메리츠화재해상보험(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436424",
+          "tags": [
+            "#보험상품개발",
+            "#리스크",
+            "#기업금융",
+            "#기획·전략",
+            "#보험심사",
+            "#금융·보험",
+            "#손해보험"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "보험심사",
+            "보험상품개발"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "손해사정사": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50166351",
+          "title": "㈜국제손해사정 배상책임팀(대인) 경력 및 신입직원 채용",
+          "cleaned_title": "국제손해사정 배상책임팀(대인)",
+          "company": "(주)국제손해사정",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50166351",
+          "tags": [
+            "#손해보험사",
+            "#생명보험사",
+            "#보험청구",
+            "#투자자문",
+            "#보험사고",
+            "#기업심사",
+            "#저축은행",
+            "#손해평가",
+            "#보험심사",
+            "#배상책임",
+            "#금융·보험",
+            "#손해보험",
+            "#배상",
+            "#손해사정사"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "보험심사",
+            "손해사정사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436524",
+          "title": "2025년 상반기 대졸 신입사원 채용(장기보상부문)",
+          "cleaned_title": "(장기보상부문)",
+          "company": "메리츠화재해상보험(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436524",
+          "tags": [
+            "#SAS",
+            "#조직관리",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#SQL",
+            "#회계결산",
+            "#통계/분석",
+            "#기획·전략",
+            "#금융·보험",
+            "#손해보험",
+            "#마케팅·홍보·조사",
+            "#손해사정사"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "손해사정사"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "회계",
+              "재무"
+            ]
+          }
+        }
+      ]
+    },
+    "금융사무": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50354476",
+          "title": "[기술신용평가(TCB)] 2025년 한국평가데이터 계약직원 채용",
+          "cleaned_title": "한국평가데이터 계약",
+          "company": "한국평가데이터(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50354476",
+          "tags": [
+            "#금융사무",
+            "#금융·보험",
+            "#기술신용평가"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "금융사무"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "데이터 사이언티스트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50443752",
+          "title": "[솔루션사업본부] 신입(인턴) 및 경력직원 채용 공고",
+          "cleaned_title": "()",
+          "company": "한국자산평가(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50443752",
+          "tags": [
+            "#텔러",
+            "#컨설턴트",
+            "#기획·전략",
+            "#금융사무",
+            "#채권관리",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "금융사무",
+            "텔러"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "컨설턴트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "금융상품영업": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50458813",
+          "title": "[유진투자선물] 부문별 신입/경력 채용(국제영업팀)",
+          "cleaned_title": "부문별 (국제영업팀)",
+          "company": "유진투자선물(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50458813",
+          "tags": [
+            "#고객상담·TM",
+            "#선물중개회사",
+            "#금융상품영업",
+            "#인바운드",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "금융상품영업"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "인바운드"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50458939",
+          "title": "[유진투자선물] 해외선물 백오피스 신입/경력 채용",
+          "cleaned_title": "해외선물 백오피스",
+          "company": "유진투자선물(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50458939",
+          "tags": [
+            "#선물중개회사",
+            "#금융상품영업",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "금융상품영업"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "펀드매니저": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50335979",
+          "title": "[(주)JED&COMPANY] 부동산 개발(시행) 전문가 신입/경력직 채용",
+          "cleaned_title": "부동산 개발(시행) 전문가 직",
+          "company": "(주)제드앤컴퍼니",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50335979",
+          "tags": [
+            "#부동산투자",
+            "#건설·건축",
+            "#펀드매니저",
+            "#부동산",
+            "#투자자문",
+            "#투자자문사",
+            "#금융·보험",
+            "#투자분석"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "펀드매니저"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#건설·건축": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "보험상품개발": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50436424",
+          "title": "2025년 상반기 대졸 신입사원 채용(기업보험총괄)",
+          "cleaned_title": "(기업보험총괄)",
+          "company": "메리츠화재해상보험(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436424",
+          "tags": [
+            "#보험상품개발",
+            "#리스크",
+            "#기업금융",
+            "#기획·전략",
+            "#보험심사",
+            "#금융·보험",
+            "#손해보험"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "보험심사",
+            "보험상품개발"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "텔러": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50443752",
+          "title": "[솔루션사업본부] 신입(인턴) 및 경력직원 채용 공고",
+          "cleaned_title": "()",
+          "company": "한국자산평가(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50443752",
+          "tags": [
+            "#텔러",
+            "#컨설턴트",
+            "#기획·전략",
+            "#금융사무",
+            "#채권관리",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "금융사무",
+            "텔러"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "컨설턴트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -21,8 +21,8 @@ class StratifiedSampler:
             seed: 재현 가능한 샘플링을 위한 시드값
         """
         self.seed = seed
-        if seed is not None:
-            random.seed(seed)
+        # 전역 random 대신 독립적인 Random 인스턴스 사용 (재현성 보장)
+        self.rng = random.Random(seed) if seed is not None else random
 
     def _generate_profile_hash(self, user_profile: Dict[str, Any]) -> str:
         """
@@ -112,7 +112,7 @@ class StratifiedSampler:
 
         # 3. 랜덤하게 프로필 선택
         profile_hashes = list(profile_groups.keys())
-        selected_profile_hashes = random.sample(profile_hashes, target_profiles)
+        selected_profile_hashes = self.rng.sample(profile_hashes, target_profiles)
 
         print(f"✅ 선택된 프로필:")
         for hash_key in selected_profile_hashes:
@@ -123,7 +123,7 @@ class StratifiedSampler:
         selected_queries = []
         for profile_hash in selected_profile_hashes:
             profile_queries = profile_groups[profile_hash]
-            selected_query = random.sample(profile_queries, 1)[0]
+            selected_query = self.rng.sample(profile_queries, 1)[0]
             selected_queries.append(selected_query)
 
             major = profile_info[profile_hash]['major']
@@ -145,7 +145,7 @@ class StratifiedSampler:
 
     def _random_sampling(self, queries: List[Dict[str, Any]], sample_size: int) -> List[Dict[str, Any]]:
         """단순 랜덤 샘플링"""
-        return random.sample(queries, sample_size)
+        return self.rng.sample(queries, sample_size)
 
 
 def generate_reproducible_seed(config_dict: Dict[str, Any]) -> int:

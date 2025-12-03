@@ -1,0 +1,3050 @@
+{
+  "major_category": "#교육",
+  "statistics": {
+    "total_docs": 47,
+    "unique_docs": 47,
+    "num_mid_categories": 12,
+    "overlap_info": {
+      "with_공공_복지": 5,
+      "with_기획_전략": 31,
+      "with_의료": 2,
+      "with_인사_노무_hrd": 29,
+      "with_총무_법무_사무": 11,
+      "with_미디어_문화_스포츠": 4,
+      "with_건설_건축": 6,
+      "with_생산": 3,
+      "with_고객상담_tm": 1,
+      "with_구매_자재_물류": 2,
+      "with_영업_판매_무역": 1,
+      "with_마케팅_홍보_조사": 4,
+      "with_it개발_데이터": 7,
+      "with_연구_r&d": 14,
+      "with_회계_세무_재무": 3,
+      "with_디자인": 1,
+      "with_서비스": 3
+    }
+  },
+  "mid_categories": {
+    "교육운영": {
+      "size": 19,
+      "total_assignments": 19,
+      "documents": [
+        {
+          "rec_id": "50018158",
+          "title": "[다인] 교육기획/운영 담당 채용전환형 인턴",
+          "cleaned_title": "교육기획 운영 담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50018158",
+          "tags": [
+            "#교육컨설턴트",
+            "#심리치료사",
+            "#공공·복지",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육기획",
+            "#사회복지사",
+            "#평생교육사",
+            "#인사교육",
+            "#EAP상담",
+            "#교육운영",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "평생교육사",
+            "교육컨설턴트"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "심리치료사",
+              "사무직",
+              "평생교육사",
+              "사회복지사"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "컨설턴트"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50138185",
+          "title": "바이스앤 골프아카데미 운영 및 기획",
+          "cleaned_title": "바이스앤 골프아카데미 운영 기획",
+          "company": "(주)바이스앤",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50138185",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#골프",
+            "#유아교육",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#미디어·문화·스포츠",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#미디어·문화·스포츠"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50145300",
+          "title": "대학교육(진로,취업) 교육기획 및 교육운영 학사/석사/박사 채용",
+          "cleaned_title": "대학교육(진로,취업) 교육기획 교육운영 학사 석사 박사",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50145300",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교수설계",
+            "교육컨텐츠개발",
+            "교재개발"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50273155",
+          "title": "[노무사단기 채용] 온라인컨텐츠기획 팀원급 인재채용",
+          "cleaned_title": "온라인컨텐츠기획 급",
+          "company": "(주)에스티유니타스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50273155",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#콘텐츠기획",
+            "#노무사",
+            "#온라인컨텐츠기획",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육운영",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠기획"
+            ],
+            "#인사·노무·hrd": [
+              "노무사",
+              "HRD",
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50295588",
+          "title": "교육 프로그램 운영 지원 및 행정 업무 신입 채용",
+          "cleaned_title": "교육 프로그램 운영 지원 행정 업무",
+          "company": "(주)렛츠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50295588",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#총무·법무·사무",
+            "#전략기획",
+            "#교재개발",
+            "#경영기획",
+            "#교육행정",
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#서비스기획",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교재개발",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획",
+              "서비스기획",
+              "교육기획",
+              "사업기획",
+              "전략기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50318286",
+          "title": "[메가스터디교육] 김영편입 출판기획팀 자격증 교재 담당자 채용",
+          "cleaned_title": "김영편입 출판기획팀 자격증 교재",
+          "company": "(주)아이비김영",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50318286",
+          "tags": [
+            "#전기설비",
+            "#생산",
+            "#건설·건축",
+            "#전기설계",
+            "#안전관리자",
+            "#기획·전략",
+            "#전기시공",
+            "#교육",
+            "#전기기사",
+            "#전기제어",
+            "#출판기획",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#기획·전략",
+            "#생산",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "전기기사",
+              "전기설계",
+              "안전관리자"
+            ],
+            "#기획·전략": [
+              "기획",
+              "출판기획"
+            ],
+            "#생산": [
+              "전기설계",
+              "전기제어",
+              "생산"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50321349",
+          "title": "지역혁신중심 대학지원체계(RISE) 사업 직원 채용",
+          "cleaned_title": "지역혁신중심 대학지원체계(RISE) 사업",
+          "company": "호서대학교산학협력단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50321349",
+          "tags": [
+            "#연구과제관리",
+            "#국책사업",
+            "#연구·R&D",
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#기획",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "사업기획"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50359451",
+          "title": "한양대학교 ERICA SW중심대학사업단 행정직원 채용",
+          "cleaned_title": "한양대학교 ERICA SW중심대학사업단 행정",
+          "company": "한양대학교에리카산학협력단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50359451",
+          "tags": [
+            "#기획·전략",
+            "#대학교",
+            "#교육",
+            "#사업관리",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50367273",
+          "title": "농어촌지역개발 도시계획 기본계획 및 지역역량 연구원 모집",
+          "cleaned_title": "농어촌지역개발 도시계획 기본계획 지역역량 연구원",
+          "company": "주식회사 더반",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50367273",
+          "tags": [
+            "#지역개발컨설팅",
+            "#건설·건축",
+            "#경영기획",
+            "#컨설턴트",
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#지역개발",
+            "#교육운영",
+            "#실적관리",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#건설·건축": [
+              "지역개발컨설팅"
+            ],
+            "#기획·전략": [
+              "기획",
+              "경영기획",
+              "사업기획",
+              "컨설턴트"
+            ],
+            "#연구·r&d": [
+              "연구원"
+            ]
+          }
+        },
+        {
+          "rec_id": "50378176",
+          "title": "대학교육(스피치, 글쓰기) 교육과정 및 교육 콘텐츠 개발 담당자",
+          "cleaned_title": "대학교육(스피치, 글쓰기) 교육과정 교육 콘텐츠 개발",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50378176",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교수설계",
+            "교육운영",
+            "교육컨텐츠개발",
+            "교재개발"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50402545",
+          "title": "공공기관 위탁사업 수행 정규/계약직원 모집 (교육/컨설팅)",
+          "cleaned_title": "공공기관 위탁사업 수행 정규 계약 (교육 컨설팅)",
+          "company": "(주)디에스교육컨설팅",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50402545",
+          "tags": [
+            "#교육컨설턴트",
+            "#경영기획",
+            "#컨설턴트",
+            "#기업교육",
+            "#서구",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#교육기획",
+            "#온라인교육",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨설턴트"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "컨설턴트",
+              "교육기획",
+              "경영기획"
+            ],
+            "#인사·노무·hrd": [
+              "HRD",
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50458541",
+          "title": "성주류화전략부 전담연구원(기간제) 공개경쟁채용",
+          "cleaned_title": "성주류화전략부 전담연구원(기간제) 공개경쟁",
+          "company": "(재)인천광역시여성가족재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50458541",
+          "tags": [
+            "#총무·법무·사무",
+            "#교육행정",
+            "#교육",
+            "#사무행정",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "연구원"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50482207",
+          "title": "2025년 제3회 신규직원 채용(기간제계약직_사업운영관리·지원)",
+          "cleaned_title": "제3회 신규 (기간제계약직 사업운영관리·지원)",
+          "company": "한국양성평등교육진흥원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50482207",
+          "tags": [
+            "#인재발굴",
+            "#교육컨설턴트",
+            "#사업제휴",
+            "#컨설턴트",
+            "#사업개발",
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#교육컨텐츠기",
+            "#인사·노무·HRD",
+            "#사업관리",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨설턴트"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "컨설턴트",
+              "사업기획"
+            ],
+            "#인사·노무·hrd": [
+              "HRD",
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50497874",
+          "title": "스마트플랜트신뢰성핵심연구지원센터 휴직 연구원 대체인력 채용",
+          "cleaned_title": "스마트플랜트신뢰성핵심연구지원센터 휴직 연구원 대체인력",
+          "company": "전남대학교산학협력단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50497874",
+          "tags": [
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획"
+            ],
+            "#연구·r&d": [
+              "연구원"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50499372",
+          "title": "농산물 품질관리 컨설턴트 모집",
+          "cleaned_title": "농산물 품질관리 컨설턴트",
+          "company": "이시도르지속가능연구소(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50499372",
+          "tags": [
+            "#서비스",
+            "#농업",
+            "#R&D",
+            "#연구·R&D",
+            "#교육",
+            "#농수산컨설팅",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#기획·전략",
+            "#생산",
+            "#서비스",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "품질관리"
+            ],
+            "#기획·전략": [
+              "컨설턴트"
+            ],
+            "#생산": [
+              "품질관리"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ]
+          }
+        },
+        {
+          "rec_id": "50502601",
+          "title": "부산시 공무원 데이터 교육 운영담당자 채용",
+          "cleaned_title": "부산시 공무원 데이터 교육 운영",
+          "company": "휴마인(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50502601",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#교육",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "데이터 사이언티스트"
+            ],
+            "#건설·건축": [
+              "공무"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50505744",
+          "title": "[계약직_교육시스템B(세종)] 2025년 제2차 직원채용",
+          "cleaned_title": "제2차",
+          "company": "한국교육학술정보원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50505744",
+          "tags": [
+            "#교육컨설턴트",
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#사업관리",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨설턴트"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "사업기획",
+              "컨설턴트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50505838",
+          "title": "[계약직_교육시스템A(대구)] 2025년 제2차 직원채용",
+          "cleaned_title": "제2차",
+          "company": "한국교육학술정보원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50505838",
+          "tags": [
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#서비스기획",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "서비스기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50506020",
+          "title": "[계약직_교육서비스(대구)] 2025년 제2차 직원채용",
+          "cleaned_title": "제2차",
+          "company": "한국교육학술정보원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506020",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#총무·법무·사무",
+            "#교육행정",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#서비스기획",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "서비스기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "기타": {
+      "size": 19,
+      "total_assignments": 19,
+      "documents": [
+        {
+          "rec_id": "50050775",
+          "title": "[국제교육후견인협회] 인턴 모집(정규직 전환 가능)",
+          "cleaned_title": "[] ( 전환 가능)",
+          "company": "국제교육후견인협회",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50050775",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50085671",
+          "title": "[인증업무]경력자 및 인턴사원 (건축물관련인증 경력 우대)",
+          "cleaned_title": "자 (건축물관련인증 우대)",
+          "company": "(사)한국환경건축연구원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50085671",
+          "tags": [
+            "#BF인증",
+            "#컨설팅",
+            "#건축기사",
+            "#건설·건축",
+            "#건축전기",
+            "#가스설비",
+            "#전기설계",
+            "#인증",
+            "#건축물인증",
+            "#교육",
+            "#기계기사",
+            "#통신설계",
+            "#녹색건축인증",
+            "#건축설비"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#생산"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "건축기사",
+              "기계기사",
+              "전기설계",
+              "통신설계"
+            ],
+            "#생산": [
+              "전기설계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50110867",
+          "title": "2025년 일본 영업/구매 모집 (신입 가능)",
+          "cleaned_title": "일본 영업 구매 ( 가능)",
+          "company": "(주)동방엔지니어링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50110867",
+          "tags": [
+            "#고객상담·TM",
+            "#상담원",
+            "#영업",
+            "#거래처영업",
+            "#교육",
+            "#기업영업",
+            "#일본어",
+            "#미디어·문화·스포츠",
+            "#일"
+          ],
+          "other_major_categories": [
+            "#고객상담·tm",
+            "#구매·자재·물류",
+            "#미디어·문화·스포츠",
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#고객상담·tm": [
+              "상담원"
+            ],
+            "#구매·자재·물류": [
+              "구매"
+            ],
+            "#미디어·문화·스포츠": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ]
+          }
+        },
+        {
+          "rec_id": "50237773",
+          "title": "[서초소마] 수학 강사를 채용합니다",
+          "cleaned_title": "수학 강사를 합니다",
+          "company": "(주)타임교육",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50237773",
+          "tags": [
+            "#수학",
+            "#보습학원"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50337387",
+          "title": "연세대학교 산학협력단 계약직원 채용",
+          "cleaned_title": "연세대학교 산학협력단 계약",
+          "company": "연세대학교산학협력단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50337387",
+          "tags": [
+            "#고등학교",
+            "#서",
+            "#연구·R&D",
+            "#대학원",
+            "#대학교",
+            "#교육",
+            "#사무행정",
+            "#산학협력단",
+            "#기획·전략",
+            "#총무",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50382540",
+          "title": "군포상공회의소 계약직 직원 채용",
+          "cleaned_title": "계약직",
+          "company": "군포상공회의소",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50382540",
+          "tags": [
+            "#경영지원",
+            "#사무보조",
+            "#교육"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50382628",
+          "title": "[주 3일 원격근무] 비상교육 전체직무 상시채용",
+          "cleaned_title": "비상교육 전체직무 상시",
+          "company": "(주)비상교육",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50382628&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#브랜드기획",
+            "#언론홍보",
+            "#경영기획",
+            "#사업제휴",
+            "#광고기획",
+            "#회계",
+            "#사업기획",
+            "#기획·전략",
+            "#교육기획",
+            "#기획",
+            "#서비스기획",
+            "#웹기획",
+            "#출판기획",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획",
+              "서비스기획",
+              "광고기획",
+              "브랜드기획",
+              "교육기획",
+              "웹기획",
+              "출판기획",
+              "사업기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "홍보",
+              "마케팅"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "회계"
+            ]
+          }
+        },
+        {
+          "rec_id": "50382762",
+          "title": "[하림그룹] 한국썸벧(주) 미생물시험 담당자 채용",
+          "cleaned_title": "미생물시험",
+          "company": "한국썸벧(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50382762",
+          "tags": [
+            "#미생물",
+            "#생물",
+            "#연구·R&D",
+            "#교육",
+            "#이화학시험"
+          ],
+          "other_major_categories": [
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50407416",
+          "title": "충북대학교 장애인 교원 근로지원(교육, 연구, 봉사 활동 지원)",
+          "cleaned_title": "충북대학교 장애인 교원 근로지원(교육, 연구, 봉사 활동 지원)",
+          "company": "충북대학교산학협력단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50407416",
+          "tags": [
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#연구·r&d",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50426000",
+          "title": "학교법인 을지학원 직원 채용(안전관리분야)",
+          "cleaned_title": "학교법인 을지학원 (안전관리분야)",
+          "company": "(학)을지학원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50426000",
+          "tags": [
+            "#안전관리자",
+            "#의료",
+            "#보건관리자",
+            "#인사·노무·HRD",
+            "#중대재해처벌법"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#의료",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "안전관리자",
+              "보건관리자"
+            ],
+            "#의료": [
+              "보건관리자"
+            ],
+            "#인사·노무·hrd": [
+              "HRD",
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50428282",
+          "title": "온라인교육 솔루션 고객사운영 및 고객지원 팀원 모집",
+          "cleaned_title": "온라인교육 솔루션 고객사운영 고객지원",
+          "company": "(주)맑은소프트",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50428282",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50428728",
+          "title": "[어스얼라이언스] 교육콘텐츠 기획&운영(인턴)",
+          "cleaned_title": "교육콘텐츠 기획&운영()",
+          "company": "어스얼라이언스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50428728",
+          "tags": [
+            "#크리에이터",
+            "#유튜브",
+            "#미디어·문화·스포츠",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사",
+            "#뉴미디어"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#미디어·문화·스포츠"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "크리에이터"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436437",
+          "title": "[한국콜마] 2025 상반기 콜마그룹 대졸신입 공채(C/T)",
+          "cleaned_title": "콜마그룹 (C T)",
+          "company": "한국콜마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436437",
+          "tags": [
+            "#화학",
+            "#교육",
+            "#신소재",
+            "#고분자"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50470316",
+          "title": "한신대학교 일반연구원 채용 공고(평생교육원(경기))",
+          "cleaned_title": "한신대학교 일반연구원 (평생교육원(경기))",
+          "company": "(학)한신학원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50470316",
+          "tags": [],
+          "other_major_categories": [
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#연구·r&d": [
+              "연구원"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50475499",
+          "title": "동서대학교 외국어교육원 계약직원 채용",
+          "cleaned_title": "외국어교육원 계약",
+          "company": "동서대학교",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50475499",
+          "tags": [
+            "#총무·법무·사무",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50479423",
+          "title": "국립대학육성사업 계약직원(원격교육연수원 행정사무원) 채용",
+          "cleaned_title": "국립대학육성사업 계약(원격교육연수원 행정사무원)",
+          "company": "대구교육대학교",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50479423",
+          "tags": [
+            "#사무보조",
+            "#총무·법무·사무",
+            "#사무행정",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#인사·노무·hrd",
+            "#총무·법무·사무",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ],
+            "#회계·세무·재무": [
+              "행정사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50479867",
+          "title": "교육콘텐츠 기획 및 개발 담당자",
+          "cleaned_title": "교육콘텐츠 기획 개발",
+          "company": "(주)제이더블유시스템",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50479867",
+          "tags": [
+            "#방"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50496767",
+          "title": "[링커리어] 알렌의서재 콘텐츠기획 신입",
+          "cleaned_title": "[] 알렌의서재 콘텐츠기획",
+          "company": "주식회사 링커리어",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50496767",
+          "tags": [
+            "#신사업기획",
+            "#전략기획",
+            "#리스크",
+            "#사업제휴",
+            "#사업개발",
+            "#사업기획",
+            "#기획·전략",
+            "#3.",
+            "#교육",
+            "#신사업발굴",
+            "#마케팅기획",
+            "#기획",
+            "#사업관리",
+            "#서비스기획",
+            "#교육컨"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획",
+              "서비스기획",
+              "전략기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "콘텐츠기획",
+              "마케팅",
+              "마케팅기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50506251",
+          "title": "[정규직_교육시스템(대구/세종)] 2025년 제2차 직원채용",
+          "cleaned_title": "제2차",
+          "company": "한국교육학술정보원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506251",
+          "tags": [
+            "#보안관제",
+            "#회계·세무·재무",
+            "#전략기획",
+            "#IT개발·데이터",
+            "#보안컨설팅",
+            "#사업기획",
+            "#기획·전략",
+            "#인프라",
+            "#정보통신",
+            "#ICT컨설팅",
+            "#예산관리",
+            "#정보보안"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#회계·세무·재무"
+          ],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "정보보안",
+              "보안관제",
+              "보안컨설팅",
+              "ICT컨설팅"
+            ],
+            "#기획·전략": [
+              "기획",
+              "전략기획",
+              "사업기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#회계·세무·재무": [
+              "재무",
+              "회계"
+            ]
+          }
+        }
+      ]
+    },
+    "교육컨텐츠개발": {
+      "size": 13,
+      "total_assignments": 13,
+      "documents": [
+        {
+          "rec_id": "50055856",
+          "title": "[에듀윌] 자격증 수험서 기획/편집 신입(경력)직 모집",
+          "cleaned_title": "자격증 수험서 기획 편집 ()직",
+          "company": "(주)에듀윌",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50055856",
+          "tags": [
+            "#교재개발",
+            "#기획·전략",
+            "#교육",
+            "#출판기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "교육컨텐츠개발",
+            "교재개발"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "출판기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50062661",
+          "title": "[아이스크림미디어] 영상 제작자 모집(촬영)",
+          "cleaned_title": "영상 제작자 (촬영)",
+          "company": "(주)아이스크림미디어",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50062661",
+          "tags": [
+            "#교육",
+            "#영상제작",
+            "#미디어·문화·스포츠",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#미디어·문화·스포츠"
+          ],
+          "mid_categories_in_this_major": [
+            "교육컨텐츠개발"
+          ],
+          "mid_categories_in_others": {
+            "#미디어·문화·스포츠": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50138185",
+          "title": "바이스앤 골프아카데미 운영 및 기획",
+          "cleaned_title": "바이스앤 골프아카데미 운영 기획",
+          "company": "(주)바이스앤",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50138185",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#골프",
+            "#유아교육",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#미디어·문화·스포츠",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#미디어·문화·스포츠"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50145300",
+          "title": "대학교육(진로,취업) 교육기획 및 교육운영 학사/석사/박사 채용",
+          "cleaned_title": "대학교육(진로,취업) 교육기획 교육운영 학사 석사 박사",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50145300",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교수설계",
+            "교육컨텐츠개발",
+            "교재개발"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50293001",
+          "title": "초등 영어 교과서/교재 편집 개발",
+          "cleaned_title": "초등 영어 교과서 교재 편집 개발",
+          "company": "(주)비상교육",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50293001",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#교재개발",
+            "#영어",
+            "#영어교재",
+            "#교육",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "교재개발",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50294552",
+          "title": "(주)와이비엠 에듀테크 콘텐츠 기획자 모집",
+          "cleaned_title": "에듀테크 콘텐츠 기획자",
+          "company": "(주)와이비엠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50294552",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#교육",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50295588",
+          "title": "교육 프로그램 운영 지원 및 행정 업무 신입 채용",
+          "cleaned_title": "교육 프로그램 운영 지원 행정 업무",
+          "company": "(주)렛츠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50295588",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#총무·법무·사무",
+            "#전략기획",
+            "#교재개발",
+            "#경영기획",
+            "#교육행정",
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#서비스기획",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교재개발",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획",
+              "서비스기획",
+              "교육기획",
+              "사업기획",
+              "전략기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50378176",
+          "title": "대학교육(스피치, 글쓰기) 교육과정 및 교육 콘텐츠 개발 담당자",
+          "cleaned_title": "대학교육(스피치, 글쓰기) 교육과정 교육 콘텐츠 개발",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50378176",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교수설계",
+            "교육운영",
+            "교육컨텐츠개발",
+            "교재개발"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50410392",
+          "title": "[정규직 전환형 인턴][센텀] 포엠에듀 학생관리/기획 복합직무",
+          "cleaned_title": "포엠에듀 학생관리 기획 복합직무",
+          "company": "주식회사 포엠학원센텀러닝센터",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50410392",
+          "tags": [
+            "#학원강사",
+            "#학원보조",
+            "#학생지도",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "학원보조",
+            "학원강사",
+            "교육컨텐츠개발"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50482207",
+          "title": "2025년 제3회 신규직원 채용(기간제계약직_사업운영관리·지원)",
+          "cleaned_title": "제3회 신규 (기간제계약직 사업운영관리·지원)",
+          "company": "한국양성평등교육진흥원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50482207",
+          "tags": [
+            "#인재발굴",
+            "#교육컨설턴트",
+            "#사업제휴",
+            "#컨설턴트",
+            "#사업개발",
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#교육컨텐츠기",
+            "#인사·노무·HRD",
+            "#사업관리",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨설턴트"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "컨설턴트",
+              "사업기획"
+            ],
+            "#인사·노무·hrd": [
+              "HRD",
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50501110",
+          "title": "[매쓰프로] 수학연구원 신입/경력사원 채용",
+          "cleaned_title": "수학연구원",
+          "company": "(주)화신이앤엘",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50501110",
+          "tags": [
+            "#이러닝",
+            "#교육컨텐츠기획",
+            "#교재개발",
+            "#학습지",
+            "#수학",
+            "#문제",
+            "#교육",
+            "#문제은행",
+            "#교정",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교재개발",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "연구원"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50502601",
+          "title": "부산시 공무원 데이터 교육 운영담당자 채용",
+          "cleaned_title": "부산시 공무원 데이터 교육 운영",
+          "company": "휴마인(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50502601",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#교육",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "데이터 사이언티스트"
+            ],
+            "#건설·건축": [
+              "공무"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50506020",
+          "title": "[계약직_교육서비스(대구)] 2025년 제2차 직원채용",
+          "cleaned_title": "제2차",
+          "company": "한국교육학술정보원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506020",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#총무·법무·사무",
+            "#교육행정",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#서비스기획",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "서비스기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "교육컨텐츠기획": {
+      "size": 8,
+      "total_assignments": 8,
+      "documents": [
+        {
+          "rec_id": "50138185",
+          "title": "바이스앤 골프아카데미 운영 및 기획",
+          "cleaned_title": "바이스앤 골프아카데미 운영 기획",
+          "company": "(주)바이스앤",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50138185",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#골프",
+            "#유아교육",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#미디어·문화·스포츠",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#미디어·문화·스포츠"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획"
+            ],
+            "#미디어·문화·스포츠": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50273155",
+          "title": "[노무사단기 채용] 온라인컨텐츠기획 팀원급 인재채용",
+          "cleaned_title": "온라인컨텐츠기획 급",
+          "company": "(주)에스티유니타스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50273155",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#콘텐츠기획",
+            "#노무사",
+            "#온라인컨텐츠기획",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육운영",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠기획"
+            ],
+            "#인사·노무·hrd": [
+              "노무사",
+              "HRD",
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50293001",
+          "title": "초등 영어 교과서/교재 편집 개발",
+          "cleaned_title": "초등 영어 교과서 교재 편집 개발",
+          "company": "(주)비상교육",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50293001",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#교재개발",
+            "#영어",
+            "#영어교재",
+            "#교육",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "교재개발",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50294552",
+          "title": "(주)와이비엠 에듀테크 콘텐츠 기획자 모집",
+          "cleaned_title": "에듀테크 콘텐츠 기획자",
+          "company": "(주)와이비엠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50294552",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#교육",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50295588",
+          "title": "교육 프로그램 운영 지원 및 행정 업무 신입 채용",
+          "cleaned_title": "교육 프로그램 운영 지원 행정 업무",
+          "company": "(주)렛츠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50295588",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#총무·법무·사무",
+            "#전략기획",
+            "#교재개발",
+            "#경영기획",
+            "#교육행정",
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#서비스기획",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교재개발",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획",
+              "서비스기획",
+              "교육기획",
+              "사업기획",
+              "전략기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50501110",
+          "title": "[매쓰프로] 수학연구원 신입/경력사원 채용",
+          "cleaned_title": "수학연구원",
+          "company": "(주)화신이앤엘",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50501110",
+          "tags": [
+            "#이러닝",
+            "#교육컨텐츠기획",
+            "#교재개발",
+            "#학습지",
+            "#수학",
+            "#문제",
+            "#교육",
+            "#문제은행",
+            "#교정",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교재개발",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "연구원"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50502601",
+          "title": "부산시 공무원 데이터 교육 운영담당자 채용",
+          "cleaned_title": "부산시 공무원 데이터 교육 운영",
+          "company": "휴마인(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50502601",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#교육",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "데이터 사이언티스트"
+            ],
+            "#건설·건축": [
+              "공무"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50506020",
+          "title": "[계약직_교육서비스(대구)] 2025년 제2차 직원채용",
+          "cleaned_title": "제2차",
+          "company": "한국교육학술정보원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506020",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#총무·법무·사무",
+            "#교육행정",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#서비스기획",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "서비스기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "교재개발": {
+      "size": 6,
+      "total_assignments": 6,
+      "documents": [
+        {
+          "rec_id": "50055856",
+          "title": "[에듀윌] 자격증 수험서 기획/편집 신입(경력)직 모집",
+          "cleaned_title": "자격증 수험서 기획 편집 ()직",
+          "company": "(주)에듀윌",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50055856",
+          "tags": [
+            "#교재개발",
+            "#기획·전략",
+            "#교육",
+            "#출판기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "교육컨텐츠개발",
+            "교재개발"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "출판기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50145300",
+          "title": "대학교육(진로,취업) 교육기획 및 교육운영 학사/석사/박사 채용",
+          "cleaned_title": "대학교육(진로,취업) 교육기획 교육운영 학사 석사 박사",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50145300",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교수설계",
+            "교육컨텐츠개발",
+            "교재개발"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50293001",
+          "title": "초등 영어 교과서/교재 편집 개발",
+          "cleaned_title": "초등 영어 교과서 교재 편집 개발",
+          "company": "(주)비상교육",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50293001",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#교재개발",
+            "#영어",
+            "#영어교재",
+            "#교육",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d"
+          ],
+          "mid_categories_in_this_major": [
+            "교재개발",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50295588",
+          "title": "교육 프로그램 운영 지원 및 행정 업무 신입 채용",
+          "cleaned_title": "교육 프로그램 운영 지원 행정 업무",
+          "company": "(주)렛츠",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50295588",
+          "tags": [
+            "#교육컨텐츠기획",
+            "#총무·법무·사무",
+            "#전략기획",
+            "#교재개발",
+            "#경영기획",
+            "#교육행정",
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#서비스기획",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교재개발",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획",
+              "서비스기획",
+              "교육기획",
+              "사업기획",
+              "전략기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50378176",
+          "title": "대학교육(스피치, 글쓰기) 교육과정 및 교육 콘텐츠 개발 담당자",
+          "cleaned_title": "대학교육(스피치, 글쓰기) 교육과정 교육 콘텐츠 개발",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50378176",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교수설계",
+            "교육운영",
+            "교육컨텐츠개발",
+            "교재개발"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50501110",
+          "title": "[매쓰프로] 수학연구원 신입/경력사원 채용",
+          "cleaned_title": "수학연구원",
+          "company": "(주)화신이앤엘",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50501110",
+          "tags": [
+            "#이러닝",
+            "#교육컨텐츠기획",
+            "#교재개발",
+            "#학습지",
+            "#수학",
+            "#문제",
+            "#교육",
+            "#문제은행",
+            "#교정",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교재개발",
+            "교육컨텐츠개발",
+            "교육컨텐츠기획"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#연구·r&d": [
+              "연구원"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "교육컨설턴트": {
+      "size": 4,
+      "total_assignments": 4,
+      "documents": [
+        {
+          "rec_id": "50018158",
+          "title": "[다인] 교육기획/운영 담당 채용전환형 인턴",
+          "cleaned_title": "교육기획 운영 담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50018158",
+          "tags": [
+            "#교육컨설턴트",
+            "#심리치료사",
+            "#공공·복지",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육기획",
+            "#사회복지사",
+            "#평생교육사",
+            "#인사교육",
+            "#EAP상담",
+            "#교육운영",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "평생교육사",
+            "교육컨설턴트"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "심리치료사",
+              "사무직",
+              "평생교육사",
+              "사회복지사"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "컨설턴트"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50402545",
+          "title": "공공기관 위탁사업 수행 정규/계약직원 모집 (교육/컨설팅)",
+          "cleaned_title": "공공기관 위탁사업 수행 정규 계약 (교육 컨설팅)",
+          "company": "(주)디에스교육컨설팅",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50402545",
+          "tags": [
+            "#교육컨설턴트",
+            "#경영기획",
+            "#컨설턴트",
+            "#기업교육",
+            "#서구",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#교육기획",
+            "#온라인교육",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨설턴트"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "컨설턴트",
+              "교육기획",
+              "경영기획"
+            ],
+            "#인사·노무·hrd": [
+              "HRD",
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50482207",
+          "title": "2025년 제3회 신규직원 채용(기간제계약직_사업운영관리·지원)",
+          "cleaned_title": "제3회 신규 (기간제계약직 사업운영관리·지원)",
+          "company": "한국양성평등교육진흥원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50482207",
+          "tags": [
+            "#인재발굴",
+            "#교육컨설턴트",
+            "#사업제휴",
+            "#컨설턴트",
+            "#사업개발",
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#교육컨텐츠기",
+            "#인사·노무·HRD",
+            "#사업관리",
+            "#교육운영",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨텐츠개발",
+            "교육컨설턴트"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "컨설턴트",
+              "사업기획"
+            ],
+            "#인사·노무·hrd": [
+              "HRD",
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50505744",
+          "title": "[계약직_교육시스템B(세종)] 2025년 제2차 직원채용",
+          "cleaned_title": "제2차",
+          "company": "한국교육학술정보원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50505744",
+          "tags": [
+            "#교육컨설턴트",
+            "#사업기획",
+            "#기획·전략",
+            "#교육",
+            "#교육기획",
+            "#사업관리",
+            "#교육운영"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교육컨설턴트"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "사업기획",
+              "컨설턴트"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "평생교육사": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50018158",
+          "title": "[다인] 교육기획/운영 담당 채용전환형 인턴",
+          "cleaned_title": "교육기획 운영 담당 전환형",
+          "company": "주식회사 다인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50018158",
+          "tags": [
+            "#교육컨설턴트",
+            "#심리치료사",
+            "#공공·복지",
+            "#기획·전략",
+            "#교육",
+            "#인사·노무·HRD",
+            "#교육기획",
+            "#사회복지사",
+            "#평생교육사",
+            "#인사교육",
+            "#EAP상담",
+            "#교육운영",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#의료",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "평생교육사",
+            "교육컨설턴트"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "심리치료사",
+              "사무직",
+              "평생교육사",
+              "사회복지사"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "컨설턴트"
+            ],
+            "#의료": [
+              "심리치료사"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50505359",
+          "title": "2025년 제3차 채용 공고(신입직-채용형인턴)",
+          "cleaned_title": "제3차 (직 형)",
+          "company": "시청자미디어재단",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50505359",
+          "tags": [
+            "#정책연구",
+            "#총무·법무·사무",
+            "#서비스",
+            "#건설·건축",
+            "#평생교",
+            "#연구·R&D",
+            "#공공·복지",
+            "#문화기획",
+            "#기획·전략",
+            "#교육",
+            "#시설관리",
+            "#평생교육사"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#공공·복지",
+            "#기획·전략",
+            "#서비스",
+            "#연구·r&d",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "평생교육사"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "기타"
+            ],
+            "#공공·복지": [
+              "평생교육사"
+            ],
+            "#기획·전략": [
+              "기획",
+              "문화기획"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#연구·r&d": [
+              "R&D"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "교수설계": {
+      "size": 2,
+      "total_assignments": 2,
+      "documents": [
+        {
+          "rec_id": "50145300",
+          "title": "대학교육(진로,취업) 교육기획 및 교육운영 학사/석사/박사 채용",
+          "cleaned_title": "대학교육(진로,취업) 교육기획 교육운영 학사 석사 박사",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50145300",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교육운영",
+            "교수설계",
+            "교육컨텐츠개발",
+            "교재개발"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50378176",
+          "title": "대학교육(스피치, 글쓰기) 교육과정 및 교육 콘텐츠 개발 담당자",
+          "cleaned_title": "대학교육(스피치, 글쓰기) 교육과정 교육 콘텐츠 개발",
+          "company": "(주)월드클래스에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50378176",
+          "tags": [
+            "#교재개발",
+            "#인사행정",
+            "#평생교",
+            "#기획·전략",
+            "#HRM",
+            "#교육",
+            "#교수설계",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#면접/인터뷰",
+            "#교육기획",
+            "#교육운영",
+            "#인사기획",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "교수설계",
+            "교육운영",
+            "교육컨텐츠개발",
+            "교재개발"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "인사기획"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "HRM"
+            ]
+          }
+        }
+      ]
+    },
+    "대학강사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50183642",
+          "title": "초중고 영어전임강사&교육지원(행정)모집",
+          "cleaned_title": "초중고 영어전임강사&교육지원(행정)",
+          "company": "(주)이언에듀케이션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50183642&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#대학강사"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "대학강사"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "학원보조": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50410392",
+          "title": "[정규직 전환형 인턴][센텀] 포엠에듀 학생관리/기획 복합직무",
+          "cleaned_title": "포엠에듀 학생관리 기획 복합직무",
+          "company": "주식회사 포엠학원센텀러닝센터",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50410392",
+          "tags": [
+            "#학원강사",
+            "#학원보조",
+            "#학생지도",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "학원보조",
+            "학원강사",
+            "교육컨텐츠개발"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        }
+      ]
+    },
+    "학원강사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50410392",
+          "title": "[정규직 전환형 인턴][센텀] 포엠에듀 학생관리/기획 복합직무",
+          "cleaned_title": "포엠에듀 학생관리 기획 복합직무",
+          "company": "주식회사 포엠학원센텀러닝센터",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50410392",
+          "tags": [
+            "#학원강사",
+            "#학원보조",
+            "#학생지도",
+            "#교육컨텐츠개발"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "학원보조",
+            "학원강사",
+            "교육컨텐츠개발"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        }
+      ]
+    },
+    "파트강사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50490307",
+          "title": "2025 공예청년인턴십 지원사업을 통한 청년인턴 채용",
+          "cleaned_title": "공예청년십 지원사업을 통한 청년",
+          "company": "주식회사 토로토로스튜디오",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50490307",
+          "tags": [
+            "#디자인",
+            "#서비스",
+            "#공예디자인",
+            "#교육",
+            "#파트강사",
+            "#매장관리"
+          ],
+          "other_major_categories": [
+            "#디자인",
+            "#서비스",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "파트강사"
+          ],
+          "mid_categories_in_others": {
+            "#디자인": [
+              "공예디자인"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

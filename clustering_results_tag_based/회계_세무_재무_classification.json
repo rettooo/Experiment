@@ -1,0 +1,3952 @@
+{
+  "major_category": "#회계·세무·재무",
+  "statistics": {
+    "total_docs": 129,
+    "unique_docs": 129,
+    "num_mid_categories": 14,
+    "overlap_info": {
+      "with_인사_노무_hrd": 80,
+      "with_총무_법무_사무": 33,
+      "with_구매_자재_물류": 5,
+      "with_기획_전략": 45,
+      "with_공공_복지": 11,
+      "with_생산": 6,
+      "with_영업_판매_무역": 9,
+      "with_it개발_데이터": 13,
+      "with_연구_r&d": 4,
+      "with_운전_운송_배송": 3,
+      "with_미디어_문화_스포츠": 3,
+      "with_의료": 2,
+      "with_건설_건축": 3,
+      "with_마케팅_홍보_조사": 10,
+      "with_교육": 3,
+      "with_금융_보험": 5,
+      "with_서비스": 1,
+      "with_고객상담_tm": 2
+    }
+  },
+  "mid_categories": {
+    "회계": {
+      "size": 115,
+      "total_assignments": 115,
+      "documents": [
+        {
+          "rec_id": "50019012",
+          "title": "[코스닥 상장] 지주사 회계팀 신입/경력 채용",
+          "cleaned_title": "지주사 회계팀",
+          "company": "(주)솔본",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50019012",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#IR/공시",
+            "#더존",
+            "#감사",
+            "#재무",
+            "#법인결산",
+            "#회계사",
+            "#외부감사",
+            "#연말정산",
+            "#관리회계",
+            "#기업회계",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "회계사",
+            "전산회계",
+            "IR/공시"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50022728",
+          "title": "경영지원팀 총무/구매 직원 경력무관 채용",
+          "cleaned_title": "경영지원팀 총무 구매 무관",
+          "company": "(주)동방엔지니어링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50022728",
+          "tags": [
+            "#회계·세무·재무",
+            "#자재구매",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#구매관리",
+            "#인사·노무·HRD",
+            "#구매",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "구매관리"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50052356",
+          "title": "경영기획부(회계) 신입/경력사원 모집",
+          "cleaned_title": "경영기획부(회계)",
+          "company": "에스디엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50052356&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#급여(Payroll)",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#경영기획",
+            "#회계",
+            "#더존",
+            "#감사",
+            "#재무",
+            "#기획·전략",
+            "#법인결산",
+            "#법인세신고",
+            "#부가세신고",
+            "#관리회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50061108",
+          "title": "[회계] 번역 / 사무 보조",
+          "cleaned_title": "번역 사무 보조",
+          "company": "주식회사 리인타",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50061108",
+          "tags": [
+            "#회계·세무·재무",
+            "#재무제표",
+            "#회계",
+            "#재무회계"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50072479",
+          "title": "회계/경리/세무/원가회계/ERP운용/재무 외 채용합니다",
+          "cleaned_title": "회계 경리 세무 원가회계 ERP운용 재무 외 합니다",
+          "company": "우일수산(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50072479",
+          "tags": [
+            "#ERP",
+            "#재무기획",
+            "#전표입력"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50080327",
+          "title": "[NKH그룹사] 2025년 신입사원 차용 - 재무회계",
+          "cleaned_title": "차용 재무회계",
+          "company": "엔케이에이치주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50080327",
+          "tags": [
+            "#세무회계",
+            "#회계·세무·재무",
+            "#재무제표",
+            "#회계",
+            "#재무",
+            "#재무회계"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50093513",
+          "title": "[언주/신논현역 인근] 세무·회계 신입 직원 채용",
+          "cleaned_title": "세무·회계",
+          "company": "크리에이티브파트너스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50093513",
+          "tags": [
+            "#급여(Payroll)",
+            "#세무회계",
+            "#4대보험",
+            "#세무컨",
+            "#법인세신고",
+            "#부가세신고"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50193534",
+          "title": "태광후지킨(tk-fujikin) 회계부 신입 사원 채용",
+          "cleaned_title": "태광후지킨(tk fujikin) 회계부",
+          "company": "태광후지킨(주) 삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50193534",
+          "tags": [
+            "#회계·세무·재무",
+            "#회계",
+            "#재무회계"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50200935",
+          "title": "[EST] 2025년 상반기 신입/경력 채용 (영업, A/S, 제조, 미싱, 결선, OP, C/S, 전장, 냉동기, 생산",
+          "cleaned_title": "(영업, A S, 제조, 미싱, 결선, OP, C S, 전장, 냉동기, 생산",
+          "company": "(주)이에스티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50200935",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#관리회계",
+            "#회계",
+            "#더존",
+            "#신고대리",
+            "#연결회계",
+            "#세무기장",
+            "#법인결산",
+            "#계산서발행",
+            "#기업회계",
+            "#세무신고",
+            "#세무조정"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "제조",
+              "생산"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50203228",
+          "title": "[언주/신논현역 인근] TAX팀 인턴십 채용",
+          "cleaned_title": "TAX팀 십",
+          "company": "크리에이티브파트너스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50203228",
+          "tags": [
+            "#급여(Payroll)",
+            "#세무회계",
+            "#4대보험",
+            "#세무컨",
+            "#법인세신고",
+            "#부가세신고"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50207568",
+          "title": "해외 영업 및 관련업무",
+          "cleaned_title": "해외 영업 관련업무",
+          "company": "아성엔지니어링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50207568",
+          "tags": [
+            "#해외영업지원",
+            "#회계·세무·재무"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "해외영업",
+              "영업지원"
+            ]
+          }
+        },
+        {
+          "rec_id": "50219608",
+          "title": "에스트라오토모티브시스템(주) IT(ERP 회계 모듈)",
+          "cleaned_title": "IT(ERP 회계 모듈)",
+          "company": "에스트라오토모티브시스템(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50219608",
+          "tags": [
+            "#IT개발·데이터",
+            "#유지보수",
+            "#백엔드/서버개발",
+            "#데이터엔지니어",
+            "#정보보안"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터"
+          ],
+          "mid_categories_in_this_major": [
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "정보보안",
+              "유지보수",
+              "데이터엔지니어",
+              "백엔드/서버개발"
+            ]
+          }
+        },
+        {
+          "rec_id": "50244220",
+          "title": "2025년 캠아이티㈜ 연구직/설계직 상시채용",
+          "cleaned_title": "캠아이티 연구직 설계직 상시",
+          "company": "캠아이티(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50244220",
+          "tags": [
+            "#신사업기획",
+            "#전략기획",
+            "#경영혁신(PI)",
+            "#회계·세무·재무",
+            "#경영기획",
+            "#세무회",
+            "#사업제휴",
+            "#회계",
+            "#사업기획",
+            "#기획·전략",
+            "#기획",
+            "#관리회계",
+            "#기업회계",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#생산",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획",
+              "경영기획",
+              "인사기획",
+              "전략기획"
+            ],
+            "#생산": [
+              "구조해석/설계"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50260808",
+          "title": "(주)아세아텍 경리팀 신입직원 모집",
+          "cleaned_title": "경리팀",
+          "company": "(주)아세아텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50260808",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계결산",
+            "#회계",
+            "#감사",
+            "#법인결산",
+            "#내부회계",
+            "#외부감사",
+            "#관리회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "회계",
+            "경리",
+            "감사",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50260943",
+          "title": "신흥글로벌(주) 재경팀 정규직 채용",
+          "cleaned_title": "재경팀",
+          "company": "신흥글로벌(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50260943",
+          "tags": [
+            "#ERP",
+            "#회계결산",
+            "#재무제표",
+            "#재무회계",
+            "#재무기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50262948",
+          "title": "[딜로이트 안진회계법인] T&T부문 정보보안 컨설팅 인턴",
+          "cleaned_title": "T&T부문 정보보안 컨설팅",
+          "company": "안진회계법인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50262948",
+          "tags": [
+            "#보안관제",
+            "#IT개발·데이터",
+            "#보안컨설팅",
+            "#정보보안"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터"
+          ],
+          "mid_categories_in_this_major": [
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "정보보안",
+              "보안관제",
+              "보안컨설팅"
+            ]
+          }
+        },
+        {
+          "rec_id": "50270103",
+          "title": "[현대차그룹] 모비언트㈜ 사무직 각 분야별 신입 및 경력 채용",
+          "cleaned_title": "모비언트 사무직 각 분야별",
+          "company": "모비언트(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50270103",
+          "tags": [
+            "#세무회계",
+            "#조직관리",
+            "#회계·세무·재무",
+            "#인사행정",
+            "#투자전략",
+            "#사업기획",
+            "#기획·전략",
+            "#재무",
+            "#인사",
+            "#인사·노무·HRD",
+            "#기획",
+            "#자금관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획",
+              "인사기획",
+              "사업기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50270370",
+          "title": "[유비에프에스(주)] 경리/회계/사무보조 구인합니다.",
+          "cleaned_title": "[] 경리 회계 사무보조 구인합니다.",
+          "company": "유비에프에스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50270370",
+          "tags": [],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50273882",
+          "title": "[미소페] 관리부 사무직 신입 직원 채용",
+          "cleaned_title": "관리부 사무직",
+          "company": "(주)비경통상",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50273882",
+          "tags": [
+            "#회계·세무·재무",
+            "#회계",
+            "#더존",
+            "#총무"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직",
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50275591",
+          "title": "[동인기연] 재경부(연결/회계/자금) 담당자 채용 (신입/경력)",
+          "cleaned_title": "재경부(연결 회계 자금) ( )",
+          "company": "(주)동인기연",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50275591",
+          "tags": [
+            "#세무회계",
+            "#회계결산",
+            "#원가관리",
+            "#세",
+            "#법인결산",
+            "#외부감사",
+            "#법인세신고",
+            "#관리회계",
+            "#기업회계",
+            "#자금관리",
+            "#세무조정"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "감사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "재무": {
+      "size": 104,
+      "total_assignments": 104,
+      "documents": [
+        {
+          "rec_id": "50019012",
+          "title": "[코스닥 상장] 지주사 회계팀 신입/경력 채용",
+          "cleaned_title": "지주사 회계팀",
+          "company": "(주)솔본",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50019012",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#IR/공시",
+            "#더존",
+            "#감사",
+            "#재무",
+            "#법인결산",
+            "#회계사",
+            "#외부감사",
+            "#연말정산",
+            "#관리회계",
+            "#기업회계",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "회계사",
+            "전산회계",
+            "IR/공시"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50022728",
+          "title": "경영지원팀 총무/구매 직원 경력무관 채용",
+          "cleaned_title": "경영지원팀 총무 구매 무관",
+          "company": "(주)동방엔지니어링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50022728",
+          "tags": [
+            "#회계·세무·재무",
+            "#자재구매",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#구매관리",
+            "#인사·노무·HRD",
+            "#구매",
+            "#구매·자재·물류"
+          ],
+          "other_major_categories": [
+            "#구매·자재·물류",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#구매·자재·물류": [
+              "구매",
+              "구매관리"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50042263",
+          "title": "각 부문별 신입/경력직 채용공고",
+          "cleaned_title": "각 부문별 직",
+          "company": "(주)시몬느액세서리컬렉션",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50042263",
+          "tags": [
+            "#재무제표",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50052356",
+          "title": "경영기획부(회계) 신입/경력사원 모집",
+          "cleaned_title": "경영기획부(회계)",
+          "company": "에스디엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50052356&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#급여(Payroll)",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#경영기획",
+            "#회계",
+            "#더존",
+            "#감사",
+            "#재무",
+            "#기획·전략",
+            "#법인결산",
+            "#법인세신고",
+            "#부가세신고",
+            "#관리회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50061108",
+          "title": "[회계] 번역 / 사무 보조",
+          "cleaned_title": "번역 사무 보조",
+          "company": "주식회사 리인타",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50061108",
+          "tags": [
+            "#회계·세무·재무",
+            "#재무제표",
+            "#회계",
+            "#재무회계"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50072479",
+          "title": "회계/경리/세무/원가회계/ERP운용/재무 외 채용합니다",
+          "cleaned_title": "회계 경리 세무 원가회계 ERP운용 재무 외 합니다",
+          "company": "우일수산(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50072479",
+          "tags": [
+            "#ERP",
+            "#재무기획",
+            "#전표입력"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50080327",
+          "title": "[NKH그룹사] 2025년 신입사원 차용 - 재무회계",
+          "cleaned_title": "차용 재무회계",
+          "company": "엔케이에이치주식회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50080327",
+          "tags": [
+            "#세무회계",
+            "#회계·세무·재무",
+            "#재무제표",
+            "#회계",
+            "#재무",
+            "#재무회계"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50193534",
+          "title": "태광후지킨(tk-fujikin) 회계부 신입 사원 채용",
+          "cleaned_title": "태광후지킨(tk fujikin) 회계부",
+          "company": "태광후지킨(주) 삼성전자 협력회사",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50193534",
+          "tags": [
+            "#회계·세무·재무",
+            "#회계",
+            "#재무회계"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50200935",
+          "title": "[EST] 2025년 상반기 신입/경력 채용 (영업, A/S, 제조, 미싱, 결선, OP, C/S, 전장, 냉동기, 생산",
+          "cleaned_title": "(영업, A S, 제조, 미싱, 결선, OP, C S, 전장, 냉동기, 생산",
+          "company": "(주)이에스티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50200935",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#관리회계",
+            "#회계",
+            "#더존",
+            "#신고대리",
+            "#연결회계",
+            "#세무기장",
+            "#법인결산",
+            "#계산서발행",
+            "#기업회계",
+            "#세무신고",
+            "#세무조정"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "제조",
+              "생산"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50207568",
+          "title": "해외 영업 및 관련업무",
+          "cleaned_title": "해외 영업 관련업무",
+          "company": "아성엔지니어링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50207568",
+          "tags": [
+            "#해외영업지원",
+            "#회계·세무·재무"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "영업",
+              "해외영업",
+              "영업지원"
+            ]
+          }
+        },
+        {
+          "rec_id": "50244220",
+          "title": "2025년 캠아이티㈜ 연구직/설계직 상시채용",
+          "cleaned_title": "캠아이티 연구직 설계직 상시",
+          "company": "캠아이티(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50244220",
+          "tags": [
+            "#신사업기획",
+            "#전략기획",
+            "#경영혁신(PI)",
+            "#회계·세무·재무",
+            "#경영기획",
+            "#세무회",
+            "#사업제휴",
+            "#회계",
+            "#사업기획",
+            "#기획·전략",
+            "#기획",
+            "#관리회계",
+            "#기업회계",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#생산",
+            "#연구·r&d",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "사업기획",
+              "경영기획",
+              "인사기획",
+              "전략기획"
+            ],
+            "#생산": [
+              "구조해석/설계"
+            ],
+            "#연구·r&d": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50260808",
+          "title": "(주)아세아텍 경리팀 신입직원 모집",
+          "cleaned_title": "경리팀",
+          "company": "(주)아세아텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50260808",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계결산",
+            "#회계",
+            "#감사",
+            "#법인결산",
+            "#내부회계",
+            "#외부감사",
+            "#관리회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "회계",
+            "경리",
+            "감사",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50260943",
+          "title": "신흥글로벌(주) 재경팀 정규직 채용",
+          "cleaned_title": "재경팀",
+          "company": "신흥글로벌(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50260943",
+          "tags": [
+            "#ERP",
+            "#회계결산",
+            "#재무제표",
+            "#재무회계",
+            "#재무기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50270103",
+          "title": "[현대차그룹] 모비언트㈜ 사무직 각 분야별 신입 및 경력 채용",
+          "cleaned_title": "모비언트 사무직 각 분야별",
+          "company": "모비언트(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50270103",
+          "tags": [
+            "#세무회계",
+            "#조직관리",
+            "#회계·세무·재무",
+            "#인사행정",
+            "#투자전략",
+            "#사업기획",
+            "#기획·전략",
+            "#재무",
+            "#인사",
+            "#인사·노무·HRD",
+            "#기획",
+            "#자금관리",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획",
+              "인사기획",
+              "사업기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50273882",
+          "title": "[미소페] 관리부 사무직 신입 직원 채용",
+          "cleaned_title": "관리부 사무직",
+          "company": "(주)비경통상",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50273882",
+          "tags": [
+            "#회계·세무·재무",
+            "#회계",
+            "#더존",
+            "#총무"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직",
+              "총무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50279484",
+          "title": "[신안그룹] 그룹본부 회계팀 채용",
+          "cleaned_title": "그룹본부 회계팀",
+          "company": "(주)신안",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50279484",
+          "tags": [
+            "#회계·세무·재무",
+            "#회계결산",
+            "#회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50282990",
+          "title": "LVT 바닥재 Global #1 (주)녹수 신입 채용 [재무회계]",
+          "cleaned_title": "LVT 바닥재 Global #1 녹수",
+          "company": "주식회사 녹수",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50282990",
+          "tags": [
+            "#세무회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#재무",
+            "#세무기장",
+            "#법인결산",
+            "#법인세신고",
+            "#부가세신고",
+            "#관리회계",
+            "#기업회계",
+            "#세무신고",
+            "#세무조정"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50293214",
+          "title": "[코스닥] 기획/IR팀 신입사원 채용",
+          "cleaned_title": "기획 IR팀",
+          "company": "(주)오르비텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50293214",
+          "tags": [
+            "#회계·세무·재무",
+            "#전략기획",
+            "#IR/공시",
+            "#기획·전략",
+            "#기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "IR/공시",
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "전략기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50335855",
+          "title": "(본사)경영관리팀 (재무회계팀) 신입 및 경력 모집",
+          "cleaned_title": "()경영관리팀 (재무회계팀)",
+          "company": "디에스종합건설(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50335855",
+          "tags": [
+            "#세무회계",
+            "#회계·세무·재무",
+            "#회계결산",
+            "#재무제표",
+            "#회계",
+            "#재무",
+            "#재무회계",
+            "#재무기획",
+            "#자체기장",
+            "#전표입력",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50339299",
+          "title": "[의료SW] 해외사업관리팀 신입/경력 모집",
+          "cleaned_title": "해외사업관리팀",
+          "company": "(주)인피니트헬스케어",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50339299",
+          "tags": [
+            "#회계·세무·재무",
+            "#회계",
+            "#영업·판매·무역",
+            "#재무",
+            "#영업관리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#영업·판매·무역",
+            "#의료"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ],
+            "#의료": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "감사": {
+      "size": 23,
+      "total_assignments": 23,
+      "documents": [
+        {
+          "rec_id": "49187334",
+          "title": "[케이투코리아그룹] 법무, 내부감사 채용",
+          "cleaned_title": "법무, 내부감사",
+          "company": "케이투코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=49187334",
+          "tags": [
+            "#법무사",
+            "#사내변호사",
+            "#법무",
+            "#변호사"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "감사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "법무",
+              "변호사",
+              "법무사",
+              "사내변호사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50019012",
+          "title": "[코스닥 상장] 지주사 회계팀 신입/경력 채용",
+          "cleaned_title": "지주사 회계팀",
+          "company": "(주)솔본",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50019012",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#IR/공시",
+            "#더존",
+            "#감사",
+            "#재무",
+            "#법인결산",
+            "#회계사",
+            "#외부감사",
+            "#연말정산",
+            "#관리회계",
+            "#기업회계",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "회계사",
+            "전산회계",
+            "IR/공시"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50052356",
+          "title": "경영기획부(회계) 신입/경력사원 모집",
+          "cleaned_title": "경영기획부(회계)",
+          "company": "에스디엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50052356&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#급여(Payroll)",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#경영기획",
+            "#회계",
+            "#더존",
+            "#감사",
+            "#재무",
+            "#기획·전략",
+            "#법인결산",
+            "#법인세신고",
+            "#부가세신고",
+            "#관리회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50260808",
+          "title": "(주)아세아텍 경리팀 신입직원 모집",
+          "cleaned_title": "경리팀",
+          "company": "(주)아세아텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50260808",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계결산",
+            "#회계",
+            "#감사",
+            "#법인결산",
+            "#내부회계",
+            "#외부감사",
+            "#관리회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "회계",
+            "경리",
+            "감사",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50275591",
+          "title": "[동인기연] 재경부(연결/회계/자금) 담당자 채용 (신입/경력)",
+          "cleaned_title": "재경부(연결 회계 자금) ( )",
+          "company": "(주)동인기연",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50275591",
+          "tags": [
+            "#세무회계",
+            "#회계결산",
+            "#원가관리",
+            "#세",
+            "#법인결산",
+            "#외부감사",
+            "#법인세신고",
+            "#관리회계",
+            "#기업회계",
+            "#자금관리",
+            "#세무조정"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "감사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50356364",
+          "title": "2025년 상반기 부문별 신입/경력 채용",
+          "cleaned_title": "부문별",
+          "company": "(주)켐피아",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50356364",
+          "tags": [
+            "#자산운용",
+            "#자산관리",
+            "#회계·세무·재무",
+            "#회계",
+            "#더존",
+            "#재무",
+            "#내부감사",
+            "#외부감사",
+            "#예산관리",
+            "#부가세신고",
+            "#B2B마케팅",
+            "#기업회계",
+            "#마케팅·홍보·조사",
+            "#자체기"
+          ],
+          "other_major_categories": [
+            "#마케팅·홍보·조사",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사"
+          ],
+          "mid_categories_in_others": {
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "B2B마케팅",
+              "홍보"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372926",
+          "title": "2025년 로지스밸리그룹 하나로TNS 기획감사실 신입 및 경력 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 기획감사실",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372926",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "감사",
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "채용담당자",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372958",
+          "title": "2025년 로지스밸리그룹 하나로TNS 글로벌영업 관리 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 글로벌영업 관리",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372958",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "채용담당자",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50374985",
+          "title": "Samsonite Accountant 계약직 (산휴대체, 7개월 근무)",
+          "cleaned_title": "Samsonite Accountant 계약직 (산휴대체, 7개월 근무)",
+          "company": "쌤소나이트 코리아",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50374985",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#감사",
+            "#내부감사",
+            "#외부감사",
+            "#계산서발행"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "회계",
+            "감사",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50394637",
+          "title": "[쥴릭파마코리아] Jr. Service Income Accountant (정규직/본사)",
+          "cleaned_title": "Jr. Service Income Accountant ( )",
+          "company": "쥴릭파마코리아(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50394637",
+          "tags": [
+            "#회계·세무·재무",
+            "#손익관리",
+            "#회계",
+            "#감사",
+            "#재무",
+            "#재무기획",
+            "#재무회계",
+            "#내부감사",
+            "#예산관리",
+            "#세무신고",
+            "#세무조정"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계",
+            "감사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50401101",
+          "title": "4월 경력/신입 상시채용공고(내부회계)",
+          "cleaned_title": "4월 상시(내부회계)",
+          "company": "(주)영원무역",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50401101",
+          "tags": [
+            "#세무회계",
+            "#회계·세무·재무",
+            "#회계결산",
+            "#회계",
+            "#재무회계",
+            "#내부감사",
+            "#기업회계"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50402146",
+          "title": "(주)KTE 재무회계팀 신입사원 채용",
+          "cleaned_title": "KTE 재무회계팀",
+          "company": "(주)케이티이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50402146",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#손익관리",
+            "#회계",
+            "#재무",
+            "#법인결산",
+            "#외부감사",
+            "#부가세신고",
+            "#법인세신고",
+            "#기업회계",
+            "#세무신고",
+            "#자금관리",
+            "#세무조정"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50407969",
+          "title": "재무(회계 및 자금) 업무 담당 채용",
+          "cleaned_title": "재무(회계 자금) 업무 담당",
+          "company": "영인에너지솔루션(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50407969",
+          "tags": [
+            "#회계결산",
+            "#재무제표",
+            "#재무회계",
+            "#법인결산",
+            "#원가회계",
+            "#외부감사",
+            "#IFRS",
+            "#관리회계",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50415992",
+          "title": "2025년도 (주)하이텍팜 공시/IR 부문 채용",
+          "cleaned_title": "도 공시 IR 부문",
+          "company": "(주)하이텍팜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50415992",
+          "tags": [
+            "#세무회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#더존",
+            "#내부감사"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "IR/공시",
+            "재무",
+            "감사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436121",
+          "title": "[HK이노엔]_2025 상반기 콜마그룹 대졸신입 공채(재무회계)",
+          "cleaned_title": "콜마그룹 (재무회계)",
+          "company": "에이치케이이노엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436121",
+          "tags": [
+            "#세무회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#감사",
+            "#재무회계",
+            "#외부감사",
+            "#세무신고"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50436510",
+          "title": "[한국콜마] 2025 상반기 콜마그룹 대졸신입 공채(회계)",
+          "cleaned_title": "콜마그룹 (회계)",
+          "company": "한국콜마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436510",
+          "tags": [
+            "#세무회계",
+            "#회계·세무·재무",
+            "#회계결산",
+            "#회계",
+            "#감사",
+            "#세무신고"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50437472",
+          "title": "[HK이노엔]_2025 상반기 콜마그룹 대졸신입 공채",
+          "cleaned_title": "콜마그룹",
+          "company": "에이치케이이노엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50437472",
+          "tags": [
+            "#데이터분석",
+            "#세무회계",
+            "#총무·법무·사무",
+            "#전략기획",
+            "#회계·세무·재무",
+            "#세무신고",
+            "#컴플라",
+            "#기획·전략",
+            "#감사",
+            "#재무회계",
+            "#내부감사",
+            "#콘텐츠기획",
+            "#마케팅·홍보·조사"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "전략기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "홍보",
+              "콘텐츠기획"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50437924",
+          "title": "[한국콜마] 2025 상반기 콜마그룹 대졸신입 공채",
+          "cleaned_title": "콜마그룹",
+          "company": "한국콜마(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50437924",
+          "tags": [
+            "#브랜드기획",
+            "#데이터분석",
+            "#신사업기획",
+            "#전략기획",
+            "#회계·세무·재무",
+            "#기획·전략",
+            "#ESG",
+            "#감사",
+            "#신사업발굴",
+            "#마케팅기획",
+            "#마케팅·홍보·조사",
+            "#마케팅",
+            "#트렌드분석"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#마케팅·홍보·조사"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계",
+            "감사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "브랜드기획",
+              "사업기획",
+              "전략기획",
+              "마케팅기획"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅",
+              "마케팅기획",
+              "홍보"
+            ]
+          }
+        },
+        {
+          "rec_id": "50443803",
+          "title": "2025년 4월 각 부문 신입/경력 수시채용",
+          "cleaned_title": "4월 각 부문",
+          "company": "엘에스오토모티브테크놀로지스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50443803",
+          "tags": [
+            "#회계·세무·재무",
+            "#PM(프로젝트매니저)",
+            "#회계",
+            "#더존",
+            "#기획·전략",
+            "#감사",
+            "#법인결산",
+            "#경리",
+            "#내부감사",
+            "#교육기획",
+            "#관리회계",
+            "#기업회계",
+            "#인사기획",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "감사",
+            "재무",
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "PM(프로젝트매니저)",
+              "인사기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50458721",
+          "title": "[유진투자선물] 부문별 신입/경력 채용(컴플라이언스팀)",
+          "cleaned_title": "부문별 (컴플라이언스팀)",
+          "company": "유진투자선물(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50458721",
+          "tags": [
+            "#총무·법무·사무",
+            "#회계·세무·재무",
+            "#리스크",
+            "#선물중개회사",
+            "#감사",
+            "#기획·전략",
+            "#내부감사",
+            "#컴플라이언스",
+            "#외부감사",
+            "#금융·보험"
+          ],
+          "other_major_categories": [
+            "#금융·보험",
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "감사",
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#금융·보험": [
+              "기타"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "컴플라이언스",
+              "총무",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "전산회계": {
+      "size": 18,
+      "total_assignments": 18,
+      "documents": [
+        {
+          "rec_id": "50019012",
+          "title": "[코스닥 상장] 지주사 회계팀 신입/경력 채용",
+          "cleaned_title": "지주사 회계팀",
+          "company": "(주)솔본",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50019012",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#IR/공시",
+            "#더존",
+            "#감사",
+            "#재무",
+            "#법인결산",
+            "#회계사",
+            "#외부감사",
+            "#연말정산",
+            "#관리회계",
+            "#기업회계",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "회계사",
+            "전산회계",
+            "IR/공시"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50052356",
+          "title": "경영기획부(회계) 신입/경력사원 모집",
+          "cleaned_title": "경영기획부(회계)",
+          "company": "에스디엔(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50052356&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#급여(Payroll)",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#경영기획",
+            "#회계",
+            "#더존",
+            "#감사",
+            "#재무",
+            "#기획·전략",
+            "#법인결산",
+            "#법인세신고",
+            "#부가세신고",
+            "#관리회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50200935",
+          "title": "[EST] 2025년 상반기 신입/경력 채용 (영업, A/S, 제조, 미싱, 결선, OP, C/S, 전장, 냉동기, 생산",
+          "cleaned_title": "(영업, A S, 제조, 미싱, 결선, OP, C S, 전장, 냉동기, 생산",
+          "company": "(주)이에스티",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50200935",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#관리회계",
+            "#회계",
+            "#더존",
+            "#신고대리",
+            "#연결회계",
+            "#세무기장",
+            "#법인결산",
+            "#계산서발행",
+            "#기업회계",
+            "#세무신고",
+            "#세무조정"
+          ],
+          "other_major_categories": [
+            "#생산",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#생산": [
+              "제조",
+              "생산"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50260808",
+          "title": "(주)아세아텍 경리팀 신입직원 모집",
+          "cleaned_title": "경리팀",
+          "company": "(주)아세아텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50260808",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계결산",
+            "#회계",
+            "#감사",
+            "#법인결산",
+            "#내부회계",
+            "#외부감사",
+            "#관리회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "회계",
+            "경리",
+            "감사",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50351820",
+          "title": "[도브러너] 경영지원팀 인턴사원 채용",
+          "cleaned_title": "[] 경영지원팀",
+          "company": "주식회사 도브러너",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50351820",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#재무",
+            "#자체기장",
+            "#부가세신고",
+            "#전표입력",
+            "#관리회계",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50368402",
+          "title": "세무사무실 사무직원(신입) 구합니다.",
+          "cleaned_title": "세무사무실 사무() 구합니다.",
+          "company": "세무법인 서정",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50368402",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#세무법인",
+            "#법인결산",
+            "#세무사사무실",
+            "#세무신고"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "세무사",
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372926",
+          "title": "2025년 로지스밸리그룹 하나로TNS 기획감사실 신입 및 경력 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 기획감사실",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372926",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "감사",
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "채용담당자",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50372958",
+          "title": "2025년 로지스밸리그룹 하나로TNS 글로벌영업 관리 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 글로벌영업 관리",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50372958",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#영업·판매·무역",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#영업·판매·무역": [
+              "영업"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "채용담당자",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50374985",
+          "title": "Samsonite Accountant 계약직 (산휴대체, 7개월 근무)",
+          "cleaned_title": "Samsonite Accountant 계약직 (산휴대체, 7개월 근무)",
+          "company": "쌤소나이트 코리아",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50374985",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#감사",
+            "#내부감사",
+            "#외부감사",
+            "#계산서발행"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "회계",
+            "감사",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50402146",
+          "title": "(주)KTE 재무회계팀 신입사원 채용",
+          "cleaned_title": "KTE 재무회계팀",
+          "company": "(주)케이티이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50402146",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#손익관리",
+            "#회계",
+            "#재무",
+            "#법인결산",
+            "#외부감사",
+            "#부가세신고",
+            "#법인세신고",
+            "#기업회계",
+            "#세무신고",
+            "#자금관리",
+            "#세무조정"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50402326",
+          "title": "[분당] Sales / Office admin 육아휴직 대체인력 채용 공고",
+          "cleaned_title": "Sales Office admin 육아휴직 대체인력",
+          "company": "(유)베올리아워터테크놀로지스앤솔루션스코리아",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50402326",
+          "tags": [
+            "#전산회계",
+            "#더존",
+            "#재무",
+            "#계산서발행"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "재무",
+            "회계",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50442848",
+          "title": "[강남]블랙핀 정산 담당자 모집(최고 복지)",
+          "cleaned_title": "블랙핀 정산 (최고 복지)",
+          "company": "(주)블랙핀",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50442848",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#총무·법무·사무",
+            "#서비스",
+            "#회계·세무·재무",
+            "#가맹점관리",
+            "#회계",
+            "#영업·판매·무역",
+            "#요금정산",
+            "#영업관리",
+            "#관리회계",
+            "#사무직",
+            "#정산관리"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#서비스",
+            "#영업·판매·무역",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#서비스": [
+              "기타"
+            ],
+            "#영업·판매·무역": [
+              "영업",
+              "영업관리"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50458124",
+          "title": "2025년 4월 무림그룹 직무별 채용",
+          "cleaned_title": "4월 직무별",
+          "company": "무림그룹",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50458124",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#경영기획",
+            "#경영분석",
+            "#재무제표",
+            "#회계",
+            "#기획·전략",
+            "#ESG",
+            "#재무기획",
+            "#재무회계",
+            "#총무·법무·사",
+            "#기업회계",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50463042",
+          "title": "2025년 로지스밸리그룹 하나로TNS 항공수입그룹 채용",
+          "cleaned_title": "로지스밸리그룹 하나로TNS 항공수입그룹",
+          "company": "(주)하나로티앤에스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50463042",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#IT개발·데이터",
+            "#회계",
+            "#인사",
+            "#재무",
+            "#HRM",
+            "#감사",
+            "#채용담당자",
+            "#인사·노무·HRD",
+            "#HRD",
+            "#백엔드/서버개발",
+            "#웹개발",
+            "#앱개발"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "백엔드/서버개발",
+              "앱개발",
+              "웹개발"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD",
+              "채용담당자",
+              "HRM"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472603",
+          "title": "㈜비락 경영기획팀 인턴(채용연계형 인턴) 모집",
+          "cleaned_title": "비락 경영기획팀 (연계형 )",
+          "company": "(주)비락",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472603&adsCategoryItem=effect_bold&",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#경영기획",
+            "#경영분석",
+            "#손익관리",
+            "#회계",
+            "#연결회계",
+            "#기획·전략",
+            "#예산관리",
+            "#관리회계",
+            "#기업회계",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "경영기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50472623",
+          "title": "각 부문별 정규직 신입.경력사원 채용",
+          "cleaned_title": "각 부문별 .",
+          "company": "동국생명과학(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50472623",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#더존",
+            "#감사",
+            "#세무기장",
+            "#법인결산",
+            "#내부감사",
+            "#재무회계",
+            "#외부감사",
+            "#회",
+            "#전표입력",
+            "#관리회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "감사",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50494191",
+          "title": "인터컨스텍 기획실 재무팀 재무회계 채용(사원~대리급)",
+          "cleaned_title": "인터컨스텍 기획실 재무팀 재무회계 (~대리급)",
+          "company": "(주)인터컨스텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50494191",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#손익관리",
+            "#회계",
+            "#더존",
+            "#연결회계",
+            "#재무",
+            "#법인결산",
+            "#회계사",
+            "#법인세신고",
+            "#부가세신고",
+            "#관리회계",
+            "#기업회계",
+            "#세무신고"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "전산회계",
+            "회계사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50494411",
+          "title": "회계(신입/경력) 담당자 채용",
+          "cleaned_title": "회계( )",
+          "company": "(주)오토닉스",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50494411",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#재무",
+            "#법인결산",
+            "#관리회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "경리": {
+      "size": 13,
+      "total_assignments": 13,
+      "documents": [
+        {
+          "rec_id": "50072479",
+          "title": "회계/경리/세무/원가회계/ERP운용/재무 외 채용합니다",
+          "cleaned_title": "회계 경리 세무 원가회계 ERP운용 재무 외 합니다",
+          "company": "우일수산(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50072479",
+          "tags": [
+            "#ERP",
+            "#재무기획",
+            "#전표입력"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50252500",
+          "title": "(주)유니링크코리아 선용품 밸브 무역회사 신입사원 모집",
+          "cleaned_title": "코리아 선용품 밸브 무역회사",
+          "company": "유니링크",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50252500",
+          "tags": [
+            "#해상무역",
+            "#거래처납품",
+            "#무역경리"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역"
+          ],
+          "mid_categories_in_this_major": [
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "해상무역",
+              "무역경리"
+            ]
+          }
+        },
+        {
+          "rec_id": "50260808",
+          "title": "(주)아세아텍 경리팀 신입직원 모집",
+          "cleaned_title": "경리팀",
+          "company": "(주)아세아텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50260808",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계결산",
+            "#회계",
+            "#감사",
+            "#법인결산",
+            "#내부회계",
+            "#외부감사",
+            "#관리회계",
+            "#기업회계"
+          ],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "회계",
+            "경리",
+            "감사",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {}
+        },
+        {
+          "rec_id": "50270370",
+          "title": "[유비에프에스(주)] 경리/회계/사무보조 구인합니다.",
+          "cleaned_title": "[] 경리 회계 사무보조 구인합니다.",
+          "company": "유비에프에스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50270370",
+          "tags": [],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50313101",
+          "title": "해외사업팀 직원 채용",
+          "cleaned_title": "해외사업팀",
+          "company": "일동후디스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50313101",
+          "tags": [
+            "#무역영어",
+            "#무역경리",
+            "#해외영업",
+            "#통관",
+            "#수출입",
+            "#바이어발굴/관리"
+          ],
+          "other_major_categories": [
+            "#영업·판매·무역",
+            "#운전·운송·배송",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#영업·판매·무역": [
+              "해외영업",
+              "영업",
+              "무역경리"
+            ],
+            "#운전·운송·배송": [
+              "통관"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50334956",
+          "title": "(KBI코스모링크)재경팀 사원 채용",
+          "cleaned_title": "(KBI코스모링크)재경팀",
+          "company": "KBI 코스모링크(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50334956",
+          "tags": [
+            "#경리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50342198",
+          "title": "동탄사무직 채용 (마케팅 / 영업지원)",
+          "cleaned_title": "동탄사무직 (마케팅 영업지원)",
+          "company": "(주)지안켐텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50342198",
+          "tags": [
+            "#무역영어",
+            "#해상무역",
+            "#무역경리",
+            "#항공무역",
+            "#해외영업지원",
+            "#영업지원",
+            "#B2B",
+            "#무역거래",
+            "#수출입",
+            "#구매·자재·물류",
+            "#물류사무원"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#공공·복지",
+            "#구매·자재·물류",
+            "#마케팅·홍보·조사",
+            "#영업·판매·무역",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "공무"
+            ],
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#구매·자재·물류": [
+              "물류사무원",
+              "구매"
+            ],
+            "#마케팅·홍보·조사": [
+              "마케팅"
+            ],
+            "#영업·판매·무역": [
+              "영업지원",
+              "영업",
+              "해외영업",
+              "해상무역",
+              "무역경리",
+              "항공무역"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50358515",
+          "title": "[경영기획부] 엔지니어링업체 입찰/자금/인사 등 신입사원 모집",
+          "cleaned_title": "엔지니어링업체 입찰 자금 인사 등",
+          "company": "(주)화정엔지니어링",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50358515",
+          "tags": [
+            "#회계·세무·재무",
+            "#건설·건축",
+            "#건설경리",
+            "#경리"
+          ],
+          "other_major_categories": [
+            "#it개발·데이터",
+            "#건설·건축",
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "경리",
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#it개발·데이터": [
+              "BI 엔지니어"
+            ],
+            "#건설·건축": [
+              "건설경리"
+            ],
+            "#기획·전략": [
+              "경영기획",
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사"
+            ]
+          }
+        },
+        {
+          "rec_id": "50381214",
+          "title": "해외영업팀 무역사무 신입사원 모집",
+          "cleaned_title": "해외영업팀 무역사무",
+          "company": "(주)에스이케이",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50381214",
+          "tags": [
+            "#무역경리",
+            "#항공무역",
+            "#해외영업관리",
+            "#무역MR"
+          ],
+          "other_major_categories": [
+            "#건설·건축",
+            "#영업·판매·무역",
+            "#의료",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#건설·건축": [
+              "공무"
+            ],
+            "#영업·판매·무역": [
+              "해외영업",
+              "영업",
+              "영업관리",
+              "무역MR",
+              "무역경리",
+              "항공무역"
+            ],
+            "#의료": [
+              "MR"
+            ],
+            "#총무·법무·사무": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50383244",
+          "title": "재경팀 신입사원 채용 (경리/회계/출납)",
+          "cleaned_title": "재경팀 (경리 회계 출납)",
+          "company": "오뚜기에스에프(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50383244",
+          "tags": [
+            "#회계·세무·재무",
+            "#회계",
+            "#재무",
+            "#재무회계",
+            "#경리",
+            "#관리회계",
+            "#회계법인"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "경리",
+            "재무"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50425987",
+          "title": "(주)대신육가공(중견) 총무 및 회계 담당자 채용공고",
+          "cleaned_title": "(중견) 총무 회계",
+          "company": "(주)대신육가공",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50425987",
+          "tags": [
+            "#총무·법무·사무",
+            "#회계·세무·재무",
+            "#회계",
+            "#경리",
+            "#총무"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50436301",
+          "title": "㈜엠에스씨 비서 및 경리 신입사원 모집",
+          "cleaned_title": "엠에스씨 비서 경리",
+          "company": "(주)엠에스씨",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50436301",
+          "tags": [
+            "#총무·법무·사무",
+            "#임원비서",
+            "#내방객응대",
+            "#비서"
+          ],
+          "other_major_categories": [
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#총무·법무·사무": [
+              "비서",
+              "총무",
+              "임원비서",
+              "법무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50443803",
+          "title": "2025년 4월 각 부문 신입/경력 수시채용",
+          "cleaned_title": "4월 각 부문",
+          "company": "엘에스오토모티브테크놀로지스(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50443803",
+          "tags": [
+            "#회계·세무·재무",
+            "#PM(프로젝트매니저)",
+            "#회계",
+            "#더존",
+            "#기획·전략",
+            "#감사",
+            "#법인결산",
+            "#경리",
+            "#내부감사",
+            "#교육기획",
+            "#관리회계",
+            "#기업회계",
+            "#인사기획",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "감사",
+            "재무",
+            "경리"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "교육기획",
+              "PM(프로젝트매니저)",
+              "인사기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사"
+            ]
+          }
+        }
+      ]
+    },
+    "세무사": {
+      "size": 5,
+      "total_assignments": 5,
+      "documents": [
+        {
+          "rec_id": "50169738",
+          "title": "세무사무실 사무직원(신입) 육아휴직대체자 구함.",
+          "cleaned_title": "세무사무실 사무() 육아휴직대체자 구함.",
+          "company": "세무법인 서정",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50169738",
+          "tags": [],
+          "other_major_categories": [
+            "#공공·복지",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "세무사"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50368402",
+          "title": "세무사무실 사무직원(신입) 구합니다.",
+          "cleaned_title": "세무사무실 사무() 구합니다.",
+          "company": "세무법인 서정",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50368402",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#세무법인",
+            "#법인결산",
+            "#세무사사무실",
+            "#세무신고"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "세무사",
+            "회계",
+            "재무",
+            "전산회계"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#총무·법무·사무": [
+              "사무직"
+            ]
+          }
+        },
+        {
+          "rec_id": "50506092",
+          "title": "[계약직_경영/행정(대구)] 2025년 제2차 직원채용",
+          "cleaned_title": "제2차",
+          "company": "한국교육학술정보원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50506092",
+          "tags": [
+            "#세무회계",
+            "#총무·법무·사무",
+            "#회계·세무·재무",
+            "#인사행정",
+            "#문서작성",
+            "#회계",
+            "#서무",
+            "#인사",
+            "#기획·전략",
+            "#인사·노무·HRD",
+            "#세무사",
+            "#사무직",
+            "#인사기획"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "세무사"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획",
+              "인사기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무",
+              "서무"
+            ]
+          }
+        },
+        {
+          "rec_id": "50507340",
+          "title": "2025년 제2차 직원채용",
+          "cleaned_title": "제2차",
+          "company": "한국교육학술정보원",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50507340",
+          "tags": [
+            "#세무회계",
+            "#전략기획",
+            "#회계·세무·재무",
+            "#사업기획",
+            "#기획·전략",
+            "#인사",
+            "#인",
+            "#교육기획",
+            "#인사·노무·HRD",
+            "#서비스기획",
+            "#세무사",
+            "#예산관리",
+            "#경영관리"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "세무사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "서비스기획",
+              "교육기획",
+              "사업기획",
+              "전략기획"
+            ],
+            "#인사·노무·hrd": [
+              "인사",
+              "HRD"
+            ]
+          }
+        },
+        {
+          "rec_id": "50521595",
+          "title": "[대기업] 그린에어(주) 재경팀 재무/세무회계 직원채용",
+          "cleaned_title": "재경팀 재무 세무회계",
+          "company": "그린에어(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50521595",
+          "tags": [
+            "#총무·법무·사무",
+            "#회계·세무·재무",
+            "#사무보",
+            "#회계결산",
+            "#문서작성",
+            "#세무기장",
+            "#법인결산",
+            "#회계사",
+            "#재무기획",
+            "#재무회계",
+            "#자체기장",
+            "#세무사",
+            "#관리회계",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "세무사",
+            "회계사"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "회계사": {
+      "size": 4,
+      "total_assignments": 4,
+      "documents": [
+        {
+          "rec_id": "50019012",
+          "title": "[코스닥 상장] 지주사 회계팀 신입/경력 채용",
+          "cleaned_title": "지주사 회계팀",
+          "company": "(주)솔본",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50019012",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#IR/공시",
+            "#더존",
+            "#감사",
+            "#재무",
+            "#법인결산",
+            "#회계사",
+            "#외부감사",
+            "#연말정산",
+            "#관리회계",
+            "#기업회계",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "회계사",
+            "전산회계",
+            "IR/공시"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50350352",
+          "title": "[딜로이트 안진회계법인] 경영자문부문 SRT-S&T INFRA 인턴",
+          "cleaned_title": "경영자문부문 SRT S&T INFRA",
+          "company": "안진회계법인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50350352",
+          "tags": [
+            "#회계·세무·재무",
+            "#공인회계사",
+            "#AICPA",
+            "#경영분석",
+            "#회계",
+            "#KICPA",
+            "#기획·전략",
+            "#회계사",
+            "#CFA"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "회계사",
+            "KICPA",
+            "재무",
+            "AICPA",
+            "공인회계사",
+            "CFA"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        },
+        {
+          "rec_id": "50494191",
+          "title": "인터컨스텍 기획실 재무팀 재무회계 채용(사원~대리급)",
+          "cleaned_title": "인터컨스텍 기획실 재무팀 재무회계 (~대리급)",
+          "company": "(주)인터컨스텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50494191",
+          "tags": [
+            "#전산회계",
+            "#회계·세무·재무",
+            "#손익관리",
+            "#회계",
+            "#더존",
+            "#연결회계",
+            "#재무",
+            "#법인결산",
+            "#회계사",
+            "#법인세신고",
+            "#부가세신고",
+            "#관리회계",
+            "#기업회계",
+            "#세무신고"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "전산회계",
+            "회계사"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50521595",
+          "title": "[대기업] 그린에어(주) 재경팀 재무/세무회계 직원채용",
+          "cleaned_title": "재경팀 재무 세무회계",
+          "company": "그린에어(주)",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50521595",
+          "tags": [
+            "#총무·법무·사무",
+            "#회계·세무·재무",
+            "#사무보",
+            "#회계결산",
+            "#문서작성",
+            "#세무기장",
+            "#법인결산",
+            "#회계사",
+            "#재무기획",
+            "#재무회계",
+            "#자체기장",
+            "#세무사",
+            "#관리회계",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#기획·전략",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "세무사",
+            "회계사"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#기획·전략": [
+              "기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "IR/공시": {
+      "size": 4,
+      "total_assignments": 4,
+      "documents": [
+        {
+          "rec_id": "50019012",
+          "title": "[코스닥 상장] 지주사 회계팀 신입/경력 채용",
+          "cleaned_title": "지주사 회계팀",
+          "company": "(주)솔본",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50019012",
+          "tags": [
+            "#세무회계",
+            "#전산회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#IR/공시",
+            "#더존",
+            "#감사",
+            "#재무",
+            "#법인결산",
+            "#회계사",
+            "#외부감사",
+            "#연말정산",
+            "#관리회계",
+            "#기업회계",
+            "#자금관리"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "재무",
+            "감사",
+            "회계사",
+            "전산회계",
+            "IR/공시"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50293214",
+          "title": "[코스닥] 기획/IR팀 신입사원 채용",
+          "cleaned_title": "기획 IR팀",
+          "company": "(주)오르비텍",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50293214",
+          "tags": [
+            "#회계·세무·재무",
+            "#전략기획",
+            "#IR/공시",
+            "#기획·전략",
+            "#기획"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "IR/공시",
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "전략기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50341783",
+          "title": "[동인기연] 전략기획부(전략기획ㆍIR) 신입 채용",
+          "cleaned_title": "전략기획부(전략기획ㆍIR)",
+          "company": "(주)동인기연",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50341783",
+          "tags": [
+            "#신사업기획",
+            "#전략기획",
+            "#회계·세무·재무",
+            "#시장조사",
+            "#사업개발",
+            "#IR/공시",
+            "#사업기획",
+            "#기획·전략",
+            "#신사업발굴",
+            "#리서치"
+          ],
+          "other_major_categories": [
+            "#기획·전략",
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "IR/공시",
+            "재무",
+            "회계"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획",
+              "전략기획",
+              "사업기획"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        },
+        {
+          "rec_id": "50415992",
+          "title": "2025년도 (주)하이텍팜 공시/IR 부문 채용",
+          "cleaned_title": "도 공시 IR 부문",
+          "company": "(주)하이텍팜",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50415992",
+          "tags": [
+            "#세무회계",
+            "#회계·세무·재무",
+            "#회계",
+            "#더존",
+            "#내부감사"
+          ],
+          "other_major_categories": [
+            "#인사·노무·hrd"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "IR/공시",
+            "재무",
+            "감사"
+          ],
+          "mid_categories_in_others": {
+            "#인사·노무·hrd": [
+              "기타"
+            ]
+          }
+        }
+      ]
+    },
+    "KICPA": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50350352",
+          "title": "[딜로이트 안진회계법인] 경영자문부문 SRT-S&T INFRA 인턴",
+          "cleaned_title": "경영자문부문 SRT S&T INFRA",
+          "company": "안진회계법인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50350352",
+          "tags": [
+            "#회계·세무·재무",
+            "#공인회계사",
+            "#AICPA",
+            "#경영분석",
+            "#회계",
+            "#KICPA",
+            "#기획·전략",
+            "#회계사",
+            "#CFA"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "회계사",
+            "KICPA",
+            "재무",
+            "AICPA",
+            "공인회계사",
+            "CFA"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        }
+      ]
+    },
+    "AICPA": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50350352",
+          "title": "[딜로이트 안진회계법인] 경영자문부문 SRT-S&T INFRA 인턴",
+          "cleaned_title": "경영자문부문 SRT S&T INFRA",
+          "company": "안진회계법인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50350352",
+          "tags": [
+            "#회계·세무·재무",
+            "#공인회계사",
+            "#AICPA",
+            "#경영분석",
+            "#회계",
+            "#KICPA",
+            "#기획·전략",
+            "#회계사",
+            "#CFA"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "회계사",
+            "KICPA",
+            "재무",
+            "AICPA",
+            "공인회계사",
+            "CFA"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        }
+      ]
+    },
+    "공인회계사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50350352",
+          "title": "[딜로이트 안진회계법인] 경영자문부문 SRT-S&T INFRA 인턴",
+          "cleaned_title": "경영자문부문 SRT S&T INFRA",
+          "company": "안진회계법인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50350352",
+          "tags": [
+            "#회계·세무·재무",
+            "#공인회계사",
+            "#AICPA",
+            "#경영분석",
+            "#회계",
+            "#KICPA",
+            "#기획·전략",
+            "#회계사",
+            "#CFA"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "회계사",
+            "KICPA",
+            "재무",
+            "AICPA",
+            "공인회계사",
+            "CFA"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        }
+      ]
+    },
+    "CFA": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50350352",
+          "title": "[딜로이트 안진회계법인] 경영자문부문 SRT-S&T INFRA 인턴",
+          "cleaned_title": "경영자문부문 SRT S&T INFRA",
+          "company": "안진회계법인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50350352",
+          "tags": [
+            "#회계·세무·재무",
+            "#공인회계사",
+            "#AICPA",
+            "#경영분석",
+            "#회계",
+            "#KICPA",
+            "#기획·전략",
+            "#회계사",
+            "#CFA"
+          ],
+          "other_major_categories": [
+            "#기획·전략"
+          ],
+          "mid_categories_in_this_major": [
+            "회계",
+            "회계사",
+            "KICPA",
+            "재무",
+            "AICPA",
+            "공인회계사",
+            "CFA"
+          ],
+          "mid_categories_in_others": {
+            "#기획·전략": [
+              "기획"
+            ]
+          }
+        }
+      ]
+    },
+    "행정사": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50479423",
+          "title": "국립대학육성사업 계약직원(원격교육연수원 행정사무원) 채용",
+          "cleaned_title": "국립대학육성사업 계약(원격교육연수원 행정사무원)",
+          "company": "대구교육대학교",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50479423",
+          "tags": [
+            "#사무보조",
+            "#총무·법무·사무",
+            "#사무행정",
+            "#사무직"
+          ],
+          "other_major_categories": [
+            "#공공·복지",
+            "#교육",
+            "#인사·노무·hrd",
+            "#총무·법무·사무"
+          ],
+          "mid_categories_in_this_major": [
+            "행정사"
+          ],
+          "mid_categories_in_others": {
+            "#공공·복지": [
+              "사무직"
+            ],
+            "#교육": [
+              "기타"
+            ],
+            "#인사·노무·hrd": [
+              "기타"
+            ],
+            "#총무·법무·사무": [
+              "총무",
+              "사무직",
+              "법무"
+            ]
+          }
+        }
+      ]
+    },
+    "기타": {
+      "size": 1,
+      "total_assignments": 1,
+      "documents": [
+        {
+          "rec_id": "50499834",
+          "title": "세무부문 Immigration (주재원 출입국 업무 서비스) 인턴",
+          "cleaned_title": "세무부문 Immigration (주재원 출입국 업무 서비스)",
+          "company": "한영회계법인",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=public-recruit&rec_idx=50499834",
+          "tags": [],
+          "other_major_categories": [],
+          "mid_categories_in_this_major": [
+            "기타"
+          ],
+          "mid_categories_in_others": {}
+        }
+      ]
+    }
+  }
+}
