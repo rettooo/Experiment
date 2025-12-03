@@ -1,5 +1,17 @@
 # 🎯 Career-HY RAG 베이스라인 실험 설정
-# 실제 서비스와 완전히 동일한 로직으로 성능 측정
+# 
+# 용도: 기본 검색 성능 평가 실험
+# 특징:
+#   - Recursive Chunking 방식 사용 (chunk_size: 700, chunk_overlap: 100)
+#   - StructuredDocumentLoader 미사용 (전체 텍스트 파싱)
+#   - 데이터 버전: v3
+#   - ChromaDB 컬렉션: job-postings-baseline
+#   - 평가 모드: dual (검색 평가 + 생성 평가)
+#   - LangSmith 평가: 활성화
+#
+# 사용 시나리오:
+#   - 기본 검색 성능 벤치마크 측정
+#   - Recursive Chunking 방식의 성능 평가
 
 experiment_name: "baseline"
 description: "(평가지표 수정!!)실제 Career-HY 서비스와 동일한 설정 - 원래 데이터로 실험 , 인덱스 기반 추천"
@@ -44,8 +56,6 @@ data:
   json_prefix: "initial-dataset/json/"
   test_queries_path: "data/gt_eval_fullquery_cluster_ids.jsonl"  # 새로운 평가 데이터
   data_version: "v3"  # S3 데이터 버전 (데이터 변경 시 v2, v3으로 증가)
-
-# 전체 텍스트 parsing 한것 
 
 # 검색 성능 평가 전용 설정
 evaluation:

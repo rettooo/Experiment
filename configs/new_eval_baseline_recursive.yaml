@@ -1,5 +1,19 @@
 # 🎯 Career-HY RAG 베이스라인 실험 설정
-# StructuredDocumentLoader + Recursive Chunking 조합
+# 
+# 용도: StructuredDocumentLoader + Recursive Chunking 하이브리드 실험
+# 특징:
+#   - StructuredDocumentLoader 사용 (섹션별 청킹)
+#   - Recursive Chunking 추가 적용 (chunk_size: 500, chunk_overlap: 75)
+#   - 타겟 섹션: preferred, qualifications, job_duties
+#   - 데이터 버전: v4
+#   - ChromaDB 컬렉션: job-postings-keyword-parse-recursive
+#   - 평가 모드: dual (검색 평가 + 생성 평가)
+#   - LangSmith 평가: 활성화
+#
+# 사용 시나리오:
+#   - 섹션별 구조화 + 세밀한 청킹의 조합 효과 측정
+#   - 하이브리드 청킹 전략 성능 평가
+#   - StructuredDocumentLoader와 Recursive Chunking 비교 실험
 
 experiment_name: "gt_eval_recursive"
 description: "새로운 StructuredDocumentLoader + Recursive Chunking + 새 GT CSV 기반 - 완전한_검색_쿼리 + 같은_군집_id들 전체를 GT로 사용"
