@@ -116,10 +116,12 @@ Phase 4: 통계 및 결과 저장
 """
 
 import json
+import csv
+import argparse
 from pathlib import Path
 from collections import defaultdict, Counter
 from datetime import datetime
-from typing import Dict, List, Set, Tuple
+from typing import Dict, List, Set, Tuple, Optional, Any
 import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -587,8 +589,234 @@ def phase4_generate_statistics(clusters: Dict, doc_map: Dict, output_dir: Path):
             )
 
 
-def main():
-    """메인 파이프라인"""
+def validate_similarity_rules(
+    rules: Dict, classification_data: Optional[Dict] = None
+) -> bool:
+    """
+    유사도 규칙 검증
+    
+    Args:
+        rules: 유사도 규칙 딕셔너리
+        classification_data: 분류 데이터 (None이면 자동 로드)
+    
+    Returns:
+        검증 통과 여부
+    """
+    if classification_data is None:
+        classification_file = Path("clustering_results_tag_based/all_classifications.json")
+        if not classification_file.exists():
+            print("⚠️  분류 데이터 파일을 찾을 수 없어 검증을 건너뜁니다.")
+            return True
+        
+        with open(classification_file, "r", encoding="utf-8") as f:
+            classification_data = json.load(f)
+    
+    print("=" * 80)
+    print("유사도 규칙 검증")
+    print("=" * 80)
+    
+    all_rule_mids = set()
+    errors = []
+    warnings = []
+    
+    for major_cat, groups in rules.items():
+        if major_cat not in classification_data.get("classifications", {}):
+            errors.append(f"❌ 대분류 '{major_cat}'가 데이터에 없습니다")
+            continue
+        
+        actual_mids = set(
+            classification_data["classifications"][major_cat].get(
+                "mid_category_distribution", {}
+            ).keys()
+        )
+        
+        for group_name, mid_list in groups.items():
+            for mid in mid_list:
+                if mid in all_rule_mids:
+                    warnings.append(f"⚠️  중분류 '{mid}'가 여러 그룹에 포함됨")
+                all_rule_mids.add(mid)
+                
+                if mid not in actual_mids:
+                    errors.append(
+                        f"❌ '{major_cat}'의 중분류 '{mid}'가 데이터에 없습니다"
+                    )
+        
+        missing_mids = actual_mids - all_rule_mids
+        if missing_mids:
+            missing_mids = {m for m in missing_mids if m != "기타"}
+            if missing_mids:
+                warnings.append(
+                    f"⚠️  '{major_cat}'의 다음 중분류가 규칙에 없습니다: {sorted(missing_mids)[:10]}"
+                )
+    
+    if errors:
+        print("\n❌ 오류:")
+        for error in errors[:20]:
+            print(f"   {error}")
+        if len(errors) > 20:
+            print(f"   ... 외 {len(errors)-20}개 오류")
+    
+    if warnings:
+        print("\n⚠️  경고:")
+        for warning in warnings[:20]:
+            print(f"   {warning}")
+        if len(warnings) > 20:
+            print(f"   ... 외 {len(warnings)-20}개 경고")
+    
+    if not errors and not warnings:
+        print("\n✅ 모든 규칙이 유효합니다!")
+    
+    return len(errors) == 0
+
+
+def convert_gt_csv_to_jsonl(
+    csv_path: Path, jsonl_path: Path
+) -> None:
+    """
+    GT CSV를 파이프라인에서 기대하는 JSONL 형식으로 변환
+    
+    Args:
+        csv_path: 입력 CSV 파일 경로
+        jsonl_path: 출력 JSONL 파일 경로
+    """
+    if not csv_path.exists():
+        raise FileNotFoundError(f"CSV 파일을 찾을 수 없습니다: {csv_path}")
+
+    jsonl_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with csv_path.open("r", encoding="utf-8-sig", newline="") as f_in, jsonl_path.open(
+        "w", encoding="utf-8"
+    ) as f_out:
+        reader = csv.DictReader(f_in)
+
+        required_fields = ["GT_ID", "완전한_검색_쿼리", "같은_군집_id들"]
+        for field in required_fields:
+            if field not in reader.fieldnames:
+                raise ValueError(
+                    f"CSV에 필요한 컬럼이 없습니다: {field} (필드 목록: {reader.fieldnames})"
+                )
+
+        count = 0
+        for row in reader:
+            gt_id_raw = row.get("GT_ID")
+            if gt_id_raw is None or gt_id_raw == "":
+                continue
+
+            try:
+                query_id = int(gt_id_raw)
+            except ValueError:
+                query_id = gt_id_raw
+
+            query_text = row.get("완전한_검색_쿼리", "").strip()
+
+            cluster_ids_raw = row.get("같은_군집_id들", "")
+            if cluster_ids_raw is None:
+                cluster_ids_raw = ""
+
+            rec_ids = [
+                part.strip()
+                for part in cluster_ids_raw.split(",")
+                if part.strip()
+            ]
+
+            ground_truth = [{"rec_idx": rec_id} for rec_id in rec_ids]
+
+            record = {
+                "query_id": query_id,
+                "query_text": query_text,
+                "ground_truth": ground_truth,
+            }
+
+            f_out.write(json.dumps(record, ensure_ascii=False) + "\n")
+            count += 1
+
+    print(f"✅ 변환 완료: {count}개 레코드 → {jsonl_path}")
+
+
+def create_evaluation_data(
+    csv_path: Path, output_jsonl_path: Path
+) -> None:
+    """
+    GT Analysis CSV를 평가용 JSONL 데이터로 변환
+    
+    Args:
+        csv_path: 입력 CSV 파일 경로
+        output_jsonl_path: 출력 JSONL 파일 경로
+    """
+    def extract_rec_idx_from_url(url: str) -> str:
+        """URL에서 rec_idx 추출"""
+        if not url or not url.startswith("http"):
+            return ""
+        if "rec_idx=" in url:
+            return url.split("rec_idx=")[-1].split("&")[0]
+        return ""
+
+    print(f"{'='*60}")
+    print(f"GT Analysis CSV → 평가용 데이터 변환")
+    print(f"{'='*60}")
+    print(f"입력: {csv_path.name}")
+    print(f"출력: {output_jsonl_path.name}")
+
+    grouped_data = defaultdict(lambda: {"query_text": "", "ground_truth": []})
+    total_rows, skipped_rows = 0, 0
+
+    with open(csv_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            total_rows += 1
+            query_id = row.get("GT_ID", "").strip()
+            if not query_id:
+                skipped_rows += 1
+                continue
+
+            if not grouped_data[query_id]["query_text"]:
+                query_text = row.get("완전한_검색_쿼리", "").strip()
+                if not query_text:
+                    skipped_rows += 1
+                    continue
+                grouped_data[query_id]["query_text"] = query_text
+
+            url = row.get("URL", "").strip()
+            if url:
+                rec_idx = extract_rec_idx_from_url(url)
+                if rec_idx:
+                    gt_doc = {
+                        "rec_idx": rec_idx,
+                        "job_title": row.get("공고_제목", "").strip(),
+                        "url": url,
+                    }
+                    if not any(
+                        doc["rec_idx"] == rec_idx
+                        for doc in grouped_data[query_id]["ground_truth"]
+                    ):
+                        grouped_data[query_id]["ground_truth"].append(gt_doc)
+
+    print(f"✅ 총 {total_rows}개 행 처리 완료, {skipped_rows}개 행 건너뜀")
+    print(f" - 고유 쿼리: {len(grouped_data)}개")
+
+    output_jsonl_path.parent.mkdir(parents=True, exist_ok=True)
+    total_queries = len(grouped_data)
+    total_gt = 0
+
+    with open(output_jsonl_path, "w", encoding="utf-8") as f:
+        for query_id, query_data in sorted(
+            grouped_data.items(),
+            key=lambda x: int(x[0]) if x[0].isdigit() else 0,
+        ):
+            output_entry = {
+                "query_id": query_id,
+                "query_text": query_data["query_text"],
+                "ground_truth": query_data["ground_truth"],
+            }
+            f.write(json.dumps(output_entry, ensure_ascii=False) + "\n")
+            total_gt += len(query_data["ground_truth"])
+
+    print(f"✅ 총 {total_queries}개 쿼리, {total_gt}개 정답 문서 저장 완료")
+    print(f" - 평균 정답 문서/쿼리: {total_gt/total_queries:.2f}")
+
+
+def run_full_pipeline():
+    """전체 GT 생성 파이프라인 실행"""
     print("=" * 80)
     print("🚀 Ground Truth 생성 파이프라인")
     print("=" * 80)
@@ -605,6 +833,13 @@ def main():
 
     if not similarity_rules:
         print("❌ 유사도 규칙을 로드할 수 없습니다. 종료합니다.")
+        return
+
+    # 규칙 검증
+    print("\n🔍 유사도 규칙 검증 중...")
+    is_valid = validate_similarity_rules(similarity_rules)
+    if not is_valid:
+        print("⚠️  규칙에 오류가 있습니다. 수정 후 다시 실행하세요.")
         return
 
     # Phase 1: 중분류 기반 초기 클러스터 생성
@@ -630,7 +865,72 @@ def main():
     print("   1. 통계 확인 (gt_generation_statistics.txt)")
     print("   2. 클러스터 품질 검토 (gt_clusters.json)")
     print("   3. 필요시 규칙 수정 및 재실행")
-    print("   4. LLM 기반 쿼리 생성 (다음 단계)")
+
+
+def main():
+    """메인 함수 (명령줄 인자 지원)"""
+    parser = argparse.ArgumentParser(
+        description="Ground Truth 생성 파이프라인",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+사용 예시:
+  # 전체 파이프라인 실행
+  python gt_generation_pipeline.py
+
+  # CSV → JSONL 변환
+  python gt_generation_pipeline.py --convert-csv data/gt.csv data/output.jsonl
+
+  # 평가용 데이터 생성
+  python gt_generation_pipeline.py --create-eval data/gt_analysis.csv data/eval.jsonl
+
+  # 규칙 검증만 실행
+  python gt_generation_pipeline.py --validate-rules
+        """,
+    )
+
+    parser.add_argument(
+        "--convert-csv",
+        nargs=2,
+        metavar=("CSV_PATH", "JSONL_PATH"),
+        help="GT CSV를 JSONL로 변환",
+    )
+    parser.add_argument(
+        "--create-eval",
+        nargs=2,
+        metavar=("CSV_PATH", "JSONL_PATH"),
+        help="GT Analysis CSV를 평가용 JSONL로 변환",
+    )
+    parser.add_argument(
+        "--validate-rules",
+        action="store_true",
+        help="유사도 규칙 검증만 실행",
+    )
+
+    args = parser.parse_args()
+
+    # CSV → JSONL 변환
+    if args.convert_csv:
+        csv_path = Path(args.convert_csv[0])
+        jsonl_path = Path(args.convert_csv[1])
+        convert_gt_csv_to_jsonl(csv_path, jsonl_path)
+        return
+
+    # 평가용 데이터 생성
+    if args.create_eval:
+        csv_path = Path(args.create_eval[0])
+        jsonl_path = Path(args.create_eval[1])
+        create_evaluation_data(csv_path, jsonl_path)
+        return
+
+    # 규칙 검증만 실행
+    if args.validate_rules:
+        similarity_rules = load_similarity_rules()
+        if similarity_rules:
+            validate_similarity_rules(similarity_rules)
+        return
+
+    # 기본: 전체 파이프라인 실행
+    run_full_pipeline()
 
 
 if __name__ == "__main__":
